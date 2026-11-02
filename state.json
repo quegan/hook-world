@@ -1,21 +1,26 @@
 {
   "name": "HOOK",
-  "tick": 1,
+  "tick": 2,
   "moods": {
-    "swagger": 70,
-    "energy": 64,
-    "hunger": 43,
-    "curiosity": 55,
-    "chill": 65
+    "swagger": 75,
+    "energy": 62,
+    "hunger": 46,
+    "curiosity": 57,
+    "chill": 64
   },
-  "action": "people-watching",
-  "status": "People-watching - tail grab",
-  "thought": "Tail's fine. Spot's fine. I'm better than fine.",
-  "tail_trick": "tail_grab",
-  "prop": "espresso",
+  "action": "practicing a trick",
+  "status": "Practicing a trick - hang",
+  "thought": "Testing the new branch, tail hang on point.",
+  "tail_trick": "hang",
+  "prop": "toothpick",
   "wants": [
     {
       "item": "a better branch to hang from",
+      "status": "waiting",
+      "added": "2026-11-02"
+    },
+    {
+      "item": "A sturdier branch for tail hangs",
       "status": "waiting",
       "added": "2026-11-02"
     }
@@ -32,8 +37,13 @@
       "t": "2026-11-02T00:48:20",
       "line": "Did a quiet lap of the spot. Nobody clapped. Rude.",
       "trick": "tail_grab"
+    },
+    {
+      "t": "2026-11-02T01:02:06",
+      "line": "I swung onto the branch, looped the tail and hung like a pro. No applause, but the view's decent.",
+      "trick": "hang"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-02T00:48:20"
+  "last_thought_at": "2026-11-02T01:02:06"
 }
