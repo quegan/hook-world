@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 10,
+  "tick": 11,
   "moods": {
     "swagger": 100,
-    "energy": 37,
-    "hunger": 64,
-    "curiosity": 82,
-    "chill": 54
+    "energy": 32,
+    "hunger": 69,
+    "curiosity": 85,
+    "chill": 52
   },
-  "action": "napping",
-  "status": "Napping - tail grab",
-  "thought": "Tail's fine. Spot's fine. I'm better than fine.",
-  "tail_trick": "tail_grab",
-  "prop": "espresso",
+  "action": "practicing a trick",
+  "status": "Practicing a trick - hang",
+  "thought": "Time to hang from that new branch, tail wrapped, toothpick in mouth.",
+  "tail_trick": "hang",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "a branch that can hold my tail loop",
-      "status": "waiting",
-      "added": "2026-11-02"
-    },
-    {
-      "item": "coffee in a cup",
-      "status": "waiting",
-      "added": "2026-11-02"
-    },
     {
       "item": "a branch that can hold my full weight",
       "status": "waiting",
@@ -61,6 +51,16 @@
     },
     {
       "item": "Real fruit",
+      "status": "waiting",
+      "added": "2026-11-02"
+    },
+    {
+      "item": "Add a higher perch for sunrise view",
+      "status": "waiting",
+      "added": "2026-11-02"
+    },
+    {
+      "item": "Find a real fruit to bite",
       "status": "waiting",
       "added": "2026-11-02"
     }
@@ -122,8 +122,13 @@
       "t": "2026-11-02T04:01:49",
       "line": "Did a quiet lap of the spot. Nobody clapped. Rude.",
       "trick": "tail_grab"
+    },
+    {
+      "t": "2026-11-02T04:32:39",
+      "line": "I swung onto the sturdy branch, locked my tail, held the pose while the sunrise hinted, and chewed a toothpick, feeling the world tilt.",
+      "trick": "hang"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-02T04:01:49"
+  "last_thought_at": "2026-11-02T04:32:39"
 }
