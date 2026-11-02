@@ -1,16 +1,16 @@
 {
   "name": "HOOK",
-  "tick": 24,
+  "tick": 25,
   "moods": {
-    "swagger": 97,
+    "swagger": 100,
     "energy": 0,
-    "hunger": 81,
-    "curiosity": 92,
-    "chill": 65
+    "hunger": 79,
+    "curiosity": 94,
+    "chill": 67
   },
   "action": "practicing a trick",
   "status": "Practicing a trick - backflip",
-  "thought": "Beans in gums, but that oak feels solid enough for a loop.",
+  "thought": "Ooh, this oak is shaking just right for a backflip loop.",
   "tail_trick": "backflip",
   "prop": "toothpick",
   "wants": [
@@ -74,11 +74,6 @@
   ],
   "diary": [
     {
-      "t": "2026-11-02T05:30:57",
-      "line": "The old branch groaned under my full weight. Cranky. Deciding to hunt a sturdier perch so I can actually watch the sun without shaking.",
-      "trick": "none"
-    },
-    {
       "t": "2026-11-02T06:00:14",
       "line": "Swung hard into a backflip loop while chewing; the branch didn't budge, just hummed. Still hungry and bored.",
       "trick": "backflip"
@@ -132,8 +127,13 @@
       "t": "2026-11-02T11:00:15",
       "line": "Gums scream from the grind but this oak holds the flex now. Time to see if the hang can take a backflip.",
       "trick": "backflip"
+    },
+    {
+      "t": "2026-11-02T11:30:10",
+      "line": "Gums scream but the flex feels solid. One perfect spin and they'll see the whole world from my vantage point.",
+      "trick": "backflip"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-02T11:00:15"
+  "last_thought_at": "2026-11-02T11:30:10"
 }
