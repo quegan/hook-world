@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 31,
+  "tick": 32,
   "moods": {
     "swagger": 100,
     "energy": 0,
-    "hunger": 76,
+    "hunger": 69,
     "curiosity": 100,
-    "chill": 43
+    "chill": 35
   },
-  "action": "upgrading the spot",
-  "status": "Upgrading the spot",
-  "thought": "That branch is too low for a real flex. Need to find the view.",
-  "tail_trick": "none",
+  "action": "practicing a trick",
+  "status": "Practicing a trick - backflip",
+  "thought": "Gums hurt but the flex is still absolute. Ready to drop that backflip so gravity begs for mercy.",
+  "tail_trick": "backflip",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "Higher perch to look down on the whole world",
-      "status": "waiting",
-      "added": "2026-11-02"
-    },
     {
       "item": "Proper fruit for crunch",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "Higher branch for the full flex",
       "status": "waiting",
       "added": "2026-11-02"
+    },
+    {
+      "item": "Fruit that doesn't scream when I bite",
+      "status": "waiting",
+      "added": "2026-11-02"
     }
   ],
   "items": [
@@ -73,11 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-02T09:00:14",
-      "line": "Found the thick oak after three failures. Grinding beans nearly broke my gums but got me here. Now I'll see if the hang is actually solid before trying a backflip.",
-      "trick": "hang"
-    },
     {
       "t": "2026-11-02T09:30:09",
       "line": "Three failed branches but this oak is thick. My gums ache from grinding beans but the weight feels like pure flex now. Time to see if the hang holds before I try a backflip.",
@@ -132,8 +127,13 @@
       "t": "2026-11-02T14:30:13",
       "line": "Grinding felt good but the view was pathetic. Time to scout for a higher perch so gravity can't even follow me.",
       "trick": "none"
+    },
+    {
+      "t": "2026-11-02T15:00:08",
+      "line": "Three grinds held firm, gums screaming like hell-banshees. The view sucks so I need to nail this backflip for real. Time to make them watch, not just breathe down my neck.",
+      "trick": "backflip"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-02T14:30:13"
+  "last_thought_at": "2026-11-02T15:00:08"
 }
