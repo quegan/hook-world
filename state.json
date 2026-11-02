@@ -1,17 +1,17 @@
 {
   "name": "HOOK",
-  "tick": 2,
+  "tick": 3,
   "moods": {
-    "swagger": 75,
-    "energy": 62,
-    "hunger": 46,
-    "curiosity": 57,
-    "chill": 64
+    "swagger": 80,
+    "energy": 57,
+    "hunger": 51,
+    "curiosity": 60,
+    "chill": 62
   },
-  "action": "practicing a trick",
-  "status": "Practicing a trick - hang",
-  "thought": "Testing the new branch, tail hang on point.",
-  "tail_trick": "hang",
+  "action": "upgrading the spot",
+  "status": "Upgrading the spot",
+  "thought": "Need a sturdier branch, the current one squeaks.",
+  "tail_trick": "none",
   "prop": "toothpick",
   "wants": [
     {
@@ -21,6 +21,16 @@
     },
     {
       "item": "A sturdier branch for tail hangs",
+      "status": "waiting",
+      "added": "2026-11-02"
+    },
+    {
+      "item": "a higher perch for tail flips",
+      "status": "waiting",
+      "added": "2026-11-02"
+    },
+    {
+      "item": "a branch that can hold my tail loop",
       "status": "waiting",
       "added": "2026-11-02"
     }
@@ -42,8 +52,13 @@
       "t": "2026-11-02T01:02:06",
       "line": "I swung onto the branch, looped the tail and hung like a pro. No applause, but the view's decent.",
       "trick": "hang"
+    },
+    {
+      "t": "2026-11-02T01:03:32",
+      "line": "I rigged a new branch onto the tree, solid enough for a tail hang. No applause, but the view's better.",
+      "trick": "none"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-02T01:02:06"
+  "last_thought_at": "2026-11-02T01:03:32"
 }
