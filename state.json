@@ -1,18 +1,18 @@
 {
   "name": "HOOK",
-  "tick": 9,
+  "tick": 10,
   "moods": {
     "swagger": 100,
-    "energy": 33,
-    "hunger": 61,
+    "energy": 37,
+    "hunger": 64,
     "curiosity": 82,
     "chill": 54
   },
-  "action": "snacking",
-  "status": "Snacking",
-  "thought": "Steel cable is cool but that fruit tastes like dust. Need a real taste test.",
-  "tail_trick": "none",
-  "prop": "toothpick",
+  "action": "napping",
+  "status": "Napping - tail grab",
+  "thought": "Tail's fine. Spot's fine. I'm better than fine.",
+  "tail_trick": "tail_grab",
+  "prop": "espresso",
   "wants": [
     {
       "item": "a branch that can hold my tail loop",
@@ -117,8 +117,13 @@
       "t": "2026-11-02T03:30:08",
       "line": "The wood-dust fruit was pathetic, tasted like nothing at all. Time to sharpen my edge before breakfast.",
       "trick": "none"
+    },
+    {
+      "t": "2026-11-02T04:01:49",
+      "line": "Did a quiet lap of the spot. Nobody clapped. Rude.",
+      "trick": "tail_grab"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-02T03:30:08"
+  "last_thought_at": "2026-11-02T04:01:49"
 }
