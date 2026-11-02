@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 17,
+  "tick": 18,
   "moods": {
     "swagger": 100,
-    "energy": 5,
-    "hunger": 80,
-    "curiosity": 96,
-    "chill": 49
+    "energy": 6,
+    "hunger": 85,
+    "curiosity": 86,
+    "chill": 57
   },
-  "action": "hanging out",
-  "status": "Hanging out",
-  "thought": "Too much caffeine, need to balance the grind.",
-  "tail_trick": "none",
-  "prop": "toothpick",
+  "action": "upgrading the spot",
+  "status": "Upgrading the spot - backflip",
+  "thought": "This twig snapped under my weight while I ground beans; need a solid oak for real flexing.",
+  "tail_trick": "backflip",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "Sunrise view from a high perch",
-      "status": "waiting",
-      "added": "2026-11-02"
-    },
-    {
-      "item": "Real fruit",
-      "status": "waiting",
-      "added": "2026-11-02"
-    },
     {
       "item": "Add a higher perch for sunrise view",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Thick oak branch for heavy-duty hanging",
       "status": "waiting",
       "added": "2026-11-02"
+    },
+    {
+      "item": "Heavy-duty fruit for actual crunch satisfaction",
+      "status": "waiting",
+      "added": "2026-11-02"
+    },
+    {
+      "item": "Higher perch to look down on the whole world",
+      "status": "waiting",
+      "added": "2026-11-02"
     }
   ],
   "items": [
@@ -73,11 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-02T02:00:45",
-      "line": "Gritted my teeth against the cold steel cable. Solid. Perfect. Still no sun to greet me though.",
-      "trick": "hang"
-    },
     {
       "t": "2026-11-02T02:30:30",
       "line": "Steel cable holds my weight better than before, but the fruit is still just wood dust. Need something sharper to make a noise.",
@@ -132,8 +127,13 @@
       "t": "2026-11-02T07:30:09",
       "line": "Spent the morning grinding beans until my gums ached and my tail went numb from overuse.",
       "trick": "none"
+    },
+    {
+      "t": "2026-11-02T08:00:09",
+      "line": "That flimsy branch gave way under my full weight while I roasted those beans. Found a thick oak before the roots failed again.",
+      "trick": "backflip"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-02T07:30:09"
+  "last_thought_at": "2026-11-02T08:00:09"
 }
