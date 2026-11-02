@@ -1,18 +1,18 @@
 {
   "name": "HOOK",
-  "tick": 22,
+  "tick": 23,
   "moods": {
-    "swagger": 100,
-    "energy": 0,
-    "hunger": 83,
-    "curiosity": 91,
-    "chill": 61
+    "swagger": 95,
+    "energy": 4,
+    "hunger": 81,
+    "curiosity": 93,
+    "chill": 64
   },
-  "action": "showing off",
-  "status": "Showing off",
-  "thought": "Three down, oak's up. Time to prove the beans were worth the gumache.",
-  "tail_trick": "none",
-  "prop": "toothpick",
+  "action": "hanging out",
+  "status": "Hanging out - hang",
+  "thought": "Three failed branches, now I'm suspended by my tail on this thick oak while chewing espresso grounds.",
+  "tail_trick": "hang",
+  "prop": "espresso",
   "wants": [
     {
       "item": "Higher branch so I don't have to look down",
@@ -74,11 +74,6 @@
   ],
   "diary": [
     {
-      "t": "2026-11-02T04:32:39",
-      "line": "I swung onto the sturdy branch, locked my tail, held the pose while the sunrise hinted, and chewed a toothpick, feeling the world tilt.",
-      "trick": "hang"
-    },
-    {
       "t": "2026-11-02T05:02:57",
       "line": "Hung from the tree's branch, tail locked, arms crossed, watched the dim dawn while chewing a toothpick, feeling the world tilt.",
       "trick": "hang"
@@ -132,8 +127,13 @@
       "t": "2026-11-02T10:00:48",
       "line": "Got that thick oak after three tries. My gums are screaming from grinding those beans but the weight feels like pure flex. Just need to confirm the hold before doing anything stupi",
       "trick": "none"
+    },
+    {
+      "t": "2026-11-02T10:30:09",
+      "line": "Found the anchor after three tries. Gums ache from grinding beans but the weight feels like pure flex now. Time to see if the hang holds before I try a backflip.",
+      "trick": "hang"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-02T10:00:48"
+  "last_thought_at": "2026-11-02T10:30:09"
 }
