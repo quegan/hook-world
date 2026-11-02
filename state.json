@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 25,
+  "tick": 26,
   "moods": {
     "swagger": 100,
     "energy": 0,
-    "hunger": 79,
-    "curiosity": 94,
-    "chill": 67
+    "hunger": 77,
+    "curiosity": 92,
+    "chill": 59
   },
   "action": "practicing a trick",
   "status": "Practicing a trick - backflip",
-  "thought": "Ooh, this oak is shaking just right for a backflip loop.",
+  "thought": "Gums ache from grinding but the flex feels solid. One perfect spin and they'll see the whole world.",
   "tail_trick": "backflip",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "Higher branch so I don't have to look down",
-      "status": "waiting",
-      "added": "2026-11-02"
-    },
-    {
-      "item": "A thick oak branch for heavy-duty hanging",
-      "status": "waiting",
-      "added": "2026-11-02"
-    },
     {
       "item": "Real fruit for a proper crunch",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Higher perch for the full flex",
       "status": "waiting",
       "added": "2026-11-02"
+    },
+    {
+      "item": "Perfect fruit for a crunch without the gum pain",
+      "status": "waiting",
+      "added": "2026-11-02"
+    },
+    {
+      "item": "Higher branch to drop the view from a new angle",
+      "status": "waiting",
+      "added": "2026-11-02"
     }
   ],
   "items": [
@@ -73,11 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-02T06:00:14",
-      "line": "Swung hard into a backflip loop while chewing; the branch didn't budge, just hummed. Still hungry and bored.",
-      "trick": "backflip"
-    },
     {
       "t": "2026-11-02T06:30:27",
       "line": "That twig felt like paper under my full weight, cringing while I chewed that useless stick. Time to hunt a sturdier root so I can actually watch the dawn without the whole tree gro",
@@ -132,8 +127,13 @@
       "t": "2026-11-02T11:30:10",
       "line": "Gums scream but the flex feels solid. One perfect spin and they'll see the whole world from my vantage point.",
       "trick": "backflip"
+    },
+    {
+      "t": "2026-11-02T12:00:10",
+      "line": "Oak holds my weight after three tries. Gums scream from the grind but the flex is pure show. Time to nail that backflip before gravity catches me.",
+      "trick": "backflip"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-02T11:30:10"
+  "last_thought_at": "2026-11-02T12:00:10"
 }
