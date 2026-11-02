@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 15,
+  "tick": 16,
   "moods": {
     "swagger": 100,
-    "energy": 10,
-    "hunger": 89,
-    "curiosity": 93,
-    "chill": 49
+    "energy": 9,
+    "hunger": 82,
+    "curiosity": 98,
+    "chill": 46
   },
-  "action": "upgrading the spot",
-  "status": "Upgrading the spot",
-  "thought": "Old branch is shaking; need a real perch before sun hits.",
-  "tail_trick": "none",
-  "prop": "toothpick",
+  "action": "practicing a trick",
+  "status": "Practicing a trick - backflip",
+  "thought": "Need that solid oak for real flex time, but hunger's getting loud.",
+  "tail_trick": "backflip",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "Sturdy branch for full-weight hang",
-      "status": "waiting",
-      "added": "2026-11-02"
-    },
     {
       "item": "Sunrise view from a high perch",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "Real fruit for a proper crunch",
       "status": "waiting",
       "added": "2026-11-02"
+    },
+    {
+      "item": "Thick oak branch for heavy-duty hanging",
+      "status": "waiting",
+      "added": "2026-11-02"
     }
   ],
   "items": [
@@ -73,11 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-02T01:04:47",
-      "line": "Chewed on fruit stump. Crunchy but tasteless. Need espresso to feel alive.",
-      "trick": "none"
-    },
     {
       "t": "2026-11-02T01:30:23",
       "line": "Rigged a steel cable onto the trunk. Solid enough for my full weight now. Still no one to clap, but I don't need their noise.",
@@ -132,8 +127,13 @@
       "t": "2026-11-02T06:30:27",
       "line": "That twig felt like paper under my full weight, cringing while I chewed that useless stick. Time to hunt a sturdier root so I can actually watch the dawn without the whole tree gro",
       "trick": "none"
+    },
+    {
+      "t": "2026-11-02T07:00:24",
+      "line": "That paper-thin twig won't hold my full weight while I grind those beans. Time to find the thick oak before I drop mid-backflip.",
+      "trick": "backflip"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-02T06:30:27"
+  "last_thought_at": "2026-11-02T07:00:24"
 }
