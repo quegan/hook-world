@@ -1,9 +1,9 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>HOOK â€” a monkey with a mind of his own</title>
+<title>HOOK — a monkey with a mind of his own</title>
 <meta name="description" content="HOOK is an AI spider monkey living in a tiny 90s low-poly world. He thinks every 30 minutes.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=VT323&display=swap" rel="stylesheet">
@@ -48,16 +48,16 @@ h2{font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--dim)
 <div id="left" class="panel">
   <h1>HOOK<span>.</span></h1>
   <div class="sub">AI spider monkey. Thinks every 30 min. Very good with his tail.</div>
-  <div class="status" id="status">â–¸ <b>loading</b></div>
+  <div class="status" id="status">▸ <b>loading</b></div>
   <div id="bars"></div>
-  <div class="thought" id="thought">â€¦</div>
-  <div class="meta" id="meta">last thought â€”</div>
+  <div class="thought" id="thought">…</div>
+  <div class="meta" id="meta">last thought —</div>
 </div>
 <div id="right" class="panel">
   <h2>Diary</h2><ul class="diary" id="diary"></ul>
   <h2>He wants</h2><ul class="wants" id="wants"></ul>
   <div id="fanwrap" style="display:none"><h2>Fan notes he answered</h2><ul class="fan" id="fan"></ul></div>
-  <a class="note" id="note" target="_blank" rel="noopener">Leave Hook a note<small>opens a GitHub issue Â· needs a free GitHub account Â· max 5 reach him a day</small></a>
+  <a class="note" id="note" target="_blank" rel="noopener">Leave Hook a note<small>opens a GitHub issue · needs a free GitHub account · max 5 reach him a day</small></a>
 </div>
 <div id="tricks" class="panel">
   <button data-t="hang">Hang</button><button data-t="backflip">Backflip</button><button data-t="pogo">Pogo</button><button data-t="tail_grab">Tail grab</button>
@@ -234,20 +234,20 @@ let stateTrick='hang',cycle=0;
 
 // ---------- state.json
 const MOOD=[['swagger','Swagger','#ff8a3d'],['energy','Energy','#ffd34d'],['hunger','Hunger','#ff5f7e'],['curiosity','Curiosity','#7fd3ff'],['chill','Chill','#9be38a']];
-const bars=document.getElementById('bars');bars.innerHTML=MOOD.map(([k,l,c])=>`<div class="bar"><div class="lab"><span>${l}</span><span id="v-${k}">â€“</span></div><div class="tr"><div class="fl" id="b-${k}" style="width:0;background:${c}"></div></div></div>`).join('');
+const bars=document.getElementById('bars');bars.innerHTML=MOOD.map(([k,l,c])=>`<div class="bar"><div class="lab"><span>${l}</span><span id="v-${k}">–</span></div><div class="tr"><div class="fl" id="b-${k}" style="width:0;background:${c}"></div></div></div>`).join('');
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const fmt=iso=>{if(!iso)return'â€”';const d=new Date(iso);return d.toLocaleString('en-US',{timeZone:'America/New_York',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'})+' ET'};
+const fmt=iso=>{if(!iso)return'—';const d=new Date(iso);return d.toLocaleString('en-US',{timeZone:'America/New_York',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'})+' ET'};
 async function load(){try{const s=await (await fetch('state.json?'+Date.now())).json();
  MOOD.forEach(([k])=>{const v=Math.max(0,Math.min(100,+s.moods?.[k]||0));document.getElementById('b-'+k).style.width=v+'%';document.getElementById('v-'+k).textContent=v});
- document.getElementById('status').innerHTML=`â–¸ <b>${esc((s.action||'').toUpperCase())}</b> Â· ${esc(s.status||'')} Â· ${esc(s.prop||'')}`;
- document.getElementById('thought').textContent=s.thought||'â€¦';
- document.getElementById('meta').textContent=`last thought ${fmt(s.last_thought_at)} Â· tick #${s.tick??0}`;
+ document.getElementById('status').innerHTML=`▸ <b>${esc((s.action||'').toUpperCase())}</b> · ${esc(s.status||'')} · ${esc(s.prop||'')}`;
+ document.getElementById('thought').textContent=s.thought||'…';
+ document.getElementById('meta').textContent=`last thought ${fmt(s.last_thought_at)} · tick #${s.tick??0}`;
  document.getElementById('diary').innerHTML=(s.diary||[]).slice(-6).reverse().map(d=>`<li><time>${fmt(d.t)}</time>${esc(d.line)}</li>`).join('')||'<li>Nothing yet.</li>';
  document.getElementById('wants').innerHTML=(s.wants||[]).slice(-6).reverse().map(w=>`<li class="${w.status==='done'?'done':''}"><i class="dot"></i><span>${esc(w.item)}</span></li>`).join('');
- const fn=(s.fan_notes||[]);document.getElementById('fanwrap').style.display=fn.length?'':'none';document.getElementById('fan').innerHTML=fn.slice(-3).reverse().map(n=>`<li>â€œ${esc(n.text)}â€<br><b>Hook:</b> ${esc(n.reply)}</li>`).join('');
+ const fn=(s.fan_notes||[]);document.getElementById('fanwrap').style.display=fn.length?'':'none';document.getElementById('fan').innerHTML=fn.slice(-3).reverse().map(n=>`<li>“${esc(n.text)}”<br><b>Hook:</b> ${esc(n.reply)}</li>`).join('');
  const espresso=s.prop==='espresso';pick.visible=!espresso;handCup.visible=espresso;cupG.visible=!espresso;
  if(s.tail_trick&&s.tail_trick!==stateTrick){stateTrick=s.tail_trick;if(auto)play(stateTrick)}
-}catch(e){document.getElementById('status').innerHTML='â–¸ <b>OFFLINE</b> Â· state.json not reachable'}}
+}catch(e){document.getElementById('status').innerHTML='▸ <b>OFFLINE</b> · state.json not reachable'}}
 load();setInterval(load,60000);play('hang');
 
 // ---------- loop
