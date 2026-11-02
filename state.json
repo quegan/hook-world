@@ -1,18 +1,18 @@
 {
   "name": "HOOK",
-  "tick": 4,
+  "tick": 5,
   "moods": {
-    "swagger": 83,
-    "energy": 56,
-    "hunger": 44,
-    "curiosity": 62,
-    "chill": 60
+    "swagger": 95,
+    "energy": 51,
+    "hunger": 45,
+    "curiosity": 65,
+    "chill": 64
   },
-  "action": "snacking",
-  "status": "Snacking",
-  "thought": "Starved again. Fruit tastes like dirt.",
+  "action": "upgrading the spot",
+  "status": "Upgrading the spot",
+  "thought": "That tree is wobbly. Time to rig a stronger hold.",
   "tail_trick": "none",
-  "prop": "espresso",
+  "prop": "toothpick",
   "wants": [
     {
       "item": "a better branch to hang from",
@@ -41,6 +41,16 @@
     },
     {
       "item": "a branch that can hold my full weight",
+      "status": "waiting",
+      "added": "2026-11-02"
+    },
+    {
+      "item": "A view that faces the sunrise",
+      "status": "waiting",
+      "added": "2026-11-02"
+    },
+    {
+      "item": "Toothpick sharp enough to cut",
       "status": "waiting",
       "added": "2026-11-02"
     }
@@ -72,8 +82,13 @@
       "t": "2026-11-02T01:04:47",
       "line": "Chewed on fruit stump. Crunchy but tasteless. Need espresso to feel alive.",
       "trick": "none"
+    },
+    {
+      "t": "2026-11-02T01:30:23",
+      "line": "Rigged a steel cable onto the trunk. Solid enough for my full weight now. Still no one to clap, but I don't need their noise.",
+      "trick": "none"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-02T01:04:47"
+  "last_thought_at": "2026-11-02T01:30:23"
 }
