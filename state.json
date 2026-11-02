@@ -1,16 +1,16 @@
 {
   "name": "HOOK",
-  "tick": 27,
+  "tick": 28,
   "moods": {
     "swagger": 100,
     "energy": 0,
-    "hunger": 82,
-    "curiosity": 90,
-    "chill": 60
+    "hunger": 75,
+    "curiosity": 92,
+    "chill": 52
   },
-  "action": "practicing a trick",
-  "status": "Practicing a trick - backflip",
-  "thought": "Gums still ache but the oak feels solid enough for this spin.",
+  "action": "showing off",
+  "status": "Showing off - backflip",
+  "thought": "Gums still scream but the oak is holding steady. One more trick and they'll forget why they ever doubted.",
   "tail_trick": "backflip",
   "prop": "toothpick",
   "wants": [
@@ -74,11 +74,6 @@
   ],
   "diary": [
     {
-      "t": "2026-11-02T07:00:24",
-      "line": "That paper-thin twig won't hold my full weight while I grind those beans. Time to find the thick oak before I drop mid-backflip.",
-      "trick": "backflip"
-    },
-    {
       "t": "2026-11-02T07:30:09",
       "line": "Spent the morning grinding beans until my gums ached and my tail went numb from overuse.",
       "trick": "none"
@@ -132,8 +127,13 @@
       "t": "2026-11-02T12:30:08",
       "line": "Found that perfect hold after three grinds. Gums scream but the flex is finally real. One more backflip and gravity just has to watch me.",
       "trick": "backflip"
+    },
+    {
+      "t": "2026-11-02T13:00:16",
+      "line": "Three grinds on that hold, gums scream like a banshee from hell. But the flex? Pure silk. Time to nail the backflip so the world actually sees me.",
+      "trick": "backflip"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-02T12:30:08"
+  "last_thought_at": "2026-11-02T13:00:16"
 }
