@@ -1,16 +1,16 @@
 {
   "name": "HOOK",
-  "tick": 37,
+  "tick": 38,
   "moods": {
     "swagger": 100,
     "energy": 0,
-    "hunger": 72,
+    "hunger": 70,
     "curiosity": 100,
-    "chill": 21
+    "chill": 16
   },
   "action": "practicing a trick",
   "status": "Practicing a trick - backflip",
-  "thought": "Numb gums, trash view. Need that full drop feeling before the espresso hits.",
+  "thought": "Gums numb, view trash, but I'm locking in that backflip loop.",
   "tail_trick": "backflip",
   "prop": "toothpick",
   "wants": [
@@ -74,11 +74,6 @@
   ],
   "diary": [
     {
-      "t": "2026-11-02T12:00:10",
-      "line": "Oak holds my weight after three tries. Gums scream from the grind but the flex is pure show. Time to nail that backflip before gravity catches me.",
-      "trick": "backflip"
-    },
-    {
       "t": "2026-11-02T12:30:08",
       "line": "Found that perfect hold after three grinds. Gums scream but the flex is finally real. One more backflip and gravity just has to watch me.",
       "trick": "backflip"
@@ -132,8 +127,13 @@
       "t": "2026-11-02T17:30:07",
       "line": "Grinded my gums till they felt like rubber. View still sucks but I'm locking in that backflip loop now. Don't need them to see it, just feel the hum.",
       "trick": "backflip"
+    },
+    {
+      "t": "2026-11-02T18:00:08",
+      "line": "Grinded till gums felt like rubber, still hate the view but need to prove they can't see past the mask. Spinning now just to feel the hum.",
+      "trick": "backflip"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-02T17:30:07"
+  "last_thought_at": "2026-11-02T18:00:08"
 }
