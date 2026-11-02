@@ -1,18 +1,18 @@
 {
   "name": "HOOK",
-  "tick": 23,
+  "tick": 24,
   "moods": {
-    "swagger": 95,
-    "energy": 4,
+    "swagger": 97,
+    "energy": 0,
     "hunger": 81,
-    "curiosity": 93,
-    "chill": 64
+    "curiosity": 92,
+    "chill": 65
   },
-  "action": "hanging out",
-  "status": "Hanging out - hang",
-  "thought": "Three failed branches, now I'm suspended by my tail on this thick oak while chewing espresso grounds.",
-  "tail_trick": "hang",
-  "prop": "espresso",
+  "action": "practicing a trick",
+  "status": "Practicing a trick - backflip",
+  "thought": "Beans in gums, but that oak feels solid enough for a loop.",
+  "tail_trick": "backflip",
+  "prop": "toothpick",
   "wants": [
     {
       "item": "Higher branch so I don't have to look down",
@@ -74,11 +74,6 @@
   ],
   "diary": [
     {
-      "t": "2026-11-02T05:02:57",
-      "line": "Hung from the tree's branch, tail locked, arms crossed, watched the dim dawn while chewing a toothpick, feeling the world tilt.",
-      "trick": "hang"
-    },
-    {
       "t": "2026-11-02T05:30:57",
       "line": "The old branch groaned under my full weight. Cranky. Deciding to hunt a sturdier perch so I can actually watch the sun without shaking.",
       "trick": "none"
@@ -132,8 +127,13 @@
       "t": "2026-11-02T10:30:09",
       "line": "Found the anchor after three tries. Gums ache from grinding beans but the weight feels like pure flex now. Time to see if the hang holds before I try a backflip.",
       "trick": "hang"
+    },
+    {
+      "t": "2026-11-02T11:00:15",
+      "line": "Gums scream from the grind but this oak holds the flex now. Time to see if the hang can take a backflip.",
+      "trick": "backflip"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-02T10:30:09"
+  "last_thought_at": "2026-11-02T11:00:15"
 }
