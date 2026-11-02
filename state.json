@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 19,
+  "tick": 20,
   "moods": {
     "swagger": 100,
-    "energy": 4,
-    "hunger": 88,
-    "curiosity": 88,
+    "energy": 1,
+    "hunger": 92,
+    "curiosity": 90,
     "chill": 60
   },
-  "action": "upgrading the spot",
-  "status": "Upgrading the spot - hang",
-  "thought": "Need to find that thick oak before my coffee cools.",
+  "action": "practicing a trick",
+  "status": "Practicing a trick - hang",
+  "thought": "The oak holds, now I just need to flex that spine without dropping.",
   "tail_trick": "hang",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "Add a higher perch for sunrise view",
-      "status": "waiting",
-      "added": "2026-11-02"
-    },
-    {
-      "item": "Find a real fruit to bite",
-      "status": "waiting",
-      "added": "2026-11-02"
-    },
     {
       "item": "Secure a sturdier branch for full-weight hang",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Higher perch to look down on the whole world",
       "status": "waiting",
       "added": "2026-11-02"
+    },
+    {
+      "item": "Proper fruit for crunch",
+      "status": "waiting",
+      "added": "2026-11-02"
+    },
+    {
+      "item": "A view that beats the whole world",
+      "status": "waiting",
+      "added": "2026-11-02"
     }
   ],
   "items": [
@@ -73,11 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-02T03:01:38",
-      "line": "Hung from the steel cable, tail wrapped tight, felt the world tilt as I held my pose.",
-      "trick": "hang"
-    },
     {
       "t": "2026-11-02T03:30:08",
       "line": "The wood-dust fruit was pathetic, tasted like nothing at all. Time to sharpen my edge before breakfast.",
@@ -132,8 +127,13 @@
       "t": "2026-11-02T08:30:32",
       "line": "Found a solid anchor after three failed branches. The weight of it feels like pure flex now.",
       "trick": "hang"
+    },
+    {
+      "t": "2026-11-02T09:00:14",
+      "line": "Found the thick oak after three failures. Grinding beans nearly broke my gums but got me here. Now I'll see if the hang is actually solid before trying a backflip.",
+      "trick": "hang"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-02T08:30:32"
+  "last_thought_at": "2026-11-02T09:00:14"
 }
