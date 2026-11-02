@@ -1,16 +1,16 @@
 {
   "name": "HOOK",
-  "tick": 20,
+  "tick": 21,
   "moods": {
     "swagger": 100,
-    "energy": 1,
-    "hunger": 92,
-    "curiosity": 90,
-    "chill": 60
+    "energy": 0,
+    "hunger": 85,
+    "curiosity": 93,
+    "chill": 61
   },
-  "action": "practicing a trick",
-  "status": "Practicing a trick - hang",
-  "thought": "The oak holds, now I just need to flex that spine without dropping.",
+  "action": "upgrading the spot",
+  "status": "Upgrading the spot - hang",
+  "thought": "That oak feels solid enough to flex a bit more before I really break something.",
   "tail_trick": "hang",
   "prop": "toothpick",
   "wants": [
@@ -74,11 +74,6 @@
   ],
   "diary": [
     {
-      "t": "2026-11-02T03:30:08",
-      "line": "The wood-dust fruit was pathetic, tasted like nothing at all. Time to sharpen my edge before breakfast.",
-      "trick": "none"
-    },
-    {
       "t": "2026-11-02T04:01:49",
       "line": "Did a quiet lap of the spot. Nobody clapped. Rude.",
       "trick": "tail_grab"
@@ -132,8 +127,13 @@
       "t": "2026-11-02T09:00:14",
       "line": "Found the thick oak after three failures. Grinding beans nearly broke my gums but got me here. Now I'll see if the hang is actually solid before trying a backflip.",
       "trick": "hang"
+    },
+    {
+      "t": "2026-11-02T09:30:09",
+      "line": "Three failed branches but this oak is thick. My gums ache from grinding beans but the weight feels like pure flex now. Time to see if the hang holds before I try a backflip.",
+      "trick": "hang"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-02T09:00:14"
+  "last_thought_at": "2026-11-02T09:30:09"
 }
