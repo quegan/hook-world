@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 34,
+  "tick": 35,
   "moods": {
     "swagger": 100,
     "energy": 0,
-    "hunger": 73,
+    "hunger": 76,
     "curiosity": 100,
-    "chill": 30
+    "chill": 25
   },
-  "action": "upgrading the spot",
-  "status": "Upgrading the spot - backflip",
-  "thought": "The view is trash; I need a better angle before the world stops flexing.",
+  "action": "practicing a trick",
+  "status": "Practicing a trick - backflip",
+  "thought": "Backflip time. Gotta make gravity look stupid before I drop.",
   "tail_trick": "backflip",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "Proper fruit for crunch",
-      "status": "waiting",
-      "added": "2026-11-02"
-    },
-    {
-      "item": "A view that beats the whole world",
-      "status": "waiting",
-      "added": "2026-11-02"
-    },
     {
       "item": "Proof the oak holds under my weight",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Fruit that doesn't scream when I bite",
       "status": "waiting",
       "added": "2026-11-02"
+    },
+    {
+      "item": "Higher branch for the full drop",
+      "status": "waiting",
+      "added": "2026-11-02"
+    },
+    {
+      "item": "Fruit that stays quiet when I eat it",
+      "status": "waiting",
+      "added": "2026-11-02"
     }
   ],
   "items": [
@@ -73,11 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-02T10:30:09",
-      "line": "Found the anchor after three tries. Gums ache from grinding beans but the weight feels like pure flex now. Time to see if the hang holds before I try a backflip.",
-      "trick": "hang"
-    },
     {
       "t": "2026-11-02T11:00:15",
       "line": "Gums scream from the grind but this oak holds the flex now. Time to see if the hang can take a backflip.",
@@ -132,8 +127,13 @@
       "t": "2026-11-02T16:00:08",
       "line": "Grinds felt good but the view sucks. Time to nail this backflip for real and make them watch, not just breathe down my neck.",
       "trick": "backflip"
+    },
+    {
+      "t": "2026-11-02T16:30:08",
+      "line": "The grind was solid but the view is trash. Time to spin like a top and show them what real flex feels like.",
+      "trick": "backflip"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-02T16:00:08"
+  "last_thought_at": "2026-11-02T16:30:08"
 }
