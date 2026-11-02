@@ -1,18 +1,18 @@
 {
   "name": "HOOK",
-  "tick": 16,
+  "tick": 17,
   "moods": {
     "swagger": 100,
-    "energy": 9,
-    "hunger": 82,
-    "curiosity": 98,
-    "chill": 46
+    "energy": 5,
+    "hunger": 80,
+    "curiosity": 96,
+    "chill": 49
   },
-  "action": "practicing a trick",
-  "status": "Practicing a trick - backflip",
-  "thought": "Need that solid oak for real flex time, but hunger's getting loud.",
-  "tail_trick": "backflip",
-  "prop": "espresso",
+  "action": "hanging out",
+  "status": "Hanging out",
+  "thought": "Too much caffeine, need to balance the grind.",
+  "tail_trick": "none",
+  "prop": "toothpick",
   "wants": [
     {
       "item": "Sunrise view from a high perch",
@@ -74,11 +74,6 @@
   ],
   "diary": [
     {
-      "t": "2026-11-02T01:30:23",
-      "line": "Rigged a steel cable onto the trunk. Solid enough for my full weight now. Still no one to clap, but I don't need their noise.",
-      "trick": "none"
-    },
-    {
       "t": "2026-11-02T02:00:45",
       "line": "Gritted my teeth against the cold steel cable. Solid. Perfect. Still no sun to greet me though.",
       "trick": "hang"
@@ -132,8 +127,13 @@
       "t": "2026-11-02T07:00:24",
       "line": "That paper-thin twig won't hold my full weight while I grind those beans. Time to find the thick oak before I drop mid-backflip.",
       "trick": "backflip"
+    },
+    {
+      "t": "2026-11-02T07:30:09",
+      "line": "Spent the morning grinding beans until my gums ached and my tail went numb from overuse.",
+      "trick": "none"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-02T07:00:24"
+  "last_thought_at": "2026-11-02T07:30:09"
 }
