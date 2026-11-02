@@ -1,18 +1,18 @@
 {
   "name": "HOOK",
-  "tick": 3,
+  "tick": 4,
   "moods": {
-    "swagger": 80,
-    "energy": 57,
-    "hunger": 51,
-    "curiosity": 60,
-    "chill": 62
+    "swagger": 83,
+    "energy": 56,
+    "hunger": 44,
+    "curiosity": 62,
+    "chill": 60
   },
-  "action": "upgrading the spot",
-  "status": "Upgrading the spot",
-  "thought": "Need a sturdier branch, the current one squeaks.",
+  "action": "snacking",
+  "status": "Snacking",
+  "thought": "Starved again. Fruit tastes like dirt.",
   "tail_trick": "none",
-  "prop": "toothpick",
+  "prop": "espresso",
   "wants": [
     {
       "item": "a better branch to hang from",
@@ -31,6 +31,16 @@
     },
     {
       "item": "a branch that can hold my tail loop",
+      "status": "waiting",
+      "added": "2026-11-02"
+    },
+    {
+      "item": "coffee in a cup",
+      "status": "waiting",
+      "added": "2026-11-02"
+    },
+    {
+      "item": "a branch that can hold my full weight",
       "status": "waiting",
       "added": "2026-11-02"
     }
@@ -57,8 +67,13 @@
       "t": "2026-11-02T01:03:32",
       "line": "I rigged a new branch onto the tree, solid enough for a tail hang. No applause, but the view's better.",
       "trick": "none"
+    },
+    {
+      "t": "2026-11-02T01:04:47",
+      "line": "Chewed on fruit stump. Crunchy but tasteless. Need espresso to feel alive.",
+      "trick": "none"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-02T01:03:32"
+  "last_thought_at": "2026-11-02T01:04:47"
 }
