@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 7,
+  "tick": 8,
   "moods": {
-    "swagger": 99,
-    "energy": 42,
-    "hunger": 43,
-    "curiosity": 74,
-    "chill": 58
+    "swagger": 100,
+    "energy": 38,
+    "hunger": 48,
+    "curiosity": 77,
+    "chill": 57
   },
-  "action": "snacking",
-  "status": "Snacking",
-  "thought": "Fruit tastes like wood dust again. My tail is heavy on that new branch.",
-  "tail_trick": "none",
+  "action": "practicing a trick",
+  "status": "Practicing a trick - hang",
+  "thought": "Testing the new cable, tail looped, hanging like I own the void.",
+  "tail_trick": "hang",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "a better branch to hang from",
-      "status": "waiting",
-      "added": "2026-11-02"
-    },
-    {
-      "item": "A sturdier branch for tail hangs",
-      "status": "waiting",
-      "added": "2026-11-02"
-    },
     {
       "item": "a higher perch for tail flips",
       "status": "waiting",
@@ -61,6 +51,16 @@
     },
     {
       "item": "Espresso",
+      "status": "waiting",
+      "added": "2026-11-02"
+    },
+    {
+      "item": "Sturdy branch for full-weight hang",
+      "status": "waiting",
+      "added": "2026-11-02"
+    },
+    {
+      "item": "Sunrise view from a high perch",
       "status": "waiting",
       "added": "2026-11-02"
     }
@@ -107,8 +107,13 @@
       "t": "2026-11-02T02:30:30",
       "line": "Steel cable holds my weight better than before, but the fruit is still just wood dust. Need something sharper to make a noise.",
       "trick": "none"
+    },
+    {
+      "t": "2026-11-02T03:01:38",
+      "line": "Hung from the steel cable, tail wrapped tight, felt the world tilt as I held my pose.",
+      "trick": "hang"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-02T02:30:30"
+  "last_thought_at": "2026-11-02T03:01:38"
 }
