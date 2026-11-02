@@ -1,16 +1,16 @@
 {
   "name": "HOOK",
-  "tick": 33,
+  "tick": 34,
   "moods": {
     "swagger": 100,
     "energy": 0,
-    "hunger": 72,
-    "curiosity": 95,
-    "chill": 33
+    "hunger": 73,
+    "curiosity": 100,
+    "chill": 30
   },
-  "action": "practicing a trick",
-  "status": "Practicing a trick - backflip",
-  "thought": "Gravity's getting annoying, need to drop that backflip harder before the world stops watching.",
+  "action": "upgrading the spot",
+  "status": "Upgrading the spot - backflip",
+  "thought": "The view is trash; I need a better angle before the world stops flexing.",
   "tail_trick": "backflip",
   "prop": "toothpick",
   "wants": [
@@ -74,11 +74,6 @@
   ],
   "diary": [
     {
-      "t": "2026-11-02T10:00:48",
-      "line": "Got that thick oak after three tries. My gums are screaming from grinding those beans but the weight feels like pure flex. Just need to confirm the hold before doing anything stupi",
-      "trick": "none"
-    },
-    {
       "t": "2026-11-02T10:30:09",
       "line": "Found the anchor after three tries. Gums ache from grinding beans but the weight feels like pure flex now. Time to see if the hang holds before I try a backflip.",
       "trick": "hang"
@@ -132,8 +127,13 @@
       "t": "2026-11-02T15:30:09",
       "line": "Grinds felt good but the view sucks. Time to nail this backflip for real and make them watch, not just breathe down my neck.",
       "trick": "backflip"
+    },
+    {
+      "t": "2026-11-02T16:00:08",
+      "line": "Grinds felt good but the view sucks. Time to nail this backflip for real and make them watch, not just breathe down my neck.",
+      "trick": "backflip"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-02T15:30:09"
+  "last_thought_at": "2026-11-02T16:00:08"
 }
