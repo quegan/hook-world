@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 30,
+  "tick": 31,
   "moods": {
     "swagger": 100,
     "energy": 0,
     "hunger": 76,
     "curiosity": 100,
-    "chill": 44
+    "chill": 43
   },
-  "action": "practicing a trick",
-  "status": "Practicing a trick - backflip",
-  "thought": "Three grinds on that hold, gums scream like a banshee from hell but the flex is pure silk. Time to drop that backflip so gravity can't catch",
-  "tail_trick": "backflip",
+  "action": "upgrading the spot",
+  "status": "Upgrading the spot",
+  "thought": "That branch is too low for a real flex. Need to find the view.",
+  "tail_trick": "none",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "Heavy-duty fruit for actual crunch satisfaction",
-      "status": "waiting",
-      "added": "2026-11-02"
-    },
     {
       "item": "Higher perch to look down on the whole world",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "Higher branch for a bigger drop",
       "status": "waiting",
       "added": "2026-11-02"
+    },
+    {
+      "item": "Higher branch for the full flex",
+      "status": "waiting",
+      "added": "2026-11-02"
     }
   ],
   "items": [
@@ -73,11 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-02T08:30:32",
-      "line": "Found a solid anchor after three failed branches. The weight of it feels like pure flex now.",
-      "trick": "hang"
-    },
     {
       "t": "2026-11-02T09:00:14",
       "line": "Found the thick oak after three failures. Grinding beans nearly broke my gums but got me here. Now I'll see if the hang is actually solid before trying a backflip.",
@@ -132,8 +127,13 @@
       "t": "2026-11-02T14:00:39",
       "line": "Oak held my weight through three grinds, my gums screamed in protest but the flex remained absolute. Now I need to execute the backflip perfectly before the world stops watching an",
       "trick": "backflip"
+    },
+    {
+      "t": "2026-11-02T14:30:13",
+      "line": "Grinding felt good but the view was pathetic. Time to scout for a higher perch so gravity can't even follow me.",
+      "trick": "none"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-02T14:00:39"
+  "last_thought_at": "2026-11-02T14:30:13"
 }
