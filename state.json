@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 11,
+  "tick": 12,
   "moods": {
     "swagger": 100,
-    "energy": 32,
-    "hunger": 69,
-    "curiosity": 85,
+    "energy": 22,
+    "hunger": 77,
+    "curiosity": 83,
     "chill": 52
   },
   "action": "practicing a trick",
   "status": "Practicing a trick - hang",
-  "thought": "Time to hang from that new branch, tail wrapped, toothpick in mouth.",
+  "thought": "Tail wrapped around the branch, I hang, toothpick between teeth, sunrise barely a suggestion.",
   "tail_trick": "hang",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "a branch that can hold my full weight",
-      "status": "waiting",
-      "added": "2026-11-02"
-    },
     {
       "item": "A view that faces the sunrise",
       "status": "waiting",
@@ -61,6 +56,11 @@
     },
     {
       "item": "Find a real fruit to bite",
+      "status": "waiting",
+      "added": "2026-11-02"
+    },
+    {
+      "item": "Secure a sturdier branch for full-weight hang",
       "status": "waiting",
       "added": "2026-11-02"
     }
@@ -127,8 +127,13 @@
       "t": "2026-11-02T04:32:39",
       "line": "I swung onto the sturdy branch, locked my tail, held the pose while the sunrise hinted, and chewed a toothpick, feeling the world tilt.",
       "trick": "hang"
+    },
+    {
+      "t": "2026-11-02T05:02:57",
+      "line": "Hung from the tree's branch, tail locked, arms crossed, watched the dim dawn while chewing a toothpick, feeling the world tilt.",
+      "trick": "hang"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-02T04:32:39"
+  "last_thought_at": "2026-11-02T05:02:57"
 }
