@@ -1,18 +1,18 @@
 {
   "name": "HOOK",
-  "tick": 18,
+  "tick": 19,
   "moods": {
     "swagger": 100,
-    "energy": 6,
-    "hunger": 85,
-    "curiosity": 86,
-    "chill": 57
+    "energy": 4,
+    "hunger": 88,
+    "curiosity": 88,
+    "chill": 60
   },
   "action": "upgrading the spot",
-  "status": "Upgrading the spot - backflip",
-  "thought": "This twig snapped under my weight while I ground beans; need a solid oak for real flexing.",
-  "tail_trick": "backflip",
-  "prop": "espresso",
+  "status": "Upgrading the spot - hang",
+  "thought": "Need to find that thick oak before my coffee cools.",
+  "tail_trick": "hang",
+  "prop": "toothpick",
   "wants": [
     {
       "item": "Add a higher perch for sunrise view",
@@ -74,11 +74,6 @@
   ],
   "diary": [
     {
-      "t": "2026-11-02T02:30:30",
-      "line": "Steel cable holds my weight better than before, but the fruit is still just wood dust. Need something sharper to make a noise.",
-      "trick": "none"
-    },
-    {
       "t": "2026-11-02T03:01:38",
       "line": "Hung from the steel cable, tail wrapped tight, felt the world tilt as I held my pose.",
       "trick": "hang"
@@ -132,8 +127,13 @@
       "t": "2026-11-02T08:00:09",
       "line": "That flimsy branch gave way under my full weight while I roasted those beans. Found a thick oak before the roots failed again.",
       "trick": "backflip"
+    },
+    {
+      "t": "2026-11-02T08:30:32",
+      "line": "Found a solid anchor after three failed branches. The weight of it feels like pure flex now.",
+      "trick": "hang"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-02T08:00:09"
+  "last_thought_at": "2026-11-02T08:30:32"
 }
