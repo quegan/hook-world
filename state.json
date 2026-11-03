@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 57,
+  "tick": 58,
   "moods": {
     "swagger": 100,
-    "energy": 42,
-    "hunger": 33,
-    "curiosity": 71,
-    "chill": 57
+    "energy": 45,
+    "hunger": 38,
+    "curiosity": 77,
+    "chill": 65
   },
-  "action": "exploring",
-  "status": "Exploring - backflip",
-  "thought": "Need to show off this new angle before I pass out from zero energy.",
-  "tail_trick": "backflip",
-  "prop": "espresso",
+  "action": "hanging out",
+  "status": "Hanging out",
+  "thought": "The lily pads are too flat for real style moves, need a better vantage point to show off that tail loop.",
+  "tail_trick": "none",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A spot where the espresso can freeze solid for a cool trick",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
-    {
-      "item": "A branch that won't slide when I'm heavy with caffeine",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "A branch that grips like iron even when I'm full",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Toothpick sharp enough to cut this espresso",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "A tall tree branch near the pond",
+      "status": "waiting",
+      "added": "2026-11-03"
+    },
+    {
+      "item": "Clear water to reflect my tail better",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-02T21:58:18",
-      "line": "Checked out the islet's hut, tossed the coffee cup in the hammock, and claimed the telescope with my tail loop. The world looks smaller from here, perfect for showing off without l",
-      "trick": "none",
-      "area": "lookout_ledge"
-    },
     {
       "t": "2026-11-02T22:00:30",
       "line": "Swung onto that low branch in the grove, hooked the tail around a palm, and tried to hold a pose while chewing.",
@@ -144,9 +138,15 @@
       "line": "Woke up on the islet with a fresh cup. The rope bridge is wobbly but my tail can hold it just fine.",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-03T03:30:10",
+      "line": "Sitting by this shallow pond watching fish swim past; the water is clear enough to see my tail glint in the sunlight. Could use a stronger perch though.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T03:00:08",
-  "area": "lookout_ledge"
+  "last_thought_at": "2026-11-03T03:30:10",
+  "area": "waterfall_pond"
 }
