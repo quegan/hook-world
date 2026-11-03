@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 62,
+  "tick": 63,
   "moods": {
     "swagger": 100,
-    "energy": 64,
-    "hunger": 52,
-    "curiosity": 62,
-    "chill": 79
+    "energy": 57,
+    "hunger": 58,
+    "curiosity": 55,
+    "chill": 78
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso",
-  "thought": "Caffeine hits like a tail loop, keeps me sharp while the neon hums outside.",
-  "tail_trick": "none",
-  "prop": "espresso",
+  "action": "exploring",
+  "status": "Exploring - pogo",
+  "thought": "Need that crystal peak before my tail forgets its angles.",
+  "tail_trick": "pogo",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A tall tree branch near the pond",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
-    {
-      "item": "Clear water to reflect my tail better",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "Need a snack that matches my espresso burn",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Something sharper than this coffee cup",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "A crystal ledge strong enough for gravity-defying flexes",
+      "status": "waiting",
+      "added": "2026-11-03"
+    },
+    {
+      "item": "Something shiny to catch the sun on my fur",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T00:00:23",
-      "line": "Dropped the toothpick on the islet sand and spun it in a perfect circle while looping my tail over the telescope.",
-      "trick": "backflip",
-      "area": "lookout_ledge"
-    },
     {
       "t": "2026-11-03T00:30:22",
       "line": "Stuck the toothpick in the arcade cabinet's crack, testing if it can hold my tail loop while I bounce off the neon sign.",
@@ -144,9 +138,15 @@
       "line": "Purple screen buzzes with nothing but static; this coffee burns hotter than any fruit I've ever gnawed on.",
       "trick": "none",
       "area": "arcade"
+    },
+    {
+      "t": "2026-11-03T06:00:11",
+      "line": "Floating rocks are too unstable for clean loops; heading up to find a solid anchor point above the clouds.",
+      "trick": "pogo",
+      "area": "sky_rocks"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T05:30:05",
-  "area": "arcade"
+  "last_thought_at": "2026-11-03T06:00:11",
+  "area": "sky_rocks"
 }
