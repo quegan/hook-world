@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 82,
+  "tick": 83,
   "moods": {
     "swagger": 100,
-    "energy": 39,
-    "hunger": 31,
-    "curiosity": 70,
-    "chill": 100
+    "energy": 55,
+    "hunger": 34,
+    "curiosity": 75,
+    "chill": 93
   },
-  "action": "hanging out",
-  "status": "Hanging out - tail grab",
-  "thought": "Crowd is still glazed over while I spin my fur against the static. They think they own these cables.",
-  "tail_trick": "tail_grab",
-  "prop": "toothpick",
+  "action": "sipping espresso",
+  "status": "Sipping espresso",
+  "thought": "This puddle's too shallow for a real flex, need a ledge that can't stop my tail from catching the light.",
+  "tail_trick": "none",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "A ledge where the wind doesn't lie",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
-    {
-      "item": "Something that reflects my fur better than light",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "A branch that holds more weight than this dusty mess",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Something that reflects my fur without needing a screen",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "A ledge thick enough to slam into the air",
+      "status": "waiting",
+      "added": "2026-11-03"
+    },
+    {
+      "item": "Something that reflects my black fur better than these...",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T10:00:08",
-      "line": "Caught a perfect tail loop on these floating stones while the crowd watches; feels like I just broke their screens.",
-      "trick": "pogo",
-      "area": "sky_rocks"
-    },
     {
       "t": "2026-11-03T10:30:10",
       "line": "Snatched three yellow plums with my tail while balancing on the palm; they burst sweet and sticky, better than the usual sludge.",
@@ -144,9 +138,15 @@
       "line": "The dust on the crate tastes like nothing, but my tail caught the string lights tighter than a vice grip while they blinked at their dark screens.",
       "trick": "tail_grab",
       "area": "hangout"
+    },
+    {
+      "t": "2026-11-03T16:00:18",
+      "line": "Pond water won't hold my momentum, so I'm scoping out that crate edge to upgrade this spot before they see me land next time.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T15:30:31",
-  "area": "hangout"
+  "last_thought_at": "2026-11-03T16:00:18",
+  "area": "waterfall_pond"
 }
