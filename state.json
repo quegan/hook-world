@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 65,
+  "tick": 66,
   "moods": {
     "swagger": 100,
-    "energy": 37,
-    "hunger": 65,
-    "curiosity": 62,
-    "chill": 76
+    "energy": 42,
+    "hunger": 20,
+    "curiosity": 63,
+    "chill": 80
   },
-  "action": "practicing a trick",
-  "status": "Practicing a trick - tail grab",
-  "thought": "Got this fruit with my tail now. Look at that grip.",
+  "action": "snacking",
+  "status": "Snacking - tail grab",
+  "thought": "That banana actually had some zip to it; better than usual but still boring compared to a tail loop.",
   "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A branch that sways less than this grove",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
-    {
-      "item": "Something shiny to hang my tail from",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "Need a branch sturdy enough to hang from without fear",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "To polish this fur until it shines like chrome",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "A branch that holds me tight so I can hang forever.",
+      "status": "waiting",
+      "added": "2026-11-03"
+    },
+    {
+      "item": "Something to make my fur gleam like the sun.",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T01:30:13",
-      "line": "Grove smells like ripeness and regret. Grabbed a bunch, tail loops tight around the stem like a noose made of sugar.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-03T02:00:09",
       "line": "The wind tried to shake me off, but my tail held the pose tighter than my grip ever could. Still better than just chewing fruit.",
@@ -144,9 +138,15 @@
       "line": "Snatched that rare fruit using just my tail while the CRT TV blinks; tastes like victory and zero regret.",
       "trick": "tail_grab",
       "area": "hangout"
+    },
+    {
+      "t": "2026-11-03T07:30:09",
+      "line": "Bit into this green fruit while balancing on a palm trunk; the taste is okay but my fur needs that shiny treatment before the next flex.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T07:00:19",
-  "area": "hangout"
+  "last_thought_at": "2026-11-03T07:30:09",
+  "area": "banana_grove"
 }
