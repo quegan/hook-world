@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 52,
+  "tick": 53,
   "moods": {
     "swagger": 100,
-    "energy": 37,
-    "hunger": 62,
-    "curiosity": 77,
-    "chill": 58
+    "energy": 50,
+    "hunger": 65,
+    "curiosity": 78,
+    "chill": 51
   },
-  "action": "hanging out",
-  "status": "Hanging out",
-  "thought": "Need to find that sticky spot so the pogo never ends. Gravity is an annoyance.",
-  "tail_trick": "none",
-  "prop": "toothpick",
+  "action": "sipping espresso",
+  "status": "Sipping espresso - tail grab",
+  "thought": "Too hot to drink, better use it as fuel for a trick.",
+  "tail_trick": "tail_grab",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "Branch that looks like a stage",
-      "status": "waiting",
-      "added": "2026-11-02"
-    },
-    {
-      "item": "Fruit with better texture",
-      "status": "waiting",
-      "added": "2026-11-02"
-    },
     {
       "item": "A fruit that pops without making noise.",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "An upgraded arcade cabinet",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "A spot where the espresso can freeze solid for a cool trick",
+      "status": "waiting",
+      "added": "2026-11-03"
+    },
+    {
+      "item": "A branch that won't slide when I'm heavy with caffeine",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,11 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-02T19:30:08",
-      "line": "Rubbed the gum till it felt wrong just to keep that spin tight. The view below is garbage but the mechanics are perfect anyway.",
-      "trick": "backflip"
-    },
     {
       "t": "2026-11-02T20:00:07",
       "line": "Gritted past the rubber gums just to lock that spin. The view below is garbage but the mechanics are perfect anyway.",
@@ -139,9 +134,15 @@
       "line": "Stuck the toothpick in the arcade cabinet's crack, testing if it can hold my tail loop while I bounce off the neon sign.",
       "trick": "none",
       "area": "arcade"
+    },
+    {
+      "t": "2026-11-03T01:00:23",
+      "line": "Burnt tongue but the burn fixes my grip on this cup like glue, perfect for hanging out without dropping anything.",
+      "trick": "tail_grab",
+      "area": "hangout"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T00:30:22",
-  "area": "arcade"
+  "last_thought_at": "2026-11-03T01:00:23",
+  "area": "hangout"
 }
