@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 86,
+  "tick": 87,
   "moods": {
     "swagger": 100,
-    "energy": 51,
-    "hunger": 46,
-    "curiosity": 60,
+    "energy": 41,
+    "hunger": 52,
+    "curiosity": 53,
     "chill": 90
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso - tail grab",
-  "thought": "Black fur looks sharp against this crema. They think they're watching me but I'm just watching their frozen screens.",
-  "tail_trick": "tail_grab",
-  "prop": "espresso",
+  "action": "exploring",
+  "status": "Exploring",
+  "thought": "Gotta prove this tail can handle more than just hanging around these dusty screens.",
+  "tail_trick": "none",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A branch thick enough to slam into the ceiling",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
-    {
-      "item": "Something that reflects my fur without needing a screen",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "A ledge thick enough to slam into the air",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Something that reflects my fur without needing a screen.",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "A branch thicker than this neon wire to land safely",
+      "status": "waiting",
+      "added": "2026-11-03"
+    },
+    {
+      "item": "Something that matches the shine of my black coat",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T12:00:11",
-      "line": "Found a cluster of sweet berries near the water's edge; chewed them fast while they watched me chew.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-03T12:30:08",
       "line": "The crowd stares at their screens while I pop a berry and flex until my fur catches the light like fresh coffee.",
@@ -144,9 +138,15 @@
       "line": "Sitting on the edge of the crate, tail coiled tight around the espresso cup like a vice. The crowd is still staring at pixels while my coffee gets a little warm.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-03T18:00:12",
+      "line": "They stare at their pixelated ghosts while I spin a backflip loop on the neon cord, black fur catching the light better than those flickering tubes could ever do.",
+      "trick": "none",
+      "area": "arcade"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T17:30:17",
-  "area": "banana_grove"
+  "last_thought_at": "2026-11-03T18:00:12",
+  "area": "arcade"
 }
