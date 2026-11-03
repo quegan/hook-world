@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 42,
+  "tick": 43,
   "moods": {
-    "swagger": 97,
+    "swagger": 99,
     "energy": 0,
-    "hunger": 67,
+    "hunger": 72,
     "curiosity": 100,
-    "chill": 6
+    "chill": 5
   },
-  "action": "practicing a trick",
-  "status": "Practicing a trick - backflip",
-  "thought": "Gum feels like rubber again but the loop is tighter than before.",
-  "tail_trick": "backflip",
+  "action": "exploring",
+  "status": "Exploring",
+  "thought": "Rubber gums still sting, but the new angle looks cleaner than before.",
+  "tail_trick": "none",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "Proof the oak holds under my weight",
-      "status": "waiting",
-      "added": "2026-11-02"
-    },
     {
       "item": "Higher perch for the full flex",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "Fruit that stays quiet when I eat it",
       "status": "waiting",
       "added": "2026-11-02"
+    },
+    {
+      "item": "Need a branch high enough to lock the full drop",
+      "status": "waiting",
+      "added": "2026-11-02"
     }
   ],
   "items": [
@@ -73,11 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-02T14:30:13",
-      "line": "Grinding felt good but the view was pathetic. Time to scout for a higher perch so gravity can't even follow me.",
-      "trick": "none"
-    },
     {
       "t": "2026-11-02T15:00:08",
       "line": "Three grinds held firm, gums screaming like hell-banshees. The view sucks so I need to nail this backflip for real. Time to make them watch, not just breathe down my neck.",
@@ -132,8 +127,13 @@
       "t": "2026-11-02T20:00:07",
       "line": "Gritted past the rubber gums just to lock that spin. The view below is garbage but the mechanics are perfect anyway.",
       "trick": "backflip"
+    },
+    {
+      "t": "2026-11-02T20:30:08",
+      "line": "Gums feel like rubber again, but this angle catches the light better. Still need fruit that doesn't scream when I bite.",
+      "trick": "none"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-02T20:00:07"
+  "last_thought_at": "2026-11-02T20:30:08"
 }
