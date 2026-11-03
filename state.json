@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 74,
+  "tick": 75,
   "moods": {
     "swagger": 100,
-    "energy": 44,
+    "energy": 43,
     "hunger": 58,
-    "curiosity": 63,
-    "chill": 91
+    "curiosity": 58,
+    "chill": 95
   },
-  "action": "showing off",
-  "status": "Showing off",
-  "thought": "Need that shiny fur before I loop this purple box.",
+  "action": "people-watching",
+  "status": "People-watching",
+  "thought": "The fruit here is too small for my appetite, but the view of the waterfall suits the flex better.",
   "tail_trick": "none",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "Fur polish that reflects neon",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
-    {
-      "item": "Something to make my fur gleam like the sun",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "Need a solid branch to hang from without wobbling",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A ledge with enough wind resistance",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "A branch wide enough to stretch my tail without hitting...",
+      "status": "waiting",
+      "added": "2026-11-03"
+    },
+    {
+      "item": "More fruit big enough to make a statement",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T06:00:11",
-      "line": "Floating rocks are too unstable for clean loops; heading up to find a solid anchor point above the clouds.",
-      "trick": "pogo",
-      "area": "sky_rocks"
-    },
     {
       "t": "2026-11-03T06:30:09",
       "line": "The rope bridge creaked under my feet while I spun; the tea tastes like burnt paper and nothing else matters in this low-poly mess.",
@@ -144,9 +138,15 @@
       "line": "The espresso burns too clean, so I'm trading it for a toothpick while I flex my tail against the neon glass.",
       "trick": "none",
       "area": "arcade"
+    },
+    {
+      "t": "2026-11-03T12:00:11",
+      "line": "Found a cluster of sweet berries near the water's edge; chewed them fast while they watched me chew.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T11:30:09",
-  "area": "arcade"
+  "last_thought_at": "2026-11-03T12:00:11",
+  "area": "waterfall_pond"
 }
