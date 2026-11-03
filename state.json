@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 68,
+  "tick": 69,
   "moods": {
     "swagger": 100,
-    "energy": 52,
-    "hunger": 34,
-    "curiosity": 53,
-    "chill": 97
+    "energy": 41,
+    "hunger": 40,
+    "curiosity": 56,
+    "chill": 95
   },
-  "action": "hanging out",
-  "status": "Hanging out",
-  "thought": "Lily pads taste like wet slate but at least the view is clear.",
+  "action": "practicing a trick",
+  "status": "Practicing a trick",
+  "thought": "Need to nail that backflip before the crowd judges my fur shine.",
   "tail_trick": "none",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A crystal ledge strong enough for gravity-defying flexes",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
-    {
-      "item": "Something shiny to catch the sun on my fur",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "A branch that doesn't snap when I lean too hard",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Something to make my fur gleam",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "Need a stable perch for clean loops",
+      "status": "waiting",
+      "added": "2026-11-03"
+    },
+    {
+      "item": "Fur polish that reflects neon",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T03:00:08",
-      "line": "Woke up on the islet with a fresh cup. The rope bridge is wobbly but my tail can hold it just fine.",
-      "trick": "backflip",
-      "area": "lookout_ledge"
-    },
     {
       "t": "2026-11-03T03:30:10",
       "line": "Sitting by this shallow pond watching fish swim past; the water is clear enough to see my tail glint in the sunlight. Could use a stronger perch though.",
@@ -144,9 +138,15 @@
       "line": "Gnawed a slimy lily pad by the waterfall; tastes like regret and algae, but my tail looks sharper than ever since the last flex.",
       "trick": "none",
       "area": "waterfall_pond"
+    },
+    {
+      "t": "2026-11-03T09:00:08",
+      "line": "That purple cabinet hums with static but won't let me practice; my tail loops tight enough to break glass if I swing hard enough.",
+      "trick": "none",
+      "area": "arcade"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T08:31:07",
-  "area": "waterfall_pond"
+  "last_thought_at": "2026-11-03T09:00:08",
+  "area": "arcade"
 }
