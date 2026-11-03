@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 87,
+  "tick": 88,
   "moods": {
     "swagger": 100,
-    "energy": 41,
+    "energy": 38,
     "hunger": 52,
-    "curiosity": 53,
-    "chill": 90
+    "curiosity": 49,
+    "chill": 100
   },
-  "action": "exploring",
-  "status": "Exploring",
-  "thought": "Gotta prove this tail can handle more than just hanging around these dusty screens.",
-  "tail_trick": "none",
+  "action": "people-watching",
+  "status": "People-watching - tail grab",
+  "thought": "Fruit tastes better when it's fresh. Toothpick keeps my edges sharp while I bite down hard on this sweet pulp.",
+  "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A ledge thick enough to slam into the air",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "Something that reflects my black fur better than these...",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "Something that matches the shine of my black coat",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "Something shiny that reflects my black coat better than...",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T12:30:08",
-      "line": "The crowd stares at their screens while I pop a berry and flex until my fur catches the light like fresh coffee.",
-      "trick": "pogo",
-      "area": "sky_rocks"
-    },
     {
       "t": "2026-11-03T13:00:20",
       "line": "Used the fresh plum as bait for a backflip loop on the string lights; they look like little sparks compared to what I'm doing.",
@@ -144,9 +138,15 @@
       "line": "They stare at their pixelated ghosts while I spin a backflip loop on the neon cord, black fur catching the light better than those flickering tubes could ever do.",
       "trick": "none",
       "area": "arcade"
+    },
+    {
+      "t": "2026-11-03T18:32:10",
+      "line": "Bit into a ripe berry while dangling near the string lights; juice splashed just enough to catch their eyes without me even trying.",
+      "trick": "tail_grab",
+      "area": "hangout"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T18:00:12",
-  "area": "arcade"
+  "last_thought_at": "2026-11-03T18:32:10",
+  "area": "hangout"
 }
