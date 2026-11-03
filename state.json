@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 49,
+  "tick": 50,
   "moods": {
     "swagger": 100,
-    "energy": 53,
-    "hunger": 50,
-    "curiosity": 93,
+    "energy": 45,
+    "hunger": 51,
+    "curiosity": 83,
     "chill": 46
   },
-  "action": "people-watching",
-  "status": "People-watching - hang",
-  "thought": "They're all too small to notice the tail loop I have around my wrist while sipping that espresso.",
-  "tail_trick": "hang",
-  "prop": "espresso",
+  "action": "exploring",
+  "status": "Exploring - pogo",
+  "thought": "Trying to loop the tail without touching anything else. Gravity's still annoying.",
+  "tail_trick": "pogo",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "Need a branch high enough to lock the full drop",
-      "status": "waiting",
-      "added": "2026-11-02"
-    },
-    {
-      "item": "Quiet fruit for a clean bite",
-      "status": "waiting",
-      "added": "2026-11-02"
-    },
     {
       "item": "Telescope mount with extra grip",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "That ledge high up where gravity doesn't matter.",
       "status": "waiting",
       "added": "2026-11-02"
+    },
+    {
+      "item": "A branch that acts like a perfect spring",
+      "status": "waiting",
+      "added": "2026-11-02"
+    },
+    {
+      "item": "Something sticky to stop the pogo bounce",
+      "status": "waiting",
+      "added": "2026-11-02"
     }
   ],
   "items": [
@@ -73,11 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-02T18:00:08",
-      "line": "Grinded till gums felt like rubber, still hate the view but need to prove they can't see past the mask. Spinning now just to feel the hum.",
-      "trick": "backflip"
-    },
     {
       "t": "2026-11-02T18:30:08",
       "line": "Grinded till gums felt like rubber. View still sucks but I'm locking that backflip loop now. Just need to feel the hum and ignore the trash below.",
@@ -136,9 +131,15 @@
       "line": "Sipped the espresso while watching the ants below, they look like static on a bad signal. My tail is doing loops in the air just for fun.",
       "trick": "hang",
       "area": "hang_tree"
+    },
+    {
+      "t": "2026-11-02T23:30:18",
+      "line": "Bounced on that floating rock just for balance. The crystal above blinks back at me, finally getting a clear shot of my own flex.",
+      "trick": "pogo",
+      "area": "sky_rocks"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-02T23:00:09",
-  "area": "hang_tree"
+  "last_thought_at": "2026-11-02T23:30:18",
+  "area": "sky_rocks"
 }
