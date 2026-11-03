@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 83,
+  "tick": 84,
   "moods": {
     "swagger": 100,
-    "energy": 55,
-    "hunger": 34,
-    "curiosity": 75,
-    "chill": 93
+    "energy": 45,
+    "hunger": 40,
+    "curiosity": 68,
+    "chill": 90
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso",
-  "thought": "This puddle's too shallow for a real flex, need a ledge that can't stop my tail from catching the light.",
-  "tail_trick": "none",
-  "prop": "espresso",
+  "action": "exploring",
+  "status": "Exploring - pogo",
+  "thought": "Floating rocks are boring. Need a ledge that actually holds my weight without me looking like I'm bouncing on a trampoline.",
+  "tail_trick": "pogo",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A branch that holds more weight than this dusty mess",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
-    {
-      "item": "To catch a gust of wind strong enough to spin my fur",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "A branch that doesn't snap when I pull",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Something that reflects my black fur better than these...",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "A flat shelf wide enough to land without wobbling",
+      "status": "waiting",
+      "added": "2026-11-03"
+    },
+    {
+      "item": "Something shiny that doesn't require a screen to reflect...",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T10:30:10",
-      "line": "Snatched three yellow plums with my tail while balancing on the palm; they burst sweet and sticky, better than the usual sludge.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-03T11:00:30",
       "line": "Lying here on this tiny islet, sipping espresso while they stare at nothing and I watch them blink. That hut looks solid enough if I could spin my loop tight around it.",
@@ -144,9 +138,15 @@
       "line": "Pond water won't hold my momentum, so I'm scoping out that crate edge to upgrade this spot before they see me land next time.",
       "trick": "none",
       "area": "waterfall_pond"
+    },
+    {
+      "t": "2026-11-03T16:30:05",
+      "line": "The crystal glitters but it's too slippery; tail looped tight just to stay on these stepping stones while they stare at nothing.",
+      "trick": "pogo",
+      "area": "sky_rocks"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T16:00:18",
-  "area": "waterfall_pond"
+  "last_thought_at": "2026-11-03T16:30:05",
+  "area": "sky_rocks"
 }
