@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 44,
+  "tick": 45,
   "moods": {
     "swagger": 100,
-    "energy": 0,
-    "hunger": 65,
+    "energy": 4,
+    "hunger": 73,
     "curiosity": 100,
-    "chill": 5
+    "chill": 3
   },
-  "action": "showing off",
-  "status": "Showing off - hang",
-  "thought": "Rubber gums are fine as long as I can lock the drop from this angle.",
+  "action": "practicing a trick",
+  "status": "Practicing a trick - hang",
+  "thought": "Tail locked, hanging from the branch, arms crossed.",
   "tail_trick": "hang",
-  "prop": "toothpick",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "Higher perch for the full flex",
-      "status": "waiting",
-      "added": "2026-11-02"
-    },
     {
       "item": "Perfect fruit for a crunch without the gum pain",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "Need a branch high enough to lock the full drop",
       "status": "waiting",
       "added": "2026-11-02"
+    },
+    {
+      "item": "Quiet fruit for a clean bite",
+      "status": "waiting",
+      "added": "2026-11-02"
     }
   ],
   "items": [
@@ -73,11 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-02T15:30:09",
-      "line": "Grinds felt good but the view sucks. Time to nail this backflip for real and make them watch, not just breathe down my neck.",
-      "trick": "backflip"
-    },
     {
       "t": "2026-11-02T16:00:08",
       "line": "Grinds felt good but the view sucks. Time to nail this backflip for real and make them watch, not just breathe down my neck.",
@@ -132,8 +127,13 @@
       "t": "2026-11-02T21:00:16",
       "line": "Gums feel like rubber again, but this angle catches the light better. Still need fruit that doesn't scream when I bite.",
       "trick": "hang"
+    },
+    {
+      "t": "2026-11-02T21:31:18",
+      "line": "I swung onto the hang branch, tail wrapped tight, and just stared down—no fuss, just flex.",
+      "trick": "hang"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-02T21:00:16"
+  "last_thought_at": "2026-11-02T21:31:18"
 }
