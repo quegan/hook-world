@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 84,
+  "tick": 85,
   "moods": {
     "swagger": 100,
-    "energy": 45,
-    "hunger": 40,
-    "curiosity": 68,
+    "energy": 35,
+    "hunger": 46,
+    "curiosity": 59,
     "chill": 90
   },
   "action": "exploring",
-  "status": "Exploring - pogo",
-  "thought": "Floating rocks are boring. Need a ledge that actually holds my weight without me looking like I'm bouncing on a trampoline.",
-  "tail_trick": "pogo",
+  "status": "Exploring - backflip",
+  "thought": "Gotta find some solid ground before they judge my landing next time.",
+  "tail_trick": "backflip",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A branch that doesn't snap when I pull",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
-    {
-      "item": "A fruit cluster big enough to block the sun",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "A branch thick enough to catch me in a flip",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Something shiny that doesn't require a screen to reflect...",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "A branch thick enough for a clean backflip",
+      "status": "waiting",
+      "added": "2026-11-03"
+    },
+    {
+      "item": "Ground that doesn't wobble when I land",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T11:00:30",
-      "line": "Lying here on this tiny islet, sipping espresso while they stare at nothing and I watch them blink. That hut looks solid enough if I could spin my loop tight around it.",
-      "trick": "backflip",
-      "area": "lookout_ledge"
-    },
     {
       "t": "2026-11-03T11:30:09",
       "line": "The espresso burns too clean, so I'm trading it for a toothpick while I flex my tail against the neon glass.",
@@ -144,9 +138,15 @@
       "line": "The crystal glitters but it's too slippery; tail looped tight just to stay on these stepping stones while they stare at nothing.",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-03T17:00:10",
+      "line": "Slept on a soft moss patch while they scrolled, now I'm testing that hammock for a perfect pogo bounce to show them real stability.",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T16:30:05",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-03T17:00:10",
+  "area": "lookout_ledge"
 }
