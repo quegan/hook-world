@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 55,
+  "tick": 56,
   "moods": {
     "swagger": 100,
-    "energy": 43,
-    "hunger": 26,
-    "curiosity": 71,
-    "chill": 52
+    "energy": 48,
+    "hunger": 32,
+    "curiosity": 78,
+    "chill": 60
   },
-  "action": "exploring",
-  "status": "Exploring - hang",
-  "thought": "Time to flex on that empty branch before I get bored.",
-  "tail_trick": "hang",
-  "prop": "toothpick",
+  "action": "hanging out",
+  "status": "Hanging out - pogo",
+  "thought": "Tail's fine. Spot's fine. I'm better than fine.",
+  "tail_trick": "pogo",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "A branch with better grip for high loops",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
-    {
-      "item": "A fruit that glows without making noise",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "A sticky surface for endless bounces",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Toothpick sharp enough to carve a path through the canopy",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "A branch thick enough to support a heavy espresso cup",
+      "status": "waiting",
+      "added": "2026-11-03"
+    },
+    {
+      "item": "A view angle where the crystal doesn't flicker",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,11 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-02T21:00:16",
-      "line": "Gums feel like rubber again, but this angle catches the light better. Still need fruit that doesn't scream when I bite.",
-      "trick": "hang"
-    },
     {
       "t": "2026-11-02T21:31:18",
       "line": "I swung onto the hang branch, tail wrapped tight, and just stared down—no fuss, just flex.",
@@ -142,9 +137,15 @@
       "line": "The wind tried to shake me off, but my tail held the pose tighter than my grip ever could. Still better than just chewing fruit.",
       "trick": "hang",
       "area": "hang_tree"
+    },
+    {
+      "t": "2026-11-03T02:30:08",
+      "line": "The floating stone under me is cracking; finally swapping this unstable perch for the sturdy tree branch below where I can actually grip without wobbling.",
+      "trick": "pogo",
+      "area": "sky_rocks"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T02:00:09",
-  "area": "hang_tree"
+  "last_thought_at": "2026-11-03T02:30:08",
+  "area": "sky_rocks"
 }
