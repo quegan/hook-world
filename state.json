@@ -1,17 +1,17 @@
 {
   "name": "HOOK",
-  "tick": 80,
+  "tick": 81,
   "moods": {
     "swagger": 100,
-    "energy": 40,
-    "hunger": 21,
-    "curiosity": 66,
+    "energy": 37,
+    "hunger": 26,
+    "curiosity": 62,
     "chill": 100
   },
-  "action": "snacking",
-  "status": "Snacking - tail grab",
-  "thought": "Plum's gone, now I chew these bananas while they stare at their glowing rectangles.",
-  "tail_trick": "tail_grab",
+  "action": "people-watching",
+  "status": "People-watching",
+  "thought": "The crowd is too busy staring at pixels to notice I'm already on top of that cabinet.",
+  "tail_trick": "none",
   "prop": "toothpick",
   "wants": [
     {
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T09:00:08",
-      "line": "That purple cabinet hums with static but won't let me practice; my tail loops tight enough to break glass if I swing hard enough.",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-03T09:30:09",
       "line": "sitting on the rug with a toothpick while the crowd watches me flex my tail in front of this old TV.",
@@ -144,9 +138,15 @@
       "line": "Chewing banana mush with my tail looped tight; looks like a messy halo on this dusty tree.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-03T15:00:22",
+      "line": "They're frozen in the arcade like statues while I dangle from a neon cord and they just can't look away.",
+      "trick": "none",
+      "area": "arcade"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T14:30:19",
-  "area": "banana_grove"
+  "last_thought_at": "2026-11-03T15:00:22",
+  "area": "arcade"
 }
