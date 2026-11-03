@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 76,
+  "tick": 77,
   "moods": {
     "swagger": 100,
-    "energy": 44,
+    "energy": 45,
     "hunger": 58,
-    "curiosity": 53,
+    "curiosity": 58,
     "chill": 100
   },
-  "action": "people-watching",
-  "status": "People-watching - pogo",
-  "thought": "They blink way too slow while I polish my shine.",
-  "tail_trick": "pogo",
+  "action": "hanging out",
+  "status": "Hanging out - tail grab",
+  "thought": "Took that berry to the next level; my tail is practically a weapon now.",
+  "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "Need a solid branch to hang from without wobbling",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
-    {
-      "item": "Something to make my fur shine under the sun",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "A ledge stable enough to spin without wobble",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "More fruit big enough to make a statement",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "A ledge where the wind doesn't lie",
+      "status": "waiting",
+      "added": "2026-11-03"
+    },
+    {
+      "item": "Something that reflects my fur better than light",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T07:00:19",
-      "line": "Snatched that rare fruit using just my tail while the CRT TV blinks; tastes like victory and zero regret.",
-      "trick": "tail_grab",
-      "area": "hangout"
-    },
     {
       "t": "2026-11-03T07:30:09",
       "line": "Bit into this green fruit while balancing on a palm trunk; the taste is okay but my fur needs that shiny treatment before the next flex.",
@@ -144,9 +138,15 @@
       "line": "The crowd stares at their screens while I pop a berry and flex until my fur catches the light like fresh coffee.",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-03T13:00:20",
+      "line": "Used the fresh plum as bait for a backflip loop on the string lights; they look like little sparks compared to what I'm doing.",
+      "trick": "tail_grab",
+      "area": "hangout"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T12:30:08",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-03T13:00:20",
+  "area": "hangout"
 }
