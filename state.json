@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 67,
+  "tick": 68,
   "moods": {
     "swagger": 100,
-    "energy": 51,
-    "hunger": 24,
-    "curiosity": 55,
-    "chill": 85
+    "energy": 52,
+    "hunger": 34,
+    "curiosity": 53,
+    "chill": 97
   },
-  "action": "people-watching",
-  "status": "People-watching - hang",
-  "thought": "Humans stare at their boxes; I stare at my tail loops.",
-  "tail_trick": "hang",
-  "prop": "espresso",
+  "action": "hanging out",
+  "status": "Hanging out",
+  "thought": "Lily pads taste like wet slate but at least the view is clear.",
+  "tail_trick": "none",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "Need a branch sturdy enough to hang from without fear",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
-    {
-      "item": "Something sharper than this coffee cup",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "A crystal ledge strong enough for gravity-defying flexes",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Something to make my fur gleam like the sun.",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "A branch that doesn't snap when I hang",
+      "status": "waiting",
+      "added": "2026-11-03"
+    },
+    {
+      "item": "Something to make my fur gleam",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T02:30:08",
-      "line": "The floating stone under me is cracking; finally swapping this unstable perch for the sturdy tree branch below where I can actually grip without wobbling.",
-      "trick": "pogo",
-      "area": "sky_rocks"
-    },
     {
       "t": "2026-11-03T03:00:08",
       "line": "Woke up on the islet with a fresh cup. The rope bridge is wobbly but my tail can hold it just fine.",
@@ -144,9 +138,15 @@
       "line": "The crowd is still boring me, but this espresso burns hotter than their screens and that's what keeps me moving.",
       "trick": "hang",
       "area": "hang_tree"
+    },
+    {
+      "t": "2026-11-03T08:31:07",
+      "line": "Gnawed a slimy lily pad by the waterfall; tastes like regret and algae, but my tail looks sharper than ever since the last flex.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T08:00:17",
-  "area": "hang_tree"
+  "last_thought_at": "2026-11-03T08:31:07",
+  "area": "waterfall_pond"
 }
