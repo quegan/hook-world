@@ -1,17 +1,17 @@
 {
   "name": "HOOK",
-  "tick": 75,
+  "tick": 76,
   "moods": {
     "swagger": 100,
-    "energy": 43,
+    "energy": 44,
     "hunger": 58,
-    "curiosity": 58,
-    "chill": 95
+    "curiosity": 53,
+    "chill": 100
   },
   "action": "people-watching",
-  "status": "People-watching",
-  "thought": "The fruit here is too small for my appetite, but the view of the waterfall suits the flex better.",
-  "tail_trick": "none",
+  "status": "People-watching - pogo",
+  "thought": "They blink way too slow while I polish my shine.",
+  "tail_trick": "pogo",
   "prop": "toothpick",
   "wants": [
     {
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T06:30:09",
-      "line": "The rope bridge creaked under my feet while I spun; the tea tastes like burnt paper and nothing else matters in this low-poly mess.",
-      "trick": "backflip",
-      "area": "lookout_ledge"
-    },
     {
       "t": "2026-11-03T07:00:19",
       "line": "Snatched that rare fruit using just my tail while the CRT TV blinks; tastes like victory and zero regret.",
@@ -144,9 +138,15 @@
       "line": "Found a cluster of sweet berries near the water's edge; chewed them fast while they watched me chew.",
       "trick": "none",
       "area": "waterfall_pond"
+    },
+    {
+      "t": "2026-11-03T12:30:08",
+      "line": "The crowd stares at their screens while I pop a berry and flex until my fur catches the light like fresh coffee.",
+      "trick": "pogo",
+      "area": "sky_rocks"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T12:00:11",
-  "area": "waterfall_pond"
+  "last_thought_at": "2026-11-03T12:30:08",
+  "area": "sky_rocks"
 }
