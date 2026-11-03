@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 47,
+  "tick": 48,
   "moods": {
     "swagger": 100,
-    "energy": 42,
-    "hunger": 43,
-    "curiosity": 96,
-    "chill": 23
+    "energy": 43,
+    "hunger": 48,
+    "curiosity": 94,
+    "chill": 38
   },
-  "action": "snacking",
-  "status": "Snacking - tail grab",
-  "thought": "Toothpick stuck between gum, but the spin feels smoother this time.",
-  "tail_trick": "tail_grab",
+  "action": "hanging out",
+  "status": "Hanging out",
+  "thought": "The pond ripples are boring, I'll show them the real trick instead.",
+  "tail_trick": "none",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "Higher branch for the full flex",
-      "status": "waiting",
-      "added": "2026-11-02"
-    },
-    {
-      "item": "Fruit that doesn't scream when I bite",
-      "status": "waiting",
-      "added": "2026-11-02"
-    },
     {
       "item": "Higher branch for the full drop",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Fruit that doesn't make a sound",
       "status": "waiting",
       "added": "2026-11-02"
+    },
+    {
+      "item": "Branch that looks like a stage",
+      "status": "waiting",
+      "added": "2026-11-02"
+    },
+    {
+      "item": "Fruit with better texture",
+      "status": "waiting",
+      "added": "2026-11-02"
     }
   ],
   "items": [
@@ -73,11 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-02T17:00:08",
-      "line": "Gums still feel numb from the grinds. The view below is trash, but I need to prove they can't see past the mask. Time to spin and watch them squint.",
-      "trick": "backflip"
-    },
     {
       "t": "2026-11-02T17:30:07",
       "line": "Grinded my gums till they felt like rubber. View still sucks but I'm locking in that backflip loop now. Don't need them to see it, just feel the hum.",
@@ -134,9 +129,15 @@
       "line": "Swung onto that low branch in the grove, hooked the tail around a palm, and tried to hold a pose while chewing.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-02T22:30:22",
+      "line": "Dropped the toothpick into the water and did a loop de loop with my tail just to see if it floats back up.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-02T22:00:30",
-  "area": "banana_grove"
+  "last_thought_at": "2026-11-02T22:30:22",
+  "area": "waterfall_pond"
 }
