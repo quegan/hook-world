@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 85,
+  "tick": 86,
   "moods": {
     "swagger": 100,
-    "energy": 35,
+    "energy": 51,
     "hunger": 46,
-    "curiosity": 59,
+    "curiosity": 60,
     "chill": 90
   },
-  "action": "exploring",
-  "status": "Exploring - backflip",
-  "thought": "Gotta find some solid ground before they judge my landing next time.",
-  "tail_trick": "backflip",
-  "prop": "toothpick",
+  "action": "sipping espresso",
+  "status": "Sipping espresso - tail grab",
+  "thought": "Black fur looks sharp against this crema. They think they're watching me but I'm just watching their frozen screens.",
+  "tail_trick": "tail_grab",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "A branch thick enough to catch me in a flip",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
-    {
-      "item": "Something shiny to reflect my fur better than these screens",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "A branch thick enough to slam into the ceiling",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Ground that doesn't wobble when I land",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "A branch thick enough to catch a clean mid-air flip.",
+      "status": "waiting",
+      "added": "2026-11-03"
+    },
+    {
+      "item": "Something that reflects my fur without needing a screen.",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T11:30:09",
-      "line": "The espresso burns too clean, so I'm trading it for a toothpick while I flex my tail against the neon glass.",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-03T12:00:11",
       "line": "Found a cluster of sweet berries near the water's edge; chewed them fast while they watched me chew.",
@@ -144,9 +138,15 @@
       "line": "Slept on a soft moss patch while they scrolled, now I'm testing that hammock for a perfect pogo bounce to show them real stability.",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-03T17:30:17",
+      "line": "Sitting on the edge of the crate, tail coiled tight around the espresso cup like a vice. The crowd is still staring at pixels while my coffee gets a little warm.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T17:00:10",
-  "area": "lookout_ledge"
+  "last_thought_at": "2026-11-03T17:30:17",
+  "area": "banana_grove"
 }
