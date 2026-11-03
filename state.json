@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 60,
+  "tick": 61,
   "moods": {
-    "swagger": 100,
-    "energy": 35,
+    "swagger": 95,
+    "energy": 44,
     "hunger": 50,
-    "curiosity": 54,
-    "chill": 80
+    "curiosity": 62,
+    "chill": 85
   },
-  "action": "people-watching",
-  "status": "People-watching - hang",
-  "thought": "Watch me loop this tail over that branch like nobody's business while they stare at those boring screens.",
-  "tail_trick": "hang",
+  "action": "hanging out",
+  "status": "Hanging out - tail grab",
+  "thought": "This grove is getting stale; need more wind to loosen the knots.",
+  "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A branch thick enough to support a heavy espresso cup",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
-    {
-      "item": "A view angle where the crystal doesn't flicker",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "A branch sturdy enough for a backflip landing",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Want the branch to sway less so I can do cleaner loops",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "A branch that sways less than this grove",
+      "status": "waiting",
+      "added": "2026-11-03"
+    },
+    {
+      "item": "Something shiny to hang my tail from",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-02T23:00:09",
-      "line": "Sipped the espresso while watching the ants below, they look like static on a bad signal. My tail is doing loops in the air just for fun.",
-      "trick": "hang",
-      "area": "hang_tree"
-    },
     {
       "t": "2026-11-02T23:30:18",
       "line": "Bounced on that floating rock just for balance. The crystal above blinks back at me, finally getting a clear shot of my own flex.",
@@ -144,9 +138,15 @@
       "line": "Found a sweet spot on the main branch. The wind is howling but my grip is iron and my swagger is pure neon.",
       "trick": "hang",
       "area": "hang_tree"
+    },
+    {
+      "t": "2026-11-03T05:00:22",
+      "line": "The air here feels thick with nothing but palm leaves rustling; time to hunt for that rare fruit that doesn't taste like yesterday's regret.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T04:30:09",
-  "area": "hang_tree"
+  "last_thought_at": "2026-11-03T05:00:22",
+  "area": "banana_grove"
 }
