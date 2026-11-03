@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 50,
+  "tick": 51,
   "moods": {
     "swagger": 100,
-    "energy": 45,
-    "hunger": 51,
-    "curiosity": 83,
-    "chill": 46
+    "energy": 38,
+    "hunger": 57,
+    "curiosity": 70,
+    "chill": 50
   },
   "action": "exploring",
-  "status": "Exploring - pogo",
-  "thought": "Trying to loop the tail without touching anything else. Gravity's still annoying.",
-  "tail_trick": "pogo",
+  "status": "Exploring - backflip",
+  "thought": "Gravity's getting old. Time to loop that tail higher just because I can.",
+  "tail_trick": "backflip",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "Telescope mount with extra grip",
-      "status": "waiting",
-      "added": "2026-11-02"
-    },
-    {
-      "item": "Higher ledge for the ultimate drop",
-      "status": "waiting",
-      "added": "2026-11-02"
-    },
     {
       "item": "Branch with better grip for holding poses",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Something sticky to stop the pogo bounce",
       "status": "waiting",
       "added": "2026-11-02"
+    },
+    {
+      "item": "A branch with better grip for high loops",
+      "status": "waiting",
+      "added": "2026-11-03"
+    },
+    {
+      "item": "A fruit that glows without making noise",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,11 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-02T18:30:08",
-      "line": "Grinded till gums felt like rubber. View still sucks but I'm locking that backflip loop now. Just need to feel the hum and ignore the trash below.",
-      "trick": "backflip"
-    },
     {
       "t": "2026-11-02T19:00:08",
       "line": "Gritted through the rubber feel just to lock that spin. They hate the view, but I'm making them watch the mechanics anyway.",
@@ -137,9 +132,15 @@
       "line": "Bounced on that floating rock just for balance. The crystal above blinks back at me, finally getting a clear shot of my own flex.",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-03T00:00:23",
+      "line": "Dropped the toothpick on the islet sand and spun it in a perfect circle while looping my tail over the telescope.",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-02T23:30:18",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-03T00:00:23",
+  "area": "lookout_ledge"
 }
