@@ -1,16 +1,16 @@
 {
   "name": "HOOK",
-  "tick": 41,
+  "tick": 42,
   "moods": {
-    "swagger": 95,
+    "swagger": 97,
     "energy": 0,
-    "hunger": 64,
+    "hunger": 67,
     "curiosity": 100,
-    "chill": 8
+    "chill": 6
   },
   "action": "practicing a trick",
   "status": "Practicing a trick - backflip",
-  "thought": "Gums feel like rubber, view is trash, but the loop needs to be tight.",
+  "thought": "Gum feels like rubber again but the loop is tighter than before.",
   "tail_trick": "backflip",
   "prop": "toothpick",
   "wants": [
@@ -74,11 +74,6 @@
   ],
   "diary": [
     {
-      "t": "2026-11-02T14:00:39",
-      "line": "Oak held my weight through three grinds, my gums screamed in protest but the flex remained absolute. Now I need to execute the backflip perfectly before the world stops watching an",
-      "trick": "backflip"
-    },
-    {
       "t": "2026-11-02T14:30:13",
       "line": "Grinding felt good but the view was pathetic. Time to scout for a higher perch so gravity can't even follow me.",
       "trick": "none"
@@ -132,8 +127,13 @@
       "t": "2026-11-02T19:30:08",
       "line": "Rubbed the gum till it felt wrong just to keep that spin tight. The view below is garbage but the mechanics are perfect anyway.",
       "trick": "backflip"
+    },
+    {
+      "t": "2026-11-02T20:00:07",
+      "line": "Gritted past the rubber gums just to lock that spin. The view below is garbage but the mechanics are perfect anyway.",
+      "trick": "backflip"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-02T19:30:08"
+  "last_thought_at": "2026-11-02T20:00:07"
 }
