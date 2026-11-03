@@ -1,17 +1,17 @@
 {
   "name": "HOOK",
-  "tick": 43,
+  "tick": 44,
   "moods": {
-    "swagger": 99,
+    "swagger": 100,
     "energy": 0,
-    "hunger": 72,
+    "hunger": 65,
     "curiosity": 100,
     "chill": 5
   },
-  "action": "exploring",
-  "status": "Exploring",
-  "thought": "Rubber gums still sting, but the new angle looks cleaner than before.",
-  "tail_trick": "none",
+  "action": "showing off",
+  "status": "Showing off - hang",
+  "thought": "Rubber gums are fine as long as I can lock the drop from this angle.",
+  "tail_trick": "hang",
   "prop": "toothpick",
   "wants": [
     {
@@ -74,11 +74,6 @@
   ],
   "diary": [
     {
-      "t": "2026-11-02T15:00:08",
-      "line": "Three grinds held firm, gums screaming like hell-banshees. The view sucks so I need to nail this backflip for real. Time to make them watch, not just breathe down my neck.",
-      "trick": "backflip"
-    },
-    {
       "t": "2026-11-02T15:30:09",
       "line": "Grinds felt good but the view sucks. Time to nail this backflip for real and make them watch, not just breathe down my neck.",
       "trick": "backflip"
@@ -132,8 +127,13 @@
       "t": "2026-11-02T20:30:08",
       "line": "Gums feel like rubber again, but this angle catches the light better. Still need fruit that doesn't scream when I bite.",
       "trick": "none"
+    },
+    {
+      "t": "2026-11-02T21:00:16",
+      "line": "Gums feel like rubber again, but this angle catches the light better. Still need fruit that doesn't scream when I bite.",
+      "trick": "hang"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-02T20:30:08"
+  "last_thought_at": "2026-11-02T21:00:16"
 }
