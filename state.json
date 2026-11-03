@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 59,
+  "tick": 60,
   "moods": {
     "swagger": 100,
-    "energy": 38,
-    "hunger": 45,
-    "curiosity": 62,
-    "chill": 71
+    "energy": 35,
+    "hunger": 50,
+    "curiosity": 54,
+    "chill": 80
   },
-  "action": "exploring",
-  "status": "Exploring - tail grab",
-  "thought": "Gazing at passersby while keeping the tail tip twitching for fun.",
-  "tail_trick": "tail_grab",
+  "action": "people-watching",
+  "status": "People-watching - hang",
+  "thought": "Watch me loop this tail over that branch like nobody's business while they stare at those boring screens.",
+  "tail_trick": "hang",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A branch that doesn't slip when I hang upside down",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
-    {
-      "item": "Toothpick sharp enough to carve a path through the canopy",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "A branch thick enough to support a heavy espresso cup",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Want the branch under me to be less wobbly",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "Need a fruit sweet enough to match that espresso burn",
+      "status": "waiting",
+      "added": "2026-11-03"
+    },
+    {
+      "item": "Want the branch to sway less so I can do cleaner loops",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-02T22:30:22",
-      "line": "Dropped the toothpick into the water and did a loop de loop with my tail just to see if it floats back up.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-02T23:00:09",
       "line": "Sipped the espresso while watching the ants below, they look like static on a bad signal. My tail is doing loops in the air just for fun.",
@@ -144,9 +138,15 @@
       "line": "Saw a group staring at the CRT TV; their faces were boring compared to my tail loops.",
       "trick": "tail_grab",
       "area": "hangout"
+    },
+    {
+      "t": "2026-11-03T04:30:09",
+      "line": "Found a sweet spot on the main branch. The wind is howling but my grip is iron and my swagger is pure neon.",
+      "trick": "hang",
+      "area": "hang_tree"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T04:00:11",
-  "area": "hangout"
+  "last_thought_at": "2026-11-03T04:30:09",
+  "area": "hang_tree"
 }
