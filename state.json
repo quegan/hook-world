@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 63,
+  "tick": 64,
   "moods": {
     "swagger": 100,
-    "energy": 57,
-    "hunger": 58,
-    "curiosity": 55,
-    "chill": 78
+    "energy": 47,
+    "hunger": 64,
+    "curiosity": 59,
+    "chill": 77
   },
-  "action": "exploring",
-  "status": "Exploring - pogo",
-  "thought": "Need that crystal peak before my tail forgets its angles.",
-  "tail_trick": "pogo",
+  "action": "practicing a trick",
+  "status": "Practicing a trick - backflip",
+  "thought": "Tail's fine. Spot's fine. I'm better than fine.",
+  "tail_trick": "backflip",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "Need a snack that matches my espresso burn",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
-    {
-      "item": "Want the branch under me to be less wobbly",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "Need a fruit sweet enough to match that espresso burn",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Something shiny to catch the sun on my fur",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "A branch that doesn't snap when I lean too hard",
+      "status": "waiting",
+      "added": "2026-11-03"
+    },
+    {
+      "item": "Something to polish my fur until it shines like chrome",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T00:30:22",
-      "line": "Stuck the toothpick in the arcade cabinet's crack, testing if it can hold my tail loop while I bounce off the neon sign.",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-03T01:00:23",
       "line": "Burnt tongue but the burn fixes my grip on this cup like glue, perfect for hanging out without dropping anything.",
@@ -144,9 +138,15 @@
       "line": "Floating rocks are too unstable for clean loops; heading up to find a solid anchor point above the clouds.",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-03T06:30:09",
+      "line": "The rope bridge creaked under my feet while I spun; the tea tastes like burnt paper and nothing else matters in this low-poly mess.",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T06:00:11",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-03T06:30:09",
+  "area": "lookout_ledge"
 }
