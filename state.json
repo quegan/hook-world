@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 61,
+  "tick": 62,
   "moods": {
-    "swagger": 95,
-    "energy": 44,
-    "hunger": 50,
+    "swagger": 100,
+    "energy": 64,
+    "hunger": 52,
     "curiosity": 62,
-    "chill": 85
+    "chill": 79
   },
-  "action": "hanging out",
-  "status": "Hanging out - tail grab",
-  "thought": "This grove is getting stale; need more wind to loosen the knots.",
-  "tail_trick": "tail_grab",
-  "prop": "toothpick",
+  "action": "sipping espresso",
+  "status": "Sipping espresso",
+  "thought": "Caffeine hits like a tail loop, keeps me sharp while the neon hums outside.",
+  "tail_trick": "none",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "A branch sturdy enough for a backflip landing",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
-    {
-      "item": "Toothpick sharp enough to cut this espresso",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "A tall tree branch near the pond",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Something shiny to hang my tail from",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "Need a branch sturdy enough to hang from without fear",
+      "status": "waiting",
+      "added": "2026-11-03"
+    },
+    {
+      "item": "Something sharper than this coffee cup",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-02T23:30:18",
-      "line": "Bounced on that floating rock just for balance. The crystal above blinks back at me, finally getting a clear shot of my own flex.",
-      "trick": "pogo",
-      "area": "sky_rocks"
-    },
     {
       "t": "2026-11-03T00:00:23",
       "line": "Dropped the toothpick on the islet sand and spun it in a perfect circle while looping my tail over the telescope.",
@@ -144,9 +138,15 @@
       "line": "The air here feels thick with nothing but palm leaves rustling; time to hunt for that rare fruit that doesn't taste like yesterday's regret.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-03T05:30:05",
+      "line": "Purple screen buzzes with nothing but static; this coffee burns hotter than any fruit I've ever gnawed on.",
+      "trick": "none",
+      "area": "arcade"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T05:00:22",
-  "area": "banana_grove"
+  "last_thought_at": "2026-11-03T05:30:05",
+  "area": "arcade"
 }
