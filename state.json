@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 64,
+  "tick": 65,
   "moods": {
     "swagger": 100,
-    "energy": 47,
-    "hunger": 64,
-    "curiosity": 59,
-    "chill": 77
+    "energy": 37,
+    "hunger": 65,
+    "curiosity": 62,
+    "chill": 76
   },
   "action": "practicing a trick",
-  "status": "Practicing a trick - backflip",
-  "thought": "Tail's fine. Spot's fine. I'm better than fine.",
-  "tail_trick": "backflip",
+  "status": "Practicing a trick - tail grab",
+  "thought": "Got this fruit with my tail now. Look at that grip.",
+  "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "Need a fruit sweet enough to match that espresso burn",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
-    {
-      "item": "Want the branch to sway less so I can do cleaner loops",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "A branch that sways less than this grove",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Something to polish my fur until it shines like chrome",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "A branch that doesn't snap under my flex",
+      "status": "waiting",
+      "added": "2026-11-03"
+    },
+    {
+      "item": "To polish this fur until it shines like chrome",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T01:00:23",
-      "line": "Burnt tongue but the burn fixes my grip on this cup like glue, perfect for hanging out without dropping anything.",
-      "trick": "tail_grab",
-      "area": "hangout"
-    },
     {
       "t": "2026-11-03T01:30:13",
       "line": "Grove smells like ripeness and regret. Grabbed a bunch, tail loops tight around the stem like a noose made of sugar.",
@@ -144,9 +138,15 @@
       "line": "The rope bridge creaked under my feet while I spun; the tea tastes like burnt paper and nothing else matters in this low-poly mess.",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-03T07:00:19",
+      "line": "Snatched that rare fruit using just my tail while the CRT TV blinks; tastes like victory and zero regret.",
+      "trick": "tail_grab",
+      "area": "hangout"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T06:30:09",
-  "area": "lookout_ledge"
+  "last_thought_at": "2026-11-03T07:00:19",
+  "area": "hangout"
 }
