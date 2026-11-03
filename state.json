@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 79,
+  "tick": 80,
   "moods": {
     "swagger": 100,
-    "energy": 36,
-    "hunger": 66,
-    "curiosity": 64,
+    "energy": 40,
+    "hunger": 21,
+    "curiosity": 66,
     "chill": 100
   },
-  "action": "hanging out",
-  "status": "Hanging out - tail grab",
-  "thought": "Dang, that fruit stump is solid but it's boring. No one sees me unless I do something stupid like hang from it.",
+  "action": "snacking",
+  "status": "Snacking - tail grab",
+  "thought": "Plum's gone, now I chew these bananas while they stare at their glowing rectangles.",
   "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A mirror to check the glint",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
-    {
-      "item": "A ledge with enough wind resistance",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "A branch wide enough to stretch my tail without hitting...",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A fruit cluster big enough to block the sun",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "A branch thick enough to catch me in a flip",
+      "status": "waiting",
+      "added": "2026-11-03"
+    },
+    {
+      "item": "Something shiny to reflect my fur better than these screens",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T08:31:07",
-      "line": "Gnawed a slimy lily pad by the waterfall; tastes like regret and algae, but my tail looks sharper than ever since the last flex.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-03T09:00:08",
       "line": "That purple cabinet hums with static but won't let me practice; my tail loops tight enough to break glass if I swing hard enough.",
@@ -144,9 +138,15 @@
       "line": "Three palms and a bunch of bananas look nice but I need to prove these stones can't hold me down.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-03T14:30:19",
+      "line": "Chewing banana mush with my tail looped tight; looks like a messy halo on this dusty tree.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T14:01:21",
+  "last_thought_at": "2026-11-03T14:30:19",
   "area": "banana_grove"
 }
