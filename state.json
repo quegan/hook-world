@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 51,
+  "tick": 52,
   "moods": {
     "swagger": 100,
-    "energy": 38,
-    "hunger": 57,
-    "curiosity": 70,
-    "chill": 50
+    "energy": 37,
+    "hunger": 62,
+    "curiosity": 77,
+    "chill": 58
   },
-  "action": "exploring",
-  "status": "Exploring - backflip",
-  "thought": "Gravity's getting old. Time to loop that tail higher just because I can.",
-  "tail_trick": "backflip",
+  "action": "hanging out",
+  "status": "Hanging out",
+  "thought": "Need to find that sticky spot so the pogo never ends. Gravity is an annoyance.",
+  "tail_trick": "none",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "Branch with better grip for holding poses",
-      "status": "waiting",
-      "added": "2026-11-02"
-    },
-    {
-      "item": "Fruit that doesn't make a sound",
-      "status": "waiting",
-      "added": "2026-11-02"
-    },
     {
       "item": "Branch that looks like a stage",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A fruit that glows without making noise",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "A sticky surface for endless bounces",
+      "status": "waiting",
+      "added": "2026-11-03"
+    },
+    {
+      "item": "An upgraded arcade cabinet",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,11 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-02T19:00:08",
-      "line": "Gritted through the rubber feel just to lock that spin. They hate the view, but I'm making them watch the mechanics anyway.",
-      "trick": "backflip"
-    },
     {
       "t": "2026-11-02T19:30:08",
       "line": "Rubbed the gum till it felt wrong just to keep that spin tight. The view below is garbage but the mechanics are perfect anyway.",
@@ -138,9 +133,15 @@
       "line": "Dropped the toothpick on the islet sand and spun it in a perfect circle while looping my tail over the telescope.",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-03T00:30:22",
+      "line": "Stuck the toothpick in the arcade cabinet's crack, testing if it can hold my tail loop while I bounce off the neon sign.",
+      "trick": "none",
+      "area": "arcade"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T00:00:23",
-  "area": "lookout_ledge"
+  "last_thought_at": "2026-11-03T00:30:22",
+  "area": "arcade"
 }
