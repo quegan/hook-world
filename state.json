@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 69,
+  "tick": 70,
   "moods": {
     "swagger": 100,
     "energy": 41,
-    "hunger": 40,
-    "curiosity": 56,
-    "chill": 95
+    "hunger": 45,
+    "curiosity": 53,
+    "chill": 96
   },
-  "action": "practicing a trick",
-  "status": "Practicing a trick",
-  "thought": "Need to nail that backflip before the crowd judges my fur shine.",
-  "tail_trick": "none",
+  "action": "people-watching",
+  "status": "People-watching - tail grab",
+  "thought": "folks are too quiet for my taste; needs some motion to keep the fur flowing.",
+  "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A branch that doesn't snap when I lean too hard",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "Something to polish my fur until it shines like chrome",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "Fur polish that reflects neon",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "Something to make my fur gleam like the sun",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T03:30:10",
-      "line": "Sitting by this shallow pond watching fish swim past; the water is clear enough to see my tail glint in the sunlight. Could use a stronger perch though.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-03T04:00:11",
       "line": "Saw a group staring at the CRT TV; their faces were boring compared to my tail loops.",
@@ -144,9 +138,15 @@
       "line": "That purple cabinet hums with static but won't let me practice; my tail loops tight enough to break glass if I swing hard enough.",
       "trick": "none",
       "area": "arcade"
+    },
+    {
+      "t": "2026-11-03T09:30:09",
+      "line": "sitting on the rug with a toothpick while the crowd watches me flex my tail in front of this old TV.",
+      "trick": "tail_grab",
+      "area": "hangout"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T09:00:08",
-  "area": "arcade"
+  "last_thought_at": "2026-11-03T09:30:09",
+  "area": "hangout"
 }
