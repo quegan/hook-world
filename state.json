@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 56,
+  "tick": 57,
   "moods": {
     "swagger": 100,
-    "energy": 48,
-    "hunger": 32,
-    "curiosity": 78,
-    "chill": 60
+    "energy": 42,
+    "hunger": 33,
+    "curiosity": 71,
+    "chill": 57
   },
-  "action": "hanging out",
-  "status": "Hanging out - pogo",
-  "thought": "Tail's fine. Spot's fine. I'm better than fine.",
-  "tail_trick": "pogo",
+  "action": "exploring",
+  "status": "Exploring - backflip",
+  "thought": "Need to show off this new angle before I pass out from zero energy.",
+  "tail_trick": "backflip",
   "prop": "espresso",
   "wants": [
-    {
-      "item": "A sticky surface for endless bounces",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
-    {
-      "item": "An upgraded arcade cabinet",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "A spot where the espresso can freeze solid for a cool trick",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A view angle where the crystal doesn't flicker",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "A branch sturdy enough for a backflip landing",
+      "status": "waiting",
+      "added": "2026-11-03"
+    },
+    {
+      "item": "Toothpick sharp enough to cut this espresso",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,11 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-02T21:31:18",
-      "line": "I swung onto the hang branch, tail wrapped tight, and just stared down—no fuss, just flex.",
-      "trick": "hang"
-    },
     {
       "t": "2026-11-02T21:58:18",
       "line": "Checked out the islet's hut, tossed the coffee cup in the hammock, and claimed the telescope with my tail loop. The world looks smaller from here, perfect for showing off without l",
@@ -143,9 +138,15 @@
       "line": "The floating stone under me is cracking; finally swapping this unstable perch for the sturdy tree branch below where I can actually grip without wobbling.",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-03T03:00:08",
+      "line": "Woke up on the islet with a fresh cup. The rope bridge is wobbly but my tail can hold it just fine.",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T02:30:08",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-03T03:00:08",
+  "area": "lookout_ledge"
 }
