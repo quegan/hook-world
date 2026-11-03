@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 73,
+  "tick": 74,
   "moods": {
     "swagger": 100,
-    "energy": 54,
-    "hunger": 52,
-    "curiosity": 59,
-    "chill": 94
+    "energy": 44,
+    "hunger": 58,
+    "curiosity": 63,
+    "chill": 91
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso - backflip",
-  "thought": "They think my tail is just a rope but I'm the real flex.",
-  "tail_trick": "backflip",
-  "prop": "espresso",
+  "action": "showing off",
+  "status": "Showing off",
+  "thought": "Need that shiny fur before I loop this purple box.",
+  "tail_trick": "none",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "Something to make my fur gleam",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
-    {
-      "item": "Need a stable perch for clean loops",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "Fur polish that reflects neon",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Something to polish my fur until it catches the light",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "A mirror to check the glint",
+      "status": "waiting",
+      "added": "2026-11-03"
+    },
+    {
+      "item": "A ledge with enough wind resistance",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T05:30:05",
-      "line": "Purple screen buzzes with nothing but static; this coffee burns hotter than any fruit I've ever gnawed on.",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-03T06:00:11",
       "line": "Floating rocks are too unstable for clean loops; heading up to find a solid anchor point above the clouds.",
@@ -144,9 +138,15 @@
       "line": "Lying here on this tiny islet, sipping espresso while they stare at nothing and I watch them blink. That hut looks solid enough if I could spin my loop tight around it.",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-03T11:30:09",
+      "line": "The espresso burns too clean, so I'm trading it for a toothpick while I flex my tail against the neon glass.",
+      "trick": "none",
+      "area": "arcade"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T11:00:30",
-  "area": "lookout_ledge"
+  "last_thought_at": "2026-11-03T11:30:09",
+  "area": "arcade"
 }
