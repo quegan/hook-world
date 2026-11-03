@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 71,
+  "tick": 72,
   "moods": {
     "swagger": 100,
-    "energy": 38,
+    "energy": 39,
     "hunger": 50,
-    "curiosity": 52,
-    "chill": 97
+    "curiosity": 55,
+    "chill": 100
   },
-  "action": "people-watching",
-  "status": "People-watching - pogo",
-  "thought": "Tail's fine. Spot's fine. I'm better than fine.",
-  "tail_trick": "pogo",
+  "action": "hanging out",
+  "status": "Hanging out - tail grab",
+  "thought": "Bananas taste like boredom when you're hungry enough to notice it.",
+  "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "To polish this fur until it shines like chrome",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
-    {
-      "item": "A branch that holds me tight so I can hang forever.",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "Something to make my fur gleam like the sun.",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Something to make my fur shine under the sun",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "A ledge stable enough to spin without wobble",
+      "status": "waiting",
+      "added": "2026-11-03"
+    },
+    {
+      "item": "Something to make my fur glint under the sun",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T04:30:09",
-      "line": "Found a sweet spot on the main branch. The wind is howling but my grip is iron and my swagger is pure neon.",
-      "trick": "hang",
-      "area": "hang_tree"
-    },
     {
       "t": "2026-11-03T05:00:22",
       "line": "The air here feels thick with nothing but palm leaves rustling; time to hunt for that rare fruit that doesn't taste like yesterday's regret.",
@@ -144,9 +138,15 @@
       "line": "Caught a perfect tail loop on these floating stones while the crowd watches; feels like I just broke their screens.",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-03T10:30:10",
+      "line": "Snatched three yellow plums with my tail while balancing on the palm; they burst sweet and sticky, better than the usual sludge.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T10:00:08",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-03T10:30:10",
+  "area": "banana_grove"
 }
