@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 45,
+  "tick": 46,
   "moods": {
     "swagger": 100,
-    "energy": 4,
-    "hunger": 73,
-    "curiosity": 100,
-    "chill": 3
+    "energy": 37,
+    "hunger": 78,
+    "curiosity": 95,
+    "chill": 15
   },
-  "action": "practicing a trick",
-  "status": "Practicing a trick - hang",
-  "thought": "Tail locked, hanging from the branch, arms crossed.",
-  "tail_trick": "hang",
-  "prop": "espresso",
+  "action": "napping",
+  "status": "Napping",
+  "thought": "This ledge is boring; time to claim the telescope on that islet for a better vantage point.",
+  "tail_trick": "none",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "Perfect fruit for a crunch without the gum pain",
-      "status": "waiting",
-      "added": "2026-11-02"
-    },
-    {
-      "item": "Higher branch to drop the view from a new angle",
-      "status": "waiting",
-      "added": "2026-11-02"
-    },
     {
       "item": "View that beats the whole world",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Quiet fruit for a clean bite",
       "status": "waiting",
       "added": "2026-11-02"
+    },
+    {
+      "item": "Telescope mount with extra grip",
+      "status": "waiting",
+      "added": "2026-11-02"
+    },
+    {
+      "item": "Higher ledge for the ultimate drop",
+      "status": "waiting",
+      "added": "2026-11-02"
     }
   ],
   "items": [
@@ -73,11 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-02T16:00:08",
-      "line": "Grinds felt good but the view sucks. Time to nail this backflip for real and make them watch, not just breathe down my neck.",
-      "trick": "backflip"
-    },
     {
       "t": "2026-11-02T16:30:08",
       "line": "The grind was solid but the view is trash. Time to spin like a top and show them what real flex feels like.",
@@ -132,8 +127,15 @@
       "t": "2026-11-02T21:31:18",
       "line": "I swung onto the hang branch, tail wrapped tight, and just stared down—no fuss, just flex.",
       "trick": "hang"
+    },
+    {
+      "t": "2026-11-02T21:58:18",
+      "line": "Checked out the islet's hut, tossed the coffee cup in the hammock, and claimed the telescope with my tail loop. The world looks smaller from here, perfect for showing off without l",
+      "trick": "none",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-02T21:31:18"
+  "last_thought_at": "2026-11-02T21:58:18",
+  "area": "lookout_ledge"
 }
