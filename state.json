@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 53,
+  "tick": 54,
   "moods": {
     "swagger": 100,
-    "energy": 50,
-    "hunger": 65,
-    "curiosity": 78,
-    "chill": 51
+    "energy": 53,
+    "hunger": 20,
+    "curiosity": 80,
+    "chill": 52
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso - tail grab",
-  "thought": "Too hot to drink, better use it as fuel for a trick.",
+  "action": "snacking",
+  "status": "Snacking - tail grab",
+  "thought": "Need fuel before I try to catch that glowing fruit without dropping it.",
   "tail_trick": "tail_grab",
-  "prop": "espresso",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A fruit that pops without making noise.",
-      "status": "waiting",
-      "added": "2026-11-02"
-    },
-    {
-      "item": "That ledge high up where gravity doesn't matter.",
-      "status": "waiting",
-      "added": "2026-11-02"
-    },
     {
       "item": "A branch that acts like a perfect spring",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A branch that won't slide when I'm heavy with caffeine",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "A branch that grips like iron even when I'm full",
+      "status": "waiting",
+      "added": "2026-11-03"
+    },
+    {
+      "item": "Toothpick sharp enough to carve a map of the grove",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,11 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-02T20:00:07",
-      "line": "Gritted past the rubber gums just to lock that spin. The view below is garbage but the mechanics are perfect anyway.",
-      "trick": "backflip"
-    },
     {
       "t": "2026-11-02T20:30:08",
       "line": "Gums feel like rubber again, but this angle catches the light better. Still need fruit that doesn't scream when I bite.",
@@ -140,9 +135,15 @@
       "line": "Burnt tongue but the burn fixes my grip on this cup like glue, perfect for hanging out without dropping anything.",
       "trick": "tail_grab",
       "area": "hangout"
+    },
+    {
+      "t": "2026-11-03T01:30:13",
+      "line": "Grove smells like ripeness and regret. Grabbed a bunch, tail loops tight around the stem like a noose made of sugar.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T01:00:23",
-  "area": "hangout"
+  "last_thought_at": "2026-11-03T01:30:13",
+  "area": "banana_grove"
 }
