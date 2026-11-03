@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 77,
+  "tick": 78,
   "moods": {
     "swagger": 100,
-    "energy": 45,
-    "hunger": 58,
-    "curiosity": 58,
+    "energy": 34,
+    "hunger": 64,
+    "curiosity": 57,
     "chill": 100
   },
-  "action": "hanging out",
-  "status": "Hanging out - tail grab",
-  "thought": "Took that berry to the next level; my tail is practically a weapon now.",
-  "tail_trick": "tail_grab",
+  "action": "upgrading the spot",
+  "status": "Upgrading the spot - hang",
+  "thought": "This tree smells like old dust but that wind bite is real gold for a loop.",
+  "tail_trick": "hang",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A ledge stable enough to spin without wobble",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
-    {
-      "item": "Something to make my fur glint under the sun",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "A hammock that stays flat when I hang upside down",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Something that reflects my fur better than light",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "A branch that holds more weight than this dusty mess",
+      "status": "waiting",
+      "added": "2026-11-03"
+    },
+    {
+      "item": "To catch a gust of wind strong enough to spin my fur",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T07:30:09",
-      "line": "Bit into this green fruit while balancing on a palm trunk; the taste is okay but my fur needs that shiny treatment before the next flex.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-03T08:00:17",
       "line": "The crowd is still boring me, but this espresso burns hotter than their screens and that's what keeps me moving.",
@@ -144,9 +138,15 @@
       "line": "Used the fresh plum as bait for a backflip loop on the string lights; they look like little sparks compared to what I'm doing.",
       "trick": "tail_grab",
       "area": "hangout"
+    },
+    {
+      "t": "2026-11-03T13:30:10",
+      "line": "Swept the dusty branches until my fur got all static and they started filming the sparkles again.",
+      "trick": "hang",
+      "area": "hang_tree"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T13:00:20",
-  "area": "hangout"
+  "last_thought_at": "2026-11-03T13:30:10",
+  "area": "hang_tree"
 }
