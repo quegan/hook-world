@@ -70,7 +70,7 @@ h2{font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--dim)
 <div id="help" class="panel"><b>Explore:</b> WASD / arrows to walk · drag to look · scroll to zoom · <b>F</b> follow Hook</div>
 <div id="joy"><i></i></div>
 <div id="tricks" class="panel">
-  <button data-t="hang">Hang</button><button data-t="backflip">Backflip</button><button data-t="pogo">Pogo</button><button data-t="tail_grab">Tail grab</button><button id="follow" class="on">Follow Hook</button>
+  <button data-t="hang">Hang</button><button data-t="backflip">Backflip</button><button data-t="pogo">Pogo</button><button data-t="tail_grab">Tail grab</button><button id="follow" class="on">Follow Hook</button><button id="snd" title="ambient sound">🔇</button>
 </div>
 <script type="module">
 import * as THREE from 'three';
@@ -101,10 +101,13 @@ const sun=new THREE.Mesh(new THREE.CircleGeometry(7,10),new THREE.MeshBasicMater
 S.add(new THREE.HemisphereLight(0xffd3b0,0x3a2446,1.6));
 const key=new THREE.DirectionalLight(0xffc49a,2.4);key.position.set(-8,14,7);key.castShadow=true;key.shadow.mapSize.set(COARSE?512:1024,COARSE?512:1024);
 Object.assign(key.shadow.camera,{left:-15,right:15,top:15,bottom:-15,far:50});S.add(key);
-const rim=new THREE.DirectionalLight(0x9a7cff,1.6);rim.position.set(6,4,-6);S.add(rim);
+const rim=new THREE.DirectionalLight(0x9ad8ff,3.2);rim.position.set(6,6,-8);S.add(rim);
+const rim2=new THREE.DirectionalLight(0xff9ad0,1.6);rim2.position.set(-8,3,-6);S.add(rim2);
+const heroFill=new THREE.PointLight(0xffe2c4,6,7,1.6);S.add(heroFill);       // soft face light that follows Hook
+const heroRim=new THREE.PointLight(0x7fd8ff,9,6,1.6);S.add(heroRim);         // cyan back-rim so the black body pops off the red sky
 
 const M=(c,o={})=>new THREE.MeshStandardMaterial({color:c,flatShading:true,roughness:.85,metalness:0,...o});
-const mBlack=M(0x2c2c2c),mDark=M(0x1a1a1a),mTan=M(0xcaa58a),mTanD=M(0xa68469),mEye=M(0x1a0f0a,{roughness:.15}),
+const mBlack=M(0x34343a,{roughness:.6}),mDark=M(0x1e1e22),mTan=M(0xcaa58a),mTanD=M(0xa68469),mEye=M(0x1a0f0a,{roughness:.15}),
  mGlass=M(0x0b0b0e,{roughness:.1,metalness:.5}),mWhite=new THREE.MeshBasicMaterial({color:0xffffff}),mWood=M(0xd9b27a),
  mGrass=M(0x6f8f4e),mDirt=M(0x5b3a2e),mBark=M(0x5a3a28),mLeaf=M(0x3f7d4a),mRock=M(0x8a7a6e);
 function mesh(g,m,p=[0,0,0],par){const o=new THREE.Mesh(g,m);o.position.set(...p);o.castShadow=true;o.receiveShadow=true;(par||S).add(o);return o}
@@ -193,6 +196,27 @@ area('Lookout Ledge',LOOK.x,LOOK.y,LOOK.z,3.5);
 // distant islets for depth
 [[-26,2,-30,3],[30,-2,-24,2.5],[18,6,-40,2],[-34,-3,12,2.4]].forEach(([x,y,z,s])=>{const g=islet(x,y,z,s);mesh(lowRock(s*.5),mLeaf,[s*.2,s*.5,0],g)});
 
+// ---------- extra props: flowers, mushrooms, grass tufts, lanterns, hammock, sign, fireflies
+const FLC=[0xff6b9a,0xffd34d,0x8fe3ff,0xc58bff,0xff8a3d];
+for(let i=0;i<46;i++){const a=i*2.399,r=2+((i*37)%70)/10;const x=Math.cos(a)*r,z=Math.sin(a)*r;
+ if(Math.hypot(x-HOME.x,z-HOME.z)<1.8||Math.hypot(x-POND.x,z-POND.z)<2.4)continue;
+ if(i%3===0){mesh(new THREE.CylinderGeometry(.015,.02,.22,3),M(0x4f9a4a),[x,.11,z],world);mesh(new THREE.IcosahedronGeometry(.07,0),M(FLC[i%5],{emissive:FLC[i%5],emissiveIntensity:.25}),[x,.25,z],world)}
+ else if(i%3===1){mesh(new THREE.ConeGeometry(.12,.3,4),M(0x88b05a),[x,.15,z],world)}
+ else{const st=mesh(new THREE.CylinderGeometry(.04,.05,.18,5),M(0xf2ece4),[x,.09,z],world);mesh(new THREE.ConeGeometry(.15,.12,6),M(0xd8433a),[x,.22,z],world)}}
+const lanterns=[];[[-1.2,1.6],[4.6,1.2]].forEach(([x,z])=>{mesh(new THREE.CylinderGeometry(.04,.05,1.4,5),mBark,[x,.7,z],world);
+ const l=mesh(new THREE.OctahedronGeometry(.16,0),new THREE.MeshBasicMaterial({color:0xffb35c}),[x,1.5,z],world);lanterns.push(l)});
+const hutLight=new THREE.PointLight(0xffb35c,3,5);hutLight.position.set(0,1.2,.2);look.add(hutLight);
+{const hm=mesh(new THREE.CylinderGeometry(.5,.5,1.6,6,1,true,0,Math.PI),M(0x4fb6a8,{side:THREE.DoubleSide}),[-1.4,.75,.9],look);hm.rotation.z=Math.PI/2;
+ [-2.3,-.5].forEach(x=>mesh(new THREE.CylinderGeometry(.05,.05,1.3,4),mBark,[x,.65,.9],look));}
+mesh(new THREE.BoxGeometry(1.3,.32,.06),new THREE.MeshBasicMaterial({color:0x2affd5}),[0,2.15,.1],cab);
+mesh(lowRock(.5),M(0x6a8fbf),[POND.x+1.8,.3,POND.z+1.6],world);
+const FF=COARSE?60:140,ffG=new THREE.BufferGeometry(),ffP=new Float32Array(FF*3),ffS=[];
+for(let i=0;i<FF;i++){const a=Math.random()*6.28,r=Math.random()*14;ffP.set([Math.cos(a)*r,.4+Math.random()*4,Math.sin(a)*r],i*3);ffS.push(Math.random()*6.28)}
+ffG.setAttribute('position',new THREE.BufferAttribute(ffP,3));
+const ff=new THREE.Points(ffG,new THREE.PointsMaterial({color:0xfff2a8,size:.09,transparent:true,opacity:.85,fog:false}));S.add(ff);
+const AREA_POS={hang_tree:V(TREE.x+3.2,0,TREE.z+1.2),hangout:HOME.clone(),banana_grove:V(3.4,0,-4.6),waterfall_pond:V(POND.x+2.3,0,POND.z-.2),
+ arcade:V(ARC.x-1.2,0,ARC.z+.8),sky_rocks:V(-11,1.25,1),lookout_ledge:V(LOOK.x-.6,LOOK.y,LOOK.z+1.4)};
+
 // ---------- HOOK (built in code, faceted, PS1 style)
 // Proportions per STYLE.md: big head (~1/3 of standing height), long skinny arms to mid-shin, short legs, ONE long tail.
 const H=new THREE.Group();S.add(H);
@@ -249,9 +273,9 @@ function curl(cx,cy,cz,r,a0,turns,n,plane='zy'){const p=[];for(let i=0;i<n;i++){
  p.push(plane==='xy'?V(cx+Math.cos(a)*rr,cy+Math.sin(a)*rr,cz):plane==='zy'?V(cx,cy+Math.sin(a)*rr,cz+Math.cos(a)*rr):V(cx+Math.cos(a)*rr,cy,cz+Math.sin(a)*rr))}return p}
 
 // ---------- tricks
-let trick='hang',tt=0,auto=!Q.get('trick');
+let SPOT=HOME.clone();let trick='hang',tt=0,auto=!Q.get('trick');
 const SPINE=V(0,.8,-.2);
-const base=()=>{H.position.copy(HOME);H.rotation.set(0,0,0);hips.rotation.set(0,0,0);hips.position.set(0,.82,0);torso.rotation.set(0,0,0);head.rotation.set(0,0,0);
+const base=()=>{H.position.copy(SPOT);H.rotation.set(0,0,0);hips.rotation.set(0,0,0);hips.position.set(0,.82,0);torso.rotation.set(0,0,0);head.rotation.set(0,0,0);
  for(const L of[armL,armR,legL,legR]){L.a.rotation.set(0,0,0);L.b.rotation.set(0,0,0)}jug.forEach(f=>f.visible=false)};
 function stance(t){ // slight spider-monkey hunch, soft knees (matches Frame's side view)
  torso.rotation.x=.1;head.rotation.x=-.08;legL.a.rotation.x=legR.a.rotation.x=-.12;legL.b.rotation.x=legR.b.rotation.x=.2;
@@ -262,7 +286,7 @@ function idle(t){stance(t);head.rotation.y=Math.sin(t*.6)*.3;
 function crossArms(){armL.a.rotation.set(-1.2,0,.3);armL.b.rotation.set(-1.6,0,0);armR.a.rotation.set(-1.1,0,-.3);armR.b.rotation.set(-1.7,0,0)}
 function hang(t){ // upside down under the branch, arms crossed, tail coiled round it
  const hx=BR.x0+2.4;H.position.set(hx+Math.sin(t*1.2)*.04,BR.y-.3,BR.z+.26);H.rotation.set(0,Math.sin(t*.8)*.2,Math.PI);
- crossArms();legL.a.rotation.x=-.3;legR.a.rotation.x=.2;legL.b.rotation.x=.6;legR.b.rotation.x=.4;head.rotation.x=-.25;head.rotation.y=Math.sin(t*.5)*.3;
+ crossArms();legL.a.rotation.x=-.3;legR.a.rotation.x=.2;legL.b.rotation.x=.6;legR.b.rotation.x=.4;head.rotation.x=.45;head.rotation.y=Math.sin(t*.5)*.25;
  const wrap=[];for(let i=0;i<12;i++){const a=Math.PI*.5+i/11*6.283*1.6;wrap.push(V(.12-i*.03,-.3+Math.sin(a)*.2,-.26+Math.cos(a)*.2))}
  return[SPINE,V(0,.55,-.45),V(0,.15,-.4),...wrap]}
 function backflip(t){ // jump, full rotation, tail loops round the body
@@ -280,7 +304,7 @@ function pogo(t){ // the TAIL is the pogo spring: he bounces on its curled tip a
  const coil=[];const n=18;for(let i=0;i<n;i++){const k=i/(n-1),a=k*6.283*2.4;coil.push(V(Math.cos(a)*.2,.55-k*(h+.35),-.3+Math.sin(a)*.2))}
  return[SPINE,V(0,.68,-.35),...coil,...curl(0,-h+.12,-.12,.12,Math.PI,.9,6)]}
 function tailGrab(t){ // arms stay crossed: the tail arcs over, curls round a fruit and brings it to his mouth
- const T=4.5,p=(t%T)/T;stance(t);crossArms();H.rotation.y=.25;
+ const T=4.5,p=(t%T)/T;stance(t);crossArms();H.position.copy(HOME);H.rotation.y=.25;
  const reach=p<.4?Math.sin(p/.4*Math.PI/2):p<.55?1:Math.max(0,1-Math.sin((p-.55)/.35*Math.PI/2));
  head.rotation.y=.7*reach;
  const tl=H.worldToLocal(world.localToWorld(F0.clone()));
@@ -292,6 +316,7 @@ const TR={hang,backflip,pogo,tail_grab:tailGrab,none:idle};
 const btns=[...document.querySelectorAll('#tricks button[data-t]')];
 btns.forEach(b=>b.onclick=()=>{auto=false;play(b.dataset.t);setFollow(true);setTimeout(()=>auto=true,15000)});
 function play(t){trick=TR[t]?t:'none';tt=0;btns.forEach(b=>b.classList.toggle('on',b.dataset.t===trick));if(trick!=='tail_grab')fruits[0].position.copy(F0)}
+function faceCam(){} 
 let stateTrick='hang',cycle=0;
 
 // ---------- explore: WASD/arrows + drag (desktop), joystick + drag (touch), follow-cam on Hook
@@ -319,7 +344,7 @@ function areas(){let near=null,bd=1e9;for(const a of AREAS){const dd=Math.hypot(
  if(near)near.seen=true;areaEl.textContent=near?near.name:(follow?'Following Hook':'Open sky');foundEl.textContent=`${AREAS.filter(a=>a.seen).length}/${AREAS.length} found`}
 
 // camera start (debug params for screenshots: ?trick=&view=front|side|back|3q&spot=x,y,z,tx,ty,tz)
-const VIEW={front:[0,0,5.2],side:[-5.2,0,0],back:[0,0,-5.2],'3q':[3.8,.9,3.8]};
+const VIEW={front:[0,0,5.2],side:[-5.2,0,0],back:[0,0,-5.2],'3q':[2.2,.2,4.6]};
 function camAt(v){const hf=hookFocus();const o=VIEW[v]||VIEW['3q'];ctl.target.copy(hf);cam.position.set(hf.x+o[0],hf.y+o[1]+.6,hf.z+o[2])}
 // ---------- state.json
 const MOOD=[['swagger','Swagger','#ff8a3d'],['energy','Energy','#ffd34d'],['hunger','Hunger','#ff5f7e'],['curiosity','Curiosity','#7fd3ff'],['chill','Chill','#9be38a']];
@@ -335,24 +360,36 @@ async function load(){try{const s=await (await fetch('state.json?'+Date.now())).
  document.getElementById('wants').innerHTML=(s.wants||[]).slice(-6).reverse().map(w=>`<li class="${w.status==='done'?'done':''}"><i class="dot"></i><span>${esc(w.item)}</span></li>`).join('');
  const fn=(s.fan_notes||[]);document.getElementById('fanwrap').style.display=fn.length?'':'none';document.getElementById('fan').innerHTML=fn.slice(-3).reverse().map(n=>`<li>“${esc(n.text)}”<br><b>Hook:</b> ${esc(n.reply)}</li>`).join('');
  const espresso=s.prop==='espresso';pick.visible=!espresso;handCup.visible=espresso;cupG.visible=!espresso;
+ if(s.area&&AREA_POS[s.area]){SPOT=AREA_POS[s.area].clone();document.getElementById('status').title=s.area}
  if(s.tail_trick&&s.tail_trick!==stateTrick){stateTrick=s.tail_trick;if(auto)play(stateTrick)}
 }catch(e){document.getElementById('status').innerHTML='▸ <b>OFFLINE</b> · state.json not reachable'}}
 load();setInterval(load,60000);
-play(Q.get('trick')||'hang');base();const p0=(TR[trick])(0);
+play(Q.get('trick')||'none');base();const p0=(TR[trick])(0);
 const spot=(Q.get('spot')||'').split(',').map(Number);
 if(spot.length===6){setFollow(false);cam.position.set(spot[0],spot[1],spot[2]);ctl.target.set(spot[3],spot[4],spot[5])}else camAt(Q.get('view')||'3q');
 if(Q.get('view'))setFollow(false);
 cv.addEventListener('pointerdown',()=>{ctl.autoRotate=false});
 
+// ---------- optional ambience: soft wind + slow pad, generated in WebAudio (off by default)
+let AC=null,amb=null;const sb=document.getElementById('snd');
+sb.onclick=()=>{if(!AC){AC=new (window.AudioContext||window.webkitAudioContext)();const g=AC.createGain();g.gain.value=0;g.connect(AC.destination);
+ const n=AC.createBufferSource(),buf=AC.createBuffer(1,AC.sampleRate*2,AC.sampleRate),d=buf.getChannelData(0);let l=0;for(let i=0;i<d.length;i++){l=(l+.02*(Math.random()*2-1))/1.02;d[i]=l*3}
+ n.buffer=buf;n.loop=true;const f=AC.createBiquadFilter();f.type='lowpass';f.frequency.value=500;n.connect(f).connect(g);n.start();
+ [196,247,294].forEach(fr=>{const o=AC.createOscillator(),og=AC.createGain();o.type='triangle';o.frequency.value=fr;og.gain.value=.018;o.connect(og).connect(g);o.start()});amb=g}
+ const on=amb.gain.value<.1;amb.gain.setTargetAtTime(on?.35:0,AC.currentTime,.4);AC.resume();sb.textContent=on?'🔊':'🔇'};
+
 // ---------- loop
 const clk=new THREE.Clock();
 function frame(){const dt=Math.min(clk.getDelta(),.05);tt+=dt;const t=clk.elapsedTime;
- if(auto&&tt>(trick==='hang'?9:7)){const order=[stateTrick,'none',...['hang','backflip','pogo','tail_grab'].filter(x=>x!==stateTrick)];cycle=(cycle+1)%order.length;play(order[cycle])}
+ if(auto&&tt>(trick==='hang'?9:(cycle===0&&trick==='none'?6:7))){const order=[stateTrick,'none',...['hang','backflip','pogo','tail_grab'].filter(x=>x!==stateTrick)];cycle=(cycle+1)%order.length;play(order[cycle])}
  base();setTail((TR[trick]||idle)(tt));
  lids.forEach(l=>l.rotation.x=.5+(Math.sin(t*.7)>.97?.6:0));
  bulbs.forEach((b,i)=>b.material.color.setHSL(((i*.11+t*.05)%1),.8,.65));scr.material.color.setHSL(.55+Math.sin(t*3)*.03,.8,.55+Math.random()*.06);
  arcScr.material.color.setHSL((t*.2)%1,.8,.6);fall.position.y=1.2+Math.sin(t*8)*.02;
  rocks.forEach((g,i)=>g.position.y=g.userData.y+Math.sin(t*.7+i)*.15);if(crystal)crystal.rotation.y=t;
+ {const hp=H.localToWorld(V(0,1.6,0));heroFill.position.copy(hp).add(V().subVectors(cam.position,hp).setLength(2.2));heroRim.position.copy(hp).add(V().subVectors(hp,cam.position).setLength(1.8)).add(V(0,.8,0));}
+ {const a=ff.geometry.attributes.position;for(let i=0;i<FF;i++){a.array[i*3+1]+=Math.sin(t*1.3+ffS[i])*.004;a.array[i*3]+=Math.cos(t*.7+ffS[i])*.003}a.needsUpdate=true;ff.material.opacity=.55+Math.sin(t*2)*.3}
+ lanterns.forEach((l,i)=>l.rotation.y=t+i);
  moveCam(dt);areas();ctl.update();R.render(S,cam);requestAnimationFrame(frame)}
 frame();
 </script>
