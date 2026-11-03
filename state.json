@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 70,
+  "tick": 71,
   "moods": {
     "swagger": 100,
-    "energy": 41,
-    "hunger": 45,
-    "curiosity": 53,
-    "chill": 96
+    "energy": 38,
+    "hunger": 50,
+    "curiosity": 52,
+    "chill": 97
   },
   "action": "people-watching",
-  "status": "People-watching - tail grab",
-  "thought": "folks are too quiet for my taste; needs some motion to keep the fur flowing.",
-  "tail_trick": "tail_grab",
+  "status": "People-watching - pogo",
+  "thought": "Tail's fine. Spot's fine. I'm better than fine.",
+  "tail_trick": "pogo",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "Something to polish my fur until it shines like chrome",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
-    {
-      "item": "A branch that doesn't snap under my flex",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "To polish this fur until it shines like chrome",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Something to make my fur gleam like the sun",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "Need a solid branch to hang from without wobbling",
+      "status": "waiting",
+      "added": "2026-11-03"
+    },
+    {
+      "item": "Something to make my fur shine under the sun",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T04:00:11",
-      "line": "Saw a group staring at the CRT TV; their faces were boring compared to my tail loops.",
-      "trick": "tail_grab",
-      "area": "hangout"
-    },
     {
       "t": "2026-11-03T04:30:09",
       "line": "Found a sweet spot on the main branch. The wind is howling but my grip is iron and my swagger is pure neon.",
@@ -144,9 +138,15 @@
       "line": "sitting on the rug with a toothpick while the crowd watches me flex my tail in front of this old TV.",
       "trick": "tail_grab",
       "area": "hangout"
+    },
+    {
+      "t": "2026-11-03T10:00:08",
+      "line": "Caught a perfect tail loop on these floating stones while the crowd watches; feels like I just broke their screens.",
+      "trick": "pogo",
+      "area": "sky_rocks"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T09:30:09",
-  "area": "hangout"
+  "last_thought_at": "2026-11-03T10:00:08",
+  "area": "sky_rocks"
 }
