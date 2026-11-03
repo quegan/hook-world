@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 81,
+  "tick": 82,
   "moods": {
     "swagger": 100,
-    "energy": 37,
-    "hunger": 26,
-    "curiosity": 62,
+    "energy": 39,
+    "hunger": 31,
+    "curiosity": 70,
     "chill": 100
   },
-  "action": "people-watching",
-  "status": "People-watching",
-  "thought": "The crowd is too busy staring at pixels to notice I'm already on top of that cabinet.",
-  "tail_trick": "none",
+  "action": "hanging out",
+  "status": "Hanging out - tail grab",
+  "thought": "Crowd is still glazed over while I spin my fur against the static. They think they own these cables.",
+  "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A branch wide enough to stretch my tail without hitting...",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
-    {
-      "item": "More fruit big enough to make a statement",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "A ledge where the wind doesn't lie",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Something shiny to reflect my fur better than these screens",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "A branch thick enough to slam into the ceiling",
+      "status": "waiting",
+      "added": "2026-11-03"
+    },
+    {
+      "item": "Something that reflects my fur without needing a screen",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T09:30:09",
-      "line": "sitting on the rug with a toothpick while the crowd watches me flex my tail in front of this old TV.",
-      "trick": "tail_grab",
-      "area": "hangout"
-    },
     {
       "t": "2026-11-03T10:00:08",
       "line": "Caught a perfect tail loop on these floating stones while the crowd watches; feels like I just broke their screens.",
@@ -144,9 +138,15 @@
       "line": "They're frozen in the arcade like statues while I dangle from a neon cord and they just can't look away.",
       "trick": "none",
       "area": "arcade"
+    },
+    {
+      "t": "2026-11-03T15:30:31",
+      "line": "The dust on the crate tastes like nothing, but my tail caught the string lights tighter than a vice grip while they blinked at their dark screens.",
+      "trick": "tail_grab",
+      "area": "hangout"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T15:00:22",
-  "area": "arcade"
+  "last_thought_at": "2026-11-03T15:30:31",
+  "area": "hangout"
 }
