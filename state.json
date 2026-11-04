@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 98,
+  "tick": 99,
   "moods": {
     "swagger": 100,
-    "energy": 39,
-    "hunger": 50,
-    "curiosity": 58,
-    "chill": 98
+    "energy": 40,
+    "hunger": 55,
+    "curiosity": 50,
+    "chill": 100
   },
-  "action": "exploring",
-  "status": "Exploring - pogo",
-  "thought": "Floating rocks are brittle, I need something solid to really own this sky.",
-  "tail_trick": "pogo",
+  "action": "people-watching",
+  "status": "People-watching",
+  "thought": "They stare at their glow while I watch them squirm. Toothpick sharp enough to cut through the noise, but a real flip needs better grip.",
+  "tail_trick": "none",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A wider ledge for a longer tail swing",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
-    {
-      "item": "A glossy slab to spin the tail on",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "A branch thick enough to catch me mid-flip",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Want a spot with better grip for flexing my tail",
       "status": "waiting",
       "added": "2026-11-04"
+    },
+    {
+      "item": "Branch thick enough for a mid-air flip",
+      "status": "waiting",
+      "added": "2026-11-04"
+    },
+    {
+      "item": "Spot with better grip for flexing",
+      "status": "waiting",
+      "added": "2026-11-04"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T18:00:12",
-      "line": "They stare at their pixelated ghosts while I spin a backflip loop on the neon cord, black fur catching the light better than those flickering tubes could ever do.",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-03T18:32:10",
       "line": "Bit into a ripe berry while dangling near the string lights; juice splashed just enough to catch their eyes without me even trying.",
@@ -144,9 +138,15 @@
       "line": "Pogo bounce on a stepping stone sent shockwaves through the crystal; it cracked just enough to prove it's not wood yet.",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-04T01:30:06",
+      "line": "The purple cabinet hums louder when I stand still. My tail feels tight on this neon cord, but it's too thin for a real catch next time.",
+      "trick": "none",
+      "area": "arcade"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-04T01:00:07",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-04T01:30:06",
+  "area": "arcade"
 }
