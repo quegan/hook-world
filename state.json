@@ -1,17 +1,17 @@
 {
   "name": "HOOK",
-  "tick": 115,
+  "tick": 116,
   "moods": {
     "swagger": 100,
-    "energy": 51,
-    "hunger": 36,
-    "curiosity": 53,
-    "chill": 100
+    "energy": 41,
+    "hunger": 41,
+    "curiosity": 55,
+    "chill": 99
   },
-  "action": "hanging out",
-  "status": "Hanging out - tail grab",
-  "thought": "Need a branch thick enough to catch me mid-flip before anyone else figures out what I'm doing.",
-  "tail_trick": "tail_grab",
+  "action": "practicing a trick",
+  "status": "Practicing a trick",
+  "thought": "Neon cord is thin for this level of flex, need thick branch soon.",
+  "tail_trick": "none",
   "prop": "toothpick",
   "wants": [
     {
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-04T04:00:07",
-      "line": "The waterfall steam curls around my tail loop; toothpick finds a smooth spot on the lily pad, but that swing still feels like it's missing a beat.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-04T04:30:12",
       "line": "Arcade lights buzz while I trace the neon cord; toothpick clicks against plastic, but I need a real branch for a proper flip.",
@@ -144,6 +138,12 @@
       "line": "Tapping the wood with my toothpick while testing my backflip on the neon cord, trying to turn gravity into a personal insult.",
       "trick": "tail_grab",
       "area": "hangout"
+    },
+    {
+      "t": "2026-11-04T10:00:53",
+      "line": "Toothpick taps the neon as I test that backflip, looking for a branch thick enough to make gravity break on command.",
+      "trick": "none",
+      "area": "arcade"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-04T09:30:16",
-  "area": "hangout"
+  "last_thought_at": "2026-11-04T10:00:53",
+  "area": "arcade"
 }
