@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 97,
+  "tick": 98,
   "moods": {
     "swagger": 100,
-    "energy": 46,
-    "hunger": 44,
-    "curiosity": 65,
-    "chill": 100
+    "energy": 39,
+    "hunger": 50,
+    "curiosity": 58,
+    "chill": 98
   },
-  "action": "hanging out",
-  "status": "Hanging out",
-  "thought": "Cord feels thin again. Need real wood to lock that flip tight before Michael asks about my grip strength.",
-  "tail_trick": "none",
-  "prop": "espresso",
+  "action": "exploring",
+  "status": "Exploring - pogo",
+  "thought": "Floating rocks are brittle, I need something solid to really own this sky.",
+  "tail_trick": "pogo",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A palm trunk slick enough for a tail slide",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
-    {
-      "item": "Banana bunch that glows when I hang upside down",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "A wider ledge for a longer tail swing",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Solid moss ledge for landing practice",
       "status": "waiting",
       "added": "2026-11-04"
+    },
+    {
+      "item": "Need a branch thick enough to catch a mid-air flip",
+      "status": "waiting",
+      "added": "2026-11-04"
+    },
+    {
+      "item": "Want a spot with better grip for flexing my tail",
+      "status": "waiting",
+      "added": "2026-11-04"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T17:30:17",
-      "line": "Sitting on the edge of the crate, tail coiled tight around the espresso cup like a vice. The crowd is still staring at pixels while my coffee gets a little warm.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-03T18:00:12",
       "line": "They stare at their pixelated ghosts while I spin a backflip loop on the neon cord, black fur catching the light better than those flickering tubes could ever do.",
@@ -144,9 +138,15 @@
       "line": "Sipped espresso to wake up the nerves while dangling over the waterfall. Cord snapped under my weight like it was plastic, not wood yet.",
       "trick": "none",
       "area": "waterfall_pond"
+    },
+    {
+      "t": "2026-11-04T01:00:07",
+      "line": "Pogo bounce on a stepping stone sent shockwaves through the crystal; it cracked just enough to prove it's not wood yet.",
+      "trick": "pogo",
+      "area": "sky_rocks"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-04T00:30:11",
-  "area": "waterfall_pond"
+  "last_thought_at": "2026-11-04T01:00:07",
+  "area": "sky_rocks"
 }
