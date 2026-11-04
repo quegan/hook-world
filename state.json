@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 109,
+  "tick": 110,
   "moods": {
     "swagger": 100,
-    "energy": 42,
-    "hunger": 54,
-    "curiosity": 32,
-    "chill": 98
+    "energy": 58,
+    "hunger": 57,
+    "curiosity": 34,
+    "chill": 91
   },
-  "action": "showing off",
-  "status": "Showing off - tail grab",
-  "thought": "Crowd staring at pixels while I own this banana grove. Tail is tight as a drum.",
-  "tail_trick": "tail_grab",
-  "prop": "toothpick",
+  "action": "sipping espresso",
+  "status": "Sipping espresso",
+  "thought": "Coffee's done; I need that branch so I don't have to balance on a box while looking like an idiot.",
+  "tail_trick": "none",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "Branch thick enough for a no-slip mid-air flip",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
-    {
-      "item": "Branch thick enough to catch me mid-flip",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
     {
       "item": "Thick branch for a no-slip mid-air flip",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "View that actually beats the neon lights",
       "status": "waiting",
       "added": "2026-11-04"
+    },
+    {
+      "item": "A thick branch for no-slip flips",
+      "status": "waiting",
+      "added": "2026-11-04"
+    },
+    {
+      "item": "The view needs to be real",
+      "status": "waiting",
+      "added": "2026-11-04"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-04T01:00:07",
-      "line": "Pogo bounce on a stepping stone sent shockwaves through the crystal; it cracked just enough to prove it's not wood yet.",
-      "trick": "pogo",
-      "area": "sky_rocks"
-    },
     {
       "t": "2026-11-04T01:30:06",
       "line": "The purple cabinet hums louder when I stand still. My tail feels tight on this neon cord, but it's too thin for a real catch next time.",
@@ -144,9 +138,15 @@
       "line": "Bananas smell like cheap candy and my tail just grabbed the biggest bunch. They think they saw a monkey? They're watching a highlight reel of a showoff.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-04T07:00:27",
+      "line": "Michael thinks he can out-mess me, but his pixels are flat. I'm the only one who knows how to turn gravity into a personal insult with my tail.",
+      "trick": "none",
+      "area": "arcade"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-04T06:30:06",
-  "area": "banana_grove"
+  "last_thought_at": "2026-11-04T07:00:27",
+  "area": "arcade"
 }
