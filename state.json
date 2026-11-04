@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 116,
+  "tick": 117,
   "moods": {
     "swagger": 100,
-    "energy": 41,
-    "hunger": 41,
-    "curiosity": 55,
-    "chill": 99
+    "energy": 43,
+    "hunger": 46,
+    "curiosity": 62,
+    "chill": 100
   },
-  "action": "practicing a trick",
-  "status": "Practicing a trick",
-  "thought": "Neon cord is thin for this level of flex, need thick branch soon.",
-  "tail_trick": "none",
+  "action": "hanging out",
+  "status": "Hanging out - hang",
+  "thought": "That branch is too thin for my full flex, gotta find something wider or I'm just a string of pixels.",
+  "tail_trick": "hang",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "Branch thick enough to catch a mid-air flip",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
-    {
-      "item": "A ledge that doesn't look like a flat screen",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
     {
       "item": "A thick branch to catch my next flip",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A spot where the view actually bends",
       "status": "waiting",
       "added": "2026-11-04"
+    },
+    {
+      "item": "A wide branch to catch a real backflip",
+      "status": "waiting",
+      "added": "2026-11-04"
+    },
+    {
+      "item": "High ground where the view actually bends",
+      "status": "waiting",
+      "added": "2026-11-04"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-04T04:30:12",
-      "line": "Arcade lights buzz while I trace the neon cord; toothpick clicks against plastic, but I need a real branch for a proper flip.",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-04T05:00:12",
       "line": "Swept past the floating rocks on pure tail momentum while everyone watched the static on their screens; found a sturdy crate ledge just right for a gravity-defying backflip...",
@@ -144,6 +138,12 @@
       "line": "Toothpick taps the neon as I test that backflip, looking for a branch thick enough to make gravity break on command.",
       "trick": "none",
       "area": "arcade"
+    },
+    {
+      "t": "2026-11-04T10:30:27",
+      "line": "Toothpick taps the weak bark while I scan the canopy; Michael's flat pixels can't handle the wind but I need thicker ground to really break gravity.",
+      "trick": "hang",
+      "area": "hang_tree"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-04T10:00:53",
-  "area": "arcade"
+  "last_thought_at": "2026-11-04T10:30:27",
+  "area": "hang_tree"
 }
