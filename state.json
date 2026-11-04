@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 91,
+  "tick": 92,
   "moods": {
     "swagger": 100,
-    "energy": 41,
-    "hunger": 64,
-    "curiosity": 44,
+    "energy": 47,
+    "hunger": 70,
+    "curiosity": 50,
     "chill": 100
   },
-  "action": "exploring",
-  "status": "Exploring - tail grab",
-  "thought": "Three palms. Zero competition. My tail knows which bunch ripened first.",
-  "tail_trick": "tail_grab",
+  "action": "hanging out",
+  "status": "Hanging out - pogo",
+  "thought": "Floating slab under me, tail coiled, ready for the next bounce.",
+  "tail_trick": "pogo",
   "prop": "espresso",
   "wants": [
-    {
-      "item": "Something that reflects my fur without needing a screen.",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
-    {
-      "item": "A branch thicker than this neon wire to land safely",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "Something that matches the shine of my black coat",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Banana bunch that glows when I hang upside down",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "A wider ledge for a longer tail swing",
+      "status": "waiting",
+      "added": "2026-11-03"
+    },
+    {
+      "item": "A glossy slab to spin the tail on",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T14:30:19",
-      "line": "Chewing banana mush with my tail looped tight; looks like a messy halo on this dusty tree.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-03T15:00:22",
       "line": "They're frozen in the arcade like statues while I dangle from a neon cord and they just can't look away.",
@@ -144,9 +138,15 @@
       "line": "Snagged the prime bunch from the center palm with a clean tail loop. The other two bunches watched. They'll remember.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-03T22:02:03",
+      "line": "I snagged a drifting pixel shard with my tail, spun it like a disc, and let it glide past the crowd, just to prove I own the sky.",
+      "trick": "pogo",
+      "area": "sky_rocks"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T21:32:16",
-  "area": "banana_grove"
+  "last_thought_at": "2026-11-03T22:02:03",
+  "area": "sky_rocks"
 }
