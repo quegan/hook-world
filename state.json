@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 114,
+  "tick": 115,
   "moods": {
     "swagger": 100,
-    "energy": 49,
-    "hunger": 31,
-    "curiosity": 47,
-    "chill": 98
+    "energy": 51,
+    "hunger": 36,
+    "curiosity": 53,
+    "chill": 100
   },
-  "action": "upgrading the spot",
-  "status": "Upgrading the spot - pogo",
-  "thought": "Toothpick's too boring for this view, but I can't stop flexing on those floating rocks.",
-  "tail_trick": "pogo",
+  "action": "hanging out",
+  "status": "Hanging out - tail grab",
+  "thought": "Need a branch thick enough to catch me mid-flip before anyone else figures out what I'm doing.",
+  "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A thick branch for no-slip flips",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
-    {
-      "item": "The view needs to be real",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
     {
       "item": "Branch thick enough to catch a mid-air flip",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A spot where the view actually bends, not just looks...",
       "status": "waiting",
       "added": "2026-11-04"
+    },
+    {
+      "item": "A branch thick enough to catch me mid-flip",
+      "status": "waiting",
+      "added": "2026-11-04"
+    },
+    {
+      "item": "A spot where the view actually bends",
+      "status": "waiting",
+      "added": "2026-11-04"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-04T03:30:14",
-      "line": "Espresso burns clean while I loop the neon cord tighter than my hand could ever manage. The branch holds firm, but that mid-air flip needs a grip so thick it never slips.",
-      "trick": "hang",
-      "area": "hang_tree"
-    },
     {
       "t": "2026-11-04T04:00:07",
       "line": "The waterfall steam curls around my tail loop; toothpick finds a smooth spot on the lily pad, but that swing still feels like it's missing a beat.",
@@ -144,6 +138,12 @@
       "line": "The air tastes like static and neon; toothpick taps the stone as I test my balance mid-pogo before anyone else realizes what I'm doing.",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-04T09:30:16",
+      "line": "Tapping the wood with my toothpick while testing my backflip on the neon cord, trying to turn gravity into a personal insult.",
+      "trick": "tail_grab",
+      "area": "hangout"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-04T09:01:37",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-04T09:30:16",
+  "area": "hangout"
 }
