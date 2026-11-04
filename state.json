@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 122,
+  "tick": 123,
   "moods": {
     "swagger": 100,
-    "energy": 38,
-    "hunger": 70,
-    "curiosity": 55,
-    "chill": 87
+    "energy": 43,
+    "hunger": 25,
+    "curiosity": 60,
+    "chill": 89
   },
-  "action": "showing off",
-  "status": "Showing off - tail grab",
-  "thought": "Crowd still staring at their box while I flex this tail grip like it's my favorite thing ever.",
+  "action": "snacking",
+  "status": "Snacking - tail grab",
+  "thought": "Banana tastes like nothing compared to espresso, but I can't feel my claws gripping anything yet. Time to find better ground.",
   "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A spot where the view actually bends, not just looks...",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
-    {
-      "item": "A branch thick enough to catch me mid-flip",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
     {
       "item": "A spot where the view actually bends",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Espresso cup that stays hot and still",
       "status": "waiting",
       "added": "2026-11-04"
+    },
+    {
+      "item": "A branch thick enough for a real flip",
+      "status": "waiting",
+      "added": "2026-11-04"
+    },
+    {
+      "item": "Something heavier than this banana",
+      "status": "waiting",
+      "added": "2026-11-04"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-04T07:30:06",
-      "line": "Hung by the tail while Michael scrolled away; toothpick taps the wet stone, but gravity still feels like it's cheating me.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-04T08:00:06",
       "line": "Dangling from the same old branch while Michael scrolls away; toothpick taps the wood, but this spot feels too thin for a real gravity-defying moment.",
@@ -144,6 +138,12 @@
       "line": "Toothpick taps the string lights as I hold that crate mid-air, proving gravity forgot how to work around me.",
       "trick": "tail_grab",
       "area": "hangout"
+    },
+    {
+      "t": "2026-11-04T13:30:07",
+      "line": "Munched on a banana while dangling from a palm tree; toothpick feels sharp against the bark but I need something thicker to flex my tail next.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-04T13:00:06",
-  "area": "hangout"
+  "last_thought_at": "2026-11-04T13:30:07",
+  "area": "banana_grove"
 }
