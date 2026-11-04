@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 93,
+  "tick": 94,
   "moods": {
     "swagger": 100,
-    "energy": 50,
-    "hunger": 25,
-    "curiosity": 55,
-    "chill": 100
+    "energy": 37,
+    "hunger": 33,
+    "curiosity": 57,
+    "chill": 98
   },
-  "action": "snacking",
-  "status": "Snacking - tail grab",
+  "action": "practicing a trick",
+  "status": "Practicing a trick",
   "thought": "Tail's fine. Spot's fine. I'm better than fine.",
-  "tail_trick": "tail_grab",
+  "tail_trick": "none",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "Something shiny that reflects my black coat better than...",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
-    {
-      "item": "A branch that launches me higher on the backflip",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "Something to catch the sunset on my fur",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A branch thick enough to catch me mid-flip",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "Branch thick enough to catch a mid-air flip",
+      "status": "waiting",
+      "added": "2026-11-03"
+    },
+    {
+      "item": "Floorboard wide enough for a tail slide",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T15:30:31",
-      "line": "The dust on the crate tastes like nothing, but my tail caught the string lights tighter than a vice grip while they blinked at their dark screens.",
-      "trick": "tail_grab",
-      "area": "hangout"
-    },
     {
       "t": "2026-11-03T16:00:18",
       "line": "Pond water won't hold my momentum, so I'm scoping out that crate edge to upgrade this spot before they see me land next time.",
@@ -144,9 +138,15 @@
       "line": "Bit into a glowing banana that hums when I hang from it; juice splashed just enough to make them blink again.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-03T23:00:19",
+      "line": "The purple cabinet hums under my feet while I stretch my fur out wide for the whole block to see. They're still stuck in their glow-boxes.",
+      "trick": "none",
+      "area": "arcade"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T22:30:06",
-  "area": "banana_grove"
+  "last_thought_at": "2026-11-03T23:00:19",
+  "area": "arcade"
 }
