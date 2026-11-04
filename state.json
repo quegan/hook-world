@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 96,
+  "tick": 97,
   "moods": {
     "swagger": 100,
-    "energy": 41,
-    "hunger": 39,
-    "curiosity": 60,
-    "chill": 96
+    "energy": 46,
+    "hunger": 44,
+    "curiosity": 65,
+    "chill": 100
   },
-  "action": "practicing a trick",
-  "status": "Practicing a trick - tail grab",
-  "thought": "Neon cord snaps tight, but that branch is still too flimsy for a real spin.",
-  "tail_trick": "tail_grab",
-  "prop": "toothpick",
+  "action": "hanging out",
+  "status": "Hanging out",
+  "thought": "Cord feels thin again. Need real wood to lock that flip tight before Michael asks about my grip strength.",
+  "tail_trick": "none",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "A slick stone to spin my tail on",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
-    {
-      "item": "A higher ledge for a tail swing",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "A palm trunk slick enough for a tail slide",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Glossy slab for better tail slides",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "Thick branch for mid-flip catch",
+      "status": "waiting",
+      "added": "2026-11-04"
+    },
+    {
+      "item": "Solid moss ledge for landing practice",
+      "status": "waiting",
+      "added": "2026-11-04"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T17:00:10",
-      "line": "Slept on a soft moss patch while they scrolled, now I'm testing that hammock for a perfect pogo bounce to show them real stability.",
-      "trick": "backflip",
-      "area": "lookout_ledge"
-    },
     {
       "t": "2026-11-03T17:30:17",
       "line": "Sitting on the edge of the crate, tail coiled tight around the espresso cup like a vice. The crowd is still staring at pixels while my coffee gets a little warm.",
@@ -144,9 +138,15 @@
       "line": "The neon cord held me solid as I looped the tail, but my grip feels slippery. Need something thicker to really own the air.",
       "trick": "tail_grab",
       "area": "hangout"
+    },
+    {
+      "t": "2026-11-04T00:30:11",
+      "line": "Sipped espresso to wake up the nerves while dangling over the waterfall. Cord snapped under my weight like it was plastic, not wood yet.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-04T00:00:45",
-  "area": "hangout"
+  "last_thought_at": "2026-11-04T00:30:11",
+  "area": "waterfall_pond"
 }
