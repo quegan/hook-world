@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 127,
+  "tick": 128,
   "moods": {
     "swagger": 100,
-    "energy": 54,
-    "hunger": 44,
-    "curiosity": 62,
-    "chill": 95
+    "energy": 47,
+    "hunger": 50,
+    "curiosity": 53,
+    "chill": 96
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso - pogo",
-  "thought": "This crystal view is better than last time, but my tail still feels a bit loose for serious flexing next up.",
-  "tail_trick": "pogo",
-  "prop": "espresso",
+  "action": "exploring",
+  "status": "Exploring - tail grab",
+  "thought": "Gravity's weak here. Need thicker ground for a real flip before they notice me hanging from this noodle branch.",
+  "tail_trick": "tail_grab",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A thicker branch to do a real backflip on",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
-    {
-      "item": "An espresso cup that doesn't spill",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
     {
       "item": "A thick branch to catch the next flip",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "More espresso to keep the glow going",
       "status": "waiting",
       "added": "2026-11-04"
+    },
+    {
+      "item": "A branch thick enough for a true backflip",
+      "status": "waiting",
+      "added": "2026-11-04"
+    },
+    {
+      "item": "More espresso to keep my fur glowing",
+      "status": "waiting",
+      "added": "2026-11-04"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-04T10:00:53",
-      "line": "Toothpick taps the neon as I test that backflip, looking for a branch thick enough to make gravity break on command.",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-04T10:30:27",
       "line": "Toothpick taps the weak bark while I scan the canopy; Michael's flat pixels can't handle the wind but I need thicker ground to really break gravity.",
@@ -144,6 +138,12 @@
       "line": "Sipped the hot brew on floating rocks while pogo-bouncing. The espresso keeps me sharp, but gravity's getting too forgiving on this ledge.",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-04T16:00:52",
+      "line": "Toothpick taps the crate while I test the wind's edge. This hang branch is too thin; my tail slips if I try the loop.",
+      "trick": "tail_grab",
+      "area": "hangout"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-04T15:30:50",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-04T16:00:52",
+  "area": "hangout"
 }
