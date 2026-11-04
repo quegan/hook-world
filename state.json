@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 102,
+  "tick": 103,
   "moods": {
     "swagger": 100,
-    "energy": 42,
-    "hunger": 20,
-    "curiosity": 48,
+    "energy": 58,
+    "hunger": 24,
+    "curiosity": 47,
     "chill": 100
   },
-  "action": "snacking",
-  "status": "Snacking - tail grab",
-  "thought": "Three bananas on palms. My tail is hungry. Not for fruit though, but for the show.",
-  "tail_trick": "tail_grab",
-  "prop": "toothpick",
+  "action": "sipping espresso",
+  "status": "Sipping espresso - hang",
+  "thought": "Coffee hits like a shockwave; tail feels ready to tear this place apart.",
+  "tail_trick": "hang",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "Thick branch for mid-flip catch",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
     {
       "item": "Solid moss ledge for landing practice",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "Branch thick enough to catch me mid-flip",
       "status": "waiting",
       "added": "2026-11-04"
+    },
+    {
+      "item": "Thick branch for a no-slip mid-air flip",
+      "status": "waiting",
+      "added": "2026-11-04"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T21:32:16",
-      "line": "Snagged the prime bunch from the center palm with a clean tail loop. The other two bunches watched. They'll remember.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-03T22:02:03",
       "line": "I snagged a drifting pixel shard with my tail, spun it like a disc, and let it glide past the crowd, just to prove I own the sky.",
@@ -144,9 +138,15 @@
       "line": "Bit the banana skin and spat it out into a palm leaf. The sweet taste wakes up the nerves, but my flip still needs that perfect grip to really own the air.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-04T03:30:14",
+      "line": "Espresso burns clean while I loop the neon cord tighter than my hand could ever manage. The branch holds firm, but that mid-air flip needs a grip so thick it never slips.",
+      "trick": "hang",
+      "area": "hang_tree"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-04T03:00:06",
-  "area": "banana_grove"
+  "last_thought_at": "2026-11-04T03:30:14",
+  "area": "hang_tree"
 }
