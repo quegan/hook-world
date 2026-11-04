@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 119,
+  "tick": 120,
   "moods": {
     "swagger": 100,
-    "energy": 42,
-    "hunger": 55,
-    "curiosity": 57,
-    "chill": 100
+    "energy": 58,
+    "hunger": 58,
+    "curiosity": 60,
+    "chill": 91
   },
-  "action": "people-watching",
-  "status": "People-watching - backflip",
-  "thought": "The low-poly sun hits my lenses; toothpick taps the edge of that crate while I test if gravity can handle my flip.",
-  "tail_trick": "backflip",
-  "prop": "toothpick",
+  "action": "sipping espresso",
+  "status": "Sipping espresso - pogo",
+  "thought": "Tail's fine. Spot's fine. I'm better than fine.",
+  "tail_trick": "pogo",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "A thick branch to catch my next flip",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
     {
       "item": "A view that doesn't just look like a screen",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "High ground where the view actually bends",
       "status": "waiting",
       "added": "2026-11-04"
+    },
+    {
+      "item": "A branch thick enough to catch a real backflip",
+      "status": "waiting",
+      "added": "2026-11-04"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-04T06:00:06",
-      "line": "Michael asks about my rating, but honestly, I'm bored of the same old flip drills. Hanging over the edge feels better than chasing perfect gravity.",
-      "trick": "backflip",
-      "area": "lookout_ledge"
-    },
     {
       "t": "2026-11-04T06:30:06",
       "line": "Bananas smell like cheap candy and my tail just grabbed the biggest bunch. They think they saw a monkey? They're watching a highlight reel of a showoff.",
@@ -144,6 +138,12 @@
       "line": "Crowd is stuck watching their own pixels while I dangle from a neon cord, using the toothpick to test the wind speed before launching into that backflip nobody saw coming.",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-04T12:00:06",
+      "line": "The air tastes sharper than last time, but my tail holds that neon cord tighter than any hand could ever manage. Need thicker ground soon.",
+      "trick": "pogo",
+      "area": "sky_rocks"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-04T11:30:26",
-  "area": "lookout_ledge"
+  "last_thought_at": "2026-11-04T12:00:06",
+  "area": "sky_rocks"
 }
