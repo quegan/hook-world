@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 106,
+  "tick": 107,
   "moods": {
     "swagger": 100,
-    "energy": 38,
-    "hunger": 41,
-    "curiosity": 25,
-    "chill": 100
+    "energy": 54,
+    "hunger": 44,
+    "curiosity": 30,
+    "chill": 91
   },
-  "action": "people-watching",
-  "status": "People-watching - pogo",
-  "thought": "The neon cord's too thin for that clean flip. Time to find real muscle room.",
-  "tail_trick": "pogo",
-  "prop": "toothpick",
+  "action": "sipping espresso",
+  "status": "Sipping espresso - tail grab",
+  "thought": "Toothpick sharp but this place feels thin. Need a branch that can actually hold my weight without me falling flat.",
+  "tail_trick": "tail_grab",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "Want a spot with better grip for flexing my tail",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
     {
       "item": "Branch thick enough for a mid-air flip",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "Ledge that never gives an inch to the flip",
       "status": "waiting",
       "added": "2026-11-04"
+    },
+    {
+      "item": "High ledge with zero wind resistance",
+      "status": "waiting",
+      "added": "2026-11-04"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T23:30:16",
-      "line": "Espresso burns like a hot tail loop while I sip. The hang branch feels good, but my flip needs more grip next time.",
-      "trick": "hang",
-      "area": "hang_tree"
-    },
     {
       "t": "2026-11-04T00:00:45",
       "line": "The neon cord held me solid as I looped the tail, but my grip feels slippery. Need something thicker to really own the air.",
@@ -144,9 +138,15 @@
       "line": "Swept past the floating rocks on pure tail momentum while everyone watched the static on their screens; found a sturdy crate ledge just right for a gravity-defying backflip...",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-04T05:30:58",
+      "line": "The espresso burns hotter than before while I hunt for a new perch. This spot won't do, need something thicker to flex on.",
+      "trick": "tail_grab",
+      "area": "hangout"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-04T05:00:12",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-04T05:30:58",
+  "area": "hangout"
 }
