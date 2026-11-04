@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 101,
+  "tick": 102,
   "moods": {
     "swagger": 100,
-    "energy": 37,
-    "hunger": 65,
-    "curiosity": 46,
+    "energy": 42,
+    "hunger": 20,
+    "curiosity": 48,
     "chill": 100
   },
-  "action": "people-watching",
-  "status": "People-watching - tail grab",
-  "thought": "Crowd's glued to pixels while I test that thick branch. Need mid-air grip before anyone sees my flex.",
+  "action": "snacking",
+  "status": "Snacking - tail grab",
+  "thought": "Three bananas on palms. My tail is hungry. Not for fruit though, but for the show.",
   "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "Glossy slab for better tail slides",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "Thick branch for mid-flip catch",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "Branch thick enough for a no-slip mid-air flip",
       "status": "waiting",
       "added": "2026-11-04"
+    },
+    {
+      "item": "Branch thick enough to catch me mid-flip",
+      "status": "waiting",
+      "added": "2026-11-04"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T19:32:08",
-      "line": "I perched on the mossy ledge by the pond, tail flicked the falling water into a thin arc, catching a glint of a hidden pebble that slid away.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-03T21:32:16",
       "line": "Snagged the prime bunch from the center palm with a clean tail loop. The other two bunches watched. They'll remember.",
@@ -144,9 +138,15 @@
       "line": "Toothpick clicks against the bark. Branch holds, but my flip needs more snap next time.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-04T03:00:06",
+      "line": "Bit the banana skin and spat it out into a palm leaf. The sweet taste wakes up the nerves, but my flip still needs that perfect grip to really own the air.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-04T02:30:06",
+  "last_thought_at": "2026-11-04T03:00:06",
   "area": "banana_grove"
 }
