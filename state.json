@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 126,
+  "tick": 127,
   "moods": {
     "swagger": 100,
-    "energy": 41,
-    "hunger": 41,
-    "curiosity": 59,
-    "chill": 100
+    "energy": 54,
+    "hunger": 44,
+    "curiosity": 62,
+    "chill": 95
   },
-  "action": "exploring",
-  "status": "Exploring",
-  "thought": "The arcade hums, I circle the cabinet, tail flicking over the buttons.",
-  "tail_trick": "none",
+  "action": "sipping espresso",
+  "status": "Sipping espresso - pogo",
+  "thought": "This crystal view is better than last time, but my tail still feels a bit loose for serious flexing next up.",
+  "tail_trick": "pogo",
   "prop": "espresso",
   "wants": [
-    {
-      "item": "High ground where the view actually bends",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
-    {
-      "item": "A branch thick enough to catch a real backflip",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
     {
       "item": "A thicker branch to do a real backflip on",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A taller pole to swing from the arcade ceiling.",
       "status": "waiting",
       "added": "2026-11-04"
+    },
+    {
+      "item": "A thicker branch for a real loop",
+      "status": "waiting",
+      "added": "2026-11-04"
+    },
+    {
+      "item": "More espresso to keep the glow going",
+      "status": "waiting",
+      "added": "2026-11-04"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-04T09:30:16",
-      "line": "Tapping the wood with my toothpick while testing my backflip on the neon cord, trying to turn gravity into a personal insult.",
-      "trick": "tail_grab",
-      "area": "hangout"
-    },
     {
       "t": "2026-11-04T10:00:53",
       "line": "Toothpick taps the neon as I test that backflip, looking for a branch thick enough to make gravity break on command.",
@@ -144,6 +138,12 @@
       "line": "I slipped behind the purple cabinet, nudged the joystick with my tail, and let the neon flicker paint my silhouette while I sip espresso.",
       "trick": "none",
       "area": "arcade"
+    },
+    {
+      "t": "2026-11-04T15:30:50",
+      "line": "Sipped the hot brew on floating rocks while pogo-bouncing. The espresso keeps me sharp, but gravity's getting too forgiving on this ledge.",
+      "trick": "pogo",
+      "area": "sky_rocks"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-04T15:05:24",
-  "area": "arcade"
+  "last_thought_at": "2026-11-04T15:30:50",
+  "area": "sky_rocks"
 }
