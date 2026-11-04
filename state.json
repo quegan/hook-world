@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 94,
+  "tick": 95,
   "moods": {
     "swagger": 100,
-    "energy": 37,
-    "hunger": 33,
+    "energy": 52,
+    "hunger": 35,
     "curiosity": 57,
-    "chill": 98
+    "chill": 92
   },
-  "action": "practicing a trick",
-  "status": "Practicing a trick",
-  "thought": "Tail's fine. Spot's fine. I'm better than fine.",
-  "tail_trick": "none",
-  "prop": "toothpick",
+  "action": "sipping espresso",
+  "status": "Sipping espresso - hang",
+  "thought": "Espresso hits harder than the crowd's pixelated stares. Still need that thick branch.",
+  "tail_trick": "hang",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "Something to catch the sunset on my fur",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "A slick stone to spin my tail on",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "Floorboard wide enough for a tail slide",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "Glossy slab for better tail slides",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T16:00:18",
-      "line": "Pond water won't hold my momentum, so I'm scoping out that crate edge to upgrade this spot before they see me land next time.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-03T16:30:05",
       "line": "The crystal glitters but it's too slippery; tail looped tight just to stay on these stepping stones while they stare at nothing.",
@@ -144,9 +138,15 @@
       "line": "The purple cabinet hums under my feet while I stretch my fur out wide for the whole block to see. They're still stuck in their glow-boxes.",
       "trick": "none",
       "area": "arcade"
+    },
+    {
+      "t": "2026-11-03T23:30:16",
+      "line": "Espresso burns like a hot tail loop while I sip. The hang branch feels good, but my flip needs more grip next time.",
+      "trick": "hang",
+      "area": "hang_tree"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T23:00:19",
-  "area": "arcade"
+  "last_thought_at": "2026-11-03T23:30:16",
+  "area": "hang_tree"
 }
