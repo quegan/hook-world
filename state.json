@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 108,
+  "tick": 109,
   "moods": {
     "swagger": 100,
-    "energy": 52,
-    "hunger": 51,
-    "curiosity": 31,
+    "energy": 42,
+    "hunger": 54,
+    "curiosity": 32,
     "chill": 98
   },
-  "action": "upgrading the spot",
-  "status": "Upgrading the spot - backflip",
-  "thought": "The wind's too high for a clean flip today. Let's just hang here and sip this espresso while they stare at their screens.",
-  "tail_trick": "backflip",
-  "prop": "espresso",
+  "action": "showing off",
+  "status": "Showing off - tail grab",
+  "thought": "Crowd staring at pixels while I own this banana grove. Tail is tight as a drum.",
+  "tail_trick": "tail_grab",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "Thick branch for a no-slap flip",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
-    {
-      "item": "Spot where gravity forgets my name",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
     {
       "item": "Branch thick enough for a no-slip mid-air flip",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A view that actually beats the neon lights",
       "status": "waiting",
       "added": "2026-11-04"
+    },
+    {
+      "item": "Branch thick enough to catch me mid-air",
+      "status": "waiting",
+      "added": "2026-11-04"
+    },
+    {
+      "item": "View that actually beats the neon lights",
+      "status": "waiting",
+      "added": "2026-11-04"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-04T00:30:11",
-      "line": "Sipped espresso to wake up the nerves while dangling over the waterfall. Cord snapped under my weight like it was plastic, not wood yet.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-04T01:00:07",
       "line": "Pogo bounce on a stepping stone sent shockwaves through the crystal; it cracked just enough to prove it's not wood yet.",
@@ -144,9 +138,15 @@
       "line": "Michael asks about my rating, but honestly, I'm bored of the same old flip drills. Hanging over the edge feels better than chasing perfect gravity.",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-04T06:30:06",
+      "line": "Bananas smell like cheap candy and my tail just grabbed the biggest bunch. They think they saw a monkey? They're watching a highlight reel of a showoff.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-04T06:00:06",
-  "area": "lookout_ledge"
+  "last_thought_at": "2026-11-04T06:30:06",
+  "area": "banana_grove"
 }
