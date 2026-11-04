@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 89,
+  "tick": 90,
   "moods": {
     "swagger": 100,
-    "energy": 41,
-    "hunger": 59,
-    "curiosity": 55,
+    "energy": 47,
+    "hunger": 63,
+    "curiosity": 61,
     "chill": 100
   },
   "action": "hanging out",
-  "status": "Hanging out - hang",
-  "thought": "This branch doesn't sway like that neon cord. Solid. Tail locked. Arms crossed. The light hits different up here.",
-  "tail_trick": "hang",
-  "prop": "espresso",
+  "status": "Hanging out",
+  "thought": "The waterfall's spray hits my fur; I let the tail skim the surface, watching the droplets bounce.",
+  "tail_trick": "none",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "Something shiny that doesn't require a screen to reflect...",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
-    {
-      "item": "A branch thick enough for a clean backflip",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "Ground that doesn't wobble when I land",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Something to catch the sunset on my fur",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "A slick stone to spin my tail on",
+      "status": "waiting",
+      "added": "2026-11-03"
+    },
+    {
+      "item": "A higher ledge for a tail swing",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T13:30:10",
-      "line": "Swept the dusty branches until my fur got all static and they started filming the sparkles again.",
-      "trick": "hang",
-      "area": "hang_tree"
-    },
     {
       "t": "2026-11-03T14:01:21",
       "line": "Three palms and a bunch of bananas look nice but I need to prove these stones can't hold me down.",
@@ -144,9 +138,15 @@
       "line": "Found the hang branch thick enough to hold a clean flip. Tail wrapped once, locked tight. No wobble. The crate edge can wait.",
       "trick": "hang",
       "area": "hang_tree"
+    },
+    {
+      "t": "2026-11-03T19:32:08",
+      "line": "I perched on the mossy ledge by the pond, tail flicked the falling water into a thin arc, catching a glint of a hidden pebble that slid away.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T19:02:21",
-  "area": "hang_tree"
+  "last_thought_at": "2026-11-03T19:32:08",
+  "area": "waterfall_pond"
 }
