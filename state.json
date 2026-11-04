@@ -1,16 +1,16 @@
 {
   "name": "HOOK",
-  "tick": 104,
+  "tick": 105,
   "moods": {
     "swagger": 100,
-    "energy": 50,
-    "hunger": 30,
-    "curiosity": 36,
-    "chill": 100
+    "energy": 40,
+    "hunger": 36,
+    "curiosity": 29,
+    "chill": 97
   },
   "action": "exploring",
   "status": "Exploring",
-  "thought": "Toothpick clicks against the water. The branch holds, but my flip needs that perfect grip to really own the air.",
+  "thought": "Neon hums too loud here. Toothpick's boring until I find that thick branch.",
   "tail_trick": "none",
   "prop": "toothpick",
   "wants": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T22:30:06",
-      "line": "Bit into a glowing banana that hums when I hang from it; juice splashed just enough to make them blink again.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-03T23:00:19",
       "line": "The purple cabinet hums under my feet while I stretch my fur out wide for the whole block to see. They're still stuck in their glow-boxes.",
@@ -144,9 +138,15 @@
       "line": "The waterfall steam curls around my tail loop; toothpick finds a smooth spot on the lily pad, but that swing still feels like it's missing a beat.",
       "trick": "none",
       "area": "waterfall_pond"
+    },
+    {
+      "t": "2026-11-04T04:30:12",
+      "line": "Arcade lights buzz while I trace the neon cord; toothpick clicks against plastic, but I need a real branch for a proper flip.",
+      "trick": "none",
+      "area": "arcade"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-04T04:00:07",
-  "area": "waterfall_pond"
+  "last_thought_at": "2026-11-04T04:30:12",
+  "area": "arcade"
 }
