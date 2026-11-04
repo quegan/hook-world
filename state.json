@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 92,
+  "tick": 93,
   "moods": {
     "swagger": 100,
-    "energy": 47,
-    "hunger": 70,
-    "curiosity": 50,
+    "energy": 50,
+    "hunger": 25,
+    "curiosity": 55,
     "chill": 100
   },
-  "action": "hanging out",
-  "status": "Hanging out - pogo",
-  "thought": "Floating slab under me, tail coiled, ready for the next bounce.",
-  "tail_trick": "pogo",
-  "prop": "espresso",
+  "action": "snacking",
+  "status": "Snacking - tail grab",
+  "thought": "Tail's fine. Spot's fine. I'm better than fine.",
+  "tail_trick": "tail_grab",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "Something that matches the shine of my black coat",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "Something shiny that reflects my black coat better than...",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "A glossy slab to spin the tail on",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "A branch thick enough to catch me mid-flip",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T15:00:22",
-      "line": "They're frozen in the arcade like statues while I dangle from a neon cord and they just can't look away.",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-03T15:30:31",
       "line": "The dust on the crate tastes like nothing, but my tail caught the string lights tighter than a vice grip while they blinked at their dark screens.",
@@ -144,9 +138,15 @@
       "line": "I snagged a drifting pixel shard with my tail, spun it like a disc, and let it glide past the crowd, just to prove I own the sky.",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-03T22:30:06",
+      "line": "Bit into a glowing banana that hums when I hang from it; juice splashed just enough to make them blink again.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T22:02:03",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-03T22:30:06",
+  "area": "banana_grove"
 }
