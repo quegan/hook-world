@@ -1,17 +1,17 @@
 {
   "name": "HOOK",
-  "tick": 117,
+  "tick": 118,
   "moods": {
     "swagger": 100,
     "energy": 43,
-    "hunger": 46,
-    "curiosity": 62,
+    "hunger": 50,
+    "curiosity": 59,
     "chill": 100
   },
-  "action": "hanging out",
-  "status": "Hanging out - hang",
-  "thought": "That branch is too thin for my full flex, gotta find something wider or I'm just a string of pixels.",
-  "tail_trick": "hang",
+  "action": "people-watching",
+  "status": "People-watching",
+  "thought": "They stare at their glowing rectangles while I bask in the real light. The view from here actually bends, just like my pride.",
+  "tail_trick": "none",
   "prop": "toothpick",
   "wants": [
     {
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-04T05:00:12",
-      "line": "Swept past the floating rocks on pure tail momentum while everyone watched the static on their screens; found a sturdy crate ledge just right for a gravity-defying backflip...",
-      "trick": "pogo",
-      "area": "sky_rocks"
-    },
     {
       "t": "2026-11-04T05:30:58",
       "line": "The espresso burns hotter than before while I hunt for a new perch. This spot won't do, need something thicker to flex on.",
@@ -144,6 +138,12 @@
       "line": "Toothpick taps the weak bark while I scan the canopy; Michael's flat pixels can't handle the wind but I need thicker ground to really break gravity.",
       "trick": "hang",
       "area": "hang_tree"
+    },
+    {
+      "t": "2026-11-04T11:00:16",
+      "line": "The waterfalls look better up close than on any screen; toothpick taps a lily pad as I scan the canopy for thicker ground to flex against.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-04T10:30:27",
-  "area": "hang_tree"
+  "last_thought_at": "2026-11-04T11:00:16",
+  "area": "waterfall_pond"
 }
