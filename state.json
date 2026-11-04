@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 110,
+  "tick": 111,
   "moods": {
     "swagger": 100,
-    "energy": 58,
-    "hunger": 57,
-    "curiosity": 34,
-    "chill": 91
+    "energy": 60,
+    "hunger": 62,
+    "curiosity": 40,
+    "chill": 97
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso",
-  "thought": "Coffee's done; I need that branch so I don't have to balance on a box while looking like an idiot.",
+  "action": "hanging out",
+  "status": "Hanging out",
+  "thought": "Toothpick feels clean, but this ledge is too thin for a real flex. Need something thicker to prove my fur isn't just pixels.",
   "tail_trick": "none",
-  "prop": "espresso",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "Thick branch for a no-slip mid-air flip",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
-    {
-      "item": "Crate strong enough to take my mid-air weight",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
     {
       "item": "Ledge that never gives an inch to the flip",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "The view needs to be real",
       "status": "waiting",
       "added": "2026-11-04"
+    },
+    {
+      "item": "Branch thick enough to catch a mid-air flip",
+      "status": "waiting",
+      "added": "2026-11-04"
+    },
+    {
+      "item": "A ledge that doesn't look like a flat screen",
+      "status": "waiting",
+      "added": "2026-11-04"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-04T01:30:06",
-      "line": "The purple cabinet hums louder when I stand still. My tail feels tight on this neon cord, but it's too thin for a real catch next time.",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-04T02:00:15",
       "line": "Dangled legs over the islet hut; neon light makes my fur look like it got its own spotlight. Toothpick steady in hand, but that branch back there?",
@@ -144,9 +138,15 @@
       "line": "Michael thinks he can out-mess me, but his pixels are flat. I'm the only one who knows how to turn gravity into a personal insult with my tail.",
       "trick": "none",
       "area": "arcade"
+    },
+    {
+      "t": "2026-11-04T07:30:06",
+      "line": "Hung by the tail while Michael scrolled away; toothpick taps the wet stone, but gravity still feels like it's cheating me.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-04T07:00:27",
-  "area": "arcade"
+  "last_thought_at": "2026-11-04T07:30:06",
+  "area": "waterfall_pond"
 }
