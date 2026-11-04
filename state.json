@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 100,
+  "tick": 101,
   "moods": {
     "swagger": 100,
     "energy": 37,
-    "hunger": 60,
-    "curiosity": 49,
+    "hunger": 65,
+    "curiosity": 46,
     "chill": 100
   },
   "action": "people-watching",
-  "status": "People-watching - backflip",
-  "thought": "Crowd's too busy staring at pixels while I dance on a cabinet they can't touch.",
-  "tail_trick": "backflip",
+  "status": "People-watching - tail grab",
+  "thought": "Crowd's glued to pixels while I test that thick branch. Need mid-air grip before anyone sees my flex.",
+  "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "Floorboard wide enough for a tail slide",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "Glossy slab for better tail slides",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "Spot where gravity forgets my name",
       "status": "waiting",
       "added": "2026-11-04"
+    },
+    {
+      "item": "Branch thick enough for a no-slip mid-air flip",
+      "status": "waiting",
+      "added": "2026-11-04"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T19:02:21",
-      "line": "Found the hang branch thick enough to hold a clean flip. Tail wrapped once, locked tight. No wobble. The crate edge can wait.",
-      "trick": "hang",
-      "area": "hang_tree"
-    },
     {
       "t": "2026-11-03T19:32:08",
       "line": "I perched on the mossy ledge by the pond, tail flicked the falling water into a thin arc, catching a glint of a hidden pebble that slid away.",
@@ -144,9 +138,15 @@
       "line": "Dangled legs over the islet hut; neon light makes my fur look like it got its own spotlight. Toothpick steady in hand, but that branch back there?",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-04T02:30:06",
+      "line": "Toothpick clicks against the bark. Branch holds, but my flip needs more snap next time.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-04T02:00:15",
-  "area": "lookout_ledge"
+  "last_thought_at": "2026-11-04T02:30:06",
+  "area": "banana_grove"
 }
