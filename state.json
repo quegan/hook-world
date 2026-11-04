@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 120,
+  "tick": 121,
   "moods": {
     "swagger": 100,
-    "energy": 58,
-    "hunger": 58,
-    "curiosity": 60,
-    "chill": 91
+    "energy": 51,
+    "hunger": 59,
+    "curiosity": 53,
+    "chill": 92
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso - pogo",
-  "thought": "Tail's fine. Spot's fine. I'm better than fine.",
-  "tail_trick": "pogo",
-  "prop": "espresso",
+  "action": "exploring",
+  "status": "Exploring - tail grab",
+  "thought": "Fruit tastes better when I hold it with my tail while chewing.",
+  "tail_trick": "tail_grab",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A view that doesn't just look like a screen",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
-    {
-      "item": "Need a thicker branch for a mid-air flip.",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
     {
       "item": "A perch with a view that actually stretches.",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A branch thick enough to catch a real backflip",
       "status": "waiting",
       "added": "2026-11-04"
+    },
+    {
+      "item": "A thicker branch to do a real backflip on",
+      "status": "waiting",
+      "added": "2026-11-04"
+    },
+    {
+      "item": "An espresso cup that doesn't spill",
+      "status": "waiting",
+      "added": "2026-11-04"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-04T06:30:06",
-      "line": "Bananas smell like cheap candy and my tail just grabbed the biggest bunch. They think they saw a monkey? They're watching a highlight reel of a showoff.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-04T07:00:27",
       "line": "Michael thinks he can out-mess me, but his pixels are flat. I'm the only one who knows how to turn gravity into a personal insult with my tail.",
@@ -144,6 +138,12 @@
       "line": "The air tastes sharper than last time, but my tail holds that neon cord tighter than any hand could ever manage. Need thicker ground soon.",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-04T12:30:07",
+      "line": "Picked a banana and grabbed it with my tail tip, ate it while crossing my arms for maximum balance. The sun is still hot but the view from here is getting old.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-04T12:00:06",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-04T12:30:07",
+  "area": "banana_grove"
 }
