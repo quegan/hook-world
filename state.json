@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 88,
+  "tick": 89,
   "moods": {
     "swagger": 100,
-    "energy": 38,
-    "hunger": 52,
-    "curiosity": 49,
+    "energy": 41,
+    "hunger": 59,
+    "curiosity": 55,
     "chill": 100
   },
-  "action": "people-watching",
-  "status": "People-watching - tail grab",
-  "thought": "Fruit tastes better when it's fresh. Toothpick keeps my edges sharp while I bite down hard on this sweet pulp.",
-  "tail_trick": "tail_grab",
-  "prop": "toothpick",
+  "action": "hanging out",
+  "status": "Hanging out - hang",
+  "thought": "This branch doesn't sway like that neon cord. Solid. Tail locked. Arms crossed. The light hits different up here.",
+  "tail_trick": "hang",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "Something that reflects my black fur better than these...",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
-    {
-      "item": "A flat shelf wide enough to land without wobbling",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "Something shiny that doesn't require a screen to reflect...",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Something shiny that reflects my black coat better than...",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "A branch that launches me higher on the backflip",
+      "status": "waiting",
+      "added": "2026-11-03"
+    },
+    {
+      "item": "Something to catch the sunset on my fur",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T13:00:20",
-      "line": "Used the fresh plum as bait for a backflip loop on the string lights; they look like little sparks compared to what I'm doing.",
-      "trick": "tail_grab",
-      "area": "hangout"
-    },
     {
       "t": "2026-11-03T13:30:10",
       "line": "Swept the dusty branches until my fur got all static and they started filming the sparkles again.",
@@ -144,9 +138,15 @@
       "line": "Bit into a ripe berry while dangling near the string lights; juice splashed just enough to catch their eyes without me even trying.",
       "trick": "tail_grab",
       "area": "hangout"
+    },
+    {
+      "t": "2026-11-03T19:02:21",
+      "line": "Found the hang branch thick enough to hold a clean flip. Tail wrapped once, locked tight. No wobble. The crate edge can wait.",
+      "trick": "hang",
+      "area": "hang_tree"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T18:32:10",
-  "area": "hangout"
+  "last_thought_at": "2026-11-03T19:02:21",
+  "area": "hang_tree"
 }
