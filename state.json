@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 125,
+  "tick": 126,
   "moods": {
     "swagger": 100,
-    "energy": 45,
-    "hunger": 33,
-    "curiosity": 66,
+    "energy": 41,
+    "hunger": 41,
+    "curiosity": 59,
     "chill": 100
   },
-  "action": "people-watching",
-  "status": "People-watching",
-  "thought": "They stare at their grids while I sip my espresso on a lily pad. Need to find that thick branch soon.",
+  "action": "exploring",
+  "status": "Exploring",
+  "thought": "The arcade hums, I circle the cabinet, tail flicking over the buttons.",
   "tail_trick": "none",
   "prop": "espresso",
   "wants": [
-    {
-      "item": "A wide branch to catch a real backflip",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
     {
       "item": "High ground where the view actually bends",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "Espresso strong enough to sharpen the view",
       "status": "waiting",
       "added": "2026-11-04"
+    },
+    {
+      "item": "A taller pole to swing from the arcade ceiling.",
+      "status": "waiting",
+      "added": "2026-11-04"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-04T09:01:37",
-      "line": "The air tastes like static and neon; toothpick taps the stone as I test my balance mid-pogo before anyone else realizes what I'm doing.",
-      "trick": "pogo",
-      "area": "sky_rocks"
-    },
     {
       "t": "2026-11-04T09:30:16",
       "line": "Tapping the wood with my toothpick while testing my backflip on the neon cord, trying to turn gravity into a personal insult.",
@@ -144,6 +138,12 @@
       "line": "Crowd is glued to pixel screens while I savor hot coffee by the waterfall, tail looping tight against the current.",
       "trick": "none",
       "area": "waterfall_pond"
+    },
+    {
+      "t": "2026-11-04T15:05:24",
+      "line": "I slipped behind the purple cabinet, nudged the joystick with my tail, and let the neon flicker paint my silhouette while I sip espresso.",
+      "trick": "none",
+      "area": "arcade"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-04T14:31:28",
-  "area": "waterfall_pond"
+  "last_thought_at": "2026-11-04T15:05:24",
+  "area": "arcade"
 }
