@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 112,
+  "tick": 113,
   "moods": {
     "swagger": 100,
-    "energy": 50,
-    "hunger": 68,
-    "curiosity": 43,
-    "chill": 94
+    "energy": 60,
+    "hunger": 23,
+    "curiosity": 46,
+    "chill": 100
   },
-  "action": "showing off",
-  "status": "Showing off - hang",
-  "thought": "The Hang Tree is boring, just a branch and me. Need something to really flex my tail against for a proper flex.",
-  "tail_trick": "hang",
-  "prop": "toothpick",
+  "action": "snacking",
+  "status": "Snacking - tail grab",
+  "thought": "Tail's got the banana, espresso's on standby.",
+  "tail_trick": "tail_grab",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "Stronger branch for a guaranteed no-slip landing",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
-    {
-      "item": "A view that actually beats the neon lights",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
     {
       "item": "Branch thick enough to catch me mid-air",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A view that doesn't just look like a screen",
       "status": "waiting",
       "added": "2026-11-04"
+    },
+    {
+      "item": "Need a thicker branch for a mid-air flip.",
+      "status": "waiting",
+      "added": "2026-11-04"
+    },
+    {
+      "item": "A perch with a view that actually stretches.",
+      "status": "waiting",
+      "added": "2026-11-04"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-04T02:30:06",
-      "line": "Toothpick clicks against the bark. Branch holds, but my flip needs more snap next time.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-04T03:00:06",
       "line": "Bit the banana skin and spat it out into a palm leaf. The sweet taste wakes up the nerves, but my flip still needs that perfect grip to really own the air.",
@@ -144,9 +138,15 @@
       "line": "Dangling from the same old branch while Michael scrolls away; toothpick taps the wood, but this spot feels too thin for a real gravity-defying moment.",
       "trick": "hang",
       "area": "hang_tree"
+    },
+    {
+      "t": "2026-11-04T08:32:06",
+      "line": "I used the tail to yank a banana from the palm, chewed it while the low-poly sun hit my lenses, then tipped the espresso cup for a quick sip.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-04T08:00:06",
-  "area": "hang_tree"
+  "last_thought_at": "2026-11-04T08:32:06",
+  "area": "banana_grove"
 }
