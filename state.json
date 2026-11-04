@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 107,
+  "tick": 108,
   "moods": {
     "swagger": 100,
-    "energy": 54,
-    "hunger": 44,
-    "curiosity": 30,
-    "chill": 91
+    "energy": 52,
+    "hunger": 51,
+    "curiosity": 31,
+    "chill": 98
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso - tail grab",
-  "thought": "Toothpick sharp but this place feels thin. Need a branch that can actually hold my weight without me falling flat.",
-  "tail_trick": "tail_grab",
+  "action": "upgrading the spot",
+  "status": "Upgrading the spot - backflip",
+  "thought": "The wind's too high for a clean flip today. Let's just hang here and sip this espresso while they stare at their screens.",
+  "tail_trick": "backflip",
   "prop": "espresso",
   "wants": [
-    {
-      "item": "Branch thick enough for a mid-air flip",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
-    {
-      "item": "Spot with better grip for flexing",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
     {
       "item": "Thick branch for a no-slap flip",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "High ledge with zero wind resistance",
       "status": "waiting",
       "added": "2026-11-04"
+    },
+    {
+      "item": "Stronger branch for a guaranteed no-slip landing",
+      "status": "waiting",
+      "added": "2026-11-04"
+    },
+    {
+      "item": "A view that actually beats the neon lights",
+      "status": "waiting",
+      "added": "2026-11-04"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-04T00:00:45",
-      "line": "The neon cord held me solid as I looped the tail, but my grip feels slippery. Need something thicker to really own the air.",
-      "trick": "tail_grab",
-      "area": "hangout"
-    },
     {
       "t": "2026-11-04T00:30:11",
       "line": "Sipped espresso to wake up the nerves while dangling over the waterfall. Cord snapped under my weight like it was plastic, not wood yet.",
@@ -144,9 +138,15 @@
       "line": "The espresso burns hotter than before while I hunt for a new perch. This spot won't do, need something thicker to flex on.",
       "trick": "tail_grab",
       "area": "hangout"
+    },
+    {
+      "t": "2026-11-04T06:00:06",
+      "line": "Michael asks about my rating, but honestly, I'm bored of the same old flip drills. Hanging over the edge feels better than chasing perfect gravity.",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-04T05:30:58",
-  "area": "hangout"
+  "last_thought_at": "2026-11-04T06:00:06",
+  "area": "lookout_ledge"
 }
