@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 90,
+  "tick": 91,
   "moods": {
     "swagger": 100,
-    "energy": 47,
-    "hunger": 63,
-    "curiosity": 61,
+    "energy": 41,
+    "hunger": 64,
+    "curiosity": 44,
     "chill": 100
   },
-  "action": "hanging out",
-  "status": "Hanging out",
-  "thought": "The waterfall's spray hits my fur; I let the tail skim the surface, watching the droplets bounce.",
-  "tail_trick": "none",
-  "prop": "toothpick",
+  "action": "exploring",
+  "status": "Exploring - tail grab",
+  "thought": "Three palms. Zero competition. My tail knows which bunch ripened first.",
+  "tail_trick": "tail_grab",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "Ground that doesn't wobble when I land",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
-    {
-      "item": "A branch thick enough to catch a clean mid-air flip.",
-      "status": "waiting",
-      "added": "2026-11-03"
-    },
     {
       "item": "Something that reflects my fur without needing a screen.",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A higher ledge for a tail swing",
       "status": "waiting",
       "added": "2026-11-03"
+    },
+    {
+      "item": "A palm trunk slick enough for a tail slide",
+      "status": "waiting",
+      "added": "2026-11-03"
+    },
+    {
+      "item": "Banana bunch that glows when I hang upside down",
+      "status": "waiting",
+      "added": "2026-11-03"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T14:01:21",
-      "line": "Three palms and a bunch of bananas look nice but I need to prove these stones can't hold me down.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-03T14:30:19",
       "line": "Chewing banana mush with my tail looped tight; looks like a messy halo on this dusty tree.",
@@ -144,9 +138,15 @@
       "line": "I perched on the mossy ledge by the pond, tail flicked the falling water into a thin arc, catching a glint of a hidden pebble that slid away.",
       "trick": "none",
       "area": "waterfall_pond"
+    },
+    {
+      "t": "2026-11-03T21:32:16",
+      "line": "Snagged the prime bunch from the center palm with a clean tail loop. The other two bunches watched. They'll remember.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-03T19:32:08",
-  "area": "waterfall_pond"
+  "last_thought_at": "2026-11-03T21:32:16",
+  "area": "banana_grove"
 }
