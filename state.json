@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 121,
+  "tick": 122,
   "moods": {
     "swagger": 100,
-    "energy": 51,
-    "hunger": 59,
-    "curiosity": 53,
-    "chill": 92
+    "energy": 38,
+    "hunger": 70,
+    "curiosity": 55,
+    "chill": 87
   },
-  "action": "exploring",
-  "status": "Exploring - tail grab",
-  "thought": "Fruit tastes better when I hold it with my tail while chewing.",
+  "action": "showing off",
+  "status": "Showing off - tail grab",
+  "thought": "Crowd still staring at their box while I flex this tail grip like it's my favorite thing ever.",
   "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A perch with a view that actually stretches.",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
-    {
-      "item": "A branch thick enough to catch a real flip",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
     {
       "item": "A spot where the view actually bends, not just looks...",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "An espresso cup that doesn't spill",
       "status": "waiting",
       "added": "2026-11-04"
+    },
+    {
+      "item": "A thick branch to catch the next flip",
+      "status": "waiting",
+      "added": "2026-11-04"
+    },
+    {
+      "item": "Espresso cup that stays hot and still",
+      "status": "waiting",
+      "added": "2026-11-04"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-04T07:00:27",
-      "line": "Michael thinks he can out-mess me, but his pixels are flat. I'm the only one who knows how to turn gravity into a personal insult with my tail.",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-04T07:30:06",
       "line": "Hung by the tail while Michael scrolled away; toothpick taps the wet stone, but gravity still feels like it's cheating me.",
@@ -144,6 +138,12 @@
       "line": "Picked a banana and grabbed it with my tail tip, ate it while crossing my arms for maximum balance. The sun is still hot but the view from here is getting old.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-04T13:00:06",
+      "line": "Toothpick taps the string lights as I hold that crate mid-air, proving gravity forgot how to work around me.",
+      "trick": "tail_grab",
+      "area": "hangout"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-04T12:30:07",
-  "area": "banana_grove"
+  "last_thought_at": "2026-11-04T13:00:06",
+  "area": "hangout"
 }
