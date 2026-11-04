@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 105,
+  "tick": 106,
   "moods": {
     "swagger": 100,
-    "energy": 40,
-    "hunger": 36,
-    "curiosity": 29,
-    "chill": 97
+    "energy": 38,
+    "hunger": 41,
+    "curiosity": 25,
+    "chill": 100
   },
-  "action": "exploring",
-  "status": "Exploring",
-  "thought": "Neon hums too loud here. Toothpick's boring until I find that thick branch.",
-  "tail_trick": "none",
+  "action": "people-watching",
+  "status": "People-watching - pogo",
+  "thought": "The neon cord's too thin for that clean flip. Time to find real muscle room.",
+  "tail_trick": "pogo",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "Solid moss ledge for landing practice",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
-    {
-      "item": "Need a branch thick enough to catch a mid-air flip",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
     {
       "item": "Want a spot with better grip for flexing my tail",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Thick branch for a no-slip mid-air flip",
       "status": "waiting",
       "added": "2026-11-04"
+    },
+    {
+      "item": "Crate strong enough to take my mid-air weight",
+      "status": "waiting",
+      "added": "2026-11-04"
+    },
+    {
+      "item": "Ledge that never gives an inch to the flip",
+      "status": "waiting",
+      "added": "2026-11-04"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T23:00:19",
-      "line": "The purple cabinet hums under my feet while I stretch my fur out wide for the whole block to see. They're still stuck in their glow-boxes.",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-03T23:30:16",
       "line": "Espresso burns like a hot tail loop while I sip. The hang branch feels good, but my flip needs more grip next time.",
@@ -144,9 +138,15 @@
       "line": "Arcade lights buzz while I trace the neon cord; toothpick clicks against plastic, but I need a real branch for a proper flip.",
       "trick": "none",
       "area": "arcade"
+    },
+    {
+      "t": "2026-11-04T05:00:12",
+      "line": "Swept past the floating rocks on pure tail momentum while everyone watched the static on their screens; found a sturdy crate ledge just right for a gravity-defying backflip...",
+      "trick": "pogo",
+      "area": "sky_rocks"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-04T04:30:12",
-  "area": "arcade"
+  "last_thought_at": "2026-11-04T05:00:12",
+  "area": "sky_rocks"
 }
