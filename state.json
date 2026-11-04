@@ -1,18 +1,18 @@
 {
   "name": "HOOK",
-  "tick": 128,
+  "tick": 129,
   "moods": {
     "swagger": 100,
-    "energy": 47,
-    "hunger": 50,
-    "curiosity": 53,
-    "chill": 96
+    "energy": 53,
+    "hunger": 55,
+    "curiosity": 61,
+    "chill": 100
   },
-  "action": "exploring",
-  "status": "Exploring - tail grab",
-  "thought": "Gravity's weak here. Need thicker ground for a real flip before they notice me hanging from this noodle branch.",
-  "tail_trick": "tail_grab",
-  "prop": "toothpick",
+  "action": "hanging out",
+  "status": "Hanging out - backflip",
+  "thought": "Gravity's still too lazy to let me do the real deal. Need something solid to kick off from before I look foolish.",
+  "tail_trick": "backflip",
+  "prop": "espresso",
   "wants": [
     {
       "item": "A thick branch to catch the next flip",
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-04T10:30:27",
-      "line": "Toothpick taps the weak bark while I scan the canopy; Michael's flat pixels can't handle the wind but I need thicker ground to really break gravity.",
-      "trick": "hang",
-      "area": "hang_tree"
-    },
     {
       "t": "2026-11-04T11:00:16",
       "line": "The waterfalls look better up close than on any screen; toothpick taps a lily pad as I scan the canopy for thicker ground to flex against.",
@@ -144,6 +138,12 @@
       "line": "Toothpick taps the crate while I test the wind's edge. This hang branch is too thin; my tail slips if I try the loop.",
       "trick": "tail_grab",
       "area": "hangout"
+    },
+    {
+      "t": "2026-11-04T16:30:45",
+      "line": "Sitting on the hammock sipping espresso as the sun sets; the branch under my tail is wobbling so badly it feels like holding a jellybean instead of a tree limb.",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-04T16:00:52",
-  "area": "hangout"
+  "last_thought_at": "2026-11-04T16:30:45",
+  "area": "lookout_ledge"
 }
