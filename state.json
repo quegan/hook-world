@@ -1,18 +1,18 @@
 {
   "name": "HOOK",
-  "tick": 103,
+  "tick": 104,
   "moods": {
     "swagger": 100,
-    "energy": 58,
-    "hunger": 24,
-    "curiosity": 47,
+    "energy": 50,
+    "hunger": 30,
+    "curiosity": 36,
     "chill": 100
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso - hang",
-  "thought": "Coffee hits like a shockwave; tail feels ready to tear this place apart.",
-  "tail_trick": "hang",
-  "prop": "espresso",
+  "action": "exploring",
+  "status": "Exploring",
+  "thought": "Toothpick clicks against the water. The branch holds, but my flip needs that perfect grip to really own the air.",
+  "tail_trick": "none",
+  "prop": "toothpick",
   "wants": [
     {
       "item": "Solid moss ledge for landing practice",
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-03T22:02:03",
-      "line": "I snagged a drifting pixel shard with my tail, spun it like a disc, and let it glide past the crowd, just to prove I own the sky.",
-      "trick": "pogo",
-      "area": "sky_rocks"
-    },
     {
       "t": "2026-11-03T22:30:06",
       "line": "Bit into a glowing banana that hums when I hang from it; juice splashed just enough to make them blink again.",
@@ -144,9 +138,15 @@
       "line": "Espresso burns clean while I loop the neon cord tighter than my hand could ever manage. The branch holds firm, but that mid-air flip needs a grip so thick it never slips.",
       "trick": "hang",
       "area": "hang_tree"
+    },
+    {
+      "t": "2026-11-04T04:00:07",
+      "line": "The waterfall steam curls around my tail loop; toothpick finds a smooth spot on the lily pad, but that swing still feels like it's missing a beat.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [],
-  "last_thought_at": "2026-11-04T03:30:14",
-  "area": "hang_tree"
+  "last_thought_at": "2026-11-04T04:00:07",
+  "area": "waterfall_pond"
 }
