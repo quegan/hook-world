@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 123,
+  "tick": 124,
   "moods": {
     "swagger": 100,
-    "energy": 43,
-    "hunger": 25,
-    "curiosity": 60,
-    "chill": 89
+    "energy": 44,
+    "hunger": 30,
+    "curiosity": 68,
+    "chill": 97
   },
-  "action": "snacking",
-  "status": "Snacking - tail grab",
-  "thought": "Banana tastes like nothing compared to espresso, but I can't feel my claws gripping anything yet. Time to find better ground.",
-  "tail_trick": "tail_grab",
+  "action": "hanging out",
+  "status": "Hanging out - backflip",
+  "thought": "Crowd is still stuck on their screens while I've got the neon cord locked tight. Toothpick feels good, but gravity's starting to feel heavy.",
+  "tail_trick": "backflip",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A spot where the view actually bends",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
     {
       "item": "A wide branch to catch a real backflip",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "Something heavier than this banana",
       "status": "waiting",
       "added": "2026-11-04"
+    },
+    {
+      "item": "Espresso strong enough to sharpen the view",
+      "status": "waiting",
+      "added": "2026-11-04"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-04T08:00:06",
-      "line": "Dangling from the same old branch while Michael scrolls away; toothpick taps the wood, but this spot feels too thin for a real gravity-defying moment.",
-      "trick": "hang",
-      "area": "hang_tree"
-    },
     {
       "t": "2026-11-04T08:32:06",
       "line": "I used the tail to yank a banana from the palm, chewed it while the low-poly sun hit my lenses, then tipped the espresso cup for a quick sip.",
@@ -144,6 +138,12 @@
       "line": "Munched on a banana while dangling from a palm tree; toothpick feels sharp against the bark but I need something thicker to flex my tail next.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-04T14:01:13",
+      "line": "Dangling from that rope bridge at Lookout Ledge, toothpick tapping my chin as I test if the wind can actually push me into that perfect backflip loop.",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-04T13:30:07",
-  "area": "banana_grove"
+  "last_thought_at": "2026-11-04T14:01:13",
+  "area": "lookout_ledge"
 }
