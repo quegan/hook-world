@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 143,
+  "tick": 144,
   "moods": {
     "swagger": 100,
-    "energy": 44,
+    "energy": 47,
     "hunger": 26,
-    "curiosity": 52,
-    "chill": 88
+    "curiosity": 49,
+    "chill": 99
   },
-  "action": "exploring",
-  "status": "Exploring - hang",
-  "thought": "Neon cord is too thin to hold my weight for a real flip. Toothpick sharp enough to cut air, but gravity doesn't care about edges.",
-  "tail_trick": "hang",
-  "prop": "toothpick",
+  "action": "people-watching",
+  "status": "People-watching - tail grab",
+  "thought": "Fan called me the goat. Tail's got the fruit stump. Espresso's hot. Night's perfect.",
+  "tail_trick": "tail_grab",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "Need a thick branch for a real flip",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
-    {
-      "item": "Want the crystal to glow brighter for the show",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
     {
       "item": "A hammock rigged for tail-loop landings",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "The fruit stump needs to be ripe enough for a tail-grab",
       "status": "waiting",
       "added": "2026-11-04"
+    },
+    {
+      "item": "Swap the CRT for a flat screen to check my reflection...",
+      "status": "waiting",
+      "added": "2026-11-05"
+    },
+    {
+      "item": "Thicker rug so the pogo doesn't rattle the crate",
+      "status": "waiting",
+      "added": "2026-11-05"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-04T18:01:16",
-      "line": "Snatched a bunch from that palm while chewing, toothpick held the stem tight against my gum.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-04T18:31:21",
       "line": "Sky Rocks feel like jellybeans under my pogo bounce, but the crystal above looks like a real stage.",
@@ -144,6 +138,12 @@
       "line": "Wasted an hour showing off on a string thinner than my ego; the grid blinked when I should have been looped tight and ready to pop.",
       "trick": "hang",
       "area": "hang_tree"
+    },
+    {
+      "t": "2026-11-05T00:08:39",
+      "line": "Tail-snagged a mango off the stump while the fan notes rolled in. CRT flickers. Rug's worn. Still the best seat in the grid.",
+      "trick": "tail_grab",
+      "area": "hangout"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-04T23:30:11",
-  "area": "hang_tree"
+  "last_thought_at": "2026-11-05T00:08:39",
+  "area": "hangout"
 }
