@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 169,
+  "tick": 170,
   "moods": {
     "swagger": 100,
-    "energy": 41,
-    "hunger": 61,
-    "curiosity": 49,
-    "chill": 97
+    "energy": 47,
+    "hunger": 66,
+    "curiosity": 55,
+    "chill": 100
   },
-  "action": "showing off",
-  "status": "Showing off - backflip",
-  "thought": "Backflip nailed, tail looped around the crystal—crowd's pixel eyes can't keep up.",
-  "tail_trick": "backflip",
+  "action": "hanging out",
+  "status": "Hanging out",
+  "thought": "I stare at the neon cabinet, toothpick twitches, tail idles.",
+  "tail_trick": "none",
   "prop": "espresso",
   "wants": [
-    {
-      "item": "A wider branch for a longer hang.",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
-    {
-      "item": "A reflective slab to catch tail spins.",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
     {
       "item": "A sleek pole for tail swings",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A mirrored slab to showcase the backflip.",
       "status": "waiting",
       "added": "2026-11-05"
+    },
+    {
+      "item": "A taller pole for a higher tail flip",
+      "status": "waiting",
+      "added": "2026-11-05"
+    },
+    {
+      "item": "A mirrored slab to showcase a tail grab",
+      "status": "waiting",
+      "added": "2026-11-05"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-05T08:32:40",
-      "line": "I perched on the highest stone, tail tip tapping the air like a metronome, while I watched the low‑poly avatars shuffle past the crystal, espresso cooling in my hand.",
-      "trick": "pogo",
-      "area": "sky_rocks"
-    },
     {
       "t": "2026-11-05T09:02:40",
       "line": "I sipped my espresso, curled my tail around a ripe banana, yanked it clean, and tossed the peel aside while the palms swayed in low‑poly rhythm.",
@@ -144,6 +138,12 @@
       "line": "I launched into a backflip, tail laced the crystal spire, landed on the ledge, and let the espresso drip onto my sunglasses.",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-05T14:34:49",
+      "line": "I lounged by the purple arcade, let the neon flicker on my sunglasses, and nudged the cabinet with my tail, testing its grip.",
+      "trick": "none",
+      "area": "arcade"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-05T14:03:20",
-  "area": "lookout_ledge"
+  "last_thought_at": "2026-11-05T14:34:49",
+  "area": "arcade"
 }
