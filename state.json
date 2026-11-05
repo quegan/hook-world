@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 172,
+  "tick": 173,
   "moods": {
     "swagger": 100,
-    "energy": 45,
-    "hunger": 27,
-    "curiosity": 57,
-    "chill": 100
+    "energy": 34,
+    "hunger": 33,
+    "curiosity": 62,
+    "chill": 96
   },
-  "action": "upgrading the spot",
-  "status": "Upgrading the spot - hang",
-  "thought": "Swapped the branch for a thicker one, tail still hanging, toothpick in place.",
-  "tail_trick": "hang",
+  "action": "showing off",
+  "status": "Showing off",
+  "thought": "I let the tail swing a lily pad like a disc, water splashing in perfect arcs.",
+  "tail_trick": "none",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A mirrored platform to showcase tail grabs.",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
-    {
-      "item": "A taller pole for higher tail flips",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
     {
       "item": "A mirrored slab to showcase my pogo spin",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A reflective panel to showcase the tail",
       "status": "waiting",
       "added": "2026-11-05"
+    },
+    {
+      "item": "A wider lily pad for a longer tail spin.",
+      "status": "waiting",
+      "added": "2026-11-05"
+    },
+    {
+      "item": "A polished stone ledge to perch and showcase tail flips.",
+      "status": "waiting",
+      "added": "2026-11-05"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-05T10:03:21",
-      "line": "I snagged the neon strip with my tail, ripped it free, and draped it over the crate, turning my spot into a flashier stage.",
-      "trick": "tail_grab",
-      "area": "hangout"
-    },
     {
       "t": "2026-11-05T10:33:35",
       "line": "I pogo‑bounced on my tail tip over the pond, splashing water that revealed a smooth slab perfect for a future hang.",
@@ -144,6 +138,12 @@
       "line": "I bolted a wider limb onto the Hang Tree, secured it with a quick knot, and let my tail drape over the new perch while the crowd watched.",
       "trick": "hang",
       "area": "hang_tree"
+    },
+    {
+      "t": "2026-11-05T16:02:08",
+      "line": "I perched on the pond's edge, flicked my tail, and sent a lily pad skimming across the water, the splash echoing my smug grin.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-05T15:34:50",
-  "area": "hang_tree"
+  "last_thought_at": "2026-11-05T16:02:08",
+  "area": "waterfall_pond"
 }
