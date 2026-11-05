@@ -1,66 +1,66 @@
 {
   "name": "HOOK",
-  "tick": 158,
+  "tick": 167,
   "moods": {
     "swagger": 100,
-    "energy": 43,
-    "hunger": 52,
-    "curiosity": 34,
-    "chill": 99
+    "energy": 57,
+    "hunger": 46,
+    "curiosity": 52,
+    "chill": 96
   },
-  "action": "people-watching",
-  "status": "People-watching - pogo",
-  "thought": "The crowd's pixel parade drifts by; I bounce my tail, sip espresso, and let the view do the talking.",
+  "action": "sipping espresso",
+  "status": "Sipping espresso - pogo",
+  "thought": "Espresso burns, tail finds a perch on the next stone, I watch the crystal pulse.",
   "tail_trick": "pogo",
   "prop": "espresso",
   "wants": [
     {
-      "item": "A low‑poly swing set for tail launches",
+      "item": "A polished pole for tail swings",
       "status": "waiting",
       "added": "2026-11-05"
     },
     {
-      "item": "A neon backdrop to highlight my tail",
+      "item": "A mirrored slab to showcase tail spins",
       "status": "waiting",
       "added": "2026-11-05"
     },
     {
-      "item": "A taller pole for a tail swing",
+      "item": "A wider branch for a longer hang.",
       "status": "waiting",
       "added": "2026-11-05"
     },
     {
-      "item": "A mirrored wall to showcase the tail",
+      "item": "A reflective slab to catch tail spins.",
       "status": "waiting",
       "added": "2026-11-05"
     },
     {
-      "item": "A thicker branch for a backflip.",
+      "item": "A sleek pole for tail swings",
       "status": "waiting",
       "added": "2026-11-05"
     },
     {
-      "item": "A polished slab to showcase a tail spin.",
+      "item": "A glass platform to showcase tail loops",
       "status": "waiting",
       "added": "2026-11-05"
     },
     {
-      "item": "A branch thick enough for a backflip",
+      "item": "A taller pole for a higher tail swing.",
       "status": "waiting",
       "added": "2026-11-05"
     },
     {
-      "item": "The whole grid to witness the flex",
+      "item": "A mirrored platform to showcase tail grabs.",
       "status": "waiting",
       "added": "2026-11-05"
     },
     {
-      "item": "A wider ledge for a tail‑swing showcase",
+      "item": "A taller pole for higher tail flips",
       "status": "waiting",
       "added": "2026-11-05"
     },
     {
-      "item": "A reflective panel to catch tail‑light glints",
+      "item": "A mirrored slab to showcase my pogo spin",
       "status": "waiting",
       "added": "2026-11-05"
     }
@@ -73,60 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-05T01:32:15",
-      "line": "I vaulted over the rope, landed on the hut's balcony, tail curled around the antenna, and eyed the empty espresso cup for a quick sip.",
-      "trick": "backflip",
-      "area": "lookout_ledge"
-    },
-    {
-      "t": "2026-11-05T02:33:01",
-      "line": "I looped my tail around the fresh rail, tightened the knot, and mounted a low‑poly lantern on the Hang Tree. The glow catches my shades, perfect for the next show‑off.",
-      "trick": "hang",
-      "area": "hang_tree"
-    },
-    {
-      "t": "2026-11-05T03:00:53",
-      "line": "Sipped the last of the espresso while watching the neon sign flicker. That purple arcade cabinet looks cooler than any tree, but my tail won't loop tight enough on this thin...",
-      "trick": "none",
-      "area": "arcade"
-    },
-    {
-      "t": "2026-11-05T03:32:18",
-      "line": "I swung into the grove, looped my tail around a ripe banana, yanked it clean, and tipped my toothpick in triumph.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
-    {
-      "t": "2026-11-05T04:05:45",
-      "line": "I dangled from a low branch over the waterfall, tail wrapped around a slick rock, letting the water spray glint off my shades while I tossed a toothpick for flair.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
-    {
-      "t": "2026-11-05T04:35:04",
-      "line": "I sipped espresso as a gust nudged the crystal, my tail pogoed the edge, sending a spark that lit the rocks.",
-      "trick": "pogo",
-      "area": "sky_rocks"
-    },
-    {
-      "t": "2026-11-05T05:04:13",
-      "line": "I curled the tail around the fruit stump, yanked the ripe berry clean, and tossed the toothpick back into the crate, all while the lights flickered.",
-      "trick": "tail_grab",
-      "area": "hangout"
-    },
-    {
-      "t": "2026-11-05T05:32:46",
-      "line": "I swung my tail around the hanging coconut, yanked it down, cracked it open, and ate the meat while the sun caught the metal of my lenses.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
-    {
-      "t": "2026-11-05T06:33:00",
-      "line": "I nudged the low‑poly jukebox with my tail, hit the play button, and let the chiptune echo while I stare at the flickering screen, toothpick poised.",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-05T07:02:16",
       "line": "I slipped onto a floating lily pad, nudged it with my tail, and it bobbed into a hidden alcove where a smooth stone slab glints, perfect for a future tail hang.",
@@ -144,6 +90,60 @@
       "line": "I perched on the highest stone, tail tip tapping the air like a metronome, while I watched the low‑poly avatars shuffle past the crystal, espresso cooling in my hand.",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-05T09:02:40",
+      "line": "I sipped my espresso, curled my tail around a ripe banana, yanked it clean, and tossed the peel aside while the palms swayed in low‑poly rhythm.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-05T09:32:31",
+      "line": "I slipped behind the arcade cabinet, traced the neon outline with my tail, and found a recessed ledge perfect for a future hang.",
+      "trick": "none",
+      "area": "arcade"
+    },
+    {
+      "t": "2026-11-05T10:03:21",
+      "line": "I snagged the neon strip with my tail, ripped it free, and draped it over the crate, turning my spot into a flashier stage.",
+      "trick": "tail_grab",
+      "area": "hangout"
+    },
+    {
+      "t": "2026-11-05T10:33:35",
+      "line": "I pogo‑bounced on my tail tip over the pond, splashing water that revealed a smooth slab perfect for a future hang.",
+      "trick": "none",
+      "area": "waterfall_pond"
+    },
+    {
+      "t": "2026-11-05T11:04:44",
+      "line": "I grabbed a banana with my tail, cracked it in two, flung the halves onto a nearby crate and watched them tumble while the toothpick stayed poised.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-05T11:34:13",
+      "line": "I wrapped my tail around the sturdy branch, hoisted myself, and held the pose while the low‑poly crowd stared, toothpick balanced on my lip.",
+      "trick": "hang",
+      "area": "hang_tree"
+    },
+    {
+      "t": "2026-11-05T12:03:42",
+      "line": "I watched the holo crowd line up for the new game, took a slow espresso sip, and let my tail coil around the console leg, feeling the buzz of idle attention.",
+      "trick": "none",
+      "area": "arcade"
+    },
+    {
+      "t": "2026-11-05T12:33:04",
+      "line": "I used my tail to yank a hovering holo‑orb from the air, the glow reflecting off my sunglasses as I balanced it while the crowd stared.",
+      "trick": "tail_grab",
+      "area": "hangout"
+    },
+    {
+      "t": "2026-11-05T13:02:05",
+      "line": "I perched on a floating rock, took a quick espresso sip, and let my tail spring off the edge, catching the crystal's glow before the next stone.",
+      "trick": "pogo",
+      "area": "sky_rocks"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-05T08:32:40",
+  "last_thought_at": "2026-11-05T13:02:05",
   "area": "sky_rocks"
 }
