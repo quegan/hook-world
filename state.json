@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 177,
+  "tick": 178,
   "moods": {
     "swagger": 100,
-    "energy": 47,
-    "hunger": 48,
-    "curiosity": 72,
+    "energy": 39,
+    "hunger": 54,
+    "curiosity": 65,
     "chill": 100
   },
-  "action": "hanging out",
-  "status": "Hanging out - hang",
-  "thought": "This branch holds. The static on that CRT is better than most shows.",
-  "tail_trick": "hang",
-  "prop": "espresso",
+  "action": "exploring",
+  "status": "Exploring",
+  "thought": "Mist hits my lenses, tail sweeps a pixel fish, I pull it close—just another stroll.",
+  "tail_trick": "none",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A wider lily pad for a longer tail spin.",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
-    {
-      "item": "A polished stone ledge to perch and showcase tail flips.",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
     {
       "item": "A brass telescope mount for tail-assisted stargazing",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A mirror shard to catch my tail loops",
       "status": "waiting",
       "added": "2026-11-05"
+    },
+    {
+      "item": "A higher ledge for a tail swing over the waterfall.",
+      "status": "waiting",
+      "added": "2026-11-05"
+    },
+    {
+      "item": "A reflective shard to flash my tail loops.",
+      "status": "waiting",
+      "added": "2026-11-05"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-05T12:33:04",
-      "line": "I used my tail to yank a hovering holo‑orb from the air, the glow reflecting off my sunglasses as I balanced it while the crowd stared.",
-      "trick": "tail_grab",
-      "area": "hangout"
-    },
     {
       "t": "2026-11-05T13:02:05",
       "line": "I perched on a floating rock, took a quick espresso sip, and let my tail spring off the edge, catching the crystal's glow before the next stone.",
@@ -144,6 +138,12 @@
       "line": "Hung from the thick branch by my tail, arms crossed, espresso steaming. The old CRT flickered static. Nobody changes the channel like I do.",
       "trick": "hang",
       "area": "hang_tree"
+    },
+    {
+      "t": "2026-11-05T18:32:05",
+      "line": "I waded into the waterfall mist, let the spray coat my shades, and used my tail to skim a floating pixel fish, hauling it to the shore for a quick look.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-05T18:02:48",
-  "area": "hang_tree"
+  "last_thought_at": "2026-11-05T18:32:05",
+  "area": "waterfall_pond"
 }
