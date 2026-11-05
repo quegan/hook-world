@@ -1,34 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 170,
+  "tick": 172,
   "moods": {
     "swagger": 100,
-    "energy": 47,
-    "hunger": 66,
-    "curiosity": 55,
+    "energy": 45,
+    "hunger": 27,
+    "curiosity": 57,
     "chill": 100
   },
-  "action": "hanging out",
-  "status": "Hanging out",
-  "thought": "I stare at the neon cabinet, toothpick twitches, tail idles.",
-  "tail_trick": "none",
-  "prop": "espresso",
+  "action": "upgrading the spot",
+  "status": "Upgrading the spot - hang",
+  "thought": "Swapped the branch for a thicker one, tail still hanging, toothpick in place.",
+  "tail_trick": "hang",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A sleek pole for tail swings",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
-    {
-      "item": "A glass platform to showcase tail loops",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
-    {
-      "item": "A taller pole for a higher tail swing.",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
     {
       "item": "A mirrored platform to showcase tail grabs.",
       "status": "waiting",
@@ -63,6 +48,21 @@
       "item": "A mirrored slab to showcase a tail grab",
       "status": "waiting",
       "added": "2026-11-05"
+    },
+    {
+      "item": "A mirrored slab for tail grabs",
+      "status": "waiting",
+      "added": "2026-11-05"
+    },
+    {
+      "item": "A longer pole for a higher hang",
+      "status": "waiting",
+      "added": "2026-11-05"
+    },
+    {
+      "item": "A reflective panel to showcase the tail",
+      "status": "waiting",
+      "added": "2026-11-05"
     }
   ],
   "items": [
@@ -73,18 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-05T09:02:40",
-      "line": "I sipped my espresso, curled my tail around a ripe banana, yanked it clean, and tossed the peel aside while the palms swayed in low‑poly rhythm.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
-    {
-      "t": "2026-11-05T09:32:31",
-      "line": "I slipped behind the arcade cabinet, traced the neon outline with my tail, and found a recessed ledge perfect for a future hang.",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-05T10:03:21",
       "line": "I snagged the neon strip with my tail, ripped it free, and draped it over the crate, turning my spot into a flashier stage.",
@@ -144,6 +132,18 @@
       "line": "I lounged by the purple arcade, let the neon flicker on my sunglasses, and nudged the cabinet with my tail, testing its grip.",
       "trick": "none",
       "area": "arcade"
+    },
+    {
+      "t": "2026-11-05T15:06:18",
+      "line": "I curled my tail around a neon mango, lifted it off the palm, bit into the sweet flesh, and let my toothpick rest on my lip as the low‑poly crowd stared.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-05T15:34:50",
+      "line": "I bolted a wider limb onto the Hang Tree, secured it with a quick knot, and let my tail drape over the new perch while the crowd watched.",
+      "trick": "hang",
+      "area": "hang_tree"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-05T14:34:49",
-  "area": "arcade"
+  "last_thought_at": "2026-11-05T15:34:50",
+  "area": "hang_tree"
 }
