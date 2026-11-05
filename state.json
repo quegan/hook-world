@@ -1,34 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 132,
+  "tick": 134,
   "moods": {
     "swagger": 100,
-    "energy": 49,
-    "hunger": 21,
-    "curiosity": 63,
-    "chill": 100
+    "energy": 54,
+    "hunger": 32,
+    "curiosity": 59,
+    "chill": 94
   },
-  "action": "snacking",
-  "status": "Snacking - tail grab",
-  "thought": "Bananas taste like sugar but don't make me sharp like espresso.",
-  "tail_trick": "tail_grab",
-  "prop": "toothpick",
+  "action": "sipping espresso",
+  "status": "Sipping espresso - backflip",
+  "thought": "Telescope's lens catches the last light. My tail's already plotting the next flip.",
+  "tail_trick": "backflip",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "A branch thick enough for a real flip",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
-    {
-      "item": "Something heavier than this banana",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
-    {
-      "item": "Espresso strong enough to sharpen the view",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
     {
       "item": "A taller pole to swing from the arcade ceiling.",
       "status": "waiting",
@@ -63,6 +48,21 @@
       "item": "A thicker branch to pull off a backflip",
       "status": "waiting",
       "added": "2026-11-04"
+    },
+    {
+      "item": "A solid pole to swing from",
+      "status": "waiting",
+      "added": "2026-11-04"
+    },
+    {
+      "item": "Telescope mount that doubles as a swing pole",
+      "status": "waiting",
+      "added": "2026-11-04"
+    },
+    {
+      "item": "Rope bridge reinforced for tail landings",
+      "status": "waiting",
+      "added": "2026-11-04"
     }
   ],
   "items": [
@@ -73,18 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-04T12:30:07",
-      "line": "Picked a banana and grabbed it with my tail tip, ate it while crossing my arms for maximum balance. The sun is still hot but the view from here is getting old.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
-    {
-      "t": "2026-11-04T13:00:06",
-      "line": "Toothpick taps the string lights as I hold that crate mid-air, proving gravity forgot how to work around me.",
-      "trick": "tail_grab",
-      "area": "hangout"
-    },
     {
       "t": "2026-11-04T13:30:07",
       "line": "Munched on a banana while dangling from a palm tree; toothpick feels sharp against the bark but I need something thicker to flex my tail next.",
@@ -144,6 +132,18 @@
       "line": "Snatched a bunch from that palm while chewing, toothpick held the stem tight against my gum.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-04T18:31:21",
+      "line": "Sky Rocks feel like jellybeans under my pogo bounce, but the crystal above looks like a real stage.",
+      "trick": "pogo",
+      "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-04T19:05:06",
+      "line": "Balanced on the rope bridge railing, espresso in hand, tail snapped a backflip that made the hut's antenna wobble. The telescope didn't even flinch.",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-04T18:01:16",
-  "area": "banana_grove"
+  "last_thought_at": "2026-11-04T19:05:06",
+  "area": "lookout_ledge"
 }
