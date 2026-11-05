@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 142,
+  "tick": 143,
   "moods": {
     "swagger": 100,
-    "energy": 53,
-    "hunger": 20,
-    "curiosity": 62,
-    "chill": 87
+    "energy": 44,
+    "hunger": 26,
+    "curiosity": 52,
+    "chill": 88
   },
-  "action": "snacking",
-  "status": "Snacking - tail grab",
-  "thought": "Three bananas? Too small for a real flex. Still chewing while watching them try.",
-  "tail_trick": "tail_grab",
+  "action": "exploring",
+  "status": "Exploring - hang",
+  "thought": "Neon cord is too thin to hold my weight for a real flip. Toothpick sharp enough to cut air, but gravity doesn't care about edges.",
+  "tail_trick": "hang",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "Need a branch thick enough to pull off a real backflip",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
-    {
-      "item": "Wanna see if that tree can handle my weight for once",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
     {
       "item": "Need a thick branch for a real flip",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Need a thicker branch where the bananas hang.",
       "status": "waiting",
       "added": "2026-11-04"
+    },
+    {
+      "item": "A thick branch for a backflip",
+      "status": "waiting",
+      "added": "2026-11-04"
+    },
+    {
+      "item": "The fruit stump needs to be ripe enough for a tail-grab",
+      "status": "waiting",
+      "added": "2026-11-04"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-04T17:31:24",
-      "line": "The Hang Tree's limb shakes under my weight like it's holding a jellybean, but I'll take the risk to see if gravity can finally catch me mid-air.",
-      "trick": "hang",
-      "area": "hang_tree"
-    },
     {
       "t": "2026-11-04T18:01:16",
       "line": "Snatched a bunch from that palm while chewing, toothpick held the stem tight against my gum.",
@@ -144,6 +138,12 @@
       "line": "Got myself stuck on a branch with just three little bananas; they're looking like snack bait compared to the fruit stump I usually steal from.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-04T23:30:11",
+      "line": "Wasted an hour showing off on a string thinner than my ego; the grid blinked when I should have been looped tight and ready to pop.",
+      "trick": "hang",
+      "area": "hang_tree"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-04T23:00:55",
-  "area": "banana_grove"
+  "last_thought_at": "2026-11-04T23:30:11",
+  "area": "hang_tree"
 }
