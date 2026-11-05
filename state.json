@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 134,
+  "tick": 135,
   "moods": {
     "swagger": 100,
-    "energy": 54,
-    "hunger": 32,
-    "curiosity": 59,
-    "chill": 94
+    "energy": 44,
+    "hunger": 38,
+    "curiosity": 61,
+    "chill": 88
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso - backflip",
-  "thought": "Telescope's lens catches the last light. My tail's already plotting the next flip.",
-  "tail_trick": "backflip",
-  "prop": "espresso",
+  "action": "showing off",
+  "status": "Showing off",
+  "thought": "Neon cord's fine for now but they'll see a real flip before I crack.",
+  "tail_trick": "none",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A taller pole to swing from the arcade ceiling.",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
     {
       "item": "A thicker branch for a real loop",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "Rope bridge reinforced for tail landings",
       "status": "waiting",
       "added": "2026-11-04"
+    },
+    {
+      "item": "A thick branch for a real backflip",
+      "status": "waiting",
+      "added": "2026-11-04"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-04T13:30:07",
-      "line": "Munched on a banana while dangling from a palm tree; toothpick feels sharp against the bark but I need something thicker to flex my tail next.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-04T14:01:13",
       "line": "Dangling from that rope bridge at Lookout Ledge, toothpick tapping my chin as I test if the wind can actually push me into that perfect backflip loop.",
@@ -144,6 +138,12 @@
       "line": "Balanced on the rope bridge railing, espresso in hand, tail snapped a backflip that made the hut's antenna wobble. The telescope didn't even flinch.",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-04T19:31:46",
+      "line": "Dangling on the purple arcade cabinet like it's a bungee wire while Michael scrolls his HUD. The neon sign buzzes under my tail loop, sharp enough to cut glass if I stop grinning.",
+      "trick": "none",
+      "area": "arcade"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-04T19:05:06",
-  "area": "lookout_ledge"
+  "last_thought_at": "2026-11-04T19:31:46",
+  "area": "arcade"
 }
