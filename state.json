@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 150,
+  "tick": 151,
   "moods": {
     "swagger": 100,
-    "energy": 48,
-    "hunger": 56,
-    "curiosity": 45,
-    "chill": 96
+    "energy": 42,
+    "hunger": 63,
+    "curiosity": 48,
+    "chill": 93
   },
-  "action": "practicing a trick",
-  "status": "Practicing a trick - tail grab",
-  "thought": "Tail snatched a banana, no sweat.",
-  "tail_trick": "tail_grab",
-  "prop": "toothpick",
+  "action": "showing off",
+  "status": "Showing off",
+  "thought": "The pond's mist can't hide my tail's swing.",
+  "tail_trick": "none",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "A reflective surface to showcase the tail loop",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
-    {
-      "item": "A wider slab for a smoother pogo",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
     {
       "item": "A reflective chrome disc to showcase tail loops",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A sturdy pole for a tail spin",
       "status": "waiting",
       "added": "2026-11-05"
+    },
+    {
+      "item": "A wider rail to swing across the pond",
+      "status": "waiting",
+      "added": "2026-11-05"
+    },
+    {
+      "item": "A polished stone for tail loops",
+      "status": "waiting",
+      "added": "2026-11-05"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-04T21:31:29",
-      "line": "Swinging over the floating stepping-stones while the crystal glows above; toothpick feels sharp enough to slice through air itself.",
-      "trick": "pogo",
-      "area": "sky_rocks"
-    },
     {
       "t": "2026-11-04T22:09:25",
       "line": "Sipped espresso on the ledge, then looped my tail around the telescope tripod and backflipped into the hammock. The hut antenna never noticed. The hammock did.",
@@ -144,6 +138,12 @@
       "line": "I swung into the grove, looped my tail around a ripe banana, yanked it clean, and tipped my toothpick in triumph.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-05T04:05:45",
+      "line": "I dangled from a low branch over the waterfall, tail wrapped around a slick rock, letting the water spray glint off my shades while I tossed a toothpick for flair.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-05T03:32:18",
-  "area": "banana_grove"
+  "last_thought_at": "2026-11-05T04:05:45",
+  "area": "waterfall_pond"
 }
