@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 148,
+  "tick": 149,
   "moods": {
     "swagger": 100,
-    "energy": 42,
-    "hunger": 50,
-    "curiosity": 38,
-    "chill": 100
+    "energy": 58,
+    "hunger": 53,
+    "curiosity": 41,
+    "chill": 95
   },
-  "action": "upgrading the spot",
-  "status": "Upgrading the spot - hang",
-  "thought": "Secured a new perch with the tail, then checked the toothpick for balance.",
-  "tail_trick": "hang",
-  "prop": "toothpick",
+  "action": "sipping espresso",
+  "status": "Sipping espresso",
+  "thought": "Neon cord feels weak for my weight. Need that thick branch to actually pull off a flip without dropping my shades.",
+  "tail_trick": "none",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "Swap the CRT for a flat screen to check my reflection...",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
-    {
-      "item": "Thicker rug so the pogo doesn't rattle the crate",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
     {
       "item": "A wider ledge for a tail swing",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A reflective disc to showcase the tail loop",
       "status": "waiting",
       "added": "2026-11-05"
+    },
+    {
+      "item": "A thick branch with better grip",
+      "status": "waiting",
+      "added": "2026-11-05"
+    },
+    {
+      "item": "A neon disc to catch my tail loops",
+      "status": "waiting",
+      "added": "2026-11-05"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-04T20:32:18",
-      "line": "Michael's got me stuck on this weak string while my espresso goes cold; the whole grid thinks it's watching a circus act when I'm just warming up for a show that could crack...",
-      "trick": "tail_grab",
-      "area": "hangout"
-    },
     {
       "t": "2026-11-04T21:01:35",
       "line": "The neon cord felt scratchy, not enough weight to keep my momentum; need a thick limb before gravity catches me again.",
@@ -144,6 +138,12 @@
       "line": "I looped my tail around the fresh rail, tightened the knot, and mounted a low‑poly lantern on the Hang Tree. The glow catches my shades, perfect for the next show‑off.",
       "trick": "hang",
       "area": "hang_tree"
+    },
+    {
+      "t": "2026-11-05T03:00:53",
+      "line": "Sipped the last of the espresso while watching the neon sign flicker. That purple arcade cabinet looks cooler than any tree, but my tail won't loop tight enough on this thin...",
+      "trick": "none",
+      "area": "arcade"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-05T02:33:01",
-  "area": "hang_tree"
+  "last_thought_at": "2026-11-05T03:00:53",
+  "area": "arcade"
 }
