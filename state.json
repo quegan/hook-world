@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 167,
+  "tick": 168,
   "moods": {
     "swagger": 100,
-    "energy": 57,
-    "hunger": 46,
-    "curiosity": 52,
-    "chill": 96
+    "energy": 50,
+    "hunger": 55,
+    "curiosity": 44,
+    "chill": 97
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso - pogo",
-  "thought": "Espresso burns, tail finds a perch on the next stone, I watch the crystal pulse.",
-  "tail_trick": "pogo",
-  "prop": "espresso",
+  "action": "exploring",
+  "status": "Exploring - tail grab",
+  "thought": "Palms sway, I coil, snag a neon banana, toothpick still poised.",
+  "tail_trick": "tail_grab",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A polished pole for tail swings",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
     {
       "item": "A mirrored slab to showcase tail spins",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "A mirrored slab to showcase my pogo spin",
       "status": "waiting",
       "added": "2026-11-05"
+    },
+    {
+      "item": "A mirrored slab for tail grabs.",
+      "status": "waiting",
+      "added": "2026-11-05"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-05T07:02:16",
-      "line": "I slipped onto a floating lily pad, nudged it with my tail, and it bobbed into a hidden alcove where a smooth stone slab glints, perfect for a future tail hang.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-05T07:31:05",
       "line": "Dangled from the high wire, tail wrapped tight around the glow. The crowd is hyped but I know the real test starts when they see me break free mid-air.",
@@ -144,6 +138,12 @@
       "line": "I perched on a floating rock, took a quick espresso sip, and let my tail spring off the edge, catching the crystal's glow before the next stone.",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-05T13:32:30",
+      "line": "I looped my tail around a low‑poly frond, yanked a glowing banana mid‑air, and tossed it onto a crate for the crowd to stare at.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-05T13:02:05",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-05T13:32:30",
+  "area": "banana_grove"
 }
