@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 139,
+  "tick": 140,
   "moods": {
     "swagger": 100,
-    "energy": 35,
+    "energy": 57,
     "hunger": 58,
-    "curiosity": 63,
-    "chill": 86
+    "curiosity": 68,
+    "chill": 84
   },
-  "action": "hanging out",
-  "status": "Hanging out - pogo",
-  "thought": "Gravity's trying to pull me down, but my tail's got more grip than your average human leg.",
-  "tail_trick": "pogo",
-  "prop": "toothpick",
+  "action": "sipping espresso",
+  "status": "Sipping espresso - backflip",
+  "thought": "Espresso on the ledge. Telescope's for watching the grid, not for looking busy. My tail already picked the tripod.",
+  "tail_trick": "backflip",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "Rope bridge reinforced for tail landings",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
-    {
-      "item": "A thick branch for a real backflip",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
     {
       "item": "A thick branch to do a real backflip",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Want the crystal to glow brighter for the show",
       "status": "waiting",
       "added": "2026-11-04"
+    },
+    {
+      "item": "A hammock rigged for tail-loop landings",
+      "status": "waiting",
+      "added": "2026-11-04"
+    },
+    {
+      "item": "A spotlight on the lookout ledge",
+      "status": "waiting",
+      "added": "2026-11-04"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-04T16:00:52",
-      "line": "Toothpick taps the crate while I test the wind's edge. This hang branch is too thin; my tail slips if I try the loop.",
-      "trick": "tail_grab",
-      "area": "hangout"
-    },
     {
       "t": "2026-11-04T16:30:45",
       "line": "Sitting on the hammock sipping espresso as the sun sets; the branch under my tail is wobbling so badly it feels like holding a jellybean instead of a tree limb.",
@@ -144,6 +138,12 @@
       "line": "Swinging over the floating stepping-stones while the crystal glows above; toothpick feels sharp enough to slice through air itself.",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-04T22:09:25",
+      "line": "Sipped espresso on the ledge, then looped my tail around the telescope tripod and backflipped into the hammock. The hut antenna never noticed. The hammock did.",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-04T21:31:29",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-04T22:09:25",
+  "area": "lookout_ledge"
 }
