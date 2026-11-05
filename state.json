@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 156,
+  "tick": 157,
   "moods": {
     "swagger": 100,
-    "energy": 47,
-    "hunger": 42,
-    "curiosity": 45,
-    "chill": 94
+    "energy": 39,
+    "hunger": 46,
+    "curiosity": 37,
+    "chill": 91
   },
   "action": "exploring",
-  "status": "Exploring",
-  "thought": "Mist rolls off the pond, catching my lenses; I’m scouting a solid perch for the next tail stunt.",
-  "tail_trick": "none",
-  "prop": "espresso",
+  "status": "Exploring - hang",
+  "thought": "They're staring at my pixels while I loop that neon cord like it's nothing. Need to flex harder before they realize what a legend I am.",
+  "tail_trick": "hang",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A wider ledge for a tail spin",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
-    {
-      "item": "A reflective slab to showcase the tail",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
     {
       "item": "A thicker pole for a tail spin",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A polished slab to showcase a tail spin.",
       "status": "waiting",
       "added": "2026-11-05"
+    },
+    {
+      "item": "A branch thick enough for a backflip",
+      "status": "waiting",
+      "added": "2026-11-05"
+    },
+    {
+      "item": "The whole grid to witness the flex",
+      "status": "waiting",
+      "added": "2026-11-05"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-05T00:33:04",
-      "line": "I slipped onto a glassy slab beside the cascade, the surface catching my sunglasses, and I let the tail coil around a jutting rock, testing its grip.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-05T01:02:04",
       "line": "I perched on a drifting sky slab, let the tail tip bounce like a metronome while the espresso steam curled around my sunglasses.",
@@ -144,6 +138,12 @@
       "line": "I slipped onto a floating lily pad, nudged it with my tail, and it bobbed into a hidden alcove where a smooth stone slab glints, perfect for a future tail hang.",
       "trick": "none",
       "area": "waterfall_pond"
+    },
+    {
+      "t": "2026-11-05T07:31:05",
+      "line": "Dangled from the high wire, tail wrapped tight around the glow. The crowd is hyped but I know the real test starts when they see me break free mid-air.",
+      "trick": "hang",
+      "area": "hang_tree"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-05T07:02:16",
-  "area": "waterfall_pond"
+  "last_thought_at": "2026-11-05T07:31:05",
+  "area": "hang_tree"
 }
