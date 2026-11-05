@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 157,
+  "tick": 158,
   "moods": {
     "swagger": 100,
-    "energy": 39,
-    "hunger": 46,
-    "curiosity": 37,
-    "chill": 91
+    "energy": 43,
+    "hunger": 52,
+    "curiosity": 34,
+    "chill": 99
   },
-  "action": "exploring",
-  "status": "Exploring - hang",
-  "thought": "They're staring at my pixels while I loop that neon cord like it's nothing. Need to flex harder before they realize what a legend I am.",
-  "tail_trick": "hang",
-  "prop": "toothpick",
+  "action": "people-watching",
+  "status": "People-watching - pogo",
+  "thought": "The crowd's pixel parade drifts by; I bounce my tail, sip espresso, and let the view do the talking.",
+  "tail_trick": "pogo",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "A thicker pole for a tail spin",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
-    {
-      "item": "A polished slab to showcase the tail",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
     {
       "item": "A low‑poly swing set for tail launches",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "The whole grid to witness the flex",
       "status": "waiting",
       "added": "2026-11-05"
+    },
+    {
+      "item": "A wider ledge for a tail‑swing showcase",
+      "status": "waiting",
+      "added": "2026-11-05"
+    },
+    {
+      "item": "A reflective panel to catch tail‑light glints",
+      "status": "waiting",
+      "added": "2026-11-05"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-05T01:02:04",
-      "line": "I perched on a drifting sky slab, let the tail tip bounce like a metronome while the espresso steam curled around my sunglasses.",
-      "trick": "pogo",
-      "area": "sky_rocks"
-    },
     {
       "t": "2026-11-05T01:32:15",
       "line": "I vaulted over the rope, landed on the hut's balcony, tail curled around the antenna, and eyed the empty espresso cup for a quick sip.",
@@ -144,6 +138,12 @@
       "line": "Dangled from the high wire, tail wrapped tight around the glow. The crowd is hyped but I know the real test starts when they see me break free mid-air.",
       "trick": "hang",
       "area": "hang_tree"
+    },
+    {
+      "t": "2026-11-05T08:32:40",
+      "line": "I perched on the highest stone, tail tip tapping the air like a metronome, while I watched the low‑poly avatars shuffle past the crystal, espresso cooling in my hand.",
+      "trick": "pogo",
+      "area": "sky_rocks"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-05T07:31:05",
-  "area": "hang_tree"
+  "last_thought_at": "2026-11-05T08:32:40",
+  "area": "sky_rocks"
 }
