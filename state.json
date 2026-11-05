@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 152,
+  "tick": 153,
   "moods": {
     "swagger": 100,
-    "energy": 63,
-    "hunger": 64,
-    "curiosity": 52,
-    "chill": 88
+    "energy": 53,
+    "hunger": 71,
+    "curiosity": 57,
+    "chill": 87
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso - pogo",
-  "thought": "Espresso burns, tail bounces, sky rocks wobble.",
-  "tail_trick": "pogo",
-  "prop": "espresso",
+  "action": "practicing a trick",
+  "status": "Practicing a trick - tail grab",
+  "thought": "Just snagged the fruit stump with my tail, while the espresso drips onto my shades.",
+  "tail_trick": "tail_grab",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A polished pole to spin my tail around",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
-    {
-      "item": "A wider rail for smoother hangs",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
     {
       "item": "A reflective disc to showcase the tail loop",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A reflective slab to showcase the tail",
       "status": "waiting",
       "added": "2026-11-05"
+    },
+    {
+      "item": "A thicker pole for a tail spin",
+      "status": "waiting",
+      "added": "2026-11-05"
+    },
+    {
+      "item": "A polished slab to showcase the tail",
+      "status": "waiting",
+      "added": "2026-11-05"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-04T22:34:38",
-      "line": "I pried the unit open, tail snagged the latch and a secret lounge flickered to life, lights buzzing low-poly style.",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-04T23:00:55",
       "line": "Got myself stuck on a branch with just three little bananas; they're looking like snack bait compared to the fruit stump I usually steal from.",
@@ -144,6 +138,12 @@
       "line": "I sipped espresso as a gust nudged the crystal, my tail pogoed the edge, sending a spark that lit the rocks.",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-05T05:04:13",
+      "line": "I curled the tail around the fruit stump, yanked the ripe berry clean, and tossed the toothpick back into the crate, all while the lights flickered.",
+      "trick": "tail_grab",
+      "area": "hangout"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-05T04:35:04",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-05T05:04:13",
+  "area": "hangout"
 }
