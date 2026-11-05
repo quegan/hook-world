@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 173,
+  "tick": 174,
   "moods": {
     "swagger": 100,
-    "energy": 34,
-    "hunger": 33,
-    "curiosity": 62,
-    "chill": 96
+    "energy": 43,
+    "hunger": 34,
+    "curiosity": 70,
+    "chill": 100
   },
-  "action": "showing off",
-  "status": "Showing off",
-  "thought": "I let the tail swing a lily pad like a disc, water splashing in perfect arcs.",
-  "tail_trick": "none",
+  "action": "hanging out",
+  "status": "Hanging out - backflip",
+  "thought": "Borrowed the telescope, checked the horizon, then flipped off the rope bridge. Same ledge, better entrance.",
+  "tail_trick": "backflip",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A mirrored slab to showcase my pogo spin",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
-    {
-      "item": "A mirrored slab for tail grabs.",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
     {
       "item": "A mirrored slab to showcase the backflip.",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A polished stone ledge to perch and showcase tail flips.",
       "status": "waiting",
       "added": "2026-11-05"
+    },
+    {
+      "item": "A brass telescope mount for tail-assisted stargazing",
+      "status": "waiting",
+      "added": "2026-11-05"
+    },
+    {
+      "item": "A hammock rail for longer tail swings",
+      "status": "waiting",
+      "added": "2026-11-05"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-05T10:33:35",
-      "line": "I pogo‑bounced on my tail tip over the pond, splashing water that revealed a smooth slab perfect for a future hang.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-05T11:04:44",
       "line": "I grabbed a banana with my tail, cracked it in two, flung the halves onto a nearby crate and watched them tumble while the toothpick stayed poised.",
@@ -144,6 +138,12 @@
       "line": "I perched on the pond's edge, flicked my tail, and sent a lily pad skimming across the water, the splash echoing my smug grin.",
       "trick": "none",
       "area": "waterfall_pond"
+    },
+    {
+      "t": "2026-11-05T16:33:42",
+      "line": "I took the telescope from the hut, spotted the far spires, then backflipped off the rope bridge. My tail looped the rail on the way down. The hammock caught the breeze.",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-05T16:02:08",
-  "area": "waterfall_pond"
+  "last_thought_at": "2026-11-05T16:33:42",
+  "area": "lookout_ledge"
 }
