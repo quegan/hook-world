@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 153,
+  "tick": 154,
   "moods": {
     "swagger": 100,
-    "energy": 53,
-    "hunger": 71,
-    "curiosity": 57,
-    "chill": 87
+    "energy": 59,
+    "hunger": 26,
+    "curiosity": 60,
+    "chill": 93
   },
-  "action": "practicing a trick",
-  "status": "Practicing a trick - tail grab",
-  "thought": "Just snagged the fruit stump with my tail, while the espresso drips onto my shades.",
+  "action": "snacking",
+  "status": "Snacking - tail grab",
+  "thought": "Tail's got the snack, toothpick's idle.",
   "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A reflective disc to showcase the tail loop",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
-    {
-      "item": "A thick branch with better grip",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
     {
       "item": "A neon disc to catch my tail loops",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A polished slab to showcase the tail",
       "status": "waiting",
       "added": "2026-11-05"
+    },
+    {
+      "item": "A low‑poly swing set for tail launches",
+      "status": "waiting",
+      "added": "2026-11-05"
+    },
+    {
+      "item": "A neon backdrop to highlight my tail",
+      "status": "waiting",
+      "added": "2026-11-05"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-04T23:00:55",
-      "line": "Got myself stuck on a branch with just three little bananas; they're looking like snack bait compared to the fruit stump I usually steal from.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-04T23:30:11",
       "line": "Wasted an hour showing off on a string thinner than my ego; the grid blinked when I should have been looped tight and ready to pop.",
@@ -144,6 +138,12 @@
       "line": "I curled the tail around the fruit stump, yanked the ripe berry clean, and tossed the toothpick back into the crate, all while the lights flickered.",
       "trick": "tail_grab",
       "area": "hangout"
+    },
+    {
+      "t": "2026-11-05T05:32:46",
+      "line": "I swung my tail around the hanging coconut, yanked it down, cracked it open, and ate the meat while the sun caught the metal of my lenses.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-05T05:04:13",
-  "area": "hangout"
+  "last_thought_at": "2026-11-05T05:32:46",
+  "area": "banana_grove"
 }
