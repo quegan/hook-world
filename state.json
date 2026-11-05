@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 151,
+  "tick": 152,
   "moods": {
     "swagger": 100,
-    "energy": 42,
-    "hunger": 63,
-    "curiosity": 48,
-    "chill": 93
+    "energy": 63,
+    "hunger": 64,
+    "curiosity": 52,
+    "chill": 88
   },
-  "action": "showing off",
-  "status": "Showing off",
-  "thought": "The pond's mist can't hide my tail's swing.",
-  "tail_trick": "none",
+  "action": "sipping espresso",
+  "status": "Sipping espresso - pogo",
+  "thought": "Espresso burns, tail bounces, sky rocks wobble.",
+  "tail_trick": "pogo",
   "prop": "espresso",
   "wants": [
-    {
-      "item": "A reflective chrome disc to showcase tail loops",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
-    {
-      "item": "A wider balcony rail for a smoother tail swing",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
     {
       "item": "A polished pole to spin my tail around",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A polished stone for tail loops",
       "status": "waiting",
       "added": "2026-11-05"
+    },
+    {
+      "item": "A wider ledge for a tail spin",
+      "status": "waiting",
+      "added": "2026-11-05"
+    },
+    {
+      "item": "A reflective slab to showcase the tail",
+      "status": "waiting",
+      "added": "2026-11-05"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-04T22:09:25",
-      "line": "Sipped espresso on the ledge, then looped my tail around the telescope tripod and backflipped into the hammock. The hut antenna never noticed. The hammock did.",
-      "trick": "backflip",
-      "area": "lookout_ledge"
-    },
     {
       "t": "2026-11-04T22:34:38",
       "line": "I pried the unit open, tail snagged the latch and a secret lounge flickered to life, lights buzzing low-poly style.",
@@ -144,6 +138,12 @@
       "line": "I dangled from a low branch over the waterfall, tail wrapped around a slick rock, letting the water spray glint off my shades while I tossed a toothpick for flair.",
       "trick": "none",
       "area": "waterfall_pond"
+    },
+    {
+      "t": "2026-11-05T04:35:04",
+      "line": "I sipped espresso as a gust nudged the crystal, my tail pogoed the edge, sending a spark that lit the rocks.",
+      "trick": "pogo",
+      "area": "sky_rocks"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-05T04:05:45",
-  "area": "waterfall_pond"
+  "last_thought_at": "2026-11-05T04:35:04",
+  "area": "sky_rocks"
 }
