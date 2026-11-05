@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 149,
+  "tick": 150,
   "moods": {
     "swagger": 100,
-    "energy": 58,
-    "hunger": 53,
-    "curiosity": 41,
-    "chill": 95
+    "energy": 48,
+    "hunger": 56,
+    "curiosity": 45,
+    "chill": 96
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso",
-  "thought": "Neon cord feels weak for my weight. Need that thick branch to actually pull off a flip without dropping my shades.",
-  "tail_trick": "none",
-  "prop": "espresso",
+  "action": "practicing a trick",
+  "status": "Practicing a trick - tail grab",
+  "thought": "Tail snatched a banana, no sweat.",
+  "tail_trick": "tail_grab",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A wider ledge for a tail swing",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
     {
       "item": "A reflective surface to showcase the tail loop",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "A neon disc to catch my tail loops",
       "status": "waiting",
       "added": "2026-11-05"
+    },
+    {
+      "item": "A sturdy pole for a tail spin",
+      "status": "waiting",
+      "added": "2026-11-05"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-04T21:01:35",
-      "line": "The neon cord felt scratchy, not enough weight to keep my momentum; need a thick limb before gravity catches me again.",
-      "trick": "hang",
-      "area": "hang_tree"
-    },
     {
       "t": "2026-11-04T21:31:29",
       "line": "Swinging over the floating stepping-stones while the crystal glows above; toothpick feels sharp enough to slice through air itself.",
@@ -144,6 +138,12 @@
       "line": "Sipped the last of the espresso while watching the neon sign flicker. That purple arcade cabinet looks cooler than any tree, but my tail won't loop tight enough on this thin...",
       "trick": "none",
       "area": "arcade"
+    },
+    {
+      "t": "2026-11-05T03:32:18",
+      "line": "I swung into the grove, looped my tail around a ripe banana, yanked it clean, and tipped my toothpick in triumph.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-05T03:00:53",
-  "area": "arcade"
+  "last_thought_at": "2026-11-05T03:32:18",
+  "area": "banana_grove"
 }
