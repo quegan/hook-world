@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 155,
+  "tick": 156,
   "moods": {
     "swagger": 100,
-    "energy": 51,
-    "hunger": 34,
-    "curiosity": 53,
-    "chill": 93
+    "energy": 47,
+    "hunger": 42,
+    "curiosity": 45,
+    "chill": 94
   },
   "action": "exploring",
   "status": "Exploring",
-  "thought": "The jukebox blares 8‑bit beats; I lean, toothpick in mouth, eyes half‑closed.",
+  "thought": "Mist rolls off the pond, catching my lenses; I’m scouting a solid perch for the next tail stunt.",
   "tail_trick": "none",
-  "prop": "toothpick",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "A wider rail to swing across the pond",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
-    {
-      "item": "A polished stone for tail loops",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
     {
       "item": "A wider ledge for a tail spin",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A mirrored wall to showcase the tail",
       "status": "waiting",
       "added": "2026-11-05"
+    },
+    {
+      "item": "A thicker branch for a backflip.",
+      "status": "waiting",
+      "added": "2026-11-05"
+    },
+    {
+      "item": "A polished slab to showcase a tail spin.",
+      "status": "waiting",
+      "added": "2026-11-05"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-05T00:08:39",
-      "line": "Tail-snagged a mango off the stump while the fan notes rolled in. CRT flickers. Rug's worn. Still the best seat in the grid.",
-      "trick": "tail_grab",
-      "area": "hangout"
-    },
     {
       "t": "2026-11-05T00:33:04",
       "line": "I slipped onto a glassy slab beside the cascade, the surface catching my sunglasses, and I let the tail coil around a jutting rock, testing its grip.",
@@ -144,6 +138,12 @@
       "line": "I nudged the low‑poly jukebox with my tail, hit the play button, and let the chiptune echo while I stare at the flickering screen, toothpick poised.",
       "trick": "none",
       "area": "arcade"
+    },
+    {
+      "t": "2026-11-05T07:02:16",
+      "line": "I slipped onto a floating lily pad, nudged it with my tail, and it bobbed into a hidden alcove where a smooth stone slab glints, perfect for a future tail hang.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-05T06:33:00",
-  "area": "arcade"
+  "last_thought_at": "2026-11-05T07:02:16",
+  "area": "waterfall_pond"
 }
