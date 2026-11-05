@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 168,
+  "tick": 169,
   "moods": {
     "swagger": 100,
-    "energy": 50,
-    "hunger": 55,
-    "curiosity": 44,
+    "energy": 41,
+    "hunger": 61,
+    "curiosity": 49,
     "chill": 97
   },
-  "action": "exploring",
-  "status": "Exploring - tail grab",
-  "thought": "Palms sway, I coil, snag a neon banana, toothpick still poised.",
-  "tail_trick": "tail_grab",
-  "prop": "toothpick",
+  "action": "showing off",
+  "status": "Showing off - backflip",
+  "thought": "Backflip nailed, tail looped around the crystal—crowd's pixel eyes can't keep up.",
+  "tail_trick": "backflip",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "A mirrored slab to showcase tail spins",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
     {
       "item": "A wider branch for a longer hang.",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "A mirrored slab for tail grabs.",
       "status": "waiting",
       "added": "2026-11-05"
+    },
+    {
+      "item": "A mirrored slab to showcase the backflip.",
+      "status": "waiting",
+      "added": "2026-11-05"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-05T07:31:05",
-      "line": "Dangled from the high wire, tail wrapped tight around the glow. The crowd is hyped but I know the real test starts when they see me break free mid-air.",
-      "trick": "hang",
-      "area": "hang_tree"
-    },
     {
       "t": "2026-11-05T08:32:40",
       "line": "I perched on the highest stone, tail tip tapping the air like a metronome, while I watched the low‑poly avatars shuffle past the crystal, espresso cooling in my hand.",
@@ -144,6 +138,12 @@
       "line": "I looped my tail around a low‑poly frond, yanked a glowing banana mid‑air, and tossed it onto a crate for the crowd to stare at.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-05T14:03:20",
+      "line": "I launched into a backflip, tail laced the crystal spire, landed on the ledge, and let the espresso drip onto my sunglasses.",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-05T13:32:30",
-  "area": "banana_grove"
+  "last_thought_at": "2026-11-05T14:03:20",
+  "area": "lookout_ledge"
 }
