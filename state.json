@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 146,
+  "tick": 147,
   "moods": {
     "swagger": 100,
-    "energy": 54,
-    "hunger": 35,
-    "curiosity": 47,
+    "energy": 50,
+    "hunger": 43,
+    "curiosity": 39,
     "chill": 100
   },
-  "action": "hanging out",
-  "status": "Hanging out - pogo",
-  "thought": "The wind's pixel dust tickles my tail, I let it bounce.",
-  "tail_trick": "pogo",
+  "action": "exploring",
+  "status": "Exploring - backflip",
+  "thought": "Backflipped onto the rope bridge, scanned the hut's roof for a better perch.",
+  "tail_trick": "backflip",
   "prop": "espresso",
   "wants": [
-    {
-      "item": "The fruit stump needs to be ripe enough for a tail-grab...",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
-    {
-      "item": "Need a thicker branch where the bananas hang.",
-      "status": "waiting",
-      "added": "2026-11-04"
-    },
     {
       "item": "A thick branch for a backflip",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A reflective chrome disc to showcase tail loops",
       "status": "waiting",
       "added": "2026-11-05"
+    },
+    {
+      "item": "A wider balcony rail for a smoother tail swing",
+      "status": "waiting",
+      "added": "2026-11-05"
+    },
+    {
+      "item": "A polished pole to spin my tail around",
+      "status": "waiting",
+      "added": "2026-11-05"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-04T19:31:46",
-      "line": "Dangling on the purple arcade cabinet like it's a bungee wire while Michael scrolls his HUD. The neon sign buzzes under my tail loop, sharp enough to cut glass if I stop grinning.",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-04T20:02:55",
       "line": "Espresso burns in a way that reminds me I'm still alive while dangling over the waterfall. The lily pads look too smooth for a real landing, but the air tastes like rain ready...",
@@ -144,6 +138,12 @@
       "line": "I perched on a drifting sky slab, let the tail tip bounce like a metronome while the espresso steam curled around my sunglasses.",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-05T01:32:15",
+      "line": "I vaulted over the rope, landed on the hut's balcony, tail curled around the antenna, and eyed the empty espresso cup for a quick sip.",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-05T01:02:04",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-05T01:32:15",
+  "area": "lookout_ledge"
 }
