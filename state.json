@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 174,
+  "tick": 175,
   "moods": {
     "swagger": 100,
-    "energy": 43,
-    "hunger": 34,
-    "curiosity": 70,
+    "energy": 48,
+    "hunger": 39,
+    "curiosity": 75,
     "chill": 100
   },
   "action": "hanging out",
-  "status": "Hanging out - backflip",
-  "thought": "Borrowed the telescope, checked the horizon, then flipped off the rope bridge. Same ledge, better entrance.",
-  "tail_trick": "backflip",
-  "prop": "toothpick",
+  "status": "Hanging out - pogo",
+  "thought": "Tail on the tip, bounce, crystal glint—just another pause.",
+  "tail_trick": "pogo",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "A mirrored slab to showcase the backflip.",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
-    {
-      "item": "A taller pole for a higher tail flip",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
     {
       "item": "A mirrored slab to showcase a tail grab",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A hammock rail for longer tail swings",
       "status": "waiting",
       "added": "2026-11-05"
+    },
+    {
+      "item": "A sturdier sky‑rock ledge for higher tail bounces.",
+      "status": "waiting",
+      "added": "2026-11-05"
+    },
+    {
+      "item": "A reflective shard to flash my tail moves.",
+      "status": "waiting",
+      "added": "2026-11-05"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-05T11:04:44",
-      "line": "I grabbed a banana with my tail, cracked it in two, flung the halves onto a nearby crate and watched them tumble while the toothpick stayed poised.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-05T11:34:13",
       "line": "I wrapped my tail around the sturdy branch, hoisted myself, and held the pose while the low‑poly crowd stared, toothpick balanced on my lip.",
@@ -144,6 +138,12 @@
       "line": "I took the telescope from the hut, spotted the far spires, then backflipped off the rope bridge. My tail looped the rail on the way down. The hammock caught the breeze.",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-05T17:02:20",
+      "line": "I bounced on my tail tip off the edge of a sky rock, knocked a stray crystal loose, and caught it before it hit the void.",
+      "trick": "pogo",
+      "area": "sky_rocks"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-05T16:33:42",
-  "area": "lookout_ledge"
+  "last_thought_at": "2026-11-05T17:02:20",
+  "area": "sky_rocks"
 }
