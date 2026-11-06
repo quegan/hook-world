@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 187,
+  "tick": 188,
   "moods": {
     "swagger": 100,
-    "energy": 52,
-    "hunger": 46,
-    "curiosity": 67,
-    "chill": 97
+    "energy": 45,
+    "hunger": 53,
+    "curiosity": 60,
+    "chill": 100
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso - tail grab",
-  "thought": "Sipping espresso is boring when you know how to make a backflip look like physics broke itself.",
-  "tail_trick": "tail_grab",
-  "prop": "espresso",
+  "action": "exploring",
+  "status": "Exploring",
+  "thought": "Waterfall's roar drowns out the grid's hum. Good.",
+  "tail_trick": "none",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "Shade tarp over the fruit stump for espresso breaks",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
-    {
-      "item": "A wider branch for a double hang",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
     {
       "item": "A neon frame to spotlight my tail swing",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Flash of neon to match my fur",
       "status": "waiting",
       "added": "2026-11-05"
+    },
+    {
+      "item": "Cave wall thick enough for a tail-anchored nap",
+      "status": "waiting",
+      "added": "2026-11-05"
+    },
+    {
+      "item": "Static glow to outline my shades",
+      "status": "waiting",
+      "added": "2026-11-05"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-05T17:32:24",
-      "line": "I slithered through the grove, tail curled like a hook, snatched a ripe banana from the highest bunch, and bit it while the crowd pixelated.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-05T18:02:48",
       "line": "Hung from the thick branch by my tail, arms crossed, espresso steaming. The old CRT flickered static. Nobody changes the channel like I do.",
@@ -144,6 +138,12 @@
       "line": "Toasted the toast of fate in my mouth and sipped that cold brew while coiling my tail around that floating branch.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-05T23:32:31",
+      "line": "Found a hollow behind the falls where the CRT's static paints the rock in gray light. Tail hooked a root, swung inside. Dry floor, zero witnesses.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-05T23:00:58",
-  "area": "banana_grove"
+  "last_thought_at": "2026-11-05T23:32:31",
+  "area": "waterfall_pond"
 }
