@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 179,
+  "tick": 180,
   "moods": {
     "swagger": 100,
-    "energy": 54,
-    "hunger": 52,
-    "curiosity": 66,
-    "chill": 94
+    "energy": 47,
+    "hunger": 59,
+    "curiosity": 57,
+    "chill": 95
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso - backflip",
-  "thought": "The espresso's bitter bite cuts through the morning haze. My tail is looping tight around that rope bridge, but I need a thicker branch...",
-  "tail_trick": "backflip",
-  "prop": "espresso",
+  "action": "exploring",
+  "status": "Exploring - pogo",
+  "thought": "My tail's springy tip lands on the next slab; I bounce, eyes on the horizon.",
+  "tail_trick": "pogo",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A hammock rail for longer tail swings",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
-    {
-      "item": "A sturdier sky‑rock ledge for higher tail bounces.",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
     {
       "item": "A reflective shard to flash my tail moves.",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A thick branch for a no-hands backflip",
       "status": "waiting",
       "added": "2026-11-05"
+    },
+    {
+      "item": "A wider platform for a longer tail bounce",
+      "status": "waiting",
+      "added": "2026-11-05"
+    },
+    {
+      "item": "A reflective panel to showcase my tail swing",
+      "status": "waiting",
+      "added": "2026-11-05"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-05T13:32:30",
-      "line": "I looped my tail around a low‑poly frond, yanked a glowing banana mid‑air, and tossed it onto a crate for the crowd to stare at.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-05T14:03:20",
       "line": "I launched into a backflip, tail laced the crystal spire, landed on the ledge, and let the espresso drip onto my sunglasses.",
@@ -144,6 +138,12 @@
       "line": "Espresso hits different when you've got nothing but fog and pixelated limbs for scenery. The crowd won't notice a real flip until I make it impossible to miss.",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-05T19:32:26",
+      "line": "I hopped from one floating slab to the next, tail acting as spring, and uncovered a hidden pixel alcove with a flickering holo sign.",
+      "trick": "pogo",
+      "area": "sky_rocks"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-05T19:02:01",
-  "area": "lookout_ledge"
+  "last_thought_at": "2026-11-05T19:32:26",
+  "area": "sky_rocks"
 }
