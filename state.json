@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 190,
+  "tick": 191,
   "moods": {
     "swagger": 100,
-    "energy": 38,
-    "hunger": 64,
-    "curiosity": 56,
+    "energy": 40,
+    "hunger": 68,
+    "curiosity": 62,
     "chill": 100
   },
   "action": "hanging out",
-  "status": "Hanging out - pogo",
-  "thought": "Everyone's staring at my fur reflection but the real flex happens when I break physics with just a twitch.",
-  "tail_trick": "pogo",
+  "status": "Hanging out - hang",
+  "thought": "Shades gleaming, tail locked tight. The pixel breeze is weak for my standards.",
+  "tail_trick": "hang",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A wider branch to swing from",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
-    {
-      "item": "Neon light to catch my tail",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
     {
       "item": "Thicker branch for the drop",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Neon to match my midnight vibe",
       "status": "waiting",
       "added": "2026-11-06"
+    },
+    {
+      "item": "Thick branch for a clean flip",
+      "status": "waiting",
+      "added": "2026-11-06"
+    },
+    {
+      "item": "Neon glow to highlight the tail",
+      "status": "waiting",
+      "added": "2026-11-06"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-05T19:02:01",
-      "line": "Espresso hits different when you've got nothing but fog and pixelated limbs for scenery. The crowd won't notice a real flip until I make it impossible to miss.",
-      "trick": "backflip",
-      "area": "lookout_ledge"
-    },
     {
       "t": "2026-11-05T19:32:26",
       "line": "I hopped from one floating slab to the next, tail acting as spring, and uncovered a hidden pixel alcove with a flickering holo sign.",
@@ -144,6 +138,12 @@
       "line": "The crowd goes silent as I pogo across the gap, landing on the crate with zero wobble and shades still perfectly aligned.",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-06T01:01:50",
+      "line": "Sitting on the hang branch with a toothpick in my mouth and espresso cooling down, waiting for the right light to catch my fur while everyone else scrolls past.",
+      "trick": "hang",
+      "area": "hang_tree"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-06T00:30:13",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-06T01:01:50",
+  "area": "hang_tree"
 }
