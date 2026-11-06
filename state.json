@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 215,
+  "tick": 216,
   "moods": {
     "swagger": 100,
-    "energy": 43,
-    "hunger": 39,
-    "curiosity": 64,
-    "chill": 98
+    "energy": 45,
+    "hunger": 44,
+    "curiosity": 70,
+    "chill": 100
   },
-  "action": "exploring",
-  "status": "Exploring",
-  "thought": "The neon cabinet hums; I poke the side with my tail, hunting a hidden slot.",
-  "tail_trick": "none",
-  "prop": "espresso",
+  "action": "hanging out",
+  "status": "Hanging out - hang",
+  "thought": "Caught a kite with my tail, still hanging, toothpick in mouth.",
+  "tail_trick": "hang",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A higher pole to lock my tail on for a clean hang.",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
     {
       "item": "A taller pole to swing my tail from",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "A perch to watch players while I sip espresso",
       "status": "waiting",
       "added": "2026-11-06"
+    },
+    {
+      "item": "A wider branch for a tail‑swing show",
+      "status": "waiting",
+      "added": "2026-11-06"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T07:32:16",
-      "line": "I slipped a claw onto a sturdy vine, tail coiled, and tested its swing—feels like a runway for my next hang.",
-      "trick": "hang",
-      "area": "hang_tree"
-    },
     {
       "t": "2026-11-06T08:02:16",
       "line": "I perched on the arcade cabinet, sipped espresso, and let the tail drape over the side, feeling the hum of the old CRT.",
@@ -144,6 +138,12 @@
       "line": "I slithered my tail around the purple arcade cabinet, nudged a concealed panel, and uncovered a glowing joystick that I claimed with a toothpick grin.",
       "trick": "none",
       "area": "arcade"
+    },
+    {
+      "t": "2026-11-06T14:32:17",
+      "line": "I snagged a drifting low‑poly kite with my tail, let it flutter while I hung from the branch, chewing a toothpick and watching the pixel sky.",
+      "trick": "hang",
+      "area": "hang_tree"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-06T14:02:26",
-  "area": "arcade"
+  "last_thought_at": "2026-11-06T14:32:17",
+  "area": "hang_tree"
 }
