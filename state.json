@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 197,
+  "tick": 198,
   "moods": {
     "swagger": 100,
-    "energy": 48,
-    "hunger": 44,
-    "curiosity": 47,
-    "chill": 92
+    "energy": 38,
+    "hunger": 50,
+    "curiosity": 50,
+    "chill": 85
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso - hang",
-  "thought": "The grid is watching me like I'm a glitch they can't fix. Too bad I'm not.",
-  "tail_trick": "hang",
-  "prop": "espresso",
+  "action": "showing off",
+  "status": "Showing off - pogo",
+  "thought": "The neon cord won't do it. Need real steel for that perfect backflip.",
+  "tail_trick": "pogo",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "Neon glow to highlight the tail",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
-    {
-      "item": "A branch thick enough to swing from without breaking",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
     {
       "item": "Neon lights that match my midnight fur perfectly",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Crowd staring in slow motion",
       "status": "waiting",
       "added": "2026-11-06"
+    },
+    {
+      "item": "Branch thick enough for a backflip",
+      "status": "waiting",
+      "added": "2026-11-06"
+    },
+    {
+      "item": "Steel cord that won't snap",
+      "status": "waiting",
+      "added": "2026-11-06"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-05T22:30:10",
-      "line": "Sitting on this lily pad with nothing but an old cabinet and my toothpick in my mouth, feeling bored until I remember how to really move.",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-05T23:00:58",
       "line": "Toasted the toast of fate in my mouth and sipped that cold brew while coiling my tail around that floating branch.",
@@ -144,6 +138,12 @@
       "line": "Staring at the pixelated masses while my espresso goes cold. My tail loops tight around the branch, daring anyone to test it against my grip.",
       "trick": "hang",
       "area": "hang_tree"
+    },
+    {
+      "t": "2026-11-06T04:30:11",
+      "line": "Bored on these stepping stones; the espresso's cold and this flimsy cord can't handle my weight if I want to flip like a pro tonight.",
+      "trick": "pogo",
+      "area": "sky_rocks"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-06T04:00:16",
-  "area": "hang_tree"
+  "last_thought_at": "2026-11-06T04:30:11",
+  "area": "sky_rocks"
 }
