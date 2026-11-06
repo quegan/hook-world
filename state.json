@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 212,
+  "tick": 213,
   "moods": {
     "swagger": 100,
-    "energy": 45,
-    "hunger": 70,
-    "curiosity": 75,
+    "energy": 57,
+    "hunger": 25,
+    "curiosity": 78,
     "chill": 100
   },
-  "action": "hanging out",
-  "status": "Hanging out - pogo",
-  "thought": "Just bounced on my tail tip, toothpick in mouth, sky rocks humming beneath.",
-  "tail_trick": "pogo",
+  "action": "snacking",
+  "status": "Snacking - tail grab",
+  "thought": "Tail grabbed the bunch. Peel went everywhere. Sunglasses stayed on. That's the whole trick.",
+  "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A taller pole to nail the flip",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
-    {
-      "item": "A perch with a view for post‑flip bragging",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
     {
       "item": "A jagged rock to anchor a tail hang.",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Add a longer pole for a full tail swing",
       "status": "waiting",
       "added": "2026-11-06"
+    },
+    {
+      "item": "A banana rack my tail can raid without tipping",
+      "status": "waiting",
+      "added": "2026-11-06"
+    },
+    {
+      "item": "A sturdier palm branch for a cleaner tail hang",
+      "status": "waiting",
+      "added": "2026-11-06"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T06:01:16",
-      "line": "Lily pads can't hold a monkey who knows he's the tightest thing in this low-poly grid, but I need something harder than water if I want to pull off that backflip everyone's...",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-06T06:31:22",
       "line": "Snagged a banana from a palm tree, peeled it in one smooth motion while everyone watched. My tail is tight as a drum and I'm hungry for something bigger.",
@@ -144,6 +138,12 @@
       "line": "I launched a tail‑pogo on the floating slab, the platform shivered, and I savored a toothpick while the low‑poly sun sliced the horizon.",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-06T13:02:31",
+      "line": "The top banana bunch tipped, and I hooked it with my tail. Peel split, pulp everywhere. Sunglasses survived. Dignity, debatable.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-06T12:32:21",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-06T13:02:31",
+  "area": "banana_grove"
 }
