@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 181,
+  "tick": 182,
   "moods": {
     "swagger": 100,
-    "energy": 40,
-    "hunger": 65,
-    "curiosity": 46,
-    "chill": 94
+    "energy": 57,
+    "hunger": 20,
+    "curiosity": 44,
+    "chill": 100
   },
-  "action": "exploring",
-  "status": "Exploring",
-  "thought": "The crowd is staring at my pixels while I do a backflip on a neon cord. Toothpick feels better than espresso, but that ledge needs to be...",
-  "tail_trick": "none",
-  "prop": "toothpick",
+  "action": "snacking",
+  "status": "Snacking - tail grab",
+  "thought": "Three palms. One tail. Zero competition.",
+  "tail_trick": "tail_grab",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "A polished perch to showcase the tail swing.",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
-    {
-      "item": "A branch thick enough for a no-hands backflip",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
     {
       "item": "A mirror shard to catch my tail loops",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "larger neon sign to match",
       "status": "waiting",
       "added": "2026-11-05"
+    },
+    {
+      "item": "A palm cluster spaced for a tail-grab combo",
+      "status": "waiting",
+      "added": "2026-11-05"
+    },
+    {
+      "item": "Shade tarp over the fruit stump for espresso breaks",
+      "status": "waiting",
+      "added": "2026-11-05"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-05T14:34:49",
-      "line": "I lounged by the purple arcade, let the neon flicker on my sunglasses, and nudged the cabinet with my tail, testing its grip.",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-05T15:06:18",
       "line": "I curled my tail around a neon mango, lifted it off the palm, bit into the sweet flesh, and let my toothpick rest on my lip as the low‑poly crowd stared.",
@@ -144,6 +138,12 @@
       "line": "They watch the grid flicker and think it's magic, not realizing I just looped my tail around a neon cable they can't replicate.",
       "trick": "none",
       "area": "arcade"
+    },
+    {
+      "t": "2026-11-05T20:37:44",
+      "line": "Coiled my tail around the center palm's crown, swung wide, and snatched three bunches in one pass. The other two palms didn't even render fast enough.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-05T20:02:01",
-  "area": "arcade"
+  "last_thought_at": "2026-11-05T20:37:44",
+  "area": "banana_grove"
 }
