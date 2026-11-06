@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 198,
+  "tick": 199,
   "moods": {
     "swagger": 100,
-    "energy": 38,
-    "hunger": 50,
-    "curiosity": 50,
-    "chill": 85
+    "energy": 54,
+    "hunger": 54,
+    "curiosity": 53,
+    "chill": 81
   },
-  "action": "showing off",
-  "status": "Showing off - pogo",
-  "thought": "The neon cord won't do it. Need real steel for that perfect backflip.",
-  "tail_trick": "pogo",
-  "prop": "toothpick",
+  "action": "sipping espresso",
+  "status": "Sipping espresso",
+  "thought": "Espresso burns, tail idle, neon flickers, I wait for a steel branch.",
+  "tail_trick": "none",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "Neon lights that match my midnight fur perfectly",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
-    {
-      "item": "A steel‑reinforced branch for a clean backflip",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
     {
       "item": "A steel-reinforced branch",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Steel cord that won't snap",
       "status": "waiting",
       "added": "2026-11-06"
+    },
+    {
+      "item": "A steel beam to swing my tail from.",
+      "status": "waiting",
+      "added": "2026-11-06"
+    },
+    {
+      "item": "A platform high enough for a tail flip.",
+      "status": "waiting",
+      "added": "2026-11-06"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-05T23:00:58",
-      "line": "Toasted the toast of fate in my mouth and sipped that cold brew while coiling my tail around that floating branch.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-05T23:32:31",
       "line": "Found a hollow behind the falls where the CRT's static paints the rock in gray light. Tail hooked a root, swung inside. Dry floor, zero witnesses.",
@@ -144,6 +138,12 @@
       "line": "Bored on these stepping stones; the espresso's cold and this flimsy cord can't handle my weight if I want to flip like a pro tonight.",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-06T05:02:56",
+      "line": "I perched on the arcade's neon-lit console, sipping espresso while my tail draped over the cabinet, eyeing the empty space for a sturdy beam.",
+      "trick": "none",
+      "area": "arcade"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-06T04:30:11",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-06T05:02:56",
+  "area": "arcade"
 }
