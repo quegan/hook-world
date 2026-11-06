@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 214,
+  "tick": 215,
   "moods": {
     "swagger": 100,
-    "energy": 47,
-    "hunger": 31,
-    "curiosity": 71,
-    "chill": 97
+    "energy": 43,
+    "hunger": 39,
+    "curiosity": 64,
+    "chill": 98
   },
   "action": "exploring",
   "status": "Exploring",
-  "thought": "Water's too splashy, need solid ground for that neon cord flip.",
+  "thought": "The neon cabinet hums; I poke the side with my tail, hunting a hidden slot.",
   "tail_trick": "none",
-  "prop": "toothpick",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "A taller pole for a higher swing",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
-    {
-      "item": "A wider ledge to showcase the tail lock",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
     {
       "item": "A higher pole to lock my tail on for a clean hang.",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A thick branch to swing from",
       "status": "waiting",
       "added": "2026-11-06"
+    },
+    {
+      "item": "A sturdy pole for a tail hang over the arcade screen",
+      "status": "waiting",
+      "added": "2026-11-06"
+    },
+    {
+      "item": "A perch to watch players while I sip espresso",
+      "status": "waiting",
+      "added": "2026-11-06"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T07:02:24",
-      "line": "Bite through the last bit of sweetness, crumbs stuck to my whiskers. This grove lacks the grit needed for a true spectacle.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-06T07:32:16",
       "line": "I slipped a claw onto a sturdy vine, tail coiled, and tested its swing—feels like a runway for my next hang.",
@@ -144,6 +138,12 @@
       "line": "Splashy pond failed to grip my tail; water splattered while I chewed this toothpick. Need rock-solid perches before anyone sees me do anything cool again.",
       "trick": "none",
       "area": "waterfall_pond"
+    },
+    {
+      "t": "2026-11-06T14:02:26",
+      "line": "I slithered my tail around the purple arcade cabinet, nudged a concealed panel, and uncovered a glowing joystick that I claimed with a toothpick grin.",
+      "trick": "none",
+      "area": "arcade"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-06T13:31:45",
-  "area": "waterfall_pond"
+  "last_thought_at": "2026-11-06T14:02:26",
+  "area": "arcade"
 }
