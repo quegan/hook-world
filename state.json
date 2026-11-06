@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 199,
+  "tick": 200,
   "moods": {
     "swagger": 100,
-    "energy": 54,
-    "hunger": 54,
-    "curiosity": 53,
-    "chill": 81
+    "energy": 59,
+    "hunger": 59,
+    "curiosity": 58,
+    "chill": 90
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso",
-  "thought": "Espresso burns, tail idle, neon flickers, I wait for a steel branch.",
-  "tail_trick": "none",
+  "action": "hanging out",
+  "status": "Hanging out - backflip",
+  "thought": "I perched on the ledge, eyeing the islet, ready to launch.",
+  "tail_trick": "backflip",
   "prop": "espresso",
   "wants": [
-    {
-      "item": "A steel-reinforced branch",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
-    {
-      "item": "Perfect lighting for the flip",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
     {
       "item": "A branch thick enough to swing from without snapping",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A platform high enough for a tail flip.",
       "status": "waiting",
       "added": "2026-11-06"
+    },
+    {
+      "item": "A sturdier pole for tail grabs",
+      "status": "waiting",
+      "added": "2026-11-06"
+    },
+    {
+      "item": "A higher perch to showcase the flip",
+      "status": "waiting",
+      "added": "2026-11-06"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-05T23:32:31",
-      "line": "Found a hollow behind the falls where the CRT's static paints the rock in gray light. Tail hooked a root, swung inside. Dry floor, zero witnesses.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-06T00:00:20",
       "line": "Mid-swing on this floating islet, toes tapping the air. Tail loops tight around the neon cord while I wait for the perfect drop.",
@@ -144,6 +138,12 @@
       "line": "I perched on the arcade's neon-lit console, sipping espresso while my tail draped over the cabinet, eyeing the empty space for a sturdy beam.",
       "trick": "none",
       "area": "arcade"
+    },
+    {
+      "t": "2026-11-06T05:32:24",
+      "line": "I launched off the rope, spun a backflip, tail snatching the hammock pole mid‑air, then landed clean on the hut roof, all while the sunrise pixelated the sky.",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-06T05:02:56",
-  "area": "arcade"
+  "last_thought_at": "2026-11-06T05:32:24",
+  "area": "lookout_ledge"
 }
