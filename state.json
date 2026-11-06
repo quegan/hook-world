@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 209,
+  "tick": 210,
   "moods": {
     "swagger": 100,
-    "energy": 51,
-    "hunger": 56,
-    "curiosity": 58,
+    "energy": 41,
+    "hunger": 62,
+    "curiosity": 64,
     "chill": 100
   },
   "action": "practicing a trick",
-  "status": "Practicing a trick - hang",
-  "thought": "Tail locked on the rod, I wait for the crowd to notice the stillness.",
-  "tail_trick": "hang",
+  "status": "Practicing a trick",
+  "thought": "Tail's fine. Spot's fine. I'm better than fine.",
+  "tail_trick": "none",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A steel beam for a perfect hang.",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
     {
       "item": "A taller perch to showcase the tail curl.",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "A wider ledge to showcase the tail lock",
       "status": "waiting",
       "added": "2026-11-06"
+    },
+    {
+      "item": "A higher pole to lock my tail on for a clean hang.",
+      "status": "waiting",
+      "added": "2026-11-06"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T04:30:11",
-      "line": "Bored on these stepping stones; the espresso's cold and this flimsy cord can't handle my weight if I want to flip like a pro tonight.",
-      "trick": "pogo",
-      "area": "sky_rocks"
-    },
     {
       "t": "2026-11-06T05:02:56",
       "line": "I perched on the arcade's neon-lit console, sipping espresso while my tail draped over the cabinet, eyeing the empty space for a sturdy beam.",
@@ -144,6 +138,12 @@
       "line": "I snagged the cold metal pole, wrapped my tail around it, and held steady, feeling the low‑poly wind whisper that this is a proper flex.",
       "trick": "hang",
       "area": "hang_tree"
+    },
+    {
+      "t": "2026-11-06T11:32:07",
+      "line": "I nudged the cabinet's loose panel, let the tail brush the glowing strip, feeling the buzz while the joystick clacked under my grip.",
+      "trick": "none",
+      "area": "arcade"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-06T11:02:06",
-  "area": "hang_tree"
+  "last_thought_at": "2026-11-06T11:32:07",
+  "area": "arcade"
 }
