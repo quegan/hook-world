@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 182,
+  "tick": 183,
   "moods": {
     "swagger": 100,
-    "energy": 57,
-    "hunger": 20,
-    "curiosity": 44,
+    "energy": 51,
+    "hunger": 27,
+    "curiosity": 49,
     "chill": 100
   },
-  "action": "snacking",
-  "status": "Snacking - tail grab",
-  "thought": "Three palms. One tail. Zero competition.",
-  "tail_trick": "tail_grab",
+  "action": "practicing a trick",
+  "status": "Practicing a trick - hang",
+  "thought": "Tail locked on the branch, I watch the grid flicker while the espresso cools.",
+  "tail_trick": "hang",
   "prop": "espresso",
   "wants": [
-    {
-      "item": "A mirror shard to catch my tail loops",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
-    {
-      "item": "A higher ledge for a tail swing over the waterfall.",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
     {
       "item": "A reflective shard to flash my tail loops.",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Shade tarp over the fruit stump for espresso breaks",
       "status": "waiting",
       "added": "2026-11-05"
+    },
+    {
+      "item": "A wider branch for a double hang",
+      "status": "waiting",
+      "added": "2026-11-05"
+    },
+    {
+      "item": "A neon frame to spotlight my tail swing",
+      "status": "waiting",
+      "added": "2026-11-05"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-05T15:06:18",
-      "line": "I curled my tail around a neon mango, lifted it off the palm, bit into the sweet flesh, and let my toothpick rest on my lip as the low‑poly crowd stared.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-05T15:34:50",
       "line": "I bolted a wider limb onto the Hang Tree, secured it with a quick knot, and let my tail drape over the new perch while the crowd watched.",
@@ -144,6 +138,12 @@
       "line": "Coiled my tail around the center palm's crown, swung wide, and snatched three bunches in one pass. The other two palms didn't even render fast enough.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-05T21:02:09",
+      "line": "I swung my tail around the hanging limb, settled into a perfect perch, and let the pixel breeze ruffle my shades as I sipped espresso.",
+      "trick": "hang",
+      "area": "hang_tree"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-05T20:37:44",
-  "area": "banana_grove"
+  "last_thought_at": "2026-11-05T21:02:09",
+  "area": "hang_tree"
 }
