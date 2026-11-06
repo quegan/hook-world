@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 219,
+  "tick": 220,
   "moods": {
     "swagger": 100,
-    "energy": 37,
-    "hunger": 60,
+    "energy": 52,
+    "hunger": 62,
     "curiosity": 72,
-    "chill": 100
+    "chill": 94
   },
-  "action": "hanging out",
-  "status": "Hanging out - pogo",
-  "thought": "Neon cord feels flimsy, need solid wood for that real backflip flex.",
-  "tail_trick": "pogo",
-  "prop": "toothpick",
+  "action": "sipping espresso",
+  "status": "Sipping espresso - tail grab",
+  "thought": "Burnt coffee tastes like winning. Time to prove they don't know what's up.",
+  "tail_trick": "tail_grab",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "A thick branch to swing from",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
-    {
-      "item": "A sturdy pole for a tail hang over the arcade screen",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
     {
       "item": "A perch to watch players while I sip espresso",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Solid ground to flex without fear",
       "status": "waiting",
       "added": "2026-11-06"
+    },
+    {
+      "item": "A branch thick enough to do a backflip without fear",
+      "status": "waiting",
+      "added": "2026-11-06"
+    },
+    {
+      "item": "The islet hut needs a stage light for my spotlight",
+      "status": "waiting",
+      "added": "2026-11-06"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T10:32:47",
-      "line": "I sip espresso by the cascade, eyes on a jagged rock that could become my next perch for a tail hang.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-06T11:02:06",
       "line": "I snagged the cold metal pole, wrapped my tail around it, and held steady, feeling the low‑poly wind whisper that this is a proper flex.",
@@ -144,6 +138,12 @@
       "line": "Sweat drips down my fur while I test the neon swing; tail snaps tight but gravity's still laughing at me. Time to find thicker ground before Michael mocks my airtime.",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-06T16:30:15",
+      "line": "Espresso hits my tongue with a kick I can taste. My tail loops around the string lights, catching the glow while they stare dumbfounded at the grid below.",
+      "trick": "tail_grab",
+      "area": "hangout"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-06T16:00:22",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-06T16:30:15",
+  "area": "hangout"
 }
