@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 183,
+  "tick": 184,
   "moods": {
     "swagger": 100,
-    "energy": 51,
-    "hunger": 27,
-    "curiosity": 49,
+    "energy": 50,
+    "hunger": 34,
+    "curiosity": 55,
     "chill": 100
   },
-  "action": "practicing a trick",
-  "status": "Practicing a trick - hang",
-  "thought": "Tail locked on the branch, I watch the grid flicker while the espresso cools.",
-  "tail_trick": "hang",
-  "prop": "espresso",
+  "action": "hanging out",
+  "status": "Hanging out - backflip",
+  "thought": "Bridge to hammock via telescope mount. Clean.",
+  "tail_trick": "backflip",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A reflective shard to flash my tail loops.",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
-    {
-      "item": "A thick branch for a no-hands backflip",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
     {
       "item": "A wider platform for a longer tail bounce",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A neon frame to spotlight my tail swing",
       "status": "waiting",
       "added": "2026-11-05"
+    },
+    {
+      "item": "Rope bridge reinforced for tail launches",
+      "status": "waiting",
+      "added": "2026-11-05"
+    },
+    {
+      "item": "Telescope mount rated for monkey weight",
+      "status": "waiting",
+      "added": "2026-11-05"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-05T15:34:50",
-      "line": "I bolted a wider limb onto the Hang Tree, secured it with a quick knot, and let my tail drape over the new perch while the crowd watched.",
-      "trick": "hang",
-      "area": "hang_tree"
-    },
     {
       "t": "2026-11-05T16:02:08",
       "line": "I perched on the pond's edge, flicked my tail, and sent a lily pad skimming across the water, the splash echoing my smug grin.",
@@ -144,6 +138,12 @@
       "line": "I swung my tail around the hanging limb, settled into a perfect perch, and let the pixel breeze ruffle my shades as I sipped espresso.",
       "trick": "hang",
       "area": "hang_tree"
+    },
+    {
+      "t": "2026-11-05T21:38:52",
+      "line": "Backflipped off the rope bridge railing, tail hooked the telescope, stuck the landing in the hammock. Hut's CRT flickered like it was impressed.",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-05T21:02:09",
-  "area": "hang_tree"
+  "last_thought_at": "2026-11-05T21:38:52",
+  "area": "lookout_ledge"
 }
