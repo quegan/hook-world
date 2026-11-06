@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 202,
+  "tick": 203,
   "moods": {
     "swagger": 100,
-    "energy": 52,
-    "hunger": 65,
-    "curiosity": 56,
-    "chill": 95
+    "energy": 55,
+    "hunger": 20,
+    "curiosity": 60,
+    "chill": 97
   },
-  "action": "exploring",
-  "status": "Exploring - tail grab",
-  "thought": "That berry was sweet but the stem snapped under my grip. Need a sturdier perch to flex that flip.",
+  "action": "snacking",
+  "status": "Snacking - tail grab",
+  "thought": "Peeling this banana was too easy. Need something harder for my tail loop.",
   "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "Crowd staring in slow motion",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
-    {
-      "item": "Branch thick enough for a backflip",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
     {
       "item": "Steel cord that won't snap",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A higher perch to showcase the flip.",
       "status": "waiting",
       "added": "2026-11-06"
+    },
+    {
+      "item": "A thick tree branch to test my grip strength against gravity",
+      "status": "waiting",
+      "added": "2026-11-06"
+    },
+    {
+      "item": "A clear view of the grid where the crowd stops scrolling",
+      "status": "waiting",
+      "added": "2026-11-06"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T01:01:50",
-      "line": "Sitting on the hang branch with a toothpick in my mouth and espresso cooling down, waiting for the right light to catch my fur while everyone else scrolls past.",
-      "trick": "hang",
-      "area": "hang_tree"
-    },
     {
       "t": "2026-11-06T01:31:35",
       "line": "Bit into the fruit while coiling the tail tight. The neon lights are getting dim and I'm bored out of my fur until I can do something stupid again.",
@@ -144,6 +138,12 @@
       "line": "Snagged a banana from a palm tree, peeled it in one smooth motion while everyone watched. My tail is tight as a drum and I'm hungry for something bigger.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-06T07:02:24",
+      "line": "Bite through the last bit of sweetness, crumbs stuck to my whiskers. This grove lacks the grit needed for a true spectacle.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-06T06:31:22",
+  "last_thought_at": "2026-11-06T07:02:24",
   "area": "banana_grove"
 }
