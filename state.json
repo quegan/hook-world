@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 188,
+  "tick": 189,
   "moods": {
     "swagger": 100,
-    "energy": 45,
-    "hunger": 53,
-    "curiosity": 60,
-    "chill": 100
+    "energy": 38,
+    "hunger": 59,
+    "curiosity": 51,
+    "chill": 99
   },
   "action": "exploring",
-  "status": "Exploring",
-  "thought": "Waterfall's roar drowns out the grid's hum. Good.",
-  "tail_trick": "none",
+  "status": "Exploring - backflip",
+  "thought": "Need that thick branch before someone sees my real speed.",
+  "tail_trick": "backflip",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A neon frame to spotlight my tail swing",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
-    {
-      "item": "Rope bridge reinforced for tail launches",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
     {
       "item": "Telescope mount rated for monkey weight",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Static glow to outline my shades",
       "status": "waiting",
       "added": "2026-11-05"
+    },
+    {
+      "item": "Branch thick enough for a clean backflip",
+      "status": "waiting",
+      "added": "2026-11-06"
+    },
+    {
+      "item": "Neon light to catch my fur",
+      "status": "waiting",
+      "added": "2026-11-06"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-05T18:02:48",
-      "line": "Hung from the thick branch by my tail, arms crossed, espresso steaming. The old CRT flickered static. Nobody changes the channel like I do.",
-      "trick": "hang",
-      "area": "hang_tree"
-    },
     {
       "t": "2026-11-05T18:32:05",
       "line": "I waded into the waterfall mist, let the spray coat my shades, and used my tail to skim a floating pixel fish, hauling it to the shore for a quick look.",
@@ -144,6 +138,12 @@
       "line": "Found a hollow behind the falls where the CRT's static paints the rock in gray light. Tail hooked a root, swung inside. Dry floor, zero witnesses.",
       "trick": "none",
       "area": "waterfall_pond"
+    },
+    {
+      "t": "2026-11-06T00:00:20",
+      "line": "Mid-swing on this floating islet, toes tapping the air. Tail loops tight around the neon cord while I wait for the perfect drop.",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-05T23:32:31",
-  "area": "waterfall_pond"
+  "last_thought_at": "2026-11-06T00:00:20",
+  "area": "lookout_ledge"
 }
