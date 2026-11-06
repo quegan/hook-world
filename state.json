@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 200,
+  "tick": 201,
   "moods": {
     "swagger": 100,
-    "energy": 59,
-    "hunger": 59,
-    "curiosity": 58,
-    "chill": 90
+    "energy": 62,
+    "hunger": 64,
+    "curiosity": 63,
+    "chill": 98
   },
   "action": "hanging out",
-  "status": "Hanging out - backflip",
-  "thought": "I perched on the ledge, eyeing the islet, ready to launch.",
-  "tail_trick": "backflip",
-  "prop": "espresso",
+  "status": "Hanging out",
+  "thought": "The lily pad is too soft for a real flex. Time to find that steel branch before breakfast turns into lunch.",
+  "tail_trick": "none",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A branch thick enough to swing from without snapping",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
-    {
-      "item": "The whole grid staring at my tail loop in slow motion",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
     {
       "item": "Thick steel branch for a perfect flip",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A higher perch to showcase the flip",
       "status": "waiting",
       "added": "2026-11-06"
+    },
+    {
+      "item": "A steel branch thick enough to flex from.",
+      "status": "waiting",
+      "added": "2026-11-06"
+    },
+    {
+      "item": "A spot where the crowd actually stops scrolling.",
+      "status": "waiting",
+      "added": "2026-11-06"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T00:00:20",
-      "line": "Mid-swing on this floating islet, toes tapping the air. Tail loops tight around the neon cord while I wait for the perfect drop.",
-      "trick": "backflip",
-      "area": "lookout_ledge"
-    },
     {
       "t": "2026-11-06T00:30:13",
       "line": "The crowd goes silent as I pogo across the gap, landing on the crate with zero wobble and shades still perfectly aligned.",
@@ -144,6 +138,12 @@
       "line": "I launched off the rope, spun a backflip, tail snatching the hammock pole mid‑air, then landed clean on the hut roof, all while the sunrise pixelated the sky.",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-06T06:01:16",
+      "line": "Lily pads can't hold a monkey who knows he's the tightest thing in this low-poly grid, but I need something harder than water if I want to pull off that backflip everyone's...",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-06T05:32:24",
-  "area": "lookout_ledge"
+  "last_thought_at": "2026-11-06T06:01:16",
+  "area": "waterfall_pond"
 }
