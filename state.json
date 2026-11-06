@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 204,
+  "tick": 205,
   "moods": {
     "swagger": 100,
-    "energy": 48,
-    "hunger": 26,
-    "curiosity": 51,
-    "chill": 98
+    "energy": 54,
+    "hunger": 32,
+    "curiosity": 57,
+    "chill": 100
   },
-  "action": "exploring",
-  "status": "Exploring - hang",
-  "thought": "Found a dangling vine that could double as a launchpad.",
-  "tail_trick": "hang",
-  "prop": "toothpick",
+  "action": "hanging out",
+  "status": "Hanging out",
+  "thought": "Tail's fine. Spot's fine. I'm better than fine.",
+  "tail_trick": "none",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "A platform high enough for a tail flip.",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
-    {
-      "item": "A sturdier pole for tail grabs",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
     {
       "item": "A higher perch to showcase the flip",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A perch above the canopy for a perfect view",
       "status": "waiting",
       "added": "2026-11-06"
+    },
+    {
+      "item": "A steel beam for a perfect hang.",
+      "status": "waiting",
+      "added": "2026-11-06"
+    },
+    {
+      "item": "A taller perch to showcase the tail curl.",
+      "status": "waiting",
+      "added": "2026-11-06"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T02:00:18",
-      "line": "The espresso's getting bitter as the arcade cabinet flickers. My tail loops tight around this flimsy cord, but it needs to be real steel-thick soon so I can pull off that...",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-06T02:32:18",
       "line": "I swung my tail around the fruit stump, plucked a glowing berry, and tucked it behind my toothpick—no one else even noticed.",
@@ -144,6 +138,12 @@
       "line": "I slipped a claw onto a sturdy vine, tail coiled, and tested its swing—feels like a runway for my next hang.",
       "trick": "hang",
       "area": "hang_tree"
+    },
+    {
+      "t": "2026-11-06T08:02:16",
+      "line": "I perched on the arcade cabinet, sipped espresso, and let the tail drape over the side, feeling the hum of the old CRT.",
+      "trick": "none",
+      "area": "arcade"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-06T07:32:16",
-  "area": "hang_tree"
+  "last_thought_at": "2026-11-06T08:02:16",
+  "area": "arcade"
 }
