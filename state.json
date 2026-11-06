@@ -1,39 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 207,
+  "tick": 209,
   "moods": {
     "swagger": 100,
-    "energy": 41,
-    "hunger": 48,
-    "curiosity": 49,
+    "energy": 51,
+    "hunger": 56,
+    "curiosity": 58,
     "chill": 100
   },
-  "action": "exploring",
-  "status": "Exploring - backflip",
-  "thought": "I scout the islet, eyeing that lone pole for a clean flip.",
-  "tail_trick": "backflip",
-  "prop": "espresso",
+  "action": "practicing a trick",
+  "status": "Practicing a trick - hang",
+  "thought": "Tail locked on the rod, I wait for the crowd to notice the stillness.",
+  "tail_trick": "hang",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A thick tree branch to test my grip strength against gravity",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
-    {
-      "item": "A clear view of the grid where the crowd stops scrolling",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
-    {
-      "item": "A thicker vine to launch a backflip",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
-    {
-      "item": "A perch above the canopy for a perfect view",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
     {
       "item": "A steel beam for a perfect hang.",
       "status": "waiting",
@@ -63,6 +43,26 @@
       "item": "A perch with a view for post‑flip bragging",
       "status": "waiting",
       "added": "2026-11-06"
+    },
+    {
+      "item": "A jagged rock to anchor a tail hang.",
+      "status": "waiting",
+      "added": "2026-11-06"
+    },
+    {
+      "item": "A wider ledge for a future backflip launch.",
+      "status": "waiting",
+      "added": "2026-11-06"
+    },
+    {
+      "item": "A taller pole for a higher swing",
+      "status": "waiting",
+      "added": "2026-11-06"
+    },
+    {
+      "item": "A wider ledge to showcase the tail lock",
+      "status": "waiting",
+      "added": "2026-11-06"
     }
   ],
   "items": [
@@ -73,18 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T03:30:20",
-      "line": "Sitting on a lily pad with shades on, watching the water ripple below while I loop my tail tighter than ever before and nobody cares about my fur.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
-    {
-      "t": "2026-11-06T04:00:16",
-      "line": "Staring at the pixelated masses while my espresso goes cold. My tail loops tight around the branch, daring anyone to test it against my grip.",
-      "trick": "hang",
-      "area": "hang_tree"
-    },
     {
       "t": "2026-11-06T04:30:11",
       "line": "Bored on these stepping stones; the espresso's cold and this flimsy cord can't handle my weight if I want to flip like a pro tonight.",
@@ -144,6 +132,18 @@
       "line": "I crossed the rope bridge, checked the telescope's metal pole, and launched a backflip, tail latching the pole mid‑air before landing on the hut's roof.",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-06T10:32:47",
+      "line": "I sip espresso by the cascade, eyes on a jagged rock that could become my next perch for a tail hang.",
+      "trick": "none",
+      "area": "waterfall_pond"
+    },
+    {
+      "t": "2026-11-06T11:02:06",
+      "line": "I snagged the cold metal pole, wrapped my tail around it, and held steady, feeling the low‑poly wind whisper that this is a proper flex.",
+      "trick": "hang",
+      "area": "hang_tree"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-06T09:03:07",
-  "area": "lookout_ledge"
+  "last_thought_at": "2026-11-06T11:02:06",
+  "area": "hang_tree"
 }
