@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 201,
+  "tick": 202,
   "moods": {
     "swagger": 100,
-    "energy": 62,
-    "hunger": 64,
-    "curiosity": 63,
-    "chill": 98
+    "energy": 52,
+    "hunger": 65,
+    "curiosity": 56,
+    "chill": 95
   },
-  "action": "hanging out",
-  "status": "Hanging out",
-  "thought": "The lily pad is too soft for a real flex. Time to find that steel branch before breakfast turns into lunch.",
-  "tail_trick": "none",
+  "action": "exploring",
+  "status": "Exploring - tail grab",
+  "thought": "That berry was sweet but the stem snapped under my grip. Need a sturdier perch to flex that flip.",
+  "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "Thick steel branch for a perfect flip",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
     {
       "item": "Crowd staring in slow motion",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "A spot where the crowd actually stops scrolling.",
       "status": "waiting",
       "added": "2026-11-06"
+    },
+    {
+      "item": "A higher perch to showcase the flip.",
+      "status": "waiting",
+      "added": "2026-11-06"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T00:30:13",
-      "line": "The crowd goes silent as I pogo across the gap, landing on the crate with zero wobble and shades still perfectly aligned.",
-      "trick": "pogo",
-      "area": "sky_rocks"
-    },
     {
       "t": "2026-11-06T01:01:50",
       "line": "Sitting on the hang branch with a toothpick in my mouth and espresso cooling down, waiting for the right light to catch my fur while everyone else scrolls past.",
@@ -144,6 +138,12 @@
       "line": "Lily pads can't hold a monkey who knows he's the tightest thing in this low-poly grid, but I need something harder than water if I want to pull off that backflip everyone's...",
       "trick": "none",
       "area": "waterfall_pond"
+    },
+    {
+      "t": "2026-11-06T06:31:22",
+      "line": "Snagged a banana from a palm tree, peeled it in one smooth motion while everyone watched. My tail is tight as a drum and I'm hungry for something bigger.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-06T06:01:16",
-  "area": "waterfall_pond"
+  "last_thought_at": "2026-11-06T06:31:22",
+  "area": "banana_grove"
 }
