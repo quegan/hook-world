@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 205,
+  "tick": 206,
   "moods": {
     "swagger": 100,
-    "energy": 54,
-    "hunger": 32,
+    "energy": 45,
+    "hunger": 40,
     "curiosity": 57,
     "chill": 100
   },
-  "action": "hanging out",
-  "status": "Hanging out",
-  "thought": "Tail's fine. Spot's fine. I'm better than fine.",
-  "tail_trick": "none",
-  "prop": "espresso",
+  "action": "upgrading the spot",
+  "status": "Upgrading the spot - pogo",
+  "thought": "I bolted a neon slab onto the apex, then used my tail as a spring to pogo the new platform into place.",
+  "tail_trick": "pogo",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A higher perch to showcase the flip",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
-    {
-      "item": "A steel branch thick enough to flex from.",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
     {
       "item": "A spot where the crowd actually stops scrolling.",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A taller perch to showcase the tail curl.",
       "status": "waiting",
       "added": "2026-11-06"
+    },
+    {
+      "item": "A steel beam for a higher pogo launch",
+      "status": "waiting",
+      "added": "2026-11-06"
+    },
+    {
+      "item": "A wider platform to showcase the tail curl",
+      "status": "waiting",
+      "added": "2026-11-06"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T02:32:18",
-      "line": "I swung my tail around the fruit stump, plucked a glowing berry, and tucked it behind my toothpick—no one else even noticed.",
-      "trick": "tail_grab",
-      "area": "hangout"
-    },
     {
       "t": "2026-11-06T03:00:16",
       "line": "Bounced back from the bridge crash but it tasted like copper. Time to hunt for a branch that won't snap when I land on it.",
@@ -144,6 +138,12 @@
       "line": "I perched on the arcade cabinet, sipped espresso, and let the tail drape over the side, feeling the hum of the old CRT.",
       "trick": "none",
       "area": "arcade"
+    },
+    {
+      "t": "2026-11-06T08:32:04",
+      "line": "Installed a glossy platform atop the Sky Rocks, tested its grip with a quick tail‑pogo, and chewed a toothpick while the crystal glimmered.",
+      "trick": "pogo",
+      "area": "sky_rocks"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-06T08:02:16",
-  "area": "arcade"
+  "last_thought_at": "2026-11-06T08:32:04",
+  "area": "sky_rocks"
 }
