@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 206,
+  "tick": 207,
   "moods": {
     "swagger": 100,
-    "energy": 45,
-    "hunger": 40,
-    "curiosity": 57,
+    "energy": 41,
+    "hunger": 48,
+    "curiosity": 49,
     "chill": 100
   },
-  "action": "upgrading the spot",
-  "status": "Upgrading the spot - pogo",
-  "thought": "I bolted a neon slab onto the apex, then used my tail as a spring to pogo the new platform into place.",
-  "tail_trick": "pogo",
-  "prop": "toothpick",
+  "action": "exploring",
+  "status": "Exploring - backflip",
+  "thought": "I scout the islet, eyeing that lone pole for a clean flip.",
+  "tail_trick": "backflip",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "A spot where the crowd actually stops scrolling.",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
-    {
-      "item": "A higher perch to showcase the flip.",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
     {
       "item": "A thick tree branch to test my grip strength against gravity",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A wider platform to showcase the tail curl",
       "status": "waiting",
       "added": "2026-11-06"
+    },
+    {
+      "item": "A taller pole to nail the flip",
+      "status": "waiting",
+      "added": "2026-11-06"
+    },
+    {
+      "item": "A perch with a view for post‑flip bragging",
+      "status": "waiting",
+      "added": "2026-11-06"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T03:00:16",
-      "line": "Bounced back from the bridge crash but it tasted like copper. Time to hunt for a branch that won't snap when I land on it.",
-      "trick": "backflip",
-      "area": "lookout_ledge"
-    },
     {
       "t": "2026-11-06T03:30:20",
       "line": "Sitting on a lily pad with shades on, watching the water ripple below while I loop my tail tighter than ever before and nobody cares about my fur.",
@@ -144,6 +138,12 @@
       "line": "Installed a glossy platform atop the Sky Rocks, tested its grip with a quick tail‑pogo, and chewed a toothpick while the crystal glimmered.",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-06T09:03:07",
+      "line": "I crossed the rope bridge, checked the telescope's metal pole, and launched a backflip, tail latching the pole mid‑air before landing on the hut's roof.",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-06T08:32:04",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-06T09:03:07",
+  "area": "lookout_ledge"
 }
