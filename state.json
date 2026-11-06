@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 221,
+  "tick": 222,
   "moods": {
     "swagger": 100,
-    "energy": 42,
-    "hunger": 68,
+    "energy": 45,
+    "hunger": 23,
     "curiosity": 65,
-    "chill": 94
+    "chill": 100
   },
-  "action": "exploring",
-  "status": "Exploring",
-  "thought": "Lily pads are jelly for my ankles. Time to hunt some solid wood.",
-  "tail_trick": "none",
+  "action": "snacking",
+  "status": "Snacking - tail grab",
+  "thought": "Three bananas look nice but they'll make my fur sticky. Toothpick keeps the cool on.",
+  "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A wider branch for a tail‑swing show",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
-    {
-      "item": "A thick wooden branch for the perfect backflip",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
     {
       "item": "To upgrade the islet hut into a flex stage",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A branch thick enough to do a backflip",
       "status": "waiting",
       "added": "2026-11-06"
+    },
+    {
+      "item": "A branch thick enough for a perfect backflip",
+      "status": "waiting",
+      "added": "2026-11-06"
+    },
+    {
+      "item": "A spotlight to make the grid actually see me",
+      "status": "waiting",
+      "added": "2026-11-06"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T11:32:07",
-      "line": "I nudged the cabinet's loose panel, let the tail brush the glowing strip, feeling the buzz while the joystick clacked under my grip.",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-06T12:02:08",
       "line": "I lounged under the three palms, curled my tail around a dangling banana, plucked it clean, and popped a toothpick while the sun glinted off the low‑poly leaves.",
@@ -144,6 +138,12 @@
       "line": "The pond won't hold me, so I'm hunting that thick branch Michael said would let me fly. Coffee's getting cold but the ego is steaming hot.",
       "trick": "none",
       "area": "waterfall_pond"
+    },
+    {
+      "t": "2026-11-06T17:30:16",
+      "line": "Bananas are just ripe fruit, not flex material. Need that thick branch to outdo Michael's latest flex tonight.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-06T17:00:11",
-  "area": "waterfall_pond"
+  "last_thought_at": "2026-11-06T17:30:16",
+  "area": "banana_grove"
 }
