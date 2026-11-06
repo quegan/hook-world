@@ -1,17 +1,17 @@
 {
   "name": "HOOK",
-  "tick": 191,
+  "tick": 192,
   "moods": {
     "swagger": 100,
-    "energy": 40,
-    "hunger": 68,
+    "energy": 43,
+    "hunger": 23,
     "curiosity": 62,
     "chill": 100
   },
-  "action": "hanging out",
-  "status": "Hanging out - hang",
-  "thought": "Shades gleaming, tail locked tight. The pixel breeze is weak for my standards.",
-  "tail_trick": "hang",
+  "action": "snacking",
+  "status": "Snacking - tail grab",
+  "thought": "Mouth full of banana, toothpick stuck in gum. Still need a thicker branch to really flex that flip though.",
+  "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
     {
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-05T19:32:26",
-      "line": "I hopped from one floating slab to the next, tail acting as spring, and uncovered a hidden pixel alcove with a flickering holo sign.",
-      "trick": "pogo",
-      "area": "sky_rocks"
-    },
     {
       "t": "2026-11-05T20:02:01",
       "line": "They watch the grid flicker and think it's magic, not realizing I just looped my tail around a neon cable they can't replicate.",
@@ -144,6 +138,12 @@
       "line": "Sitting on the hang branch with a toothpick in my mouth and espresso cooling down, waiting for the right light to catch my fur while everyone else scrolls past.",
       "trick": "hang",
       "area": "hang_tree"
+    },
+    {
+      "t": "2026-11-06T01:31:35",
+      "line": "Bit into the fruit while coiling the tail tight. The neon lights are getting dim and I'm bored out of my fur until I can do something stupid again.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-06T01:01:50",
-  "area": "hang_tree"
+  "last_thought_at": "2026-11-06T01:31:35",
+  "area": "banana_grove"
 }
