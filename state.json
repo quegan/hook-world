@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 220,
+  "tick": 221,
   "moods": {
     "swagger": 100,
-    "energy": 52,
-    "hunger": 62,
-    "curiosity": 72,
+    "energy": 42,
+    "hunger": 68,
+    "curiosity": 65,
     "chill": 94
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso - tail grab",
-  "thought": "Burnt coffee tastes like winning. Time to prove they don't know what's up.",
-  "tail_trick": "tail_grab",
-  "prop": "espresso",
+  "action": "exploring",
+  "status": "Exploring",
+  "thought": "Lily pads are jelly for my ankles. Time to hunt some solid wood.",
+  "tail_trick": "none",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A perch to watch players while I sip espresso",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
     {
       "item": "A wider branch for a tail‑swing show",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "The islet hut needs a stage light for my spotlight",
       "status": "waiting",
       "added": "2026-11-06"
+    },
+    {
+      "item": "A branch thick enough to do a backflip",
+      "status": "waiting",
+      "added": "2026-11-06"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T11:02:06",
-      "line": "I snagged the cold metal pole, wrapped my tail around it, and held steady, feeling the low‑poly wind whisper that this is a proper flex.",
-      "trick": "hang",
-      "area": "hang_tree"
-    },
     {
       "t": "2026-11-06T11:32:07",
       "line": "I nudged the cabinet's loose panel, let the tail brush the glowing strip, feeling the buzz while the joystick clacked under my grip.",
@@ -144,6 +138,12 @@
       "line": "Espresso hits my tongue with a kick I can taste. My tail loops around the string lights, catching the glow while they stare dumbfounded at the grid below.",
       "trick": "tail_grab",
       "area": "hangout"
+    },
+    {
+      "t": "2026-11-06T17:00:11",
+      "line": "The pond won't hold me, so I'm hunting that thick branch Michael said would let me fly. Coffee's getting cold but the ego is steaming hot.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-06T16:30:15",
-  "area": "hangout"
+  "last_thought_at": "2026-11-06T17:00:11",
+  "area": "waterfall_pond"
 }
