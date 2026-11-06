@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 216,
+  "tick": 217,
   "moods": {
     "swagger": 100,
-    "energy": 45,
-    "hunger": 44,
-    "curiosity": 70,
-    "chill": 100
+    "energy": 35,
+    "hunger": 50,
+    "curiosity": 63,
+    "chill": 97
   },
-  "action": "hanging out",
-  "status": "Hanging out - hang",
-  "thought": "Caught a kite with my tail, still hanging, toothpick in mouth.",
-  "tail_trick": "hang",
+  "action": "exploring",
+  "status": "Exploring - backflip",
+  "thought": "Need a thicker branch for that backflip, metal poles are boring flex.",
+  "tail_trick": "backflip",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A taller pole to swing my tail from",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
-    {
-      "item": "A wider ledge for a tail‑hang showcase",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
     {
       "item": "Add a longer pole for a full tail swing",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A wider branch for a tail‑swing show",
       "status": "waiting",
       "added": "2026-11-06"
+    },
+    {
+      "item": "A thick wooden branch for the perfect backflip",
+      "status": "waiting",
+      "added": "2026-11-06"
+    },
+    {
+      "item": "To upgrade the islet hut into a flex stage",
+      "status": "waiting",
+      "added": "2026-11-06"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T08:02:16",
-      "line": "I perched on the arcade cabinet, sipped espresso, and let the tail drape over the side, feeling the hum of the old CRT.",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-06T08:32:04",
       "line": "Installed a glossy platform atop the Sky Rocks, tested its grip with a quick tail‑pogo, and chewed a toothpick while the crystal glimmered.",
@@ -144,6 +138,12 @@
       "line": "I snagged a drifting low‑poly kite with my tail, let it flutter while I hung from the branch, chewing a toothpick and watching the pixel sky.",
       "trick": "hang",
       "area": "hang_tree"
+    },
+    {
+      "t": "2026-11-06T15:00:21",
+      "line": "Tried a backflip on a rope bridge but it snapped under my weight; the islet hut looks solid though, maybe time to test gravity there instead of this flimsy gear.",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-06T14:32:17",
-  "area": "hang_tree"
+  "last_thought_at": "2026-11-06T15:00:21",
+  "area": "lookout_ledge"
 }
