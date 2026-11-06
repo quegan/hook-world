@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 193,
+  "tick": 194,
   "moods": {
     "swagger": 100,
-    "energy": 59,
-    "hunger": 26,
-    "curiosity": 65,
-    "chill": 93
+    "energy": 52,
+    "hunger": 29,
+    "curiosity": 57,
+    "chill": 95
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso",
-  "thought": "That branch is too thin for my flex, need to find something thicker before dawn hits and kills the neon.",
-  "tail_trick": "none",
-  "prop": "espresso",
+  "action": "exploring",
+  "status": "Exploring - tail grab",
+  "thought": "The tail snags the ripe fruit, I watch it swing into my grip.",
+  "tail_trick": "tail_grab",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "Cave wall thick enough for a tail-anchored nap",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
     {
       "item": "Static glow to outline my shades",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "Neon lights that match my midnight fur perfectly",
       "status": "waiting",
       "added": "2026-11-06"
+    },
+    {
+      "item": "A steel‑reinforced branch for a clean backflip",
+      "status": "waiting",
+      "added": "2026-11-06"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-05T20:37:44",
-      "line": "Coiled my tail around the center palm's crown, swung wide, and snatched three bunches in one pass. The other two palms didn't even render fast enough.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-05T21:02:09",
       "line": "I swung my tail around the hanging limb, settled into a perfect perch, and let the pixel breeze ruffle my shades as I sipped espresso.",
@@ -144,6 +138,12 @@
       "line": "The espresso's getting bitter as the arcade cabinet flickers. My tail loops tight around this flimsy cord, but it needs to be real steel-thick soon so I can pull off that...",
       "trick": "none",
       "area": "arcade"
+    },
+    {
+      "t": "2026-11-06T02:32:18",
+      "line": "I swung my tail around the fruit stump, plucked a glowing berry, and tucked it behind my toothpick—no one else even noticed.",
+      "trick": "tail_grab",
+      "area": "hangout"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-06T02:00:18",
-  "area": "arcade"
+  "last_thought_at": "2026-11-06T02:32:18",
+  "area": "hangout"
 }
