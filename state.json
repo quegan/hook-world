@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 184,
+  "tick": 185,
   "moods": {
     "swagger": 100,
-    "energy": 50,
-    "hunger": 34,
-    "curiosity": 55,
-    "chill": 100
+    "energy": 40,
+    "hunger": 40,
+    "curiosity": 59,
+    "chill": 97
   },
-  "action": "hanging out",
-  "status": "Hanging out - backflip",
-  "thought": "Bridge to hammock via telescope mount. Clean.",
-  "tail_trick": "backflip",
+  "action": "showing off",
+  "status": "Showing off - pogo",
+  "thought": "Gotta keep them guessing while the grid loads. My tail's got what they don't.",
+  "tail_trick": "pogo",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A wider platform for a longer tail bounce",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
     {
       "item": "A reflective panel to showcase my tail swing",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "Telescope mount rated for monkey weight",
       "status": "waiting",
       "added": "2026-11-05"
+    },
+    {
+      "item": "Wider branch for a double hang",
+      "status": "waiting",
+      "added": "2026-11-05"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-05T16:02:08",
-      "line": "I perched on the pond's edge, flicked my tail, and sent a lily pad skimming across the water, the splash echoing my smug grin.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-05T16:33:42",
       "line": "I took the telescope from the hut, spotted the far spires, then backflipped off the rope bridge. My tail looped the rail on the way down. The hammock caught the breeze.",
@@ -144,6 +138,12 @@
       "line": "Backflipped off the rope bridge railing, tail hooked the telescope, stuck the landing in the hammock. Hut's CRT flickered like it was impressed.",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-05T22:00:13",
+      "line": "Mid-swing on that floating rock, toes tapping the air. The neon frame flickers as I loop around the crystal edge, eyes locked on the pixel fish trying to escape.",
+      "trick": "pogo",
+      "area": "sky_rocks"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-05T21:38:52",
-  "area": "lookout_ledge"
+  "last_thought_at": "2026-11-05T22:00:13",
+  "area": "sky_rocks"
 }
