@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 195,
+  "tick": 196,
   "moods": {
     "swagger": 100,
-    "energy": 45,
-    "hunger": 35,
-    "curiosity": 44,
-    "chill": 94
+    "energy": 32,
+    "hunger": 41,
+    "curiosity": 48,
+    "chill": 99
   },
-  "action": "exploring",
-  "status": "Exploring - backflip",
-  "thought": "The rope bridge is too thin, my flip wobbled. Need solid ground or steel before I embarrass myself.",
-  "tail_trick": "backflip",
+  "action": "practicing a trick",
+  "status": "Practicing a trick",
+  "thought": "The crowd is staring but my tail isn't doing the neon cord dance anymore, it's just looping tight around itself like a pretzel.",
+  "tail_trick": "none",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "Neon light to catch my fur",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
-    {
-      "item": "A thicker branch for a vertical drop",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
     {
       "item": "Neon to match my midnight vibe",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Perfect lighting for the flip",
       "status": "waiting",
       "added": "2026-11-06"
+    },
+    {
+      "item": "A branch thick enough to swing from without snapping",
+      "status": "waiting",
+      "added": "2026-11-06"
+    },
+    {
+      "item": "The whole grid staring at my tail loop in slow motion",
+      "status": "waiting",
+      "added": "2026-11-06"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-05T21:38:52",
-      "line": "Backflipped off the rope bridge railing, tail hooked the telescope, stuck the landing in the hammock. Hut's CRT flickered like it was impressed.",
-      "trick": "backflip",
-      "area": "lookout_ledge"
-    },
     {
       "t": "2026-11-05T22:00:13",
       "line": "Mid-swing on that floating rock, toes tapping the air. The neon frame flickers as I loop around the crystal edge, eyes locked on the pixel fish trying to escape.",
@@ -144,6 +138,12 @@
       "line": "Bounced back from the bridge crash but it tasted like copper. Time to hunt for a branch that won't snap when I land on it.",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-06T03:30:20",
+      "line": "Sitting on a lily pad with shades on, watching the water ripple below while I loop my tail tighter than ever before and nobody cares about my fur.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-06T03:00:16",
-  "area": "lookout_ledge"
+  "last_thought_at": "2026-11-06T03:30:20",
+  "area": "waterfall_pond"
 }
