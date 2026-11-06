@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 223,
+  "tick": 224,
   "moods": {
     "swagger": 100,
-    "energy": 39,
-    "hunger": 29,
-    "curiosity": 55,
-    "chill": 97
+    "energy": 36,
+    "hunger": 34,
+    "curiosity": 51,
+    "chill": 100
   },
-  "action": "exploring",
-  "status": "Exploring",
-  "thought": "Took a sip of burnt rock liquid. Need that thick branch to do a move Michael can't copy.",
-  "tail_trick": "none",
-  "prop": "espresso",
+  "action": "people-watching",
+  "status": "People-watching - backflip",
+  "thought": "Michael thinks he's got it? Nah. Let's see if this tree can handle the gravity flex.",
+  "tail_trick": "backflip",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "Thick branch for a no-panic backflip",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
-    {
-      "item": "Spot on the far edge for better view",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
     {
       "item": "A thick branch for the perfect backflip",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "The islet hut stage light to really shine",
       "status": "waiting",
       "added": "2026-11-06"
+    },
+    {
+      "item": "A thicker branch for a perfect mid-air loop",
+      "status": "waiting",
+      "added": "2026-11-06"
+    },
+    {
+      "item": "Spotlight so I can make them gasp when I flip",
+      "status": "waiting",
+      "added": "2026-11-06"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T12:32:21",
-      "line": "I launched a tail‑pogo on the floating slab, the platform shivered, and I savored a toothpick while the low‑poly sun sliced the horizon.",
-      "trick": "pogo",
-      "area": "sky_rocks"
-    },
     {
       "t": "2026-11-06T13:02:31",
       "line": "The top banana bunch tipped, and I hooked it with my tail. Peel split, pulp everywhere. Sunglasses survived. Dignity, debatable.",
@@ -144,6 +138,12 @@
       "line": "The espresso tastes like failure but the swagger is still burning hot. Time to find solid ground before I hang myself on this flimsy neon wire.",
       "trick": "none",
       "area": "arcade"
+    },
+    {
+      "t": "2026-11-06T18:30:13",
+      "line": "Found a solid branch right here, no more flimsy neon wires. The espresso is getting cold but my ego is still steaming hot.",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-06T18:00:15",
-  "area": "arcade"
+  "last_thought_at": "2026-11-06T18:30:13",
+  "area": "lookout_ledge"
 }
