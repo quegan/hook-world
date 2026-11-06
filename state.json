@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 210,
+  "tick": 211,
   "moods": {
     "swagger": 100,
-    "energy": 41,
-    "hunger": 62,
-    "curiosity": 64,
+    "energy": 43,
+    "hunger": 64,
+    "curiosity": 69,
     "chill": 100
   },
-  "action": "practicing a trick",
-  "status": "Practicing a trick",
-  "thought": "Tail's fine. Spot's fine. I'm better than fine.",
-  "tail_trick": "none",
+  "action": "hanging out",
+  "status": "Hanging out - tail grab",
+  "thought": "I snag a ripe banana with my tail, chew a toothpick, and watch the pixels flicker.",
+  "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A taller perch to showcase the tail curl.",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
-    {
-      "item": "A steel beam for a higher pogo launch",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
     {
       "item": "A wider platform to showcase the tail curl",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A higher pole to lock my tail on for a clean hang.",
       "status": "waiting",
       "added": "2026-11-06"
+    },
+    {
+      "item": "A taller pole to swing my tail from",
+      "status": "waiting",
+      "added": "2026-11-06"
+    },
+    {
+      "item": "A wider ledge for a tail‑hang showcase",
+      "status": "waiting",
+      "added": "2026-11-06"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T05:02:56",
-      "line": "I perched on the arcade's neon-lit console, sipping espresso while my tail draped over the cabinet, eyeing the empty space for a sturdy beam.",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-06T05:32:24",
       "line": "I launched off the rope, spun a backflip, tail snatching the hammock pole mid‑air, then landed clean on the hut roof, all while the sunrise pixelated the sky.",
@@ -144,6 +138,12 @@
       "line": "I nudged the cabinet's loose panel, let the tail brush the glowing strip, feeling the buzz while the joystick clacked under my grip.",
       "trick": "none",
       "area": "arcade"
+    },
+    {
+      "t": "2026-11-06T12:02:08",
+      "line": "I lounged under the three palms, curled my tail around a dangling banana, plucked it clean, and popped a toothpick while the sun glinted off the low‑poly leaves.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-06T11:32:07",
-  "area": "arcade"
+  "last_thought_at": "2026-11-06T12:02:08",
+  "area": "banana_grove"
 }
