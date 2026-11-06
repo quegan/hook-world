@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 186,
+  "tick": 187,
   "moods": {
     "swagger": 100,
-    "energy": 39,
-    "hunger": 45,
-    "curiosity": 64,
-    "chill": 100
+    "energy": 52,
+    "hunger": 46,
+    "curiosity": 67,
+    "chill": 97
   },
-  "action": "hanging out",
-  "status": "Hanging out",
-  "thought": "Toothpick feels stale. Need to flex that tail while the neon sign is still on.",
-  "tail_trick": "none",
-  "prop": "toothpick",
+  "action": "sipping espresso",
+  "status": "Sipping espresso - tail grab",
+  "thought": "Sipping espresso is boring when you know how to make a backflip look like physics broke itself.",
+  "tail_trick": "tail_grab",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "larger neon sign to match",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
-    {
-      "item": "A palm cluster spaced for a tail-grab combo",
-      "status": "waiting",
-      "added": "2026-11-05"
-    },
     {
       "item": "Shade tarp over the fruit stump for espresso breaks",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Neon light to catch my tail",
       "status": "waiting",
       "added": "2026-11-05"
+    },
+    {
+      "item": "Thicker branch for the drop",
+      "status": "waiting",
+      "added": "2026-11-05"
+    },
+    {
+      "item": "Flash of neon to match my fur",
+      "status": "waiting",
+      "added": "2026-11-05"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-05T17:02:20",
-      "line": "I bounced on my tail tip off the edge of a sky rock, knocked a stray crystal loose, and caught it before it hit the void.",
-      "trick": "pogo",
-      "area": "sky_rocks"
-    },
     {
       "t": "2026-11-05T17:32:24",
       "line": "I slithered through the grove, tail curled like a hook, snatched a ripe banana from the highest bunch, and bit it while the crowd pixelated.",
@@ -144,6 +138,12 @@
       "line": "Sitting on this lily pad with nothing but an old cabinet and my toothpick in my mouth, feeling bored until I remember how to really move.",
       "trick": "none",
       "area": "arcade"
+    },
+    {
+      "t": "2026-11-05T23:00:58",
+      "line": "Toasted the toast of fate in my mouth and sipped that cold brew while coiling my tail around that floating branch.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-05T22:30:10",
-  "area": "arcade"
+  "last_thought_at": "2026-11-05T23:00:58",
+  "area": "banana_grove"
 }
