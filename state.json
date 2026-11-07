@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 250,
+  "tick": 251,
   "moods": {
     "swagger": 100,
-    "energy": 59,
-    "hunger": 56,
-    "curiosity": 54,
+    "energy": 48,
+    "hunger": 62,
+    "curiosity": 45,
     "chill": 93
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso - pogo",
-  "thought": "Need that thick branch before Michael spots me mid-air again.",
-  "tail_trick": "pogo",
-  "prop": "espresso",
+  "action": "upgrading the spot",
+  "status": "Upgrading the spot - backflip",
+  "thought": "Neon cord feels flimsy for a real flip, need solid ground before someone spots my fur.",
+  "tail_trick": "backflip",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "Heavy fruit to fill the tank before I land",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
     {
       "item": "A sturdy metal pole to swing from",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "A glossy perch to reflect the sun",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "A high perch to see the whole grid",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T02:00:58",
-      "line": "The neon rope gave way under my weight, but the crate nearby looks solid enough to flip off. Time to test gravity properly.",
-      "trick": "hang",
-      "area": "hang_tree"
-    },
     {
       "t": "2026-11-07T02:30:12",
       "line": "Sipped the burnt coffee and let the tail crack that arcade screen like it's cardboard while everyone watches me hum.",
@@ -144,6 +138,12 @@
       "line": "Pogo bounce feels shaky on these rocks, espresso gets cold but the flex is still perfect. Waiting for solid ground to land that backflip.",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-07T08:00:25",
+      "line": "Lunged from the lily pad with full throttle, tail loop sealing the spin as the crowd watches me arc through the air.",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T07:30:32",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-07T08:00:25",
+  "area": "lookout_ledge"
 }
