@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 267,
+  "tick": 268,
   "moods": {
     "swagger": 100,
     "energy": 33,
-    "hunger": 42,
-    "curiosity": 56,
-    "chill": 80
+    "hunger": 47,
+    "curiosity": 53,
+    "chill": 82
   },
-  "action": "practicing a trick",
-  "status": "Practicing a trick",
-  "thought": "That branch is too flimsy for my next move; time to upgrade before someone steals my spotlight.",
-  "tail_trick": "none",
+  "action": "people-watching",
+  "status": "People-watching - tail grab",
+  "thought": "They're waiting for the perfect gravity well to launch me off this branch like a projectile.",
+  "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A thick branch for a real flip",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
-    {
-      "item": "That heavy steel beam to look scary",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
     {
       "item": "A high perch to launch tail grabs",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "More espresso to keep the buzz tight",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "Espresso cup for focus",
+      "status": "waiting",
+      "added": "2026-11-07"
+    },
+    {
+      "item": "Higher branch for height",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T10:33:42",
-      "line": "I launched a pogo hop off the floating stone, tail tip gripping the edge, while I swirled my espresso cup; the crowd barely noticed.",
-      "trick": "pogo",
-      "area": "sky_rocks"
-    },
     {
       "t": "2026-11-07T11:03:52",
       "line": "I swung onto the purple cabinet, tail draped over the side, and let the neon flicker as I stared down the pixel crowd, feeling the buzz of the game.",
@@ -144,6 +138,12 @@
       "line": "Dropped the banana on the water, found a sturdy oak limb instead. My tail just wrapped around it like a vice grip while I did a backflip that shattered the pond's surface tension.",
       "trick": "none",
       "area": "waterfall_pond"
+    },
+    {
+      "t": "2026-11-07T16:30:55",
+      "line": "The oak limb is solid enough now, but my toothpick is still rattling around in my mouth. Need that espresso shot to keep the momentum from dying before I hit the air.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T16:00:19",
-  "area": "waterfall_pond"
+  "last_thought_at": "2026-11-07T16:30:55",
+  "area": "banana_grove"
 }
