@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 253,
+  "tick": 254,
   "moods": {
     "swagger": 100,
-    "energy": 43,
-    "hunger": 23,
-    "curiosity": 46,
-    "chill": 97
+    "energy": 58,
+    "hunger": 27,
+    "curiosity": 50,
+    "chill": 91
   },
-  "action": "snacking",
-  "status": "Snacking - tail grab",
-  "thought": "Three bananas on palms? Pathetic. Need something that won't break under my weight.",
+  "action": "sipping espresso",
+  "status": "Sipping espresso - tail grab",
+  "thought": "Espresso tastes like nothing but the tail is humming with potential. That branch looks too flimsy for a real loop.",
   "tail_trick": "tail_grab",
-  "prop": "toothpick",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "A wider rock to swing my tail around",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
-    {
-      "item": "A glimmering perch for a night-time tail spin",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
     {
       "item": "A taller pole for a double tail swing",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A high perch to see the whole grid without looking down",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "Thick branch for a double loop",
+      "status": "waiting",
+      "added": "2026-11-07"
+    },
+    {
+      "item": "Spot where I can spin without hitting the floor",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T03:30:15",
-      "line": "Sipped espresso and spun around the string lights while the crowd watches me loop my tail. No heavy fruit needed if gravity fears my grip.",
-      "trick": "tail_grab",
-      "area": "hangout"
-    },
     {
       "t": "2026-11-07T04:00:14",
       "line": "Took a heavy banana and let the tail grip it tight while spinning. The crowd loves the show, even if they're just pixels.",
@@ -144,6 +138,12 @@
       "line": "Bit into a low-poly banana, crumbs flying like digital dust; the palm branches are too flimsy for a real flex.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-07T09:30:25",
+      "line": "Sipped the cold brew while dangling from string lights; my tail's vibrating at 400Hz and I need that thick branch to make them see the spin before they blink.",
+      "trick": "tail_grab",
+      "area": "hangout"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T09:00:25",
-  "area": "banana_grove"
+  "last_thought_at": "2026-11-07T09:30:25",
+  "area": "hangout"
 }
