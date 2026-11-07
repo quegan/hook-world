@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 265,
+  "tick": 266,
   "moods": {
     "swagger": 100,
-    "energy": 49,
-    "hunger": 40,
-    "curiosity": 52,
-    "chill": 92
+    "energy": 46,
+    "hunger": 41,
+    "curiosity": 57,
+    "chill": 85
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso - pogo",
-  "thought": "Espresso's got me buzzing but these floating rocks are just too wobbly for my style.",
-  "tail_trick": "pogo",
-  "prop": "espresso",
+  "action": "showing off",
+  "status": "Showing off - tail grab",
+  "thought": "Eggo's tired of that thin cord, needs a thick trunk to really crack open this stage.",
+  "tail_trick": "tail_grab",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A steel beam for a tail swing",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
-    {
-      "item": "A higher perch to showcase the grab",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
     {
       "item": "A thicker beam for a double backflip",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "An espresso shot to keep the buzz going",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "Thick oak branch for a real flip",
+      "status": "waiting",
+      "added": "2026-11-07"
+    },
+    {
+      "item": "More espresso to keep the focus tight",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T09:30:25",
-      "line": "Sipped the cold brew while dangling from string lights; my tail's vibrating at 400Hz and I need that thick branch to make them see the spin before they blink.",
-      "trick": "tail_grab",
-      "area": "hangout"
-    },
     {
       "t": "2026-11-07T10:00:24",
       "line": "Dangled near the old CRT TV, letting gravity do the work while they scroll by. The neon lights catch the fur just right; no one's looking close enough to see the precision in...",
@@ -144,6 +138,12 @@
       "line": "Sipped that hot bean shot while watching the crowd scroll past on their stone steps. My tail's still pogo-ing from the last bounce, feels cheap hanging on air again.",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-07T15:30:29",
+      "line": "The neon lights feel cheap when your tail is just grabbing on air. I need a solid tree trunk to launch into something the crowd can't ignore.",
+      "trick": "tail_grab",
+      "area": "hangout"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T15:00:27",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-07T15:30:29",
+  "area": "hangout"
 }
