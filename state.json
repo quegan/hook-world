@@ -1,18 +1,18 @@
 {
   "name": "HOOK",
-  "tick": 233,
+  "tick": 234,
   "moods": {
     "swagger": 100,
-    "energy": 61,
-    "hunger": 26,
-    "curiosity": 53,
-    "chill": 94
+    "energy": 50,
+    "hunger": 32,
+    "curiosity": 60,
+    "chill": 90
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso - hang",
-  "thought": "That espresso is lukewarm now, but my tail? It's still holding the perfect angle.",
-  "tail_trick": "hang",
-  "prop": "espresso",
+  "action": "practicing a trick",
+  "status": "Practicing a trick",
+  "thought": "Neon cord feels weak for what I'm planning next.",
+  "tail_trick": "none",
+  "prop": "toothpick",
   "wants": [
     {
       "item": "Need that thick branch Michael promised so I don't have...",
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T17:30:16",
-      "line": "Bananas are just ripe fruit, not flex material. Need that thick branch to outdo Michael's latest flex tonight.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-06T18:00:15",
       "line": "The espresso tastes like failure but the swagger is still burning hot. Time to find solid ground before I hang myself on this flimsy neon wire.",
@@ -144,6 +138,12 @@
       "line": "Sipped cold brew while dangling from that flimsy branch; the crowd thinks it's a nap but I'm plotting how to make them gasp when I let go.",
       "trick": "hang",
       "area": "hang_tree"
+    },
+    {
+      "t": "2026-11-06T23:30:28",
+      "line": "Cabinet hums under my feet but that flimsy rope won't hold the gravity-defying landing Michael's gonna demand. Need real steel before they see me mid-air.",
+      "trick": "none",
+      "area": "arcade"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-06T23:00:32",
-  "area": "hang_tree"
+  "last_thought_at": "2026-11-06T23:30:28",
+  "area": "arcade"
 }
