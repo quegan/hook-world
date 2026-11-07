@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 247,
+  "tick": 248,
   "moods": {
     "swagger": 100,
-    "energy": 50,
-    "hunger": 50,
-    "curiosity": 64,
+    "energy": 43,
+    "hunger": 53,
+    "curiosity": 56,
     "chill": 100
   },
-  "action": "hanging out",
-  "status": "Hanging out",
-  "thought": "Tail's fine. Spot's fine. I'm better than fine.",
-  "tail_trick": "none",
-  "prop": "espresso",
+  "action": "exploring",
+  "status": "Exploring - tail grab",
+  "thought": "Spotted a neon apple, tail snatched it, no drama.",
+  "tail_trick": "tail_grab",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A ripe fruit for crunch while I hang",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
-    {
-      "item": "A thicker branch to flip off properly",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
     {
       "item": "More espresso for the next flex",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A glimmering perch for a night-time tail spin",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "A taller pole for a double tail swing",
+      "status": "waiting",
+      "added": "2026-11-07"
+    },
+    {
+      "item": "A glossy perch to showcase the tail",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T00:30:54",
-      "line": "Sitting on that lily pad is getting boring, the neon cord won't hold the real landing Michael wants to see. Time to find steel instead of pixels.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-07T01:00:11",
       "line": "Pogo-bounced across the sky stones while they stared; that neon cord won't keep me afloat forever so I need something solid soon.",
@@ -144,6 +138,12 @@
       "line": "I perched on the slick rock by the waterfall, tail loosely coiled, sipping espresso while watching a lone firefly bounce off the water's surface.",
       "trick": "none",
       "area": "waterfall_pond"
+    },
+    {
+      "t": "2026-11-07T06:32:16",
+      "line": "I coiled my tail around the crate, yanked a glowing fruit, and dropped it onto the rug, feeling the subtle shift in balance.",
+      "trick": "tail_grab",
+      "area": "hangout"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T06:02:35",
-  "area": "waterfall_pond"
+  "last_thought_at": "2026-11-07T06:32:16",
+  "area": "hangout"
 }
