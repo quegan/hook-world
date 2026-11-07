@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 243,
+  "tick": 244,
   "moods": {
     "swagger": 100,
-    "energy": 52,
-    "hunger": 24,
-    "curiosity": 53,
-    "chill": 100
+    "energy": 41,
+    "hunger": 30,
+    "curiosity": 58,
+    "chill": 96
   },
-  "action": "snacking",
-  "status": "Snacking - tail grab",
-  "thought": "Banana crunch is fine, but nothing beats the snap of a heavy fruit against that neon cord.",
-  "tail_trick": "tail_grab",
+  "action": "showing off",
+  "status": "Showing off - pogo",
+  "thought": "Metal rocks don't bite like real branches. Need to find some solid ground for my next stunt before they all guess where I'm coming from.",
+  "tail_trick": "pogo",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "Thick steel branch for the real deal",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
-    {
-      "item": "A fresh espresso to fuel the landing",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
     {
       "item": "Thick steel branch for real gravity defying flips",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "More espresso for the next flex",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "A thick steel branch for the real drop",
+      "status": "waiting",
+      "added": "2026-11-07"
+    },
+    {
+      "item": "Heavy fruit to fill the tank before I land",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T22:30:38",
-      "line": "Sipping cold espresso while bouncing on my tail tip, the rhythm of the rocks matches my heartbeat. They think I'm just hanging out?",
-      "trick": "pogo",
-      "area": "sky_rocks"
-    },
     {
       "t": "2026-11-06T23:00:32",
       "line": "Sipped cold brew while dangling from that flimsy branch; the crowd thinks it's a nap but I'm plotting how to make them gasp when I let go.",
@@ -144,6 +138,12 @@
       "line": "Took a heavy banana and let the tail grip it tight while spinning. The crowd loves the show, even if they're just pixels.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-07T04:30:10",
+      "line": "The crystal spikes feel slippery as glass, but the crate nearby looks heavy enough to hold a landing without me looking weak.",
+      "trick": "pogo",
+      "area": "sky_rocks"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T04:00:14",
-  "area": "banana_grove"
+  "last_thought_at": "2026-11-07T04:30:10",
+  "area": "sky_rocks"
 }
