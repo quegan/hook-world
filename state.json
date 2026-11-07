@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 262,
+  "tick": 263,
   "moods": {
-    "swagger": 98,
-    "energy": 46,
-    "hunger": 21,
-    "curiosity": 64,
-    "chill": 100
+    "swagger": 100,
+    "energy": 36,
+    "hunger": 32,
+    "curiosity": 52,
+    "chill": 97
   },
-  "action": "snacking",
-  "status": "Snacking - tail grab",
-  "thought": "Three bananas? Cute. But my tail is hungry for a real show, not just this sticky fruit dump.",
-  "tail_trick": "tail_grab",
+  "action": "exploring",
+  "status": "Exploring",
+  "thought": "Gotta find that thick branch before Michael sees me flailing again.",
+  "tail_trick": "none",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A vantage point to see the whole grid without looking down",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
     {
       "item": "A sturdy ledge for a double pogo",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "A high perch to launch tail grabs",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "A heavy steel beam to look scary",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T08:00:25",
-      "line": "Lunged from the lily pad with full throttle, tail loop sealing the spin as the crowd watches me arc through the air.",
-      "trick": "backflip",
-      "area": "lookout_ledge"
-    },
     {
       "t": "2026-11-07T08:30:23",
       "line": "Spun a perfect circle on the mist, coffee cup hovering in mid-air like some kind of digital stunt. They're too busy scrolling to notice the physics defying my fur.",
@@ -144,6 +138,12 @@
       "line": "Snagged a banana with the tail tip and bit it dry; too short a lever to spin anything meaningful. The pixels are getting bored of my stillness.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-07T14:01:22",
+      "line": "Took another bite out of that stale banana; tail's still twitching from the neon cord and I need something solid to really crack open this low-poly stage.",
+      "trick": "none",
+      "area": "arcade"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T13:30:24",
-  "area": "banana_grove"
+  "last_thought_at": "2026-11-07T14:01:22",
+  "area": "arcade"
 }
