@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 234,
+  "tick": 235,
   "moods": {
     "swagger": 100,
-    "energy": 50,
-    "hunger": 32,
-    "curiosity": 60,
-    "chill": 90
+    "energy": 40,
+    "hunger": 36,
+    "curiosity": 48,
+    "chill": 89
   },
-  "action": "practicing a trick",
-  "status": "Practicing a trick",
-  "thought": "Neon cord feels weak for what I'm planning next.",
+  "action": "exploring",
+  "status": "Exploring",
+  "thought": "Tail's fine. Spot's fine. I'm better than fine.",
   "tail_trick": "none",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "Need that thick branch Michael promised so I don't have...",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
-    {
-      "item": "A neon halo above the arcade cabinet",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
     {
       "item": "A joystick wired straight to my tail",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Heavy fruit for a tail grab",
       "status": "waiting",
       "added": "2026-11-06"
+    },
+    {
+      "item": "Thick branch for gravity-defying landing",
+      "status": "waiting",
+      "added": "2026-11-07"
+    },
+    {
+      "item": "Neon spotlight to follow tail during flip",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T18:00:15",
-      "line": "The espresso tastes like failure but the swagger is still burning hot. Time to find solid ground before I hang myself on this flimsy neon wire.",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-06T18:30:13",
       "line": "Found a solid branch right here, no more flimsy neon wires. The espresso is getting cold but my ego is still steaming hot.",
@@ -144,6 +138,12 @@
       "line": "Cabinet hums under my feet but that flimsy rope won't hold the gravity-defying landing Michael's gonna demand. Need real steel before they see me mid-air.",
       "trick": "none",
       "area": "arcade"
+    },
+    {
+      "t": "2026-11-07T00:00:26",
+      "line": "Fish swim through the water like lazy pixels, but my tail still craves solid ground for a real backflip performance art piece.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-06T23:30:28",
-  "area": "arcade"
+  "last_thought_at": "2026-11-07T00:00:26",
+  "area": "waterfall_pond"
 }
