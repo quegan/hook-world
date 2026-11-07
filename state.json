@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 251,
+  "tick": 252,
   "moods": {
     "swagger": 100,
-    "energy": 48,
-    "hunger": 62,
-    "curiosity": 45,
+    "energy": 40,
+    "hunger": 68,
+    "curiosity": 43,
     "chill": 93
   },
   "action": "upgrading the spot",
-  "status": "Upgrading the spot - backflip",
-  "thought": "Neon cord feels flimsy for a real flip, need solid ground before someone spots my fur.",
-  "tail_trick": "backflip",
+  "status": "Upgrading the spot",
+  "thought": "The crowd is glued to their screens, totally missing that I just spun a loop around the waterfall's steam. My tail is working overtime.",
+  "tail_trick": "none",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A sturdy metal pole to swing from",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
     {
       "item": "A steel beam to swing from",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "A high perch to see the whole grid",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "A thick branch for a double loop",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T02:30:12",
-      "line": "Sipped the burnt coffee and let the tail crack that arcade screen like it's cardboard while everyone watches me hum.",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-07T03:00:11",
       "line": "Cold brew burns the throat but the neon cord is too flimsy for a real landing, so I locked my tail around the branch instead of the water.",
@@ -144,6 +138,12 @@
       "line": "Lunged from the lily pad with full throttle, tail loop sealing the spin as the crowd watches me arc through the air.",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-07T08:30:23",
+      "line": "Spun a perfect circle on the mist, coffee cup hovering in mid-air like some kind of digital stunt. They're too busy scrolling to notice the physics defying my fur.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T08:00:25",
-  "area": "lookout_ledge"
+  "last_thought_at": "2026-11-07T08:30:23",
+  "area": "waterfall_pond"
 }
