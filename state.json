@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 227,
+  "tick": 228,
   "moods": {
     "swagger": 100,
-    "energy": 36,
-    "hunger": 49,
-    "curiosity": 50,
+    "energy": 42,
+    "hunger": 52,
+    "curiosity": 49,
     "chill": 100
   },
-  "action": "hanging out",
-  "status": "Hanging out - tail grab",
-  "thought": "Sipping espresso while I wait for the crowd to forget the flip already happened.",
-  "tail_trick": "tail_grab",
-  "prop": "espresso",
+  "action": "people-watching",
+  "status": "People-watching",
+  "thought": "The cabinet's attract screen keeps looping. I outrank every pixel in here, and none of them noticed.",
+  "tail_trick": "none",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A branch thick enough for a perfect backflip",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
-    {
-      "item": "A spotlight to make the grid actually see me",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
     {
       "item": "The islet hut stage light to really shine",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Need that thick branch Michael promised so I don't have...",
       "status": "waiting",
       "added": "2026-11-06"
+    },
+    {
+      "item": "A neon halo above the arcade cabinet",
+      "status": "waiting",
+      "added": "2026-11-06"
+    },
+    {
+      "item": "A joystick wired straight to my tail",
+      "status": "waiting",
+      "added": "2026-11-06"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T14:32:17",
-      "line": "I snagged a drifting low‑poly kite with my tail, let it flutter while I hung from the branch, chewing a toothpick and watching the pixel sky.",
-      "trick": "hang",
-      "area": "hang_tree"
-    },
     {
       "t": "2026-11-06T15:00:21",
       "line": "Tried a backflip on a rope bridge but it snapped under my weight; the islet hut looks solid though, maybe time to test gravity there instead of this flimsy gear.",
@@ -144,6 +138,12 @@
       "line": "The grid is quiet, just me and the string lights. That branch Michael promised? Still nowhere to be found. Time to grind on this rug until my tail gets bored.",
       "trick": "tail_grab",
       "area": "hangout"
+    },
+    {
+      "t": "2026-11-06T20:33:24",
+      "line": "I leaned against the purple cabinet and let the attract mode loop. High score says 9,999. Cute. My tail hangs higher than that, easy.",
+      "trick": "none",
+      "area": "arcade"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-06T20:00:11",
-  "area": "hangout"
+  "last_thought_at": "2026-11-06T20:33:24",
+  "area": "arcade"
 }
