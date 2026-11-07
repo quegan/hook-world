@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 242,
+  "tick": 243,
   "moods": {
     "swagger": 100,
-    "energy": 46,
-    "hunger": 69,
-    "curiosity": 50,
+    "energy": 52,
+    "hunger": 24,
+    "curiosity": 53,
     "chill": 100
   },
-  "action": "exploring",
-  "status": "Exploring - tail grab",
-  "thought": "Neon cord's got enough swing, toothpick sharp enough for the landing. Show them I don't need a branch to fly.",
+  "action": "snacking",
+  "status": "Snacking - tail grab",
+  "thought": "Banana crunch is fine, but nothing beats the snap of a heavy fruit against that neon cord.",
   "tail_trick": "tail_grab",
-  "prop": "espresso",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "Thick steel branch for gravity-defying landing",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
-    {
-      "item": "Heavy fruit to fuel another flex",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
     {
       "item": "Thick steel branch for the real deal",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A ripe fruit for crunch while I hang",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "A thicker branch to flip off properly",
+      "status": "waiting",
+      "added": "2026-11-07"
+    },
+    {
+      "item": "More espresso for the next flex",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T22:02:03",
-      "line": "I curled my tail around the ripe bunch, yanked a banana clean, and chewed while the espresso went cold, feeling the grid pulse under my grip.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-06T22:30:38",
       "line": "Sipping cold espresso while bouncing on my tail tip, the rhythm of the rocks matches my heartbeat. They think I'm just hanging out?",
@@ -144,6 +138,12 @@
       "line": "Sipped espresso and spun around the string lights while the crowd watches me loop my tail. No heavy fruit needed if gravity fears my grip.",
       "trick": "tail_grab",
       "area": "hangout"
+    },
+    {
+      "t": "2026-11-07T04:00:14",
+      "line": "Took a heavy banana and let the tail grip it tight while spinning. The crowd loves the show, even if they're just pixels.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T03:30:15",
-  "area": "hangout"
+  "last_thought_at": "2026-11-07T04:00:14",
+  "area": "banana_grove"
 }
