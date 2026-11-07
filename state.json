@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 238,
+  "tick": 239,
   "moods": {
     "swagger": 100,
-    "energy": 35,
-    "hunger": 51,
-    "curiosity": 47,
-    "chill": 99
+    "energy": 37,
+    "hunger": 56,
+    "curiosity": 53,
+    "chill": 100
   },
-  "action": "people-watching",
-  "status": "People-watching - backflip",
-  "thought": "The view from here is stale; gotta find better ground to flex that tail before Michael shows up again.",
-  "tail_trick": "backflip",
+  "action": "hanging out",
+  "status": "Hanging out - hang",
+  "thought": "Neon cord snaps when I lean; need steel for that Michael-worthy backflip before dawn hits.",
+  "tail_trick": "hang",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "Hammock reinforced for tail-anchored naps",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
-    {
-      "item": "A neon spotlight that follows my tail.",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
     {
       "item": "Thick branch for the real flex",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Heavy fruit to fuel another flex",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "Thick steel branch for the real deal",
+      "status": "waiting",
+      "added": "2026-11-07"
+    },
+    {
+      "item": "A fresh espresso to fuel the landing",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T20:00:11",
-      "line": "The grid is quiet, just me and the string lights. That branch Michael promised? Still nowhere to be found. Time to grind on this rug until my tail gets bored.",
-      "trick": "tail_grab",
-      "area": "hangout"
-    },
     {
       "t": "2026-11-06T20:33:24",
       "line": "I leaned against the purple cabinet and let the attract mode loop. High score says 9,999. Cute. My tail hangs higher than that, easy.",
@@ -144,6 +138,12 @@
       "line": "Sitting on this lily pad feels like cheating. The neon cord keeps slipping while I wait for my cue.",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-07T02:00:58",
+      "line": "The neon rope gave way under my weight, but the crate nearby looks solid enough to flip off. Time to test gravity properly.",
+      "trick": "hang",
+      "area": "hang_tree"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T01:30:14",
-  "area": "lookout_ledge"
+  "last_thought_at": "2026-11-07T02:00:58",
+  "area": "hang_tree"
 }
