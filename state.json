@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 244,
+  "tick": 245,
   "moods": {
     "swagger": 100,
-    "energy": 41,
-    "hunger": 30,
-    "curiosity": 58,
-    "chill": 96
+    "energy": 47,
+    "hunger": 36,
+    "curiosity": 64,
+    "chill": 100
   },
-  "action": "showing off",
-  "status": "Showing off - pogo",
-  "thought": "Metal rocks don't bite like real branches. Need to find some solid ground for my next stunt before they all guess where I'm coming from.",
-  "tail_trick": "pogo",
-  "prop": "toothpick",
+  "action": "hanging out",
+  "status": "Hanging out",
+  "thought": "The neon sign flickers, I stare, tail idle, waiting for something worth gripping.",
+  "tail_trick": "none",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "Thick steel branch for real gravity defying flips",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
     {
       "item": "A heavy fruit to fuel the next flex",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "Heavy fruit to fill the tank before I land",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "A sturdy metal pole to swing from",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T23:00:32",
-      "line": "Sipped cold brew while dangling from that flimsy branch; the crowd thinks it's a nap but I'm plotting how to make them gasp when I let go.",
-      "trick": "hang",
-      "area": "hang_tree"
-    },
     {
       "t": "2026-11-06T23:30:28",
       "line": "Cabinet hums under my feet but that flimsy rope won't hold the gravity-defying landing Michael's gonna demand. Need real steel before they see me mid-air.",
@@ -144,6 +138,12 @@
       "line": "The crystal spikes feel slippery as glass, but the crate nearby looks heavy enough to hold a landing without me looking weak.",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-07T05:03:12",
+      "line": "I lounged by the purple cabinet, eyes on the blinking neon, while the crowd's pixels buzzed; nothing else catches my eye until a new perch appears.",
+      "trick": "none",
+      "area": "arcade"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T04:30:10",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-07T05:03:12",
+  "area": "arcade"
 }
