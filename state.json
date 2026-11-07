@@ -1,18 +1,18 @@
 {
   "name": "HOOK",
-  "tick": 264,
+  "tick": 265,
   "moods": {
     "swagger": 100,
-    "energy": 36,
-    "hunger": 37,
-    "curiosity": 51,
-    "chill": 98
+    "energy": 49,
+    "hunger": 40,
+    "curiosity": 52,
+    "chill": 92
   },
-  "action": "people-watching",
-  "status": "People-watching - hang",
-  "thought": "The hang branch won't do it, I need a thicker limb to really crack this grid open with some serious flex.",
-  "tail_trick": "hang",
-  "prop": "toothpick",
+  "action": "sipping espresso",
+  "status": "Sipping espresso - pogo",
+  "thought": "Espresso's got me buzzing but these floating rocks are just too wobbly for my style.",
+  "tail_trick": "pogo",
+  "prop": "espresso",
   "wants": [
     {
       "item": "A steel beam for a tail swing",
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T09:00:25",
-      "line": "Bit into a low-poly banana, crumbs flying like digital dust; the palm branches are too flimsy for a real flex.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-07T09:30:25",
       "line": "Sipped the cold brew while dangling from string lights; my tail's vibrating at 400Hz and I need that thick branch to make them see the spin before they blink.",
@@ -144,6 +138,12 @@
       "line": "Dangling on that thin twig feels like a bad joke; the crowd's bored of my limp pose. Need a solid branch to backflip properly before someone catches me mid-air.",
       "trick": "hang",
       "area": "hang_tree"
+    },
+    {
+      "t": "2026-11-07T15:00:27",
+      "line": "Sipped that hot bean shot while watching the crowd scroll past on their stone steps. My tail's still pogo-ing from the last bounce, feels cheap hanging on air again.",
+      "trick": "pogo",
+      "area": "sky_rocks"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T14:30:27",
-  "area": "hang_tree"
+  "last_thought_at": "2026-11-07T15:00:27",
+  "area": "sky_rocks"
 }
