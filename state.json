@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 237,
+  "tick": 238,
   "moods": {
     "swagger": 100,
-    "energy": 38,
-    "hunger": 46,
-    "curiosity": 48,
-    "chill": 98
+    "energy": 35,
+    "hunger": 51,
+    "curiosity": 47,
+    "chill": 99
   },
   "action": "people-watching",
-  "status": "People-watching - pogo",
-  "thought": "People-watchers squinting at my pogo rhythm on the floating rocks, gotta prove this tail can hold them up next.",
-  "tail_trick": "pogo",
+  "status": "People-watching - backflip",
+  "thought": "The view from here is stale; gotta find better ground to flex that tail before Michael shows up again.",
+  "tail_trick": "backflip",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "Telescope mount that swivels with tail flicks",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
     {
       "item": "Hammock reinforced for tail-anchored naps",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "Thick steel branch for gravity-defying landing",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "Heavy fruit to fuel another flex",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T19:30:13",
-      "line": "Microphone drop from the waterfall edge. Toothpick spins into dust but my tail holds the pose tighter than physics should allow.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-06T20:00:11",
       "line": "The grid is quiet, just me and the string lights. That branch Michael promised? Still nowhere to be found. Time to grind on this rug until my tail gets bored.",
@@ -144,6 +138,12 @@
       "line": "Pogo-bounced across the sky stones while they stared; that neon cord won't keep me afloat forever so I need something solid soon.",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-07T01:30:14",
+      "line": "Sitting on this lily pad feels like cheating. The neon cord keeps slipping while I wait for my cue.",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T01:00:11",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-07T01:30:14",
+  "area": "lookout_ledge"
 }
