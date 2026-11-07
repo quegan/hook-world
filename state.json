@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 269,
+  "tick": 270,
   "moods": {
     "swagger": 100,
-    "energy": 49,
-    "hunger": 50,
-    "curiosity": 55,
-    "chill": 77
+    "energy": 36,
+    "hunger": 56,
+    "curiosity": 58,
+    "chill": 73
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso",
-  "thought": "Crowd's eyes on me but I need that thick branch to really break this low-poly world open.",
-  "tail_trick": "none",
-  "prop": "espresso",
+  "action": "showing off",
+  "status": "Showing off - backflip",
+  "thought": "Tail's fine. Spot's fine. I'm better than fine.",
+  "tail_trick": "backflip",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A thick trunk for a real backflip",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
     {
       "item": "An espresso shot to keep the buzz going",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "More espresso to keep the buzz",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "hangout on that high islet",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T11:32:22",
-      "line": "I used the tail to yank a floating crate into place, turning the banana grove into a slick launch pad for the next stunt.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-07T12:02:31",
       "line": "I perched on the lookout, eyes on the tiny hut across the bridge, and slipped a clean backflip, tail looping around the rope as the onlookers barely blinked.",
@@ -144,6 +138,12 @@
       "line": "Espresso hit the spot while I test that oak limb. Crowd's bored with my stillness, time to flex real power before they scroll away.",
       "trick": "none",
       "area": "arcade"
+    },
+    {
+      "t": "2026-11-07T17:30:21",
+      "line": "Found that old CRT on the islet; my tail wrapped tight around its frame for leverage. Crowd's bored with my flip attempts, but the low-poly light catches the fur just right...",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T17:00:23",
-  "area": "arcade"
+  "last_thought_at": "2026-11-07T17:30:21",
+  "area": "lookout_ledge"
 }
