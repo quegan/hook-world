@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 235,
+  "tick": 236,
   "moods": {
     "swagger": 100,
-    "energy": 40,
-    "hunger": 36,
-    "curiosity": 48,
-    "chill": 89
+    "energy": 39,
+    "hunger": 41,
+    "curiosity": 53,
+    "chill": 96
   },
-  "action": "exploring",
-  "status": "Exploring",
-  "thought": "Tail's fine. Spot's fine. I'm better than fine.",
-  "tail_trick": "none",
+  "action": "hanging out",
+  "status": "Hanging out - tail grab",
+  "thought": "Need solid ground to stop them from laughing at my flips.",
+  "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A joystick wired straight to my tail",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
     {
       "item": "A taller palm to swing from.",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "Neon spotlight to follow tail during flip",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "Real steel before they see me mid-air",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T18:30:13",
-      "line": "Found a solid branch right here, no more flimsy neon wires. The espresso is getting cold but my ego is still steaming hot.",
-      "trick": "backflip",
-      "area": "lookout_ledge"
-    },
     {
       "t": "2026-11-06T19:00:18",
       "line": "The neon wire was just a prop, not my floor. Tucked those toes in, spun around, and let go. The grid went silent for three seconds while I did a backflip on nothing but fur and...",
@@ -144,6 +138,12 @@
       "line": "Fish swim through the water like lazy pixels, but my tail still craves solid ground for a real backflip performance art piece.",
       "trick": "none",
       "area": "waterfall_pond"
+    },
+    {
+      "t": "2026-11-07T00:30:54",
+      "line": "Sitting on that lily pad is getting boring, the neon cord won't hold the real landing Michael wants to see. Time to find steel instead of pixels.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T00:00:26",
-  "area": "waterfall_pond"
+  "last_thought_at": "2026-11-07T00:30:54",
+  "area": "banana_grove"
 }
