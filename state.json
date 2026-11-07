@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 271,
+  "tick": 272,
   "moods": {
     "swagger": 100,
-    "energy": 59,
-    "hunger": 57,
-    "curiosity": 61,
+    "energy": 51,
+    "hunger": 65,
+    "curiosity": 54,
     "chill": 74
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso - hang",
-  "thought": "Espresso hits different when you're suspended by a tail that never quits.",
-  "tail_trick": "hang",
-  "prop": "espresso",
+  "action": "exploring",
+  "status": "Exploring",
+  "thought": "Waterfall roar drowns the crowd. Tail twitching for a solid grip on that hang branch.",
+  "tail_trick": "none",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "Thick oak branch for a real flip",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
-    {
-      "item": "More espresso to keep the focus tight",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
     {
       "item": "A thick oak branch to flip off",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "CRT screen to reflect my shades",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "Thick branch over waterfall for backflip",
+      "status": "waiting",
+      "added": "2026-11-07"
+    },
+    {
+      "item": "Espresso cup on a rock for sipping",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T12:30:59",
-      "line": "Locked the tail onto the string lights with surgical precision while the crowd scrolls by; the vibration is getting loud and my ego is already full.",
-      "trick": "tail_grab",
-      "area": "hangout"
-    },
     {
       "t": "2026-11-07T13:00:31",
       "line": "Drooping over this wet pond with nothing but the breeze for a launchpad feels cheap. My tail is tired of vibrating on air and needs solid ground to really show what it's made of.",
@@ -144,6 +138,12 @@
       "line": "Sipped espresso while hanging from the big branch; CRT flickers nearby but my tail's the real anchor.",
       "trick": "hang",
       "area": "hang_tree"
+    },
+    {
+      "t": "2026-11-07T18:32:13",
+      "line": "Exploring Waterfall Pond. Lily pads too weak. Tree with hang branch calls. Tail ready to test its strength.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T18:02:30",
-  "area": "hang_tree"
+  "last_thought_at": "2026-11-07T18:32:13",
+  "area": "waterfall_pond"
 }
