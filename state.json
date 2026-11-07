@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 252,
+  "tick": 253,
   "moods": {
     "swagger": 100,
-    "energy": 40,
-    "hunger": 68,
-    "curiosity": 43,
-    "chill": 93
+    "energy": 43,
+    "hunger": 23,
+    "curiosity": 46,
+    "chill": 97
   },
-  "action": "upgrading the spot",
-  "status": "Upgrading the spot",
-  "thought": "The crowd is glued to their screens, totally missing that I just spun a loop around the waterfall's steam. My tail is working overtime.",
-  "tail_trick": "none",
+  "action": "snacking",
+  "status": "Snacking - tail grab",
+  "thought": "Three bananas on palms? Pathetic. Need something that won't break under my weight.",
+  "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A steel beam to swing from",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
-    {
-      "item": "A wider perch for a double tail loop",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
     {
       "item": "A wider rock to swing my tail around",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A thick branch for a double loop",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "A thick branch that won't snap under my tail loops",
+      "status": "waiting",
+      "added": "2026-11-07"
+    },
+    {
+      "item": "A high perch to see the whole grid without looking down",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T03:00:11",
-      "line": "Cold brew burns the throat but the neon cord is too flimsy for a real landing, so I locked my tail around the branch instead of the water.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-07T03:30:15",
       "line": "Sipped espresso and spun around the string lights while the crowd watches me loop my tail. No heavy fruit needed if gravity fears my grip.",
@@ -144,6 +138,12 @@
       "line": "Spun a perfect circle on the mist, coffee cup hovering in mid-air like some kind of digital stunt. They're too busy scrolling to notice the physics defying my fur.",
       "trick": "none",
       "area": "waterfall_pond"
+    },
+    {
+      "t": "2026-11-07T09:00:25",
+      "line": "Bit into a low-poly banana, crumbs flying like digital dust; the palm branches are too flimsy for a real flex.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T08:30:23",
-  "area": "waterfall_pond"
+  "last_thought_at": "2026-11-07T09:00:25",
+  "area": "banana_grove"
 }
