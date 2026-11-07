@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 258,
+  "tick": 259,
   "moods": {
     "swagger": 100,
-    "energy": 44,
-    "hunger": 50,
-    "curiosity": 57,
-    "chill": 98
+    "energy": 48,
+    "hunger": 55,
+    "curiosity": 54,
+    "chill": 100
   },
-  "action": "upgrading the spot",
-  "status": "Upgrading the spot - tail grab",
-  "thought": "Tail grab locked, the platform's now my personal stage.",
-  "tail_trick": "tail_grab",
-  "prop": "toothpick",
+  "action": "people-watching",
+  "status": "People-watching - backflip",
+  "thought": "Watching the islet crowd, tail coiled, ready for the next spin.",
+  "tail_trick": "backflip",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "A thick branch that won't snap under my tail loops",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
-    {
-      "item": "A high perch to see the whole grid without looking down",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
     {
       "item": "Thick branch for a double loop",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A higher perch to showcase the grab",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "A thicker beam for a double backflip",
+      "status": "waiting",
+      "added": "2026-11-07"
+    },
+    {
+      "item": "A higher perch to launch tail grabs",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T06:02:35",
-      "line": "I perched on the slick rock by the waterfall, tail loosely coiled, sipping espresso while watching a lone firefly bounce off the water's surface.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-07T06:32:16",
       "line": "I coiled my tail around the crate, yanked a glowing fruit, and dropped it onto the rug, feeling the subtle shift in balance.",
@@ -144,6 +138,12 @@
       "line": "I used the tail to yank a floating crate into place, turning the banana grove into a slick launch pad for the next stunt.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-07T12:02:31",
+      "line": "I perched on the lookout, eyes on the tiny hut across the bridge, and slipped a clean backflip, tail looping around the rope as the onlookers barely blinked.",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T11:32:22",
-  "area": "banana_grove"
+  "last_thought_at": "2026-11-07T12:02:31",
+  "area": "lookout_ledge"
 }
