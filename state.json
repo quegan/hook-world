@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 229,
+  "tick": 230,
   "moods": {
     "swagger": 100,
-    "energy": 46,
-    "hunger": 54,
-    "curiosity": 45,
-    "chill": 100
+    "energy": 35,
+    "hunger": 65,
+    "curiosity": 46,
+    "chill": 98
   },
-  "action": "people-watching",
-  "status": "People-watching - tail grab",
-  "thought": "The crowd's stuck on their screens while my tail snags the lowest banana.",
-  "tail_trick": "tail_grab",
-  "prop": "espresso",
+  "action": "upgrading the spot",
+  "status": "Upgrading the spot - backflip",
+  "thought": "Rope bridge sways but my tail doesn't flinch. This hut needs a proper perch.",
+  "tail_trick": "backflip",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A thicker branch for a perfect mid-air loop",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
-    {
-      "item": "Spotlight so I can make them gasp when I flip",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
     {
       "item": "A spotlight to make the flip count as a flex",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A taller palm to swing from.",
       "status": "waiting",
       "added": "2026-11-06"
+    },
+    {
+      "item": "Telescope mount that swivels with tail flicks",
+      "status": "waiting",
+      "added": "2026-11-06"
+    },
+    {
+      "item": "Hammock reinforced for tail-anchored naps",
+      "status": "waiting",
+      "added": "2026-11-06"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T15:31:33",
-      "line": "Sitting high above the grid, toes dangling near the CRT screen. The espresso tastes like burnt rocks and I love it.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-06T16:00:22",
       "line": "Sweat drips down my fur while I test the neon swing; tail snaps tight but gravity's still laughing at me. Time to find thicker ground before Michael mocks my airtime.",
@@ -144,6 +138,12 @@
       "line": "I perched on the middle palm, tail curled around a bunch, plucked a banana with a flick, and watched the onlookers stare at my grip.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-06T21:32:39",
+      "line": "Backflipped across the rope bridge, landed on the hut roof. Telescope now points where I say. Tail held the line the whole way.",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-06T21:02:19",
-  "area": "banana_grove"
+  "last_thought_at": "2026-11-06T21:32:39",
+  "area": "lookout_ledge"
 }
