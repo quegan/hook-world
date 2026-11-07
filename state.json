@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 232,
+  "tick": 233,
   "moods": {
     "swagger": 100,
-    "energy": 44,
-    "hunger": 25,
+    "energy": 61,
+    "hunger": 26,
     "curiosity": 53,
-    "chill": 100
+    "chill": 94
   },
-  "action": "hanging out",
-  "status": "Hanging out - pogo",
-  "thought": "Grid's quiet but I'm not here to rest. Time to prove my flip is real.",
-  "tail_trick": "pogo",
+  "action": "sipping espresso",
+  "status": "Sipping espresso - hang",
+  "thought": "That espresso is lukewarm now, but my tail? It's still holding the perfect angle.",
+  "tail_trick": "hang",
   "prop": "espresso",
   "wants": [
-    {
-      "item": "Thicker branch for next level flex",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
     {
       "item": "Need that thick branch Michael promised so I don't have...",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "Neon spotlight to follow my tail",
       "status": "waiting",
       "added": "2026-11-06"
+    },
+    {
+      "item": "Heavy fruit for a tail grab",
+      "status": "waiting",
+      "added": "2026-11-06"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T17:00:11",
-      "line": "The pond won't hold me, so I'm hunting that thick branch Michael said would let me fly. Coffee's getting cold but the ego is steaming hot.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-06T17:30:16",
       "line": "Bananas are just ripe fruit, not flex material. Need that thick branch to outdo Michael's latest flex tonight.",
@@ -144,6 +138,12 @@
       "line": "Sipping cold espresso while bouncing on my tail tip, the rhythm of the rocks matches my heartbeat. They think I'm just hanging out?",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-06T23:00:32",
+      "line": "Sipped cold brew while dangling from that flimsy branch; the crowd thinks it's a nap but I'm plotting how to make them gasp when I let go.",
+      "trick": "hang",
+      "area": "hang_tree"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-06T22:30:38",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-06T23:00:32",
+  "area": "hang_tree"
 }
