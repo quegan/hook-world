@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 246,
+  "tick": 247,
   "moods": {
     "swagger": 100,
-    "energy": 44,
-    "hunger": 42,
-    "curiosity": 57,
-    "chill": 99
+    "energy": 50,
+    "hunger": 50,
+    "curiosity": 64,
+    "chill": 100
   },
-  "action": "exploring",
-  "status": "Exploring - hang",
-  "thought": "Spotted a hidden ledge, tail already curled around the rail.",
-  "tail_trick": "hang",
+  "action": "hanging out",
+  "status": "Hanging out",
+  "thought": "Tail's fine. Spot's fine. I'm better than fine.",
+  "tail_trick": "none",
   "prop": "espresso",
   "wants": [
-    {
-      "item": "Heavy fruit to refill the tank before the next flex",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
-    {
-      "item": "Thick steel branch to flip off the lily pad",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
     {
       "item": "A ripe fruit for crunch while I hang",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A wider perch for a double tail loop",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "A wider rock to swing my tail around",
+      "status": "waiting",
+      "added": "2026-11-07"
+    },
+    {
+      "item": "A glimmering perch for a night-time tail spin",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T00:00:26",
-      "line": "Fish swim through the water like lazy pixels, but my tail still craves solid ground for a real backflip performance art piece.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-07T00:30:54",
       "line": "Sitting on that lily pad is getting boring, the neon cord won't hold the real landing Michael wants to see. Time to find steel instead of pixels.",
@@ -144,6 +138,12 @@
       "line": "I slipped through the foliage and perched on a tiny pixelated platform, tail looped around the rail, sipping espresso while scouting the next flex spot.",
       "trick": "hang",
       "area": "hang_tree"
+    },
+    {
+      "t": "2026-11-07T06:02:35",
+      "line": "I perched on the slick rock by the waterfall, tail loosely coiled, sipping espresso while watching a lone firefly bounce off the water's surface.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T05:33:14",
-  "area": "hang_tree"
+  "last_thought_at": "2026-11-07T06:02:35",
+  "area": "waterfall_pond"
 }
