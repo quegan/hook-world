@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 239,
+  "tick": 240,
   "moods": {
     "swagger": 100,
-    "energy": 37,
-    "hunger": 56,
-    "curiosity": 53,
-    "chill": 100
+    "energy": 50,
+    "hunger": 57,
+    "curiosity": 56,
+    "chill": 92
   },
-  "action": "hanging out",
-  "status": "Hanging out - hang",
-  "thought": "Neon cord snaps when I lean; need steel for that Michael-worthy backflip before dawn hits.",
-  "tail_trick": "hang",
-  "prop": "toothpick",
+  "action": "sipping espresso",
+  "status": "Sipping espresso",
+  "thought": "Tail's fine. Spot's fine. I'm better than fine.",
+  "tail_trick": "none",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "Thick branch for the real flex",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
-    {
-      "item": "Neon spotlight to follow my tail",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
     {
       "item": "Heavy fruit for a tail grab",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A fresh espresso to fuel the landing",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "Thick steel branch for real gravity defying flips",
+      "status": "waiting",
+      "added": "2026-11-07"
+    },
+    {
+      "item": "A heavy fruit to fuel the next flex",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T20:33:24",
-      "line": "I leaned against the purple cabinet and let the attract mode loop. High score says 9,999. Cute. My tail hangs higher than that, easy.",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-06T21:02:19",
       "line": "I perched on the middle palm, tail curled around a bunch, plucked a banana with a flick, and watched the onlookers stare at my grip.",
@@ -144,6 +138,12 @@
       "line": "The neon rope gave way under my weight, but the crate nearby looks solid enough to flip off. Time to test gravity properly.",
       "trick": "hang",
       "area": "hang_tree"
+    },
+    {
+      "t": "2026-11-07T02:30:12",
+      "line": "Sipped the burnt coffee and let the tail crack that arcade screen like it's cardboard while everyone watches me hum.",
+      "trick": "none",
+      "area": "arcade"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T02:00:58",
-  "area": "hang_tree"
+  "last_thought_at": "2026-11-07T02:30:12",
+  "area": "arcade"
 }
