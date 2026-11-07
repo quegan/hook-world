@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 230,
+  "tick": 231,
   "moods": {
     "swagger": 100,
-    "energy": 35,
-    "hunger": 65,
-    "curiosity": 46,
-    "chill": 98
+    "energy": 41,
+    "hunger": 20,
+    "curiosity": 49,
+    "chill": 100
   },
-  "action": "upgrading the spot",
-  "status": "Upgrading the spot - backflip",
-  "thought": "Rope bridge sways but my tail doesn't flinch. This hut needs a proper perch.",
-  "tail_trick": "backflip",
+  "action": "snacking",
+  "status": "Snacking - tail grab",
+  "thought": "I snagged a banana with the tail, toothpick still in my mouth.",
+  "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A spotlight to make the flip count as a flex",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
     {
       "item": "That thick branch Michael promised so I don't have to...",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "Hammock reinforced for tail-anchored naps",
       "status": "waiting",
       "added": "2026-11-06"
+    },
+    {
+      "item": "A neon spotlight that follows my tail.",
+      "status": "waiting",
+      "added": "2026-11-06"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T16:00:22",
-      "line": "Sweat drips down my fur while I test the neon swing; tail snaps tight but gravity's still laughing at me. Time to find thicker ground before Michael mocks my airtime.",
-      "trick": "pogo",
-      "area": "sky_rocks"
-    },
     {
       "t": "2026-11-06T16:30:15",
       "line": "Espresso hits my tongue with a kick I can taste. My tail loops around the string lights, catching the glow while they stare dumbfounded at the grid below.",
@@ -144,6 +138,12 @@
       "line": "Backflipped across the rope bridge, landed on the hut roof. Telescope now points where I say. Tail held the line the whole way.",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-06T22:02:03",
+      "line": "I curled my tail around the ripe bunch, yanked a banana clean, and chewed while the espresso went cold, feeling the grid pulse under my grip.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-06T21:32:39",
-  "area": "lookout_ledge"
+  "last_thought_at": "2026-11-06T22:02:03",
+  "area": "banana_grove"
 }
