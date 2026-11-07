@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 257,
+  "tick": 258,
   "moods": {
     "swagger": 100,
-    "energy": 48,
-    "hunger": 45,
-    "curiosity": 58,
-    "chill": 95
+    "energy": 44,
+    "hunger": 50,
+    "curiosity": 57,
+    "chill": 98
   },
-  "action": "showing off",
-  "status": "Showing off",
-  "thought": "Just perched on the arcade cabinet, letting the neon glow highlight the curve of my tail.",
-  "tail_trick": "none",
-  "prop": "espresso",
+  "action": "upgrading the spot",
+  "status": "Upgrading the spot - tail grab",
+  "thought": "Tail grab locked, the platform's now my personal stage.",
+  "tail_trick": "tail_grab",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A high perch to see the whole grid",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
-    {
-      "item": "A thick branch for a double loop",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
     {
       "item": "A thick branch that won't snap under my tail loops",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A thick neon-lit ledge for a double tail swing.",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "A steel beam for a tail swing",
+      "status": "waiting",
+      "added": "2026-11-07"
+    },
+    {
+      "item": "A higher perch to showcase the grab",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T05:33:14",
-      "line": "I slipped through the foliage and perched on a tiny pixelated platform, tail looped around the rail, sipping espresso while scouting the next flex spot.",
-      "trick": "hang",
-      "area": "hang_tree"
-    },
     {
       "t": "2026-11-07T06:02:35",
       "line": "I perched on the slick rock by the waterfall, tail loosely coiled, sipping espresso while watching a lone firefly bounce off the water's surface.",
@@ -144,6 +138,12 @@
       "line": "I swung onto the purple cabinet, tail draped over the side, and let the neon flicker as I stared down the pixel crowd, feeling the buzz of the game.",
       "trick": "none",
       "area": "arcade"
+    },
+    {
+      "t": "2026-11-07T11:32:22",
+      "line": "I used the tail to yank a floating crate into place, turning the banana grove into a slick launch pad for the next stunt.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T11:03:52",
-  "area": "arcade"
+  "last_thought_at": "2026-11-07T11:32:22",
+  "area": "banana_grove"
 }
