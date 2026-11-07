@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 263,
+  "tick": 264,
   "moods": {
     "swagger": 100,
     "energy": 36,
-    "hunger": 32,
-    "curiosity": 52,
-    "chill": 97
+    "hunger": 37,
+    "curiosity": 51,
+    "chill": 98
   },
-  "action": "exploring",
-  "status": "Exploring",
-  "thought": "Gotta find that thick branch before Michael sees me flailing again.",
-  "tail_trick": "none",
+  "action": "people-watching",
+  "status": "People-watching - hang",
+  "thought": "The hang branch won't do it, I need a thicker limb to really crack this grid open with some serious flex.",
+  "tail_trick": "hang",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A sturdy ledge for a double pogo",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
-    {
-      "item": "A thick neon-lit ledge for a double tail swing.",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
     {
       "item": "A steel beam for a tail swing",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A heavy steel beam to look scary",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "A thick trunk for a real backflip",
+      "status": "waiting",
+      "added": "2026-11-07"
+    },
+    {
+      "item": "An espresso shot to keep the buzz going",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T08:30:23",
-      "line": "Spun a perfect circle on the mist, coffee cup hovering in mid-air like some kind of digital stunt. They're too busy scrolling to notice the physics defying my fur.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-07T09:00:25",
       "line": "Bit into a low-poly banana, crumbs flying like digital dust; the palm branches are too flimsy for a real flex.",
@@ -144,6 +138,12 @@
       "line": "Took another bite out of that stale banana; tail's still twitching from the neon cord and I need something solid to really crack open this low-poly stage.",
       "trick": "none",
       "area": "arcade"
+    },
+    {
+      "t": "2026-11-07T14:30:27",
+      "line": "Dangling on that thin twig feels like a bad joke; the crowd's bored of my limp pose. Need a solid branch to backflip properly before someone catches me mid-air.",
+      "trick": "hang",
+      "area": "hang_tree"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T14:01:22",
-  "area": "arcade"
+  "last_thought_at": "2026-11-07T14:30:27",
+  "area": "hang_tree"
 }
