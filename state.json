@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 236,
+  "tick": 237,
   "moods": {
     "swagger": 100,
-    "energy": 39,
-    "hunger": 41,
-    "curiosity": 53,
-    "chill": 96
+    "energy": 38,
+    "hunger": 46,
+    "curiosity": 48,
+    "chill": 98
   },
-  "action": "hanging out",
-  "status": "Hanging out - tail grab",
-  "thought": "Need solid ground to stop them from laughing at my flips.",
-  "tail_trick": "tail_grab",
+  "action": "people-watching",
+  "status": "People-watching - pogo",
+  "thought": "People-watchers squinting at my pogo rhythm on the floating rocks, gotta prove this tail can hold them up next.",
+  "tail_trick": "pogo",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A taller palm to swing from.",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
     {
       "item": "Telescope mount that swivels with tail flicks",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "Real steel before they see me mid-air",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "Thick steel branch for gravity-defying landing",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T19:00:18",
-      "line": "The neon wire was just a prop, not my floor. Tucked those toes in, spun around, and let go. The grid went silent for three seconds while I did a backflip on nothing but fur and...",
-      "trick": "pogo",
-      "area": "sky_rocks"
-    },
     {
       "t": "2026-11-06T19:30:13",
       "line": "Microphone drop from the waterfall edge. Toothpick spins into dust but my tail holds the pose tighter than physics should allow.",
@@ -144,6 +138,12 @@
       "line": "Sitting on that lily pad is getting boring, the neon cord won't hold the real landing Michael wants to see. Time to find steel instead of pixels.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-07T01:00:11",
+      "line": "Pogo-bounced across the sky stones while they stared; that neon cord won't keep me afloat forever so I need something solid soon.",
+      "trick": "pogo",
+      "area": "sky_rocks"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T00:30:54",
-  "area": "banana_grove"
+  "last_thought_at": "2026-11-07T01:00:11",
+  "area": "sky_rocks"
 }
