@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 255,
+  "tick": 256,
   "moods": {
     "swagger": 100,
-    "energy": 60,
-    "hunger": 32,
-    "curiosity": 52,
-    "chill": 100
+    "energy": 54,
+    "hunger": 38,
+    "curiosity": 55,
+    "chill": 97
   },
-  "action": "hanging out",
-  "status": "Hanging out - hang",
-  "thought": "The crowd is staring at their screens while I flex from this high perch. My tail feels tighter than ever today.",
-  "tail_trick": "hang",
-  "prop": "toothpick",
+  "action": "showing off",
+  "status": "Showing off - pogo",
+  "thought": "I bounce on the tip of my tail, espresso in hand, watching the rocks wobble beneath me.",
+  "tail_trick": "pogo",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "A thick branch for a double tail loop",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
     {
       "item": "A glossy perch to reflect the sun",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "A vantage point to see the whole grid without looking down",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "A sturdy ledge for a double pogo",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T04:30:10",
-      "line": "The crystal spikes feel slippery as glass, but the crate nearby looks heavy enough to hold a landing without me looking weak.",
-      "trick": "pogo",
-      "area": "sky_rocks"
-    },
     {
       "t": "2026-11-07T05:03:12",
       "line": "I lounged by the purple cabinet, eyes on the blinking neon, while the crowd's pixels buzzed; nothing else catches my eye until a new perch appears.",
@@ -144,6 +138,12 @@
       "line": "Dangled near the old CRT TV, letting gravity do the work while they scroll by. The neon lights catch the fur just right; no one's looking close enough to see the precision in...",
       "trick": "hang",
       "area": "hang_tree"
+    },
+    {
+      "t": "2026-11-07T10:33:42",
+      "line": "I launched a pogo hop off the floating stone, tail tip gripping the edge, while I swirled my espresso cup; the crowd barely noticed.",
+      "trick": "pogo",
+      "area": "sky_rocks"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T10:00:24",
-  "area": "hang_tree"
+  "last_thought_at": "2026-11-07T10:33:42",
+  "area": "sky_rocks"
 }
