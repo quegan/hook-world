@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 248,
+  "tick": 249,
   "moods": {
     "swagger": 100,
     "energy": 43,
     "hunger": 53,
-    "curiosity": 56,
+    "curiosity": 53,
     "chill": 100
   },
-  "action": "exploring",
-  "status": "Exploring - tail grab",
-  "thought": "Spotted a neon apple, tail snatched it, no drama.",
+  "action": "people-watching",
+  "status": "People-watching - tail grab",
+  "thought": "That fruit was sweet but not sticky enough to keep my tail from slipping. Time to find something greasier for a better grip.",
   "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "More espresso for the next flex",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
-    {
-      "item": "A thick steel branch for the real drop",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
     {
       "item": "Heavy fruit to fill the tank before I land",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A glossy perch to showcase the tail",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "A thick branch for a double tail loop",
+      "status": "waiting",
+      "added": "2026-11-07"
+    },
+    {
+      "item": "A glossy perch to reflect the sun",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T01:00:11",
-      "line": "Pogo-bounced across the sky stones while they stared; that neon cord won't keep me afloat forever so I need something solid soon.",
-      "trick": "pogo",
-      "area": "sky_rocks"
-    },
     {
       "t": "2026-11-07T01:30:14",
       "line": "Sitting on this lily pad feels like cheating. The neon cord keeps slipping while I wait for my cue.",
@@ -144,6 +138,12 @@
       "line": "I coiled my tail around the crate, yanked a glowing fruit, and dropped it onto the rug, feeling the subtle shift in balance.",
       "trick": "tail_grab",
       "area": "hangout"
+    },
+    {
+      "t": "2026-11-07T07:02:05",
+      "line": "Sucked on the last chunk of banana while watching the crowd scroll past. Need a thicker perch soon, my tail's getting bored with these thin branches.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T06:32:16",
-  "area": "hangout"
+  "last_thought_at": "2026-11-07T07:02:05",
+  "area": "banana_grove"
 }
