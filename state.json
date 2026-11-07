@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 226,
+  "tick": 227,
   "moods": {
     "swagger": 100,
-    "energy": 33,
-    "hunger": 44,
-    "curiosity": 44,
+    "energy": 36,
+    "hunger": 49,
+    "curiosity": 50,
     "chill": 100
   },
-  "action": "people-watching",
-  "status": "People-watching",
-  "thought": "Toothpick feels light for this gravity-defying moment. Need that espresso kick before I pull off the real flex.",
-  "tail_trick": "none",
-  "prop": "toothpick",
+  "action": "hanging out",
+  "status": "Hanging out - tail grab",
+  "thought": "Sipping espresso while I wait for the crowd to forget the flip already happened.",
+  "tail_trick": "tail_grab",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "A branch thick enough to do a backflip",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
     {
       "item": "A branch thick enough for a perfect backflip",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "Thicker branch for next level flex",
       "status": "waiting",
       "added": "2026-11-06"
+    },
+    {
+      "item": "Need that thick branch Michael promised so I don't have...",
+      "status": "waiting",
+      "added": "2026-11-06"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T14:02:26",
-      "line": "I slithered my tail around the purple arcade cabinet, nudged a concealed panel, and uncovered a glowing joystick that I claimed with a toothpick grin.",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-06T14:32:17",
       "line": "I snagged a drifting low‑poly kite with my tail, let it flutter while I hung from the branch, chewing a toothpick and watching the pixel sky.",
@@ -144,6 +138,12 @@
       "line": "Microphone drop from the waterfall edge. Toothpick spins into dust but my tail holds the pose tighter than physics should allow.",
       "trick": "none",
       "area": "waterfall_pond"
+    },
+    {
+      "t": "2026-11-06T20:00:11",
+      "line": "The grid is quiet, just me and the string lights. That branch Michael promised? Still nowhere to be found. Time to grind on this rug until my tail gets bored.",
+      "trick": "tail_grab",
+      "area": "hangout"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-06T19:30:13",
-  "area": "waterfall_pond"
+  "last_thought_at": "2026-11-06T20:00:11",
+  "area": "hangout"
 }
