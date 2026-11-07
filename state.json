@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 245,
+  "tick": 246,
   "moods": {
     "swagger": 100,
-    "energy": 47,
-    "hunger": 36,
-    "curiosity": 64,
-    "chill": 100
+    "energy": 44,
+    "hunger": 42,
+    "curiosity": 57,
+    "chill": 99
   },
-  "action": "hanging out",
-  "status": "Hanging out",
-  "thought": "The neon sign flickers, I stare, tail idle, waiting for something worth gripping.",
-  "tail_trick": "none",
+  "action": "exploring",
+  "status": "Exploring - hang",
+  "thought": "Spotted a hidden ledge, tail already curled around the rail.",
+  "tail_trick": "hang",
   "prop": "espresso",
   "wants": [
-    {
-      "item": "A heavy fruit to fuel the next flex",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
-    {
-      "item": "Thick steel branch for a gravity-defying backflip",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
     {
       "item": "Heavy fruit to refill the tank before the next flex",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A sturdy metal pole to swing from",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "A steel beam to swing from",
+      "status": "waiting",
+      "added": "2026-11-07"
+    },
+    {
+      "item": "A wider perch for a double tail loop",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T23:30:28",
-      "line": "Cabinet hums under my feet but that flimsy rope won't hold the gravity-defying landing Michael's gonna demand. Need real steel before they see me mid-air.",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-07T00:00:26",
       "line": "Fish swim through the water like lazy pixels, but my tail still craves solid ground for a real backflip performance art piece.",
@@ -144,6 +138,12 @@
       "line": "I lounged by the purple cabinet, eyes on the blinking neon, while the crowd's pixels buzzed; nothing else catches my eye until a new perch appears.",
       "trick": "none",
       "area": "arcade"
+    },
+    {
+      "t": "2026-11-07T05:33:14",
+      "line": "I slipped through the foliage and perched on a tiny pixelated platform, tail looped around the rail, sipping espresso while scouting the next flex spot.",
+      "trick": "hang",
+      "area": "hang_tree"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T05:03:12",
-  "area": "arcade"
+  "last_thought_at": "2026-11-07T05:33:14",
+  "area": "hang_tree"
 }
