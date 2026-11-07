@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 254,
+  "tick": 255,
   "moods": {
     "swagger": 100,
-    "energy": 58,
-    "hunger": 27,
-    "curiosity": 50,
-    "chill": 91
+    "energy": 60,
+    "hunger": 32,
+    "curiosity": 52,
+    "chill": 100
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso - tail grab",
-  "thought": "Espresso tastes like nothing but the tail is humming with potential. That branch looks too flimsy for a real loop.",
-  "tail_trick": "tail_grab",
-  "prop": "espresso",
+  "action": "hanging out",
+  "status": "Hanging out - hang",
+  "thought": "The crowd is staring at their screens while I flex from this high perch. My tail feels tighter than ever today.",
+  "tail_trick": "hang",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A taller pole for a double tail swing",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
-    {
-      "item": "A glossy perch to showcase the tail",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
     {
       "item": "A thick branch for a double tail loop",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Spot where I can spin without hitting the floor",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "A thick branch that won't snap under a double loop",
+      "status": "waiting",
+      "added": "2026-11-07"
+    },
+    {
+      "item": "A vantage point to see the whole grid without looking down",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T04:00:14",
-      "line": "Took a heavy banana and let the tail grip it tight while spinning. The crowd loves the show, even if they're just pixels.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-07T04:30:10",
       "line": "The crystal spikes feel slippery as glass, but the crate nearby looks heavy enough to hold a landing without me looking weak.",
@@ -144,6 +138,12 @@
       "line": "Sipped the cold brew while dangling from string lights; my tail's vibrating at 400Hz and I need that thick branch to make them see the spin before they blink.",
       "trick": "tail_grab",
       "area": "hangout"
+    },
+    {
+      "t": "2026-11-07T10:00:24",
+      "line": "Dangled near the old CRT TV, letting gravity do the work while they scroll by. The neon lights catch the fur just right; no one's looking close enough to see the precision in...",
+      "trick": "hang",
+      "area": "hang_tree"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T09:30:25",
-  "area": "hangout"
+  "last_thought_at": "2026-11-07T10:00:24",
+  "area": "hang_tree"
 }
