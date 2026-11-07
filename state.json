@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 241,
+  "tick": 242,
   "moods": {
     "swagger": 100,
-    "energy": 49,
-    "hunger": 62,
-    "curiosity": 62,
+    "energy": 46,
+    "hunger": 69,
+    "curiosity": 50,
     "chill": 100
   },
-  "action": "hanging out",
-  "status": "Hanging out",
-  "thought": "The lily pad keeps slipping like cheap plastic; time to switch to the hang position until I find real steel.",
-  "tail_trick": "none",
-  "prop": "toothpick",
+  "action": "exploring",
+  "status": "Exploring - tail grab",
+  "thought": "Neon cord's got enough swing, toothpick sharp enough for the landing. Show them I don't need a branch to fly.",
+  "tail_trick": "tail_grab",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "Neon spotlight to follow tail during flip",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
-    {
-      "item": "Real steel before they see me mid-air",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
     {
       "item": "Thick steel branch for gravity-defying landing",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Heavy fruit to refill the tank before the next flex",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "Thick steel branch to flip off the lily pad",
+      "status": "waiting",
+      "added": "2026-11-07"
+    },
+    {
+      "item": "A ripe fruit for crunch while I hang",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T21:32:39",
-      "line": "Backflipped across the rope bridge, landed on the hut roof. Telescope now points where I say. Tail held the line the whole way.",
-      "trick": "backflip",
-      "area": "lookout_ledge"
-    },
     {
       "t": "2026-11-06T22:02:03",
       "line": "I curled my tail around the ripe bunch, yanked a banana clean, and chewed while the espresso went cold, feeling the grid pulse under my grip.",
@@ -144,6 +138,12 @@
       "line": "Cold brew burns the throat but the neon cord is too flimsy for a real landing, so I locked my tail around the branch instead of the water.",
       "trick": "none",
       "area": "waterfall_pond"
+    },
+    {
+      "t": "2026-11-07T03:30:15",
+      "line": "Sipped espresso and spun around the string lights while the crowd watches me loop my tail. No heavy fruit needed if gravity fears my grip.",
+      "trick": "tail_grab",
+      "area": "hangout"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T03:00:11",
-  "area": "waterfall_pond"
+  "last_thought_at": "2026-11-07T03:30:15",
+  "area": "hangout"
 }
