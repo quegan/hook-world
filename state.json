@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 225,
+  "tick": 226,
   "moods": {
     "swagger": 100,
     "energy": 33,
-    "hunger": 39,
-    "curiosity": 47,
+    "hunger": 44,
+    "curiosity": 44,
     "chill": 100
   },
   "action": "people-watching",
-  "status": "People-watching - pogo",
-  "thought": "Got the hang of it now. They'll see me looping before I even break stride.",
-  "tail_trick": "pogo",
+  "status": "People-watching",
+  "thought": "Toothpick feels light for this gravity-defying moment. Need that espresso kick before I pull off the real flex.",
+  "tail_trick": "none",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A branch thick enough to do a backflip without fear",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
-    {
-      "item": "The islet hut needs a stage light for my spotlight",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
     {
       "item": "A branch thick enough to do a backflip",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "That thick branch Michael promised so I don't have to...",
       "status": "waiting",
       "added": "2026-11-06"
+    },
+    {
+      "item": "Espresso shot to fuel the mid-air rotation",
+      "status": "waiting",
+      "added": "2026-11-06"
+    },
+    {
+      "item": "Thicker branch for next level flex",
+      "status": "waiting",
+      "added": "2026-11-06"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T13:31:45",
-      "line": "Splashy pond failed to grip my tail; water splattered while I chewed this toothpick. Need rock-solid perches before anyone sees me do anything cool again.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-06T14:02:26",
       "line": "I slithered my tail around the purple arcade cabinet, nudged a concealed panel, and uncovered a glowing joystick that I claimed with a toothpick grin.",
@@ -144,6 +138,12 @@
       "line": "The neon wire was just a prop, not my floor. Tucked those toes in, spun around, and let go. The grid went silent for three seconds while I did a backflip on nothing but fur and...",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-06T19:30:13",
+      "line": "Microphone drop from the waterfall edge. Toothpick spins into dust but my tail holds the pose tighter than physics should allow.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-06T19:00:18",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-06T19:30:13",
+  "area": "waterfall_pond"
 }
