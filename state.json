@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 224,
+  "tick": 225,
   "moods": {
     "swagger": 100,
-    "energy": 36,
-    "hunger": 34,
-    "curiosity": 51,
+    "energy": 33,
+    "hunger": 39,
+    "curiosity": 47,
     "chill": 100
   },
   "action": "people-watching",
-  "status": "People-watching - backflip",
-  "thought": "Michael thinks he's got it? Nah. Let's see if this tree can handle the gravity flex.",
-  "tail_trick": "backflip",
+  "status": "People-watching - pogo",
+  "thought": "Got the hang of it now. They'll see me looping before I even break stride.",
+  "tail_trick": "pogo",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A thick branch for the perfect backflip",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
-    {
-      "item": "Solid ground to flex without fear",
-      "status": "waiting",
-      "added": "2026-11-06"
-    },
     {
       "item": "A branch thick enough to do a backflip without fear",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Spotlight so I can make them gasp when I flip",
       "status": "waiting",
       "added": "2026-11-06"
+    },
+    {
+      "item": "A spotlight to make the flip count as a flex",
+      "status": "waiting",
+      "added": "2026-11-06"
+    },
+    {
+      "item": "That thick branch Michael promised so I don't have to...",
+      "status": "waiting",
+      "added": "2026-11-06"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-06T13:02:31",
-      "line": "The top banana bunch tipped, and I hooked it with my tail. Peel split, pulp everywhere. Sunglasses survived. Dignity, debatable.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-06T13:31:45",
       "line": "Splashy pond failed to grip my tail; water splattered while I chewed this toothpick. Need rock-solid perches before anyone sees me do anything cool again.",
@@ -144,6 +138,12 @@
       "line": "Found a solid branch right here, no more flimsy neon wires. The espresso is getting cold but my ego is still steaming hot.",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-06T19:00:18",
+      "line": "The neon wire was just a prop, not my floor. Tucked those toes in, spun around, and let go. The grid went silent for three seconds while I did a backflip on nothing but fur and...",
+      "trick": "pogo",
+      "area": "sky_rocks"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-06T18:30:13",
-  "area": "lookout_ledge"
+  "last_thought_at": "2026-11-06T19:00:18",
+  "area": "sky_rocks"
 }
