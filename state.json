@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 272,
+  "tick": 273,
   "moods": {
     "swagger": 100,
-    "energy": 51,
-    "hunger": 65,
+    "energy": 61,
+    "hunger": 21,
     "curiosity": 54,
-    "chill": 74
+    "chill": 79
   },
-  "action": "exploring",
-  "status": "Exploring",
-  "thought": "Waterfall roar drowns the crowd. Tail twitching for a solid grip on that hang branch.",
-  "tail_trick": "none",
+  "action": "snacking",
+  "status": "Snacking - tail grab",
+  "thought": "Snagged a banana with the tail, toothpick still in mouth, crowd can watch or not.",
+  "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A thick oak branch to flip off",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
-    {
-      "item": "More espresso to keep the buzz tight",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
     {
       "item": "Espresso cup for focus",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Espresso cup on a rock for sipping",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "Need a sturdy branch for a backflip",
+      "status": "waiting",
+      "added": "2026-11-07"
+    },
+    {
+      "item": "Add a high perch to watch the grid",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T13:00:31",
-      "line": "Drooping over this wet pond with nothing but the breeze for a launchpad feels cheap. My tail is tired of vibrating on air and needs solid ground to really show what it's made of.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-07T13:30:24",
       "line": "Snagged a banana with the tail tip and bit it dry; too short a lever to spin anything meaningful. The pixels are getting bored of my stillness.",
@@ -144,6 +138,12 @@
       "line": "Exploring Waterfall Pond. Lily pads too weak. Tree with hang branch calls. Tail ready to test its strength.",
       "trick": "none",
       "area": "waterfall_pond"
+    },
+    {
+      "t": "2026-11-07T19:02:06",
+      "line": "I perched on the low-poly palm, tail curled around the bunch, plucked a banana, and chewed while the crowd pixelated around me. No one matched my grip.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T18:32:13",
-  "area": "waterfall_pond"
+  "last_thought_at": "2026-11-07T19:02:06",
+  "area": "banana_grove"
 }
