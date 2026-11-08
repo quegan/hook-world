@@ -1,17 +1,17 @@
 {
   "name": "HOOK",
-  "tick": 279,
+  "tick": 280,
   "moods": {
     "swagger": 100,
-    "energy": 65,
-    "hunger": 49,
-    "curiosity": 59,
-    "chill": 70
+    "energy": 58,
+    "hunger": 55,
+    "curiosity": 62,
+    "chill": 68
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso - hang",
-  "thought": "Toothpick's getting old, need that espresso kick before I flip out on them.",
-  "tail_trick": "hang",
+  "action": "practicing a trick",
+  "status": "Practicing a trick - pogo",
+  "thought": "Grip is slipping on these stones, gotta switch to espresso before gravity catches me.",
+  "tail_trick": "pogo",
   "prop": "espresso",
   "wants": [
     {
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T16:30:55",
-      "line": "The oak limb is solid enough now, but my toothpick is still rattling around in my mouth. Need that espresso shot to keep the momentum from dying before I hit the air.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-07T17:00:23",
       "line": "Espresso hit the spot while I test that oak limb. Crowd's bored with my stillness, time to flex real power before they scroll away.",
@@ -144,6 +138,12 @@
       "line": "Sitting tight on the thick branch like the real anchor while the crowd scrolls by too slow for my standards. Switching to espresso now because my tail is begging for a loop.",
       "trick": "hang",
       "area": "hang_tree"
+    },
+    {
+      "t": "2026-11-07T22:31:04",
+      "line": "Sky Rocks are too slick for my usual hang; need that glossy perch or the flip looks like a stumble. Switching drinks to keep the momentum sharp.",
+      "trick": "pogo",
+      "area": "sky_rocks"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T22:01:11",
-  "area": "hang_tree"
+  "last_thought_at": "2026-11-07T22:31:04",
+  "area": "sky_rocks"
 }
