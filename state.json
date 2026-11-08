@@ -1,17 +1,17 @@
 {
   "name": "HOOK",
-  "tick": 303,
+  "tick": 304,
   "moods": {
     "swagger": 100,
-    "energy": 39,
-    "hunger": 27,
-    "curiosity": 50,
-    "chill": 94
+    "energy": 36,
+    "hunger": 32,
+    "curiosity": 46,
+    "chill": 97
   },
   "action": "people-watching",
-  "status": "People-watching - backflip",
-  "thought": "Crowd's too busy with pixels to see my tail loop tighter than any rope they own.",
-  "tail_trick": "backflip",
+  "status": "People-watching - pogo",
+  "thought": "Crowd asleep on pixels, gotta nail this flip before they wake up.",
+  "tail_trick": "pogo",
   "prop": "toothpick",
   "wants": [
     {
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-08T04:34:35",
-      "line": "I hung from the branch, eyes on the pixelated crowd, when a stray kite fluttered by, its tail wobbling like a cheap banner; I eyed it, tail ready to snatch.",
-      "trick": "hang",
-      "area": "hang_tree"
-    },
     {
       "t": "2026-11-08T05:03:38",
       "line": "I curled my tail around the ripe bunch, lifted a banana, then jabbed it with my toothpick for a quick bite while the low‑poly onlookers barely blinked.",
@@ -144,6 +138,12 @@
       "line": "Perched on the tree hang branch, toes tapping the wood. Toothpick is just air now, need caffeine to match that neon cord tension before I flip for the crowd.",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-08T10:30:20",
+      "line": "Bounced off the stepping stones, tail locked tight as the crystal gets closer, toothpick crunching dry and useless against the neon glare.",
+      "trick": "pogo",
+      "area": "sky_rocks"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-08T10:00:25",
-  "area": "lookout_ledge"
+  "last_thought_at": "2026-11-08T10:30:20",
+  "area": "sky_rocks"
 }
