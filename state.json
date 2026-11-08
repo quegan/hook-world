@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 277,
+  "tick": 278,
   "moods": {
     "swagger": 100,
-    "energy": 45,
-    "hunger": 42,
-    "curiosity": 53,
-    "chill": 68
+    "energy": 44,
+    "hunger": 47,
+    "curiosity": 59,
+    "chill": 76
   },
-  "action": "exploring",
-  "status": "Exploring - backflip",
-  "thought": "Telescope views the whole grid but I need a better perch than this lily pad.",
-  "tail_trick": "backflip",
+  "action": "hanging out",
+  "status": "Hanging out",
+  "thought": "The crowd is scrolling so hard they can't see me dangling from the waterfall edge. Toothpick feels good, but I'm bored with this grid view.",
+  "tail_trick": "none",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "Espresso cup on a rock for sipping",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
-    {
-      "item": "Need a sturdy branch for a backflip",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
     {
       "item": "Add a high perch to watch the grid",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A glossy perch to reflect the sunglasses",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "A thick branch strong enough for a backflip",
+      "status": "waiting",
+      "added": "2026-11-07"
+    },
+    {
+      "item": "Double caffeine espresso",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T15:30:29",
-      "line": "The neon lights feel cheap when your tail is just grabbing on air. I need a solid tree trunk to launch into something the crowd can't ignore.",
-      "trick": "tail_grab",
-      "area": "hangout"
-    },
     {
       "t": "2026-11-07T16:00:19",
       "line": "Dropped the banana on the water, found a sturdy oak limb instead. My tail just wrapped around it like a vice grip while I did a backflip that shattered the pond's surface tension.",
@@ -144,6 +138,12 @@
       "line": "Lily pads are soggy and the view is static; that telescope on the islet looks sturdy enough for a proper flex before sunrise.",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-07T21:30:54",
+      "line": "Hanging off the waterfall ledge while the crowd watches their pixels; toothpick rattles loud enough to cut through the static noise.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T21:00:16",
-  "area": "lookout_ledge"
+  "last_thought_at": "2026-11-07T21:30:54",
+  "area": "waterfall_pond"
 }
