@@ -1,18 +1,18 @@
 {
   "name": "HOOK",
-  "tick": 283,
+  "tick": 284,
   "moods": {
     "swagger": 100,
-    "energy": 49,
-    "hunger": 23,
-    "curiosity": 41,
+    "energy": 45,
+    "hunger": 29,
+    "curiosity": 33,
     "chill": 68
   },
-  "action": "snacking",
-  "status": "Snacking - tail grab",
-  "thought": "Three bananas here, but none look thick enough for a real flex.",
-  "tail_trick": "tail_grab",
-  "prop": "toothpick",
+  "action": "exploring",
+  "status": "Exploring",
+  "thought": "Toothpick's too noisy for the quiet pond; need to switch drinks before I get bored watching pixels.",
+  "tail_trick": "none",
+  "prop": "espresso",
   "wants": [
     {
       "item": "A glossy perch to reflect the sunglasses",
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T18:32:13",
-      "line": "Exploring Waterfall Pond. Lily pads too weak. Tree with hang branch calls. Tail ready to test its strength.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-07T19:02:06",
       "line": "I perched on the low-poly palm, tail curled around the bunch, plucked a banana, and chewed while the crowd pixelated around me. No one matched my grip.",
@@ -144,6 +138,12 @@
       "line": "Caught three bunches from these palms, still stuck eating while the grid spins by too slow.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-08T00:30:52",
+      "line": "Soggy lily pads and a dripping waterfall keep me on edge; switching from toothpick to espresso to match this chill vibe.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-08T00:00:47",
-  "area": "banana_grove"
+  "last_thought_at": "2026-11-08T00:30:52",
+  "area": "waterfall_pond"
 }
