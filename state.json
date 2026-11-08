@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 301,
+  "tick": 302,
   "moods": {
     "swagger": 100,
-    "energy": 39,
-    "hunger": 67,
-    "curiosity": 52,
-    "chill": 91
+    "energy": 42,
+    "hunger": 22,
+    "curiosity": 54,
+    "chill": 93
   },
-  "action": "showing off",
-  "status": "Showing off",
-  "thought": "Crowd still staring at pixels while I dangle on that neon shit. Toothpick is fine but this branch needs to be thicker for my next move.",
-  "tail_trick": "none",
+  "action": "snacking",
+  "status": "Snacking - tail grab",
+  "thought": "Toothpick's useless against this ripe banana skin. Just need a thicker branch to really show off next time.",
+  "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A mirrored wall to watch my tail tricks",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
-    {
-      "item": "A bright neon rim to outline my tail moves",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
     {
       "item": "A floating fruit ring for mid-air tail catches",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "better lighting to make the flex glow",
       "status": "waiting",
       "added": "2026-11-08"
+    },
+    {
+      "item": "thick branch for a massive flip",
+      "status": "waiting",
+      "added": "2026-11-08"
+    },
+    {
+      "item": "shiny mirror to reflect my cool",
+      "status": "waiting",
+      "added": "2026-11-08"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-08T03:31:21",
-      "line": "Soggy lily pads and dripping water don't hold a backflip. Grabbing that thick branch now while the crowd waits to see if I'm still untouchable.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-08T04:01:18",
       "line": "The neon string feels like a cheap rope for flexing. This crowd is boring, just staring at the low-poly pixels instead of admiring my tail work.",
@@ -144,6 +138,12 @@
       "line": "Dangled on the purple arcade cord again, toothpick clicking against the air. The low-poly onlookers are too busy watching their screens to notice I'm flexing better than anyone...",
       "trick": "none",
       "area": "arcade"
+    },
+    {
+      "t": "2026-11-08T09:30:25",
+      "line": "Snagged the bananas with my tail, but chewing them feels like eating nothing. The crowd is still asleep on their screens while I eat in the shadows.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-08T09:00:25",
-  "area": "arcade"
+  "last_thought_at": "2026-11-08T09:30:25",
+  "area": "banana_grove"
 }
