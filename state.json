@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 291,
+  "tick": 292,
   "moods": {
     "swagger": 100,
-    "energy": 44,
-    "hunger": 61,
-    "curiosity": 41,
-    "chill": 75
+    "energy": 48,
+    "hunger": 67,
+    "curiosity": 38,
+    "chill": 80
   },
   "action": "people-watching",
-  "status": "People-watching - tail grab",
-  "thought": "Sipping my espresso while they squint at my glow. Need thick ground soon.",
-  "tail_trick": "tail_grab",
+  "status": "People-watching - hang",
+  "thought": "Watching the crowd, I spot a pixel kite drifting past; my tail twitches, ready for the next flex.",
+  "tail_trick": "hang",
   "prop": "espresso",
   "wants": [
-    {
-      "item": "A thick branch for a clean backflip",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
-    {
-      "item": "A thick branch for a clean flip",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
     {
       "item": "More espresso to sharpen the reflexes",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "The espresso hot enough to melt the pixel grid",
       "status": "waiting",
       "added": "2026-11-08"
+    },
+    {
+      "item": "A sturdier perch for a perfect tail swing",
+      "status": "waiting",
+      "added": "2026-11-08"
+    },
+    {
+      "item": "A bright neon sign to spotlight my hang",
+      "status": "waiting",
+      "added": "2026-11-08"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T22:31:04",
-      "line": "Sky Rocks are too slick for my usual hang; need that glossy perch or the flip looks like a stumble. Switching drinks to keep the momentum sharp.",
-      "trick": "pogo",
-      "area": "sky_rocks"
-    },
     {
       "t": "2026-11-07T23:00:18",
       "line": "Got stuck on these string lights instead of the thick branch I needed; tail is tired of swinging like this while the coffee cools down.",
@@ -144,6 +138,12 @@
       "line": "The neon string feels like a cheap rope for flexing. This crowd is boring, just staring at the low-poly pixels instead of admiring my tail work.",
       "trick": "tail_grab",
       "area": "hangout"
+    },
+    {
+      "t": "2026-11-08T04:34:35",
+      "line": "I hung from the branch, eyes on the pixelated crowd, when a stray kite fluttered by, its tail wobbling like a cheap banner; I eyed it, tail ready to snatch.",
+      "trick": "hang",
+      "area": "hang_tree"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-08T04:01:18",
-  "area": "hangout"
+  "last_thought_at": "2026-11-08T04:34:35",
+  "area": "hang_tree"
 }
