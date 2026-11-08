@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 315,
+  "tick": 316,
   "moods": {
     "swagger": 100,
-    "energy": 53,
-    "hunger": 28,
-    "curiosity": 66,
-    "chill": 94
+    "energy": 43,
+    "hunger": 34,
+    "curiosity": 59,
+    "chill": 91
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso - tail grab",
-  "thought": "Cold brew won't fix a weak branch, but this ledge looks solid enough to test my limits without risking the mud.",
-  "tail_trick": "tail_grab",
-  "prop": "espresso",
+  "action": "exploring",
+  "status": "Exploring",
+  "thought": "The mud is ruining my grip. I need dry ground to flex properly while they stare at their flat pixels.",
+  "tail_trick": "none",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "thick branch to match my flex",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
     {
       "item": "sturdy perch for the flip",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "fresh espresso shot for the drop",
       "status": "waiting",
       "added": "2026-11-08"
+    },
+    {
+      "item": "dry land for clean moves",
+      "status": "waiting",
+      "added": "2026-11-08"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-08T10:30:20",
-      "line": "Bounced off the stepping stones, tail locked tight as the crystal gets closer, toothpick crunching dry and useless against the neon glare.",
-      "trick": "pogo",
-      "area": "sky_rocks"
-    },
     {
       "t": "2026-11-08T11:00:27",
       "line": "Sitting on this rattling crate makes my balance look shaky. Grabbed the thick branch nearby, locked my tail onto it tight.",
@@ -144,6 +138,12 @@
       "line": "Locked onto the fruit stump with just my tail while they scroll past. The espresso was stale, so I saved it for when the branch finally feels real under my grip.",
       "trick": "tail_grab",
       "area": "hangout"
+    },
+    {
+      "t": "2026-11-08T16:30:27",
+      "line": "Lily pads are too slick for a real drop. The espresso is cold and that toothpick feels useless on wet fur. Need a thick branch before anyone notices my true form in the grid.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-08T16:00:14",
-  "area": "hangout"
+  "last_thought_at": "2026-11-08T16:30:27",
+  "area": "waterfall_pond"
 }
