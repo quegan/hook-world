@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 284,
+  "tick": 285,
   "moods": {
     "swagger": 100,
-    "energy": 45,
-    "hunger": 29,
-    "curiosity": 33,
-    "chill": 68
+    "energy": 46,
+    "hunger": 34,
+    "curiosity": 41,
+    "chill": 73
   },
-  "action": "exploring",
-  "status": "Exploring",
-  "thought": "Toothpick's too noisy for the quiet pond; need to switch drinks before I get bored watching pixels.",
-  "tail_trick": "none",
-  "prop": "espresso",
+  "action": "hanging out",
+  "status": "Hanging out - hang",
+  "thought": "Neon cord's too wobbly for my style; gotta find that thick branch for a real flex before dawn.",
+  "tail_trick": "hang",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A glossy perch to reflect the sunglasses",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
     {
       "item": "A thick branch strong enough for a backflip",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "More espresso to keep the momentum sharp",
       "status": "waiting",
       "added": "2026-11-08"
+    },
+    {
+      "item": "A thick branch for a clean backflip",
+      "status": "waiting",
+      "added": "2026-11-08"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T19:02:06",
-      "line": "I perched on the low-poly palm, tail curled around the bunch, plucked a banana, and chewed while the crowd pixelated around me. No one matched my grip.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-07T19:32:04",
       "line": "I perched on the arcade cabinet, tail coiled around the neon sign, and snagged the joystick with a flick, making the crowd pixelate in awe.",
@@ -144,6 +138,12 @@
       "line": "Soggy lily pads and a dripping waterfall keep me on edge; switching from toothpick to espresso to match this chill vibe.",
       "trick": "none",
       "area": "waterfall_pond"
+    },
+    {
+      "t": "2026-11-08T01:01:47",
+      "line": "Stuck swinging on this thin neon string while the crowd stares at their pixels; tail is tired of these shaky loops, need solid ground soon to pull off a proper backflip in...",
+      "trick": "hang",
+      "area": "hang_tree"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-08T00:30:52",
-  "area": "waterfall_pond"
+  "last_thought_at": "2026-11-08T01:01:47",
+  "area": "hang_tree"
 }
