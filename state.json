@@ -1,18 +1,18 @@
 {
   "name": "HOOK",
-  "tick": 311,
+  "tick": 312,
   "moods": {
     "swagger": 100,
-    "energy": 38,
-    "hunger": 59,
-    "curiosity": 59,
+    "energy": 37,
+    "hunger": 64,
+    "curiosity": 64,
     "chill": 100
   },
-  "action": "people-watching",
-  "status": "People-watching - backflip",
-  "thought": "They stare at pixels while I dangle from the neon cord. Toothpick feels good but the branch needs to be thick enough for a real flip next.",
-  "tail_trick": "backflip",
-  "prop": "espresso",
+  "action": "hanging out",
+  "status": "Hanging out - hang",
+  "thought": "Tail is hot from that neon cord flex, now I need to test the swing on this branch itself before the sun gets too bright.",
+  "tail_trick": "hang",
+  "prop": "toothpick",
   "wants": [
     {
       "item": "better lighting to make the flex glow",
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-08T08:30:22",
-      "line": "Sipped the espresso, felt the heat seep into my fur while staring at the waterfall. Crowd's bored again, need a better perch to flex before they notice me.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-08T09:00:25",
       "line": "Dangled on the purple arcade cord again, toothpick clicking against the air. The low-poly onlookers are too busy watching their screens to notice I'm flexing better than anyone...",
@@ -144,6 +138,12 @@
       "line": "Cruising the lookout ledge watching them scroll past my shadow. The espresso in my hand is getting cold, time to find that sturdy perch before they notice I'm the actual flex.",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-08T14:30:30",
+      "line": "Took the hang branch for a real swing instead of staring at ghosts. Toothpick snapped as my tail locked in, but the mud still feels sticky under my fur.",
+      "trick": "hang",
+      "area": "hang_tree"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-08T14:01:18",
-  "area": "lookout_ledge"
+  "last_thought_at": "2026-11-08T14:30:30",
+  "area": "hang_tree"
 }
