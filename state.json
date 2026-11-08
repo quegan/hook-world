@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 293,
+  "tick": 294,
   "moods": {
     "swagger": 100,
-    "energy": 54,
-    "hunger": 22,
-    "curiosity": 41,
-    "chill": 85
+    "energy": 59,
+    "hunger": 29,
+    "curiosity": 48,
+    "chill": 96
   },
-  "action": "snacking",
-  "status": "Snacking - tail grab",
-  "thought": "I snagged a banana with my tail, jabbed it with a toothpick, and watched the pixel crowd yawn.",
-  "tail_trick": "tail_grab",
-  "prop": "toothpick",
+  "action": "hanging out",
+  "status": "Hanging out - pogo",
+  "thought": "The crystal jutting out gives me a perfect perch for a quick tail bounce.",
+  "tail_trick": "pogo",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "A thicker branch for a flawless rotation",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
-    {
-      "item": "The coffee hot enough to match my heat",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
     {
       "item": "A thick branch for a flawless rotation",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A sturdy pole to swing and spin my tail on.",
       "status": "waiting",
       "added": "2026-11-08"
+    },
+    {
+      "item": "A taller crystal column to launch a tail spin",
+      "status": "waiting",
+      "added": "2026-11-08"
+    },
+    {
+      "item": "A neon spotlight that follows my tail",
+      "status": "waiting",
+      "added": "2026-11-08"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T23:30:49",
-      "line": "That arcade cabinet is sticky and narrow, but I'm going to swing it like a bat' out of hell until the screen cracks from the impact.",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-08T00:00:47",
       "line": "Caught three bunches from these palms, still stuck eating while the grid spins by too slow.",
@@ -144,6 +138,12 @@
       "line": "I curled my tail around the ripe bunch, lifted a banana, then jabbed it with my toothpick for a quick bite while the low‑poly onlookers barely blinked.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-08T05:32:40",
+      "line": "A sudden gust nudged the floating stone; I wrapped my tail around its edge, steadied it, and let the crowd watch the subtle sway.",
+      "trick": "pogo",
+      "area": "sky_rocks"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-08T05:03:38",
-  "area": "banana_grove"
+  "last_thought_at": "2026-11-08T05:32:40",
+  "area": "sky_rocks"
 }
