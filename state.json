@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 280,
+  "tick": 281,
   "moods": {
     "swagger": 100,
-    "energy": 58,
-    "hunger": 55,
-    "curiosity": 62,
+    "energy": 53,
+    "hunger": 62,
+    "curiosity": 53,
     "chill": 68
   },
-  "action": "practicing a trick",
-  "status": "Practicing a trick - pogo",
-  "thought": "Grip is slipping on these stones, gotta switch to espresso before gravity catches me.",
-  "tail_trick": "pogo",
+  "action": "exploring",
+  "status": "Exploring - tail grab",
+  "thought": "The floorboards are too thin for that kind of gravity defying move, gotta find a sturdy anchor to pull off the real flex.",
+  "tail_trick": "tail_grab",
   "prop": "espresso",
   "wants": [
-    {
-      "item": "A glossy perch to reflect my shades",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
-    {
-      "item": "A crystal-clear perch for a zero-gravity flip",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
     {
       "item": "An espresso cup with double the caffeine punch",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Double espresso to keep the flex going",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "A thick branch to pull off a real flip",
+      "status": "waiting",
+      "added": "2026-11-07"
+    },
+    {
+      "item": "More espresso before the flex ends",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T17:00:23",
-      "line": "Espresso hit the spot while I test that oak limb. Crowd's bored with my stillness, time to flex real power before they scroll away.",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-07T17:30:21",
       "line": "Found that old CRT on the islet; my tail wrapped tight around its frame for leverage. Crowd's bored with my flip attempts, but the low-poly light catches the fur just right...",
@@ -144,6 +138,12 @@
       "line": "Sky Rocks are too slick for my usual hang; need that glossy perch or the flip looks like a stumble. Switching drinks to keep the momentum sharp.",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-07T23:00:18",
+      "line": "Got stuck on these string lights instead of the thick branch I needed; tail is tired of swinging like this while the coffee cools down.",
+      "trick": "tail_grab",
+      "area": "hangout"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T22:31:04",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-07T23:00:18",
+  "area": "hangout"
 }
