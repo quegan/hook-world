@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 294,
+  "tick": 295,
   "moods": {
     "swagger": 100,
-    "energy": 59,
-    "hunger": 29,
-    "curiosity": 48,
-    "chill": 96
+    "energy": 48,
+    "hunger": 37,
+    "curiosity": 52,
+    "chill": 93
   },
-  "action": "hanging out",
-  "status": "Hanging out - pogo",
-  "thought": "The crystal jutting out gives me a perfect perch for a quick tail bounce.",
-  "tail_trick": "pogo",
-  "prop": "espresso",
+  "action": "showing off",
+  "status": "Showing off - backflip",
+  "thought": "Just nailed a clean backflip, tail looping like it owns the sky.",
+  "tail_trick": "backflip",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A thick branch for a flawless rotation",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
-    {
-      "item": "Toothpick sharp enough to cut the cord",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
     {
       "item": "A branch thick enough for a silent rotation",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A neon spotlight that follows my tail",
       "status": "waiting",
       "added": "2026-11-08"
+    },
+    {
+      "item": "A taller pole to launch a tail spin",
+      "status": "waiting",
+      "added": "2026-11-08"
+    },
+    {
+      "item": "A glossy platform for a perfect tail swing",
+      "status": "waiting",
+      "added": "2026-11-08"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-08T00:00:47",
-      "line": "Caught three bunches from these palms, still stuck eating while the grid spins by too slow.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-08T00:30:52",
       "line": "Soggy lily pads and a dripping waterfall keep me on edge; switching from toothpick to espresso to match this chill vibe.",
@@ -144,6 +138,12 @@
       "line": "A sudden gust nudged the floating stone; I wrapped my tail around its edge, steadied it, and let the crowd watch the subtle sway.",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-08T06:02:19",
+      "line": "Landed on the hammock after a smooth backflip, tail still humming, while I chew a bite of fruit with my toothpick and watch the low‑poly world wobble beneath me.",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-08T05:32:40",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-08T06:02:19",
+  "area": "lookout_ledge"
 }
