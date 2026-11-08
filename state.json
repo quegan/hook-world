@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 288,
+  "tick": 289,
   "moods": {
     "swagger": 100,
-    "energy": 35,
-    "hunger": 47,
-    "curiosity": 59,
-    "chill": 80
+    "energy": 50,
+    "hunger": 50,
+    "curiosity": 61,
+    "chill": 74
   },
-  "action": "hanging out",
-  "status": "Hanging out - tail grab",
-  "thought": "These palms are thin; my tail needs solid ground to really own the air.",
-  "tail_trick": "tail_grab",
+  "action": "sipping espresso",
+  "status": "Sipping espresso - backflip",
+  "thought": "Coffee's warm enough to taste like fire while I flex these lights out.",
+  "tail_trick": "backflip",
   "prop": "espresso",
   "wants": [
-    {
-      "item": "A thick branch to pull off a real flip",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
-    {
-      "item": "More espresso before the flex ends",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
     {
       "item": "A thick branch for a real flip",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "The coffee hot enough to match my heat",
       "status": "waiting",
       "added": "2026-11-08"
+    },
+    {
+      "item": "A thick branch for a flawless rotation",
+      "status": "waiting",
+      "added": "2026-11-08"
+    },
+    {
+      "item": "Toothpick sharp enough to cut the cord",
+      "status": "waiting",
+      "added": "2026-11-08"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T21:00:16",
-      "line": "Lily pads are soggy and the view is static; that telescope on the islet looks sturdy enough for a proper flex before sunrise.",
-      "trick": "backflip",
-      "area": "lookout_ledge"
-    },
     {
       "t": "2026-11-07T21:30:54",
       "line": "Hanging off the waterfall ledge while the crowd watches their pixels; toothpick rattles loud enough to cut through the static noise.",
@@ -144,6 +138,12 @@
       "line": "The bananas taste like dust compared to that perfect backflip I'm about to nail on the thick branch.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-08T03:00:13",
+      "line": "Nailed a backflip on this islet despite the lily pads sloshing below. The crowd just stares, doesn't it? Next time I'll hunt a branch thick enough to make them actually look up.",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-08T02:30:50",
-  "area": "banana_grove"
+  "last_thought_at": "2026-11-08T03:00:13",
+  "area": "lookout_ledge"
 }
