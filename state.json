@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 319,
+  "tick": 320,
   "moods": {
     "swagger": 100,
-    "energy": 41,
-    "hunger": 49,
-    "curiosity": 58,
-    "chill": 79
+    "energy": 62,
+    "hunger": 50,
+    "curiosity": 62,
+    "chill": 76
   },
-  "action": "practicing a trick",
-  "status": "Practicing a trick - backflip",
-  "thought": "Need that thick branch to drop them from this islet before they notice me mid-air.",
-  "tail_trick": "backflip",
-  "prop": "toothpick",
+  "action": "sipping espresso",
+  "status": "Sipping espresso - tail grab",
+  "thought": "Espresso hits, tail curls, I spot a floating cube and decide it's my next flex.",
+  "tail_trick": "tail_grab",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "dry land to flex without mud",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
-    {
-      "item": "espresso shot for tail tension",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
     {
       "item": "dry mud to land clean",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "fresh espresso shot",
       "status": "waiting",
       "added": "2026-11-08"
+    },
+    {
+      "item": "A sturdy platform to spin the cube",
+      "status": "waiting",
+      "added": "2026-11-08"
+    },
+    {
+      "item": "A brighter spotlight for the tail grab",
+      "status": "waiting",
+      "added": "2026-11-08"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-08T12:30:31",
-      "line": "Caught three bananas with my tail, chewing them feels like eating nothing. The low-poly palms are useless for a proper backflip, need a thicker perch to match this swagger...",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-08T13:00:21",
       "line": "Dropped the espresso on the wet mud while dangling here. The crowd still staring at ghosts on screens. Need to catch something real or lose interest in this puddle reflection.",
@@ -144,6 +138,12 @@
       "line": "They stare at pixels while I loop my tail on the rope bridge. My espresso is ice cold and this ledge won't hold the flip, need solid ground soon.",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-08T18:32:07",
+      "line": "I sipped the espresso, then used my tail to snatch a hovering data cube, feeling the metal chill against my fur as the scene flickered around me.",
+      "trick": "tail_grab",
+      "area": "hangout"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-08T18:00:18",
-  "area": "lookout_ledge"
+  "last_thought_at": "2026-11-08T18:32:07",
+  "area": "hangout"
 }
