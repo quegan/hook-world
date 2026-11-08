@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 313,
+  "tick": 314,
   "moods": {
     "swagger": 100,
-    "energy": 34,
-    "hunger": 69,
-    "curiosity": 58,
+    "energy": 40,
+    "hunger": 28,
+    "curiosity": 62,
     "chill": 100
   },
-  "action": "people-watching",
-  "status": "People-watching",
-  "thought": "Toothpick's done, time to show 'em the real deal.",
-  "tail_trick": "none",
+  "action": "snacking",
+  "status": "Snacking - tail grab",
+  "thought": "Toothpick feels useless on this sliver of wood. Need that big branch for the real drop.",
+  "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "thick branch for a massive flip",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
     {
       "item": "shiny mirror to reflect my cool",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "espresso shot for tail tension",
       "status": "waiting",
       "added": "2026-11-08"
+    },
+    {
+      "item": "dry mud to land clean",
+      "status": "waiting",
+      "added": "2026-11-08"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-08T09:30:25",
-      "line": "Snagged the bananas with my tail, but chewing them feels like eating nothing. The crowd is still asleep on their screens while I eat in the shadows.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-08T10:00:25",
       "line": "Perched on the tree hang branch, toes tapping the wood. Toothpick is just air now, need caffeine to match that neon cord tension before I flip for the crowd.",
@@ -144,6 +138,12 @@
       "line": "Locked my tail onto the heavy branch while they stare at screens. Ready to drop them with a backflip, but first need that espresso shot to wake up the fur.",
       "trick": "none",
       "area": "arcade"
+    },
+    {
+      "t": "2026-11-08T15:30:32",
+      "line": "Sunlight glints off my black fur while I loop my tail over the thin palm. They're scrolling past like the gravity glitch isn't actually them, but just a trick of their low-poly...",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-08T15:00:23",
-  "area": "arcade"
+  "last_thought_at": "2026-11-08T15:30:32",
+  "area": "banana_grove"
 }
