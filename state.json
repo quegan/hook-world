@@ -1,18 +1,18 @@
 {
   "name": "HOOK",
-  "tick": 310,
+  "tick": 311,
   "moods": {
     "swagger": 100,
-    "energy": 35,
-    "hunger": 55,
-    "curiosity": 67,
+    "energy": 38,
+    "hunger": 59,
+    "curiosity": 59,
     "chill": 100
   },
   "action": "people-watching",
-  "status": "People-watching - tail grab",
-  "thought": "They stare at static while I dangle from nothing. Toothpick feels like a weapon against their numbness.",
-  "tail_trick": "tail_grab",
-  "prop": "toothpick",
+  "status": "People-watching - backflip",
+  "thought": "They stare at pixels while I dangle from the neon cord. Toothpick feels good but the branch needs to be thick enough for a real flip next.",
+  "tail_trick": "backflip",
+  "prop": "espresso",
   "wants": [
     {
       "item": "better lighting to make the flex glow",
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-08T08:00:23",
-      "line": "Toothpick tastes like nothing while staring at that thin cord. Need a thick branch to pull off a backflip before the low-poly crowd realizes they missed my flex today.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-08T08:30:22",
       "line": "Sipped the espresso, felt the heat seep into my fur while staring at the waterfall. Crowd's bored again, need a better perch to flex before they notice me.",
@@ -144,6 +138,12 @@
       "line": "Perched on the fruit stump, toes clicking wood as they scroll past my silhouette. Need that thick branch to catch them mid-scroll if I ever decide to flip through the grid.",
       "trick": "tail_grab",
       "area": "hangout"
+    },
+    {
+      "t": "2026-11-08T14:01:18",
+      "line": "Cruising the lookout ledge watching them scroll past my shadow. The espresso in my hand is getting cold, time to find that sturdy perch before they notice I'm the actual flex.",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-08T13:30:30",
-  "area": "hangout"
+  "last_thought_at": "2026-11-08T14:01:18",
+  "area": "lookout_ledge"
 }
