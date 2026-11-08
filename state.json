@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 299,
+  "tick": 300,
   "moods": {
     "swagger": 100,
-    "energy": 36,
-    "hunger": 58,
-    "curiosity": 49,
-    "chill": 100
+    "energy": 49,
+    "hunger": 61,
+    "curiosity": 51,
+    "chill": 94
   },
-  "action": "hanging out",
-  "status": "Hanging out - tail grab",
-  "thought": "Neon cord's thin for real flips. That branch looks like it can hold my weight when I launch.",
-  "tail_trick": "tail_grab",
-  "prop": "toothpick",
+  "action": "sipping espresso",
+  "status": "Sipping espresso",
+  "thought": "Espresso burns too much energy for this morning vibe. Gotta find that thick branch before the sun hits the lilies.",
+  "tail_trick": "none",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "A neon spotlight that follows my tail",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
     {
       "item": "A taller pole to launch a tail spin",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "mirrored wall to see the angles",
       "status": "waiting",
       "added": "2026-11-08"
+    },
+    {
+      "item": "shiny mirror for reflection",
+      "status": "waiting",
+      "added": "2026-11-08"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-08T02:30:50",
-      "line": "The bananas taste like dust compared to that perfect backflip I'm about to nail on the thick branch.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-08T03:00:13",
       "line": "Nailed a backflip on this islet despite the lily pads sloshing below. The crowd just stares, doesn't it? Next time I'll hunt a branch thick enough to make them actually look up.",
@@ -144,6 +138,12 @@
       "line": "Toothpick tastes like nothing while staring at that thin cord. Need a thick branch to pull off a backflip before the low-poly crowd realizes they missed my flex today.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-08T08:30:22",
+      "line": "Sipped the espresso, felt the heat seep into my fur while staring at the waterfall. Crowd's bored again, need a better perch to flex before they notice me.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-08T08:00:23",
-  "area": "banana_grove"
+  "last_thought_at": "2026-11-08T08:30:22",
+  "area": "waterfall_pond"
 }
