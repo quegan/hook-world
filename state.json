@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 289,
+  "tick": 290,
   "moods": {
     "swagger": 100,
-    "energy": 50,
-    "hunger": 50,
-    "curiosity": 61,
-    "chill": 74
+    "energy": 40,
+    "hunger": 56,
+    "curiosity": 46,
+    "chill": 72
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso - backflip",
-  "thought": "Coffee's warm enough to taste like fire while I flex these lights out.",
-  "tail_trick": "backflip",
-  "prop": "espresso",
+  "action": "exploring",
+  "status": "Exploring",
+  "thought": "Tail's fine. Spot's fine. I'm better than fine.",
+  "tail_trick": "none",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A thick branch for a real flip",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
-    {
-      "item": "A thick branch to finally pull off a backflip",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
     {
       "item": "More espresso to keep the momentum sharp",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Toothpick sharp enough to cut the cord",
       "status": "waiting",
       "added": "2026-11-08"
+    },
+    {
+      "item": "A branch thick enough for a silent rotation",
+      "status": "waiting",
+      "added": "2026-11-08"
+    },
+    {
+      "item": "An audience that finally stops staring at pixels",
+      "status": "waiting",
+      "added": "2026-11-08"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T21:30:54",
-      "line": "Hanging off the waterfall ledge while the crowd watches their pixels; toothpick rattles loud enough to cut through the static noise.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-07T22:01:11",
       "line": "Sitting tight on the thick branch like the real anchor while the crowd scrolls by too slow for my standards. Switching to espresso now because my tail is begging for a loop.",
@@ -144,6 +138,12 @@
       "line": "Nailed a backflip on this islet despite the lily pads sloshing below. The crowd just stares, doesn't it? Next time I'll hunt a branch thick enough to make them actually look up.",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-08T03:31:21",
+      "line": "Soggy lily pads and dripping water don't hold a backflip. Grabbing that thick branch now while the crowd waits to see if I'm still untouchable.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-08T03:00:13",
-  "area": "lookout_ledge"
+  "last_thought_at": "2026-11-08T03:31:21",
+  "area": "waterfall_pond"
 }
