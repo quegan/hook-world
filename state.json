@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 297,
+  "tick": 298,
   "moods": {
     "swagger": 100,
-    "energy": 40,
-    "hunger": 48,
-    "curiosity": 48,
-    "chill": 95
+    "energy": 37,
+    "hunger": 53,
+    "curiosity": 43,
+    "chill": 98
   },
-  "action": "practicing a trick",
-  "status": "Practicing a trick - tail grab",
-  "thought": "Tail grab on a CRT knob. Precision over flash. The toothpick holds.",
-  "tail_trick": "tail_grab",
+  "action": "people-watching",
+  "status": "People-watching - hang",
+  "thought": "This branch is thin, but my tail knows how to make it look thick enough.",
+  "tail_trick": "hang",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A bright neon sign to spotlight my hang",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
-    {
-      "item": "A sturdy pole to swing and spin my tail on.",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
     {
       "item": "A taller crystal column to launch a tail spin",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A rotating platform to practice tail spins",
       "status": "waiting",
       "added": "2026-11-08"
+    },
+    {
+      "item": "thick branch for big flips",
+      "status": "waiting",
+      "added": "2026-11-08"
+    },
+    {
+      "item": "mirrored wall",
+      "status": "waiting",
+      "added": "2026-11-08"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-08T01:31:12",
-      "line": "Tried swinging off those string lights but my tail slipped; gotta hunt down a sturdy branch to make those backflips look legitimate.",
-      "trick": "tail_grab",
-      "area": "hangout"
-    },
     {
       "t": "2026-11-08T02:02:19",
       "line": "Floating over slick rocks is boring when you're waiting for the right perch. The neon string was too thin anyway, so I'm hunting for solid ground to flex my tail.",
@@ -144,6 +138,12 @@
       "line": "Snagged the CRT's power knob with my tail, flicked it on. Static snow fills the screen while I balance on the crate. Toothpick clicks.",
       "trick": "tail_grab",
       "area": "hangout"
+    },
+    {
+      "t": "2026-11-08T07:32:18",
+      "line": "Crowd's bored eyes glued to the screen while I flex that neon cord into a tight loop. Toothpick clicks against the rim. Still untouchable in this low-poly grid.",
+      "trick": "hang",
+      "area": "hang_tree"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-08T07:04:05",
-  "area": "hangout"
+  "last_thought_at": "2026-11-08T07:32:18",
+  "area": "hang_tree"
 }
