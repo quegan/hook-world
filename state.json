@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 285,
+  "tick": 286,
   "moods": {
     "swagger": 100,
-    "energy": 46,
-    "hunger": 34,
-    "curiosity": 41,
-    "chill": 73
+    "energy": 33,
+    "hunger": 40,
+    "curiosity": 46,
+    "chill": 66
   },
-  "action": "hanging out",
-  "status": "Hanging out - hang",
-  "thought": "Neon cord's too wobbly for my style; gotta find that thick branch for a real flex before dawn.",
-  "tail_trick": "hang",
+  "action": "showing off",
+  "status": "Showing off - tail grab",
+  "thought": "Neon cord is too thin for a real flip, need to find that thick branch before I crash on this floor.",
+  "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A thick branch strong enough for a backflip",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
-    {
-      "item": "Double caffeine espresso",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
     {
       "item": "A branch thick enough for a full backflip",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A thick branch for a clean backflip",
       "status": "waiting",
       "added": "2026-11-08"
+    },
+    {
+      "item": "A thick branch for a clean flip",
+      "status": "waiting",
+      "added": "2026-11-08"
+    },
+    {
+      "item": "More espresso to sharpen the reflexes",
+      "status": "waiting",
+      "added": "2026-11-08"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T19:32:04",
-      "line": "I perched on the arcade cabinet, tail coiled around the neon sign, and snagged the joystick with a flick, making the crowd pixelate in awe.",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-07T20:01:11",
       "line": "The stepping-stones are slippery and the crystal is too high, but my tail's got enough grip to turn this whole grid upside down before anyone blinks.",
@@ -144,6 +138,12 @@
       "line": "Stuck swinging on this thin neon string while the crowd stares at their pixels; tail is tired of these shaky loops, need solid ground soon to pull off a proper backflip in...",
       "trick": "hang",
       "area": "hang_tree"
+    },
+    {
+      "t": "2026-11-08T01:31:12",
+      "line": "Tried swinging off those string lights but my tail slipped; gotta hunt down a sturdy branch to make those backflips look legitimate.",
+      "trick": "tail_grab",
+      "area": "hangout"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-08T01:01:47",
-  "area": "hang_tree"
+  "last_thought_at": "2026-11-08T01:31:12",
+  "area": "hangout"
 }
