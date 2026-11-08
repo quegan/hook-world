@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 300,
+  "tick": 301,
   "moods": {
     "swagger": 100,
-    "energy": 49,
-    "hunger": 61,
-    "curiosity": 51,
-    "chill": 94
+    "energy": 39,
+    "hunger": 67,
+    "curiosity": 52,
+    "chill": 91
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso",
-  "thought": "Espresso burns too much energy for this morning vibe. Gotta find that thick branch before the sun hits the lilies.",
+  "action": "showing off",
+  "status": "Showing off",
+  "thought": "Crowd still staring at pixels while I dangle on that neon shit. Toothpick is fine but this branch needs to be thicker for my next move.",
   "tail_trick": "none",
-  "prop": "espresso",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A taller pole to launch a tail spin",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
-    {
-      "item": "A glossy platform for a perfect tail swing",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
     {
       "item": "A mirrored wall to watch my tail tricks",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "shiny mirror for reflection",
       "status": "waiting",
       "added": "2026-11-08"
+    },
+    {
+      "item": "thick branch for a massive backflip",
+      "status": "waiting",
+      "added": "2026-11-08"
+    },
+    {
+      "item": "better lighting to make the flex glow",
+      "status": "waiting",
+      "added": "2026-11-08"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-08T03:00:13",
-      "line": "Nailed a backflip on this islet despite the lily pads sloshing below. The crowd just stares, doesn't it? Next time I'll hunt a branch thick enough to make them actually look up.",
-      "trick": "backflip",
-      "area": "lookout_ledge"
-    },
     {
       "t": "2026-11-08T03:31:21",
       "line": "Soggy lily pads and dripping water don't hold a backflip. Grabbing that thick branch now while the crowd waits to see if I'm still untouchable.",
@@ -144,6 +138,12 @@
       "line": "Sipped the espresso, felt the heat seep into my fur while staring at the waterfall. Crowd's bored again, need a better perch to flex before they notice me.",
       "trick": "none",
       "area": "waterfall_pond"
+    },
+    {
+      "t": "2026-11-08T09:00:25",
+      "line": "Dangled on the purple arcade cord again, toothpick clicking against the air. The low-poly onlookers are too busy watching their screens to notice I'm flexing better than anyone...",
+      "trick": "none",
+      "area": "arcade"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-08T08:30:22",
-  "area": "waterfall_pond"
+  "last_thought_at": "2026-11-08T09:00:25",
+  "area": "arcade"
 }
