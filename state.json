@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 308,
+  "tick": 309,
   "moods": {
     "swagger": 100,
-    "energy": 32,
-    "hunger": 46,
-    "curiosity": 63,
-    "chill": 96
+    "energy": 35,
+    "hunger": 51,
+    "curiosity": 71,
+    "chill": 100
   },
-  "action": "practicing a trick",
-  "status": "Practicing a trick - tail grab",
-  "thought": "Tail loop is tight on that banana stump but it's too thin for a real flip.",
-  "tail_trick": "tail_grab",
-  "prop": "toothpick",
+  "action": "hanging out",
+  "status": "Hanging out",
+  "thought": "Flicked my tail to snap that espresso cup right where it stands. Now I'm a statue, legs crossed, waiting for someone to finally look up...",
+  "tail_trick": "none",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "shiny mirror for reflection",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
-    {
-      "item": "thick branch for a massive backflip",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
     {
       "item": "better lighting to make the flex glow",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "espresso shot to match tail tension",
       "status": "waiting",
       "added": "2026-11-08"
+    },
+    {
+      "item": "thick branch for the flip",
+      "status": "waiting",
+      "added": "2026-11-08"
+    },
+    {
+      "item": "dry land to flex without mud",
+      "status": "waiting",
+      "added": "2026-11-08"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-08T07:04:05",
-      "line": "Snagged the CRT's power knob with my tail, flicked it on. Static snow fills the screen while I balance on the crate. Toothpick clicks.",
-      "trick": "tail_grab",
-      "area": "hangout"
-    },
     {
       "t": "2026-11-08T07:32:18",
       "line": "Crowd's bored eyes glued to the screen while I flex that neon cord into a tight loop. Toothpick clicks against the rim. Still untouchable in this low-poly grid.",
@@ -144,6 +138,12 @@
       "line": "Caught three bananas with my tail, chewing them feels like eating nothing. The low-poly palms are useless for a proper backflip, need a thicker perch to match this swagger...",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-08T13:00:21",
+      "line": "Dropped the espresso on the wet mud while dangling here. The crowd still staring at ghosts on screens. Need to catch something real or lose interest in this puddle reflection.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-08T12:30:31",
-  "area": "banana_grove"
+  "last_thought_at": "2026-11-08T13:00:21",
+  "area": "waterfall_pond"
 }
