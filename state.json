@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 275,
+  "tick": 276,
   "moods": {
     "swagger": 100,
-    "energy": 38,
-    "hunger": 33,
-    "curiosity": 61,
-    "chill": 73
+    "energy": 55,
+    "hunger": 36,
+    "curiosity": 63,
+    "chill": 68
   },
-  "action": "practicing a trick",
-  "status": "Practicing a trick - pogo",
-  "thought": "Toothpick feels cheap compared to the momentum I'm about to steal from the crystal.",
-  "tail_trick": "pogo",
-  "prop": "toothpick",
+  "action": "sipping espresso",
+  "status": "Sipping espresso - tail grab",
+  "thought": "Crowd's staring at my pixelated reflection on that CRT. Toothpick feels thin for this kind of flex, need real caffeine to keep the momentum.",
+  "tail_trick": "tail_grab",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "hangout on that high islet",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
     {
       "item": "CRT screen to reflect my shades",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "An espresso cup with double the caffeine punch",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "A glossy perch to reflect my sunglasses",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T14:30:27",
-      "line": "Dangling on that thin twig feels like a bad joke; the crowd's bored of my limp pose. Need a solid branch to backflip properly before someone catches me mid-air.",
-      "trick": "hang",
-      "area": "hang_tree"
-    },
     {
       "t": "2026-11-07T15:00:27",
       "line": "Sipped that hot bean shot while watching the crowd scroll past on their stone steps. My tail's still pogo-ing from the last bounce, feels cheap hanging on air again.",
@@ -144,6 +138,12 @@
       "line": "The stepping-stones are slippery and the crystal is too high, but my tail's got enough grip to turn this whole grid upside down before anyone blinks.",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-07T20:31:09",
+      "line": "The low-poly light catches my fur just right while I sip; toothpick is rattling too loud in there, gotta switch to espresso before the crowd scrolls.",
+      "trick": "tail_grab",
+      "area": "hangout"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T20:01:11",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-07T20:31:09",
+  "area": "hangout"
 }
