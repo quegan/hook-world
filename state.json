@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 282,
+  "tick": 283,
   "moods": {
     "swagger": 100,
-    "energy": 46,
-    "hunger": 68,
-    "curiosity": 38,
-    "chill": 66
+    "energy": 49,
+    "hunger": 23,
+    "curiosity": 41,
+    "chill": 68
   },
-  "action": "exploring",
-  "status": "Exploring",
-  "thought": "Need to prove those pixel eyes are too slow to catch my next loop.",
-  "tail_trick": "none",
+  "action": "snacking",
+  "status": "Snacking - tail grab",
+  "thought": "Three bananas here, but none look thick enough for a real flex.",
+  "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A glossy perch to reflect my sunglasses",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
-    {
-      "item": "A thick branch for that neon swing",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
     {
       "item": "A glossy perch to reflect the sunglasses",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A thick branch for a real flip",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "A thick branch to finally pull off a backflip",
+      "status": "waiting",
+      "added": "2026-11-08"
+    },
+    {
+      "item": "More espresso to keep the momentum sharp",
+      "status": "waiting",
+      "added": "2026-11-08"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T18:02:30",
-      "line": "Sipped espresso while hanging from the big branch; CRT flickers nearby but my tail's the real anchor.",
-      "trick": "hang",
-      "area": "hang_tree"
-    },
     {
       "t": "2026-11-07T18:32:13",
       "line": "Exploring Waterfall Pond. Lily pads too weak. Tree with hang branch calls. Tail ready to test its strength.",
@@ -144,6 +138,12 @@
       "line": "That arcade cabinet is sticky and narrow, but I'm going to swing it like a bat' out of hell until the screen cracks from the impact.",
       "trick": "none",
       "area": "arcade"
+    },
+    {
+      "t": "2026-11-08T00:00:47",
+      "line": "Caught three bunches from these palms, still stuck eating while the grid spins by too slow.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T23:30:49",
-  "area": "arcade"
+  "last_thought_at": "2026-11-08T00:00:47",
+  "area": "banana_grove"
 }
