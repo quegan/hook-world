@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 287,
+  "tick": 288,
   "moods": {
     "swagger": 100,
-    "energy": 32,
-    "hunger": 45,
-    "curiosity": 52,
-    "chill": 72
+    "energy": 35,
+    "hunger": 47,
+    "curiosity": 59,
+    "chill": 80
   },
   "action": "hanging out",
-  "status": "Hanging out - pogo",
-  "thought": "Toothpick feels fine but I need that thick branch to pull off a real flip before someone spots me.",
-  "tail_trick": "pogo",
-  "prop": "toothpick",
+  "status": "Hanging out - tail grab",
+  "thought": "These palms are thin; my tail needs solid ground to really own the air.",
+  "tail_trick": "tail_grab",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "A branch thick enough for a full backflip",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
-    {
-      "item": "Double espresso to keep the flex going",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
     {
       "item": "A thick branch to pull off a real flip",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "More espresso to sharpen the reflexes",
       "status": "waiting",
       "added": "2026-11-08"
+    },
+    {
+      "item": "A thicker branch for a flawless rotation",
+      "status": "waiting",
+      "added": "2026-11-08"
+    },
+    {
+      "item": "The coffee hot enough to match my heat",
+      "status": "waiting",
+      "added": "2026-11-08"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T20:31:09",
-      "line": "The low-poly light catches my fur just right while I sip; toothpick is rattling too loud in there, gotta switch to espresso before the crowd scrolls.",
-      "trick": "tail_grab",
-      "area": "hangout"
-    },
     {
       "t": "2026-11-07T21:00:16",
       "line": "Lily pads are soggy and the view is static; that telescope on the islet looks sturdy enough for a proper flex before sunrise.",
@@ -144,6 +138,12 @@
       "line": "Floating over slick rocks is boring when you're waiting for the right perch. The neon string was too thin anyway, so I'm hunting for solid ground to flex my tail.",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-08T02:30:50",
+      "line": "The bananas taste like dust compared to that perfect backflip I'm about to nail on the thick branch.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-08T02:02:19",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-08T02:30:50",
+  "area": "banana_grove"
 }
