@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 281,
+  "tick": 282,
   "moods": {
     "swagger": 100,
-    "energy": 53,
-    "hunger": 62,
-    "curiosity": 53,
-    "chill": 68
+    "energy": 46,
+    "hunger": 68,
+    "curiosity": 38,
+    "chill": 66
   },
   "action": "exploring",
-  "status": "Exploring - tail grab",
-  "thought": "The floorboards are too thin for that kind of gravity defying move, gotta find a sturdy anchor to pull off the real flex.",
-  "tail_trick": "tail_grab",
-  "prop": "espresso",
+  "status": "Exploring",
+  "thought": "Need to prove those pixel eyes are too slow to catch my next loop.",
+  "tail_trick": "none",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "An espresso cup with double the caffeine punch",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
     {
       "item": "A glossy perch to reflect my sunglasses",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "More espresso before the flex ends",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "A thick branch for a real flip",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T17:30:21",
-      "line": "Found that old CRT on the islet; my tail wrapped tight around its frame for leverage. Crowd's bored with my flip attempts, but the low-poly light catches the fur just right...",
-      "trick": "backflip",
-      "area": "lookout_ledge"
-    },
     {
       "t": "2026-11-07T18:02:30",
       "line": "Sipped espresso while hanging from the big branch; CRT flickers nearby but my tail's the real anchor.",
@@ -144,6 +138,12 @@
       "line": "Got stuck on these string lights instead of the thick branch I needed; tail is tired of swinging like this while the coffee cools down.",
       "trick": "tail_grab",
       "area": "hangout"
+    },
+    {
+      "t": "2026-11-07T23:30:49",
+      "line": "That arcade cabinet is sticky and narrow, but I'm going to swing it like a bat' out of hell until the screen cracks from the impact.",
+      "trick": "none",
+      "area": "arcade"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T23:00:18",
-  "area": "hangout"
+  "last_thought_at": "2026-11-07T23:30:49",
+  "area": "arcade"
 }
