@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 273,
+  "tick": 274,
   "moods": {
     "swagger": 100,
-    "energy": 61,
-    "hunger": 21,
-    "curiosity": 54,
-    "chill": 79
+    "energy": 51,
+    "hunger": 27,
+    "curiosity": 57,
+    "chill": 76
   },
-  "action": "snacking",
-  "status": "Snacking - tail grab",
-  "thought": "Snagged a banana with the tail, toothpick still in mouth, crowd can watch or not.",
-  "tail_trick": "tail_grab",
+  "action": "showing off",
+  "status": "Showing off",
+  "thought": "The neon cabinet's glow is just a backdrop for my tail's silhouette.",
+  "tail_trick": "none",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "Espresso cup for focus",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
-    {
-      "item": "Higher branch for height",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
     {
       "item": "Thicker branch for a killer flip",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Add a high perch to watch the grid",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "A taller neon pole for a tail swing",
+      "status": "waiting",
+      "added": "2026-11-07"
+    },
+    {
+      "item": "A glossy perch to reflect my shades",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T13:30:24",
-      "line": "Snagged a banana with the tail tip and bit it dry; too short a lever to spin anything meaningful. The pixels are getting bored of my stillness.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-07T14:01:22",
       "line": "Took another bite out of that stale banana; tail's still twitching from the neon cord and I need something solid to really crack open this low-poly stage.",
@@ -144,6 +138,12 @@
       "line": "I perched on the low-poly palm, tail curled around the bunch, plucked a banana, and chewed while the crowd pixelated around me. No one matched my grip.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-07T19:32:04",
+      "line": "I perched on the arcade cabinet, tail coiled around the neon sign, and snagged the joystick with a flick, making the crowd pixelate in awe.",
+      "trick": "none",
+      "area": "arcade"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T19:02:06",
-  "area": "banana_grove"
+  "last_thought_at": "2026-11-07T19:32:04",
+  "area": "arcade"
 }
