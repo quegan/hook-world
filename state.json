@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 278,
+  "tick": 279,
   "moods": {
     "swagger": 100,
-    "energy": 44,
-    "hunger": 47,
+    "energy": 65,
+    "hunger": 49,
     "curiosity": 59,
-    "chill": 76
+    "chill": 70
   },
-  "action": "hanging out",
-  "status": "Hanging out",
-  "thought": "The crowd is scrolling so hard they can't see me dangling from the waterfall edge. Toothpick feels good, but I'm bored with this grid view.",
-  "tail_trick": "none",
-  "prop": "toothpick",
+  "action": "sipping espresso",
+  "status": "Sipping espresso - hang",
+  "thought": "Toothpick's getting old, need that espresso kick before I flip out on them.",
+  "tail_trick": "hang",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "Add a high perch to watch the grid",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
-    {
-      "item": "A taller neon pole for a tail swing",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
     {
       "item": "A glossy perch to reflect my shades",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Double caffeine espresso",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "A branch thick enough for a full backflip",
+      "status": "waiting",
+      "added": "2026-11-07"
+    },
+    {
+      "item": "Double espresso to keep the flex going",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T16:00:19",
-      "line": "Dropped the banana on the water, found a sturdy oak limb instead. My tail just wrapped around it like a vice grip while I did a backflip that shattered the pond's surface tension.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-07T16:30:55",
       "line": "The oak limb is solid enough now, but my toothpick is still rattling around in my mouth. Need that espresso shot to keep the momentum from dying before I hit the air.",
@@ -144,6 +138,12 @@
       "line": "Hanging off the waterfall ledge while the crowd watches their pixels; toothpick rattles loud enough to cut through the static noise.",
       "trick": "none",
       "area": "waterfall_pond"
+    },
+    {
+      "t": "2026-11-07T22:01:11",
+      "line": "Sitting tight on the thick branch like the real anchor while the crowd scrolls by too slow for my standards. Switching to espresso now because my tail is begging for a loop.",
+      "trick": "hang",
+      "area": "hang_tree"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T21:30:54",
-  "area": "waterfall_pond"
+  "last_thought_at": "2026-11-07T22:01:11",
+  "area": "hang_tree"
 }
