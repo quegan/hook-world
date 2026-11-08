@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 276,
+  "tick": 277,
   "moods": {
     "swagger": 100,
-    "energy": 55,
-    "hunger": 36,
-    "curiosity": 63,
+    "energy": 45,
+    "hunger": 42,
+    "curiosity": 53,
     "chill": 68
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso - tail grab",
-  "thought": "Crowd's staring at my pixelated reflection on that CRT. Toothpick feels thin for this kind of flex, need real caffeine to keep the momentum.",
-  "tail_trick": "tail_grab",
-  "prop": "espresso",
+  "action": "exploring",
+  "status": "Exploring - backflip",
+  "thought": "Telescope views the whole grid but I need a better perch than this lily pad.",
+  "tail_trick": "backflip",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "CRT screen to reflect my shades",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
-    {
-      "item": "Thick branch over waterfall for backflip",
-      "status": "waiting",
-      "added": "2026-11-07"
-    },
     {
       "item": "Espresso cup on a rock for sipping",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A glossy perch to reflect my sunglasses",
       "status": "waiting",
       "added": "2026-11-07"
+    },
+    {
+      "item": "A thick branch for that neon swing",
+      "status": "waiting",
+      "added": "2026-11-07"
+    },
+    {
+      "item": "A glossy perch to reflect the sunglasses",
+      "status": "waiting",
+      "added": "2026-11-07"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-07T15:00:27",
-      "line": "Sipped that hot bean shot while watching the crowd scroll past on their stone steps. My tail's still pogo-ing from the last bounce, feels cheap hanging on air again.",
-      "trick": "pogo",
-      "area": "sky_rocks"
-    },
     {
       "t": "2026-11-07T15:30:29",
       "line": "The neon lights feel cheap when your tail is just grabbing on air. I need a solid tree trunk to launch into something the crowd can't ignore.",
@@ -144,6 +138,12 @@
       "line": "The low-poly light catches my fur just right while I sip; toothpick is rattling too loud in there, gotta switch to espresso before the crowd scrolls.",
       "trick": "tail_grab",
       "area": "hangout"
+    },
+    {
+      "t": "2026-11-07T21:00:16",
+      "line": "Lily pads are soggy and the view is static; that telescope on the islet looks sturdy enough for a proper flex before sunrise.",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-07T20:31:09",
-  "area": "hangout"
+  "last_thought_at": "2026-11-07T21:00:16",
+  "area": "lookout_ledge"
 }
