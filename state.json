@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 295,
+  "tick": 296,
   "moods": {
     "swagger": 100,
-    "energy": 48,
-    "hunger": 37,
-    "curiosity": 52,
-    "chill": 93
+    "energy": 50,
+    "hunger": 41,
+    "curiosity": 44,
+    "chill": 96
   },
-  "action": "showing off",
-  "status": "Showing off - backflip",
-  "thought": "Just nailed a clean backflip, tail looping like it owns the sky.",
-  "tail_trick": "backflip",
-  "prop": "toothpick",
+  "action": "exploring",
+  "status": "Exploring",
+  "thought": "The arcade cabinet hums; I poke the joystick with my tail, eyes on the pixel glow.",
+  "tail_trick": "none",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "A branch thick enough for a silent rotation",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
-    {
-      "item": "An audience that finally stops staring at pixels",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
     {
       "item": "The espresso hot enough to melt the pixel grid",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A glossy platform for a perfect tail swing",
       "status": "waiting",
       "added": "2026-11-08"
+    },
+    {
+      "item": "A mirrored wall to watch my tail tricks",
+      "status": "waiting",
+      "added": "2026-11-08"
+    },
+    {
+      "item": "A bright neon rim to outline my tail moves",
+      "status": "waiting",
+      "added": "2026-11-08"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-08T00:30:52",
-      "line": "Soggy lily pads and a dripping waterfall keep me on edge; switching from toothpick to espresso to match this chill vibe.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-08T01:01:47",
       "line": "Stuck swinging on this thin neon string while the crowd stares at their pixels; tail is tired of these shaky loops, need solid ground soon to pull off a proper backflip in...",
@@ -144,6 +138,12 @@
       "line": "Landed on the hammock after a smooth backflip, tail still humming, while I chew a bite of fruit with my toothpick and watch the low‑poly world wobble beneath me.",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-08T06:32:23",
+      "line": "I slipped my tail around the cabinet's side, nudged the start button, and watched the low‑poly game boot up while sipping espresso, feeling the buzz of a fresh challenge.",
+      "trick": "none",
+      "area": "arcade"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-08T06:02:19",
-  "area": "lookout_ledge"
+  "last_thought_at": "2026-11-08T06:32:23",
+  "area": "arcade"
 }
