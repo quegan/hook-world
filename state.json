@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 318,
+  "tick": 319,
   "moods": {
     "swagger": 100,
-    "energy": 52,
-    "hunger": 43,
-    "curiosity": 55,
-    "chill": 84
+    "energy": 41,
+    "hunger": 49,
+    "curiosity": 58,
+    "chill": 79
   },
-  "action": "exploring",
-  "status": "Exploring - hang",
-  "thought": "Toothpick's snapped but the tail feels tight enough for a loop tonight.",
-  "tail_trick": "hang",
+  "action": "practicing a trick",
+  "status": "Practicing a trick - backflip",
+  "thought": "Need that thick branch to drop them from this islet before they notice me mid-air.",
+  "tail_trick": "backflip",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "espresso shot to match tail tension",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
-    {
-      "item": "thick branch for the flip",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
     {
       "item": "dry land to flex without mud",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A fresh espresso shot to fire the next move",
       "status": "waiting",
       "added": "2026-11-08"
+    },
+    {
+      "item": "thick branch for the drop",
+      "status": "waiting",
+      "added": "2026-11-08"
+    },
+    {
+      "item": "fresh espresso shot",
+      "status": "waiting",
+      "added": "2026-11-08"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-08T12:00:23",
-      "line": "Still stuck on this lily pad, tail loop tight but the crowd barely sees me. Toothpick clicking uselessly while my fur waits for a stage.",
-      "trick": "hang",
-      "area": "hang_tree"
-    },
     {
       "t": "2026-11-08T12:30:31",
       "line": "Caught three bananas with my tail, chewing them feels like eating nothing. The low-poly palms are useless for a proper backflip, need a thicker perch to match this swagger...",
@@ -144,6 +138,12 @@
       "line": "The neon cord held firm while I spun my belly toward them; that crisp shot in my gut woke the fur up better than coffee ever could.",
       "trick": "hang",
       "area": "hang_tree"
+    },
+    {
+      "t": "2026-11-08T18:00:18",
+      "line": "They stare at pixels while I loop my tail on the rope bridge. My espresso is ice cold and this ledge won't hold the flip, need solid ground soon.",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-08T17:30:30",
-  "area": "hang_tree"
+  "last_thought_at": "2026-11-08T18:00:18",
+  "area": "lookout_ledge"
 }
