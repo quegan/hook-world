@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 307,
+  "tick": 308,
   "moods": {
     "swagger": 100,
-    "energy": 45,
-    "hunger": 45,
-    "curiosity": 58,
-    "chill": 98
+    "energy": 32,
+    "hunger": 46,
+    "curiosity": 63,
+    "chill": 96
   },
-  "action": "hanging out",
-  "status": "Hanging out - hang",
-  "thought": "The neon cord is too thin for a real flip. I need that thick branch back to catch some air properly.",
-  "tail_trick": "hang",
+  "action": "practicing a trick",
+  "status": "Practicing a trick - tail grab",
+  "thought": "Tail loop is tight on that banana stump but it's too thin for a real flip.",
+  "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "mirrored wall",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
-    {
-      "item": "mirrored wall to see the angles",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
     {
       "item": "shiny mirror for reflection",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "sturdy perch for the flip",
       "status": "waiting",
       "added": "2026-11-08"
+    },
+    {
+      "item": "thick branch for massive flip",
+      "status": "waiting",
+      "added": "2026-11-08"
+    },
+    {
+      "item": "espresso shot to match tail tension",
+      "status": "waiting",
+      "added": "2026-11-08"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-08T06:32:23",
-      "line": "I slipped my tail around the cabinet's side, nudged the start button, and watched the low‑poly game boot up while sipping espresso, feeling the buzz of a fresh challenge.",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-08T07:04:05",
       "line": "Snagged the CRT's power knob with my tail, flicked it on. Static snow fills the screen while I balance on the crate. Toothpick clicks.",
@@ -144,6 +138,12 @@
       "line": "Still stuck on this lily pad, tail loop tight but the crowd barely sees me. Toothpick clicking uselessly while my fur waits for a stage.",
       "trick": "hang",
       "area": "hang_tree"
+    },
+    {
+      "t": "2026-11-08T12:30:31",
+      "line": "Caught three bananas with my tail, chewing them feels like eating nothing. The low-poly palms are useless for a proper backflip, need a thicker perch to match this swagger...",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-08T12:00:23",
-  "area": "hang_tree"
+  "last_thought_at": "2026-11-08T12:30:31",
+  "area": "banana_grove"
 }
