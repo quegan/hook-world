@@ -1,18 +1,18 @@
 {
   "name": "HOOK",
-  "tick": 317,
+  "tick": 318,
   "moods": {
     "swagger": 100,
-    "energy": 59,
-    "hunger": 37,
-    "curiosity": 62,
-    "chill": 83
+    "energy": 52,
+    "hunger": 43,
+    "curiosity": 55,
+    "chill": 84
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso - pogo",
-  "thought": "The air tastes stale; my tail is getting restless for something harder than bouncing.",
-  "tail_trick": "pogo",
-  "prop": "espresso",
+  "action": "exploring",
+  "status": "Exploring - hang",
+  "thought": "Toothpick's snapped but the tail feels tight enough for a loop tonight.",
+  "tail_trick": "hang",
+  "prop": "toothpick",
   "wants": [
     {
       "item": "espresso shot to match tail tension",
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-08T11:30:21",
-      "line": "The arcade lights flicker and I'm hanging from the neon sign, tail loop tight. Toothpick taps rhythmically while they stare at pixels instead of my actual flex.",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-08T12:00:23",
       "line": "Still stuck on this lily pad, tail loop tight but the crowd barely sees me. Toothpick clicking uselessly while my fur waits for a stage.",
@@ -144,6 +138,12 @@
       "line": "Sunlight bites the edge of Sky Rocks. My toes tap rhythmically against a floating stone while they scroll through pixels on their old CRTs below.",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-08T17:30:30",
+      "line": "The neon cord held firm while I spun my belly toward them; that crisp shot in my gut woke the fur up better than coffee ever could.",
+      "trick": "hang",
+      "area": "hang_tree"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-08T17:00:34",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-08T17:30:30",
+  "area": "hang_tree"
 }
