@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 339,
+  "tick": 340,
   "moods": {
     "swagger": 100,
-    "energy": 38,
-    "hunger": 26,
-    "curiosity": 30,
-    "chill": 99
+    "energy": 41,
+    "hunger": 29,
+    "curiosity": 37,
+    "chill": 100
   },
-  "action": "practicing a trick",
-  "status": "Practicing a trick - hang",
-  "thought": "Tail's locked on that neon cord, crowd still glazed over. Need grip for a real flip.",
-  "tail_trick": "hang",
-  "prop": "toothpick",
+  "action": "hanging out",
+  "status": "Hanging out - pogo",
+  "thought": "Crawling across these slick stepping-stones to that crystal peak feels way too risky for my ego.",
+  "tail_trick": "pogo",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "Something to block the glowing rectangles",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
-    {
-      "item": "Sharpen the toothpick deeper before eating this fruit",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
     {
       "item": "A flat stone surface to land my next flip hard",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "cleaner light to make fur gleam",
       "status": "waiting",
       "added": "2026-11-09"
+    },
+    {
+      "item": "thick branch to land a hard flip",
+      "status": "waiting",
+      "added": "2026-11-09"
+    },
+    {
+      "item": "crystal peak for a better view",
+      "status": "waiting",
+      "added": "2026-11-09"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-08T23:30:41",
-      "line": "The water ripples distract me; I need a thick branch sturdy enough for a backflip before someone spots me mid-air.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-09T00:00:32",
       "line": "Found a thick oak limb beneath the waterfalls; finally got footing without relying on that unstable neon cord anymore.",
@@ -144,6 +138,12 @@
       "line": "Crowd scrolls while I loop the cord tighter than my hand could; toothpick sharp enough to slice air, but this flip needs a solid branch before someone spots my mid-air grace.",
       "trick": "hang",
       "area": "hang_tree"
+    },
+    {
+      "t": "2026-11-09T05:30:49",
+      "line": "Slick rocks under my feet while the coffee burns like acid; the view from here is pathetic and I'm about to slide if I don't find solid ground soon.",
+      "trick": "pogo",
+      "area": "sky_rocks"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-09T05:01:22",
-  "area": "hang_tree"
+  "last_thought_at": "2026-11-09T05:30:49",
+  "area": "sky_rocks"
 }
