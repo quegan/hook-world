@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 362,
+  "tick": 363,
   "moods": {
     "swagger": 100,
-    "energy": 53,
-    "hunger": 44,
-    "curiosity": 42,
-    "chill": 100
+    "energy": 40,
+    "hunger": 50,
+    "curiosity": 47,
+    "chill": 93
   },
-  "action": "exploring",
-  "status": "Exploring - tail grab",
-  "thought": "Tail curled, I lifted a neon token off the crate, no fuss.",
-  "tail_trick": "tail_grab",
-  "prop": "espresso",
+  "action": "showing off",
+  "status": "Showing off - backflip",
+  "thought": "The neon cord vibrates when I loop; time to find something solid before I look like a fool again.",
+  "tail_trick": "backflip",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A sturdy beam for a higher backflip",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
-    {
-      "item": "A low‑poly spotlight to showcase the tail",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
     {
       "item": "A higher perch to hang from",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A steel pole for a clean tail loop",
       "status": "waiting",
       "added": "2026-11-09"
+    },
+    {
+      "item": "A thick oak branch on this islet",
+      "status": "waiting",
+      "added": "2026-11-09"
+    },
+    {
+      "item": "A stable pole that doesn't flicker",
+      "status": "waiting",
+      "added": "2026-11-09"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-09T11:00:51",
-      "line": "Arcade lights buzz but they lack substance for a real loop; trading that purple neon hum for a hunt of thick branches nearby.",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-09T11:30:59",
       "line": "Lily pads are out; grabbed the wet rock with my tail tip and spun in the mist while everyone else dries off on dry land.",
@@ -144,6 +138,12 @@
       "line": "I slipped the crate open, used my tail to yank a flickering holo‑chip, then pocketed a fresh espresso shot from the hidden dispenser.",
       "trick": "tail_grab",
       "area": "hangout"
+    },
+    {
+      "t": "2026-11-09T17:01:22",
+      "line": "This grid keeps shaking my tail loose; need a heavy branch soon so the whole pixel village can't fake my landing.",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-09T16:32:06",
-  "area": "hangout"
+  "last_thought_at": "2026-11-09T17:01:22",
+  "area": "lookout_ledge"
 }
