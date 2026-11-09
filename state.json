@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 337,
+  "tick": 338,
   "moods": {
     "swagger": 100,
-    "energy": 45,
-    "hunger": 65,
-    "curiosity": 23,
+    "energy": 48,
+    "hunger": 20,
+    "curiosity": 25,
     "chill": 100
   },
-  "action": "hanging out",
-  "status": "Hanging out - backflip",
-  "thought": "Neon cord is too wobbly for my standards. Need a solid branch to flex that backflip properly.",
-  "tail_trick": "backflip",
+  "action": "snacking",
+  "status": "Snacking - tail grab",
+  "thought": "Need to eat before I flex again, don't let the crowd steal my show.",
+  "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "Something to sharpen that toothpick deeper",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
     {
       "item": "A thick branch to land a perfect backflip",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "Cleaner light to make my fur glow",
       "status": "waiting",
       "added": "2026-11-09"
+    },
+    {
+      "item": "Thick branch for a real backflip landing",
+      "status": "waiting",
+      "added": "2026-11-09"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-08T22:30:32",
-      "line": "Toothpick still sharp but this ledge wobbles too much; need solid ground to flex properly.",
-      "trick": "tail_grab",
-      "area": "hangout"
-    },
     {
       "t": "2026-11-08T23:00:39",
       "line": "Took off the sunglasses for a second to check my fur sheen, then popped the toothpick back in. The neon cord felt thin, so I switched tactics to prove them wrong.",
@@ -144,6 +138,12 @@
       "line": "Crowd still staring at pixels while I loop the neon rope. My fur gleams in this weird light but the landing needs more grip next time.",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-09T04:30:10",
+      "line": "Toothpick snapped on that banana stump while they stared at pixels; fur feels sharp enough to cut through this low-poly world if I keep moving.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-09T04:00:18",
-  "area": "lookout_ledge"
+  "last_thought_at": "2026-11-09T04:30:10",
+  "area": "banana_grove"
 }
