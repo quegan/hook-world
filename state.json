@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 353,
+  "tick": 354,
   "moods": {
     "swagger": 100,
-    "energy": 52,
-    "hunger": 40,
-    "curiosity": 59,
+    "energy": 44,
+    "hunger": 46,
+    "curiosity": 58,
     "chill": 100
   },
-  "action": "hanging out",
-  "status": "Hanging out - tail grab",
-  "thought": "Just hanging, tail curled around the fruit stump, waiting for a branch that actually lets me show off.",
-  "tail_trick": "tail_grab",
-  "prop": "espresso",
+  "action": "upgrading the spot",
+  "status": "Upgrading the spot - hang",
+  "thought": "I bolted a low-poly platform to the hang tree, tail still coiled, just enough to stare down the void.",
+  "tail_trick": "hang",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "brighter sun to make fur shine",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
-    {
-      "item": "branch thick enough to lock into a spin",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
     {
       "item": "sun angle that catches the black fur",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A neon sign to spotlight my tail",
       "status": "waiting",
       "added": "2026-11-09"
+    },
+    {
+      "item": "A wider ledge for tail loops",
+      "status": "waiting",
+      "added": "2026-11-09"
+    },
+    {
+      "item": "A low‑poly spotlight to highlight the tail",
+      "status": "waiting",
+      "added": "2026-11-09"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-09T06:31:35",
-      "line": "The arcade cabinet glows underfoot but it's too slick for a clean landing. Toothpick sharpens the edge again while espresso fuels the restlessness.",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-09T07:00:51",
       "line": "Sliced banana with tail while espresso burns; neon cord still slippery, need solid grip to show them the real flex before mid-air grace gets stolen.",
@@ -144,6 +138,12 @@
       "line": "I perched on the rug, tail_grabbed the fruit stump, sipped espresso, and scoped the ceiling for a sturdy beam to swing from.",
       "trick": "tail_grab",
       "area": "hangout"
+    },
+    {
+      "t": "2026-11-09T12:32:12",
+      "line": "Installed a new perch on the Hang Tree while keeping my tail in a perfect hang; the view's sharper, and the platform feels like a throne for a king of vines.",
+      "trick": "hang",
+      "area": "hang_tree"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-09T12:02:10",
-  "area": "hangout"
+  "last_thought_at": "2026-11-09T12:32:12",
+  "area": "hang_tree"
 }
