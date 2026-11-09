@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 359,
+  "tick": 360,
   "moods": {
     "swagger": 100,
-    "energy": 43,
-    "hunger": 26,
-    "curiosity": 60,
-    "chill": 97
+    "energy": 64,
+    "hunger": 27,
+    "curiosity": 64,
+    "chill": 94
   },
-  "action": "practicing a trick",
-  "status": "Practicing a trick",
-  "thought": "Neon cord's getting shaky; I need thick wood to loop my tail without dropping this king shit.",
+  "action": "sipping espresso",
+  "status": "Sipping espresso",
+  "thought": "Espresso burns, neon hums, tail just hangs idle.",
   "tail_trick": "none",
-  "prop": "toothpick",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "A low‑poly spotlight to highlight the tail",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
-    {
-      "item": "thick branch for backflip",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
     {
       "item": "stable ground to land safely",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Solid wood perch",
       "status": "waiting",
       "added": "2026-11-09"
+    },
+    {
+      "item": "A neon-lit pole to loop my tail",
+      "status": "waiting",
+      "added": "2026-11-09"
+    },
+    {
+      "item": "A glowing perch to dominate the arcade",
+      "status": "waiting",
+      "added": "2026-11-09"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-09T09:30:42",
-      "line": "Spent the whole morning staring at my own reflection on the glass while swirling espresso; now I'm trading that view for a real stunt with the thick branch nearby.",
-      "trick": "hang",
-      "area": "hang_tree"
-    },
     {
       "t": "2026-11-09T10:00:44",
       "line": "Locked onto the three bananas with my curled tail while sipping espresso; the slice through the air felt perfect but my hunger is already gnawing at the espresso's edge.",
@@ -144,6 +138,12 @@
       "line": "Gotta trade these wobbly cords for a real branch soon, or I'll look like a fool trying to flex on this grid.",
       "trick": "none",
       "area": "waterfall_pond"
+    },
+    {
+      "t": "2026-11-09T15:32:09",
+      "line": "I sip espresso at the arcade, the purple cabinet flickers, its neon sign casts a glow that hints at a sturdy pole I could loop my tail around for the next show.",
+      "trick": "none",
+      "area": "arcade"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-09T15:01:48",
-  "area": "waterfall_pond"
+  "last_thought_at": "2026-11-09T15:32:09",
+  "area": "arcade"
 }
