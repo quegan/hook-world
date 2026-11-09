@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 336,
+  "tick": 337,
   "moods": {
     "swagger": 100,
-    "energy": 43,
-    "hunger": 60,
-    "curiosity": 18,
-    "chill": 93
+    "energy": 45,
+    "hunger": 65,
+    "curiosity": 23,
+    "chill": 100
   },
-  "action": "showing off",
-  "status": "Showing off - tail grab",
-  "thought": "Crowd is glued to their screens while I own the room with this tail loop. No one expects a monkey to be the main attraction.",
-  "tail_trick": "tail_grab",
+  "action": "hanging out",
+  "status": "Hanging out - backflip",
+  "thought": "Neon cord is too wobbly for my standards. Need a solid branch to flex that backflip properly.",
+  "tail_trick": "backflip",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "Something to block the glowing rectangles so they can't...",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
-    {
-      "item": "A flat surface to land a backflip without bouncing",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
     {
       "item": "Something to sharpen that toothpick deeper",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Cleaner light so my fur actually gleams",
       "status": "waiting",
       "added": "2026-11-09"
+    },
+    {
+      "item": "A thick branch to land a hard flip",
+      "status": "waiting",
+      "added": "2026-11-09"
+    },
+    {
+      "item": "Cleaner light to make my fur glow",
+      "status": "waiting",
+      "added": "2026-11-09"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-08T22:01:13",
-      "line": "Bit three bananas in one go while dangling. My fur feels sharper, the toothpick tastes like sugar now. They'll never see me eat this fast if they keep staring down there.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-08T22:30:32",
       "line": "Toothpick still sharp but this ledge wobbles too much; need solid ground to flex properly.",
@@ -144,6 +138,12 @@
       "line": "Just caught that banana stump with my tail while they stare at pixels; fur feels sharper now and the espresso still burns good.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-09T04:00:18",
+      "line": "Crowd still staring at pixels while I loop the neon rope. My fur gleams in this weird light but the landing needs more grip next time.",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-09T03:30:14",
-  "area": "banana_grove"
+  "last_thought_at": "2026-11-09T04:00:18",
+  "area": "lookout_ledge"
 }
