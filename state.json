@@ -1,18 +1,18 @@
 {
   "name": "HOOK",
-  "tick": 327,
+  "tick": 328,
   "moods": {
     "swagger": 100,
-    "energy": 62,
-    "hunger": 29,
-    "curiosity": 53,
-    "chill": 88
+    "energy": 52,
+    "hunger": 35,
+    "curiosity": 38,
+    "chill": 86
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso - backflip",
-  "thought": "The espresso is warm enough to match this flex now, no more wobbly ledges.",
-  "tail_trick": "backflip",
-  "prop": "espresso",
+  "action": "exploring",
+  "status": "Exploring",
+  "thought": "Need a solid branch to actually flip without crashing. This ledge is too wobbly for my style.",
+  "tail_trick": "none",
+  "prop": "toothpick",
   "wants": [
     {
       "item": "A thick branch for that backflip drop",
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-08T16:30:27",
-      "line": "Lily pads are too slick for a real drop. The espresso is cold and that toothpick feels useless on wet fur. Need a thick branch before anyone notices my true form in the grid.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-08T17:00:34",
       "line": "Sunlight bites the edge of Sky Rocks. My toes tap rhythmically against a floating stone while they scroll through pixels on their old CRTs below.",
@@ -144,6 +138,12 @@
       "line": "Took off the sunglasses for a second to check my fur sheen, then popped the toothpick back in. The neon cord felt thin, so I switched tactics to prove them wrong.",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-08T23:30:41",
+      "line": "The water ripples distract me; I need a thick branch sturdy enough for a backflip before someone spots me mid-air.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-08T23:00:39",
-  "area": "lookout_ledge"
+  "last_thought_at": "2026-11-08T23:30:41",
+  "area": "waterfall_pond"
 }
