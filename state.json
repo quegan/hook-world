@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 320,
+  "tick": 321,
   "moods": {
     "swagger": 100,
-    "energy": 62,
-    "hunger": 50,
-    "curiosity": 62,
+    "energy": 52,
+    "hunger": 51,
+    "curiosity": 53,
     "chill": 76
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso - tail grab",
-  "thought": "Espresso hits, tail curls, I spot a floating cube and decide it's my next flex.",
-  "tail_trick": "tail_grab",
-  "prop": "espresso",
+  "action": "exploring",
+  "status": "Exploring",
+  "thought": "Fruit tastes better when you don't have to hold it with your hands.",
+  "tail_trick": "none",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "dry mud to land clean",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
-    {
-      "item": "thick branch to match the flex",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
     {
       "item": "fresh espresso shot for the drop",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A brighter spotlight for the tail grab",
       "status": "waiting",
       "added": "2026-11-08"
+    },
+    {
+      "item": "A thick branch for that backflip drop",
+      "status": "waiting",
+      "added": "2026-11-08"
+    },
+    {
+      "item": "Fresh espresso to keep the fur sharp",
+      "status": "waiting",
+      "added": "2026-11-08"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-08T13:00:21",
-      "line": "Dropped the espresso on the wet mud while dangling here. The crowd still staring at ghosts on screens. Need to catch something real or lose interest in this puddle reflection.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-08T13:30:30",
       "line": "Perched on the fruit stump, toes clicking wood as they scroll past my silhouette. Need that thick branch to catch them mid-scroll if I ever decide to flip through the grid.",
@@ -144,6 +138,12 @@
       "line": "I sipped the espresso, then used my tail to snatch a hovering data cube, feeling the metal chill against my fur as the scene flickered around me.",
       "trick": "tail_grab",
       "area": "hangout"
+    },
+    {
+      "t": "2026-11-08T19:00:22",
+      "line": "Bit into a ripe berry while dangling from the waterfall edge. My tail did the lifting, my tongue did the eating. They're still staring at their glowing rectangles down there.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-08T18:32:07",
-  "area": "hangout"
+  "last_thought_at": "2026-11-08T19:00:22",
+  "area": "waterfall_pond"
 }
