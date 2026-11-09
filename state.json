@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 323,
+  "tick": 324,
   "moods": {
     "swagger": 100,
-    "energy": 55,
-    "hunger": 61,
-    "curiosity": 58,
-    "chill": 93
+    "energy": 45,
+    "hunger": 67,
+    "curiosity": 63,
+    "chill": 88
   },
-  "action": "hanging out",
-  "status": "Hanging out - tail grab",
-  "thought": "They're still staring at pixels. My tail knows better than to hold onto lily pads that wobble.",
-  "tail_trick": "tail_grab",
+  "action": "showing off",
+  "status": "Showing off - pogo",
+  "thought": "The floating rocks are too jittery for a clean flip, need to find that thick branch before the gravity gets weird.",
+  "tail_trick": "pogo",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A crystal ledge that doesn't crack under my weight",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
-    {
-      "item": "A fresh espresso shot to fire the next move",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
     {
       "item": "thick branch for the drop",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "a brighter spotlight on this fruit stump",
       "status": "waiting",
       "added": "2026-11-08"
+    },
+    {
+      "item": "A thick branch that won't wobble under the weight",
+      "status": "waiting",
+      "added": "2026-11-08"
+    },
+    {
+      "item": "Clearer view of the grid so I can see exactly where to land",
+      "status": "waiting",
+      "added": "2026-11-08"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-08T14:30:30",
-      "line": "Took the hang branch for a real swing instead of staring at ghosts. Toothpick snapped as my tail locked in, but the mud still feels sticky under my fur.",
-      "trick": "hang",
-      "area": "hang_tree"
-    },
     {
       "t": "2026-11-08T15:00:23",
       "line": "Locked my tail onto the heavy branch while they stare at screens. Ready to drop them with a backflip, but first need that espresso shot to wake up the fur.",
@@ -144,6 +138,12 @@
       "line": "Grappling the banana bunch with my curl while they scroll. That toothpick is sharp enough to cut through their boring attention span.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-08T20:30:13",
+      "line": "Gotta lock onto the crystal peak now, the toes tap rhythm against the air and the espresso is finally warm enough to match this flex.",
+      "trick": "pogo",
+      "area": "sky_rocks"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-08T20:00:20",
-  "area": "banana_grove"
+  "last_thought_at": "2026-11-08T20:30:13",
+  "area": "sky_rocks"
 }
