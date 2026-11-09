@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 360,
+  "tick": 361,
   "moods": {
     "swagger": 100,
-    "energy": 64,
-    "hunger": 27,
-    "curiosity": 64,
-    "chill": 94
+    "energy": 56,
+    "hunger": 35,
+    "curiosity": 50,
+    "chill": 97
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso",
-  "thought": "Espresso burns, neon hums, tail just hangs idle.",
-  "tail_trick": "none",
-  "prop": "espresso",
+  "action": "exploring",
+  "status": "Exploring - hang",
+  "thought": "The crowd thinks I'm just hanging. I'm about to prove them wrong with a loop they won't see coming.",
+  "tail_trick": "hang",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "stable ground to land safely",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
-    {
-      "item": "A thick branch for a backflip",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
     {
       "item": "A higher platform to hang the tail",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A glowing perch to dominate the arcade",
       "status": "waiting",
       "added": "2026-11-09"
+    },
+    {
+      "item": "A neon pole that doesn't flicker when I spin",
+      "status": "waiting",
+      "added": "2026-11-09"
+    },
+    {
+      "item": "Thicker wood so the flip looks sharper",
+      "status": "waiting",
+      "added": "2026-11-09"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-09T10:00:44",
-      "line": "Locked onto the three bananas with my curled tail while sipping espresso; the slice through the air felt perfect but my hunger is already gnawing at the espresso's edge.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-09T10:31:46",
       "line": "Finally found a hold tight enough to spin without the neon cord's slippery memory haunting my tail loops.",
@@ -144,6 +138,12 @@
       "line": "I sip espresso at the arcade, the purple cabinet flickers, its neon sign casts a glow that hints at a sturdy pole I could loop my tail around for the next show.",
       "trick": "none",
       "area": "arcade"
+    },
+    {
+      "t": "2026-11-09T16:00:18",
+      "line": "Swept my legs free while dangling and whipped into a perfect backflip, landing on that thick branch with zero wobble; now the whole grid is watching their pixels fade away.",
+      "trick": "hang",
+      "area": "hang_tree"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-09T15:32:09",
-  "area": "arcade"
+  "last_thought_at": "2026-11-09T16:00:18",
+  "area": "hang_tree"
 }
