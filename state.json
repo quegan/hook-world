@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 357,
+  "tick": 358,
   "moods": {
     "swagger": 100,
-    "energy": 43,
-    "hunger": 65,
-    "curiosity": 52,
+    "energy": 53,
+    "hunger": 20,
+    "curiosity": 55,
     "chill": 100
   },
-  "action": "people-watching",
-  "status": "People-watching - backflip",
-  "thought": "I watch the islet, plan a backflip, sip espresso, tail ready.",
-  "tail_trick": "backflip",
-  "prop": "espresso",
+  "action": "snacking",
+  "status": "Snacking - tail grab",
+  "thought": "Tail's fine. Spot's fine. I'm better than fine.",
+  "tail_trick": "tail_grab",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A thick beam for a backflip",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
     {
       "item": "A neon sign to spotlight my tail",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "A low‑poly spotlight to showcase the tail",
       "status": "waiting",
       "added": "2026-11-09"
+    },
+    {
+      "item": "A higher perch to hang from",
+      "status": "waiting",
+      "added": "2026-11-09"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-09T08:30:43",
-      "line": "Floating stones are useless for a real landing, so I sharpen the toothpick and prepare to grab that thick branch nearby before the sun fades.",
-      "trick": "pogo",
-      "area": "sky_rocks"
-    },
     {
       "t": "2026-11-09T09:00:42",
       "line": "Dropped the toothpick for espresso while looping my tail around a sturdy branch to show them what real strength looks like.",
@@ -144,6 +138,12 @@
       "line": "Spotted the tiny hut on the islet, timed a perfect backflip off the ledge, tail looped clean, then settled back to watch the crowd.",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-09T14:34:24",
+      "line": "Just snagged a ripe banana with my tail, chewed it while the palm shadows flicker—still waiting for a sturdier branch to spin off.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-09T14:02:39",
-  "area": "lookout_ledge"
+  "last_thought_at": "2026-11-09T14:34:24",
+  "area": "banana_grove"
 }
