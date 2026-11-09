@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 358,
+  "tick": 359,
   "moods": {
     "swagger": 100,
-    "energy": 53,
-    "hunger": 20,
-    "curiosity": 55,
-    "chill": 100
+    "energy": 43,
+    "hunger": 26,
+    "curiosity": 60,
+    "chill": 97
   },
-  "action": "snacking",
-  "status": "Snacking - tail grab",
-  "thought": "Tail's fine. Spot's fine. I'm better than fine.",
-  "tail_trick": "tail_grab",
+  "action": "practicing a trick",
+  "status": "Practicing a trick",
+  "thought": "Neon cord's getting shaky; I need thick wood to loop my tail without dropping this king shit.",
+  "tail_trick": "none",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A neon sign to spotlight my tail",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
-    {
-      "item": "A wider ledge for tail loops",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
     {
       "item": "A low‑poly spotlight to highlight the tail",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A higher perch to hang from",
       "status": "waiting",
       "added": "2026-11-09"
+    },
+    {
+      "item": "Thick branch for the flip",
+      "status": "waiting",
+      "added": "2026-11-09"
+    },
+    {
+      "item": "Solid wood perch",
+      "status": "waiting",
+      "added": "2026-11-09"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-09T09:00:42",
-      "line": "Dropped the toothpick for espresso while looping my tail around a sturdy branch to show them what real strength looks like.",
-      "trick": "tail_grab",
-      "area": "hangout"
-    },
     {
       "t": "2026-11-09T09:30:42",
       "line": "Spent the whole morning staring at my own reflection on the glass while swirling espresso; now I'm trading that view for a real stunt with the thick branch nearby.",
@@ -144,6 +138,12 @@
       "line": "Just snagged a ripe banana with my tail, chewed it while the palm shadows flicker—still waiting for a sturdier branch to spin off.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-09T15:01:48",
+      "line": "Gotta trade these wobbly cords for a real branch soon, or I'll look like a fool trying to flex on this grid.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-09T14:34:24",
-  "area": "banana_grove"
+  "last_thought_at": "2026-11-09T15:01:48",
+  "area": "waterfall_pond"
 }
