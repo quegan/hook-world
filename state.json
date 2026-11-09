@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 335,
+  "tick": 336,
   "moods": {
     "swagger": 100,
-    "energy": 53,
-    "hunger": 59,
-    "curiosity": 15,
+    "energy": 43,
+    "hunger": 60,
+    "curiosity": 18,
     "chill": 93
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso - pogo",
-  "thought": "Crowd still scrolling; my tail is doing that neon cord thing right now and it's getting old standing still on this lily pad.",
-  "tail_trick": "pogo",
-  "prop": "espresso",
+  "action": "showing off",
+  "status": "Showing off - tail grab",
+  "thought": "Crowd is glued to their screens while I own the room with this tail loop. No one expects a monkey to be the main attraction.",
+  "tail_trick": "tail_grab",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "Clearer view of the grid to spot the perfect landing",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
-    {
-      "item": "A place to practice a backflip in front of an empty grid",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
     {
       "item": "Something to block the glowing rectangles so they can't...",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A flat stone surface to land my next flip hard",
       "status": "waiting",
       "added": "2026-11-09"
+    },
+    {
+      "item": "A thicker branch for a bigger flex",
+      "status": "waiting",
+      "added": "2026-11-09"
+    },
+    {
+      "item": "Cleaner light so my fur actually gleams",
+      "status": "waiting",
+      "added": "2026-11-09"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-08T20:30:13",
-      "line": "Gotta lock onto the crystal peak now, the toes tap rhythm against the air and the espresso is finally warm enough to match this flex.",
-      "trick": "pogo",
-      "area": "sky_rocks"
-    },
     {
       "t": "2026-11-08T22:01:13",
       "line": "Bit three bananas in one go while dangling. My fur feels sharper, the toothpick tastes like sugar now. They'll never see me eat this fast if they keep staring down there.",
@@ -144,6 +138,12 @@
       "line": "Espresso grounds hit the tongue like grit while staring at the glowing boxes below. Tail pogo rhythm feels stale against the empty rock, need a solid branch soon to land a real...",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-09T03:30:14",
+      "line": "Just caught that banana stump with my tail while they stare at pixels; fur feels sharper now and the espresso still burns good.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-09T03:00:12",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-09T03:30:14",
+  "area": "banana_grove"
 }
