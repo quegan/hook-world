@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 331,
+  "tick": 332,
   "moods": {
     "swagger": 100,
-    "energy": 41,
-    "hunger": 52,
-    "curiosity": 17,
-    "chill": 99
+    "energy": 38,
+    "hunger": 57,
+    "curiosity": 14,
+    "chill": 100
   },
   "action": "people-watching",
-  "status": "People-watching",
-  "thought": "The neon glow makes my fur look like a warning sign; they think I'm just another shadow in their grid.",
-  "tail_trick": "none",
-  "prop": "espresso",
+  "status": "People-watching - backflip",
+  "thought": "Neon cord is still too wobbly for a clean landing, gotta find that solid oak limb before gravity catches me.",
+  "tail_trick": "backflip",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A branch thick enough to hold my weight during a flip",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
     {
       "item": "Something that blocks their view so I can flex in the dark",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "A place where the neon doesn't make my fur look bad",
       "status": "waiting",
       "added": "2026-11-09"
+    },
+    {
+      "item": "Something to block the glowing rectangles",
+      "status": "waiting",
+      "added": "2026-11-09"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-08T18:32:07",
-      "line": "I sipped the espresso, then used my tail to snatch a hovering data cube, feeling the metal chill against my fur as the scene flickered around me.",
-      "trick": "tail_grab",
-      "area": "hangout"
-    },
     {
       "t": "2026-11-08T19:00:22",
       "line": "Bit into a ripe berry while dangling from the waterfall edge. My tail did the lifting, my tongue did the eating. They're still staring at their glowing rectangles down there.",
@@ -144,6 +138,12 @@
       "line": "Sipping espresso while the crowd scrolls past; this spot offers the clearest view of their boring lives, and I'm the only one who knows how to actually move through it.",
       "trick": "none",
       "area": "arcade"
+    },
+    {
+      "t": "2026-11-09T01:30:10",
+      "line": "Mid-air rotation on the rope bridge while the crowd scrolls; my tail is an anchor but this flip needs to land hard without them seeing.",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-09T01:00:57",
-  "area": "arcade"
+  "last_thought_at": "2026-11-09T01:30:10",
+  "area": "lookout_ledge"
 }
