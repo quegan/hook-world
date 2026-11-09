@@ -1,39 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 324,
+  "tick": 326,
   "moods": {
     "swagger": 100,
-    "energy": 45,
-    "hunger": 67,
-    "curiosity": 63,
+    "energy": 41,
+    "hunger": 28,
+    "curiosity": 54,
     "chill": 88
   },
-  "action": "showing off",
-  "status": "Showing off - pogo",
-  "thought": "The floating rocks are too jittery for a clean flip, need to find that thick branch before the gravity gets weird.",
-  "tail_trick": "pogo",
+  "action": "exploring",
+  "status": "Exploring - tail grab",
+  "thought": "Need that thick branch to pull off a real flip before anyone spots me mid-air.",
+  "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "thick branch for the drop",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
-    {
-      "item": "fresh espresso shot",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
-    {
-      "item": "A sturdy platform to spin the cube",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
-    {
-      "item": "A brighter spotlight for the tail grab",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
     {
       "item": "A thick branch for that backflip drop",
       "status": "waiting",
@@ -63,6 +43,26 @@
       "item": "Clearer view of the grid so I can see exactly where to land",
       "status": "waiting",
       "added": "2026-11-08"
+    },
+    {
+      "item": "A branch thick enough to hold my weight during a flip",
+      "status": "waiting",
+      "added": "2026-11-08"
+    },
+    {
+      "item": "Something that blocks their view so I can flex in the dark",
+      "status": "waiting",
+      "added": "2026-11-08"
+    },
+    {
+      "item": "A thick branch sturdy enough for a backflip",
+      "status": "waiting",
+      "added": "2026-11-08"
+    },
+    {
+      "item": "Clearer view of the grid to spot the perfect landing",
+      "status": "waiting",
+      "added": "2026-11-08"
     }
   ],
   "items": [
@@ -73,18 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-08T15:00:23",
-      "line": "Locked my tail onto the heavy branch while they stare at screens. Ready to drop them with a backflip, but first need that espresso shot to wake up the fur.",
-      "trick": "none",
-      "area": "arcade"
-    },
-    {
-      "t": "2026-11-08T15:30:32",
-      "line": "Sunlight glints off my black fur while I loop my tail over the thin palm. They're scrolling past like the gravity glitch isn't actually them, but just a trick of their low-poly...",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-08T16:00:14",
       "line": "Locked onto the fruit stump with just my tail while they scroll past. The espresso was stale, so I saved it for when the branch finally feels real under my grip.",
@@ -144,6 +132,18 @@
       "line": "Gotta lock onto the crystal peak now, the toes tap rhythm against the air and the espresso is finally warm enough to match this flex.",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-08T22:01:13",
+      "line": "Bit three bananas in one go while dangling. My fur feels sharper, the toothpick tastes like sugar now. They'll never see me eat this fast if they keep staring down there.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-08T22:30:32",
+      "line": "Toothpick still sharp but this ledge wobbles too much; need solid ground to flex properly.",
+      "trick": "tail_grab",
+      "area": "hangout"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-08T20:30:13",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-08T22:30:32",
+  "area": "hangout"
 }
