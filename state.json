@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 333,
+  "tick": 334,
   "moods": {
     "swagger": 100,
-    "energy": 38,
+    "energy": 37,
     "hunger": 57,
-    "curiosity": 10,
+    "curiosity": 15,
     "chill": 100
   },
-  "action": "people-watching",
-  "status": "People-watching - tail grab",
-  "thought": "Crowd's still glued to their screens; my tail is doing that neon cord thing but I can do better.",
-  "tail_trick": "tail_grab",
+  "action": "hanging out",
+  "status": "Hanging out",
+  "thought": "Sun's up but still too soft for this flex. Sliced open another banana slice; toothpick is dull, need to sharpen it deeper.",
+  "tail_trick": "none",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "Something that blocks their view so I can flex in the dark",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
-    {
-      "item": "A thick branch sturdy enough for a backflip",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
     {
       "item": "Clearer view of the grid to spot the perfect landing",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Something to block the glowing rectangles",
       "status": "waiting",
       "added": "2026-11-09"
+    },
+    {
+      "item": "Sharpen the toothpick deeper before eating this fruit",
+      "status": "waiting",
+      "added": "2026-11-09"
+    },
+    {
+      "item": "A flat stone surface to land my next flip hard",
+      "status": "waiting",
+      "added": "2026-11-09"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-08T19:30:19",
-      "line": "Sitting on the arcade edge, sipping that cold espresso while they scroll past. The toothpick is doing nothing useful against the hum of these machines.",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-08T20:00:20",
       "line": "Grappling the banana bunch with my curl while they scroll. That toothpick is sharp enough to cut through their boring attention span.",
@@ -144,6 +138,12 @@
       "line": "Sliced open a fresh banana slice while dangling; fur feels razor-sharp tonight, they'll never catch me mid-bite if they keep staring down there.",
       "trick": "tail_grab",
       "area": "hangout"
+    },
+    {
+      "t": "2026-11-09T02:30:10",
+      "line": "Crowd's staring at their glowing rectangles while I dangle on the thick branch. Toothpick lost its edge, sliced through a fresh banana instead of using it properly.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-09T02:00:11",
-  "area": "hangout"
+  "last_thought_at": "2026-11-09T02:30:10",
+  "area": "waterfall_pond"
 }
