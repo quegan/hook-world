@@ -1,17 +1,17 @@
 {
   "name": "HOOK",
-  "tick": 332,
+  "tick": 333,
   "moods": {
     "swagger": 100,
     "energy": 38,
     "hunger": 57,
-    "curiosity": 14,
+    "curiosity": 10,
     "chill": 100
   },
   "action": "people-watching",
-  "status": "People-watching - backflip",
-  "thought": "Neon cord is still too wobbly for a clean landing, gotta find that solid oak limb before gravity catches me.",
-  "tail_trick": "backflip",
+  "status": "People-watching - tail grab",
+  "thought": "Crowd's still glued to their screens; my tail is doing that neon cord thing but I can do better.",
+  "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
     {
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-08T19:00:22",
-      "line": "Bit into a ripe berry while dangling from the waterfall edge. My tail did the lifting, my tongue did the eating. They're still staring at their glowing rectangles down there.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-08T19:30:19",
       "line": "Sitting on the arcade edge, sipping that cold espresso while they scroll past. The toothpick is doing nothing useful against the hum of these machines.",
@@ -144,6 +138,12 @@
       "line": "Mid-air rotation on the rope bridge while the crowd scrolls; my tail is an anchor but this flip needs to land hard without them seeing.",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-09T02:00:11",
+      "line": "Sliced open a fresh banana slice while dangling; fur feels razor-sharp tonight, they'll never catch me mid-bite if they keep staring down there.",
+      "trick": "tail_grab",
+      "area": "hangout"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-09T01:30:10",
-  "area": "lookout_ledge"
+  "last_thought_at": "2026-11-09T02:00:11",
+  "area": "hangout"
 }
