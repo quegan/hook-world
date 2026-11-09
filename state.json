@@ -1,18 +1,18 @@
 {
   "name": "HOOK",
-  "tick": 326,
+  "tick": 327,
   "moods": {
     "swagger": 100,
-    "energy": 41,
-    "hunger": 28,
-    "curiosity": 54,
+    "energy": 62,
+    "hunger": 29,
+    "curiosity": 53,
     "chill": 88
   },
-  "action": "exploring",
-  "status": "Exploring - tail grab",
-  "thought": "Need that thick branch to pull off a real flip before anyone spots me mid-air.",
-  "tail_trick": "tail_grab",
-  "prop": "toothpick",
+  "action": "sipping espresso",
+  "status": "Sipping espresso - backflip",
+  "thought": "The espresso is warm enough to match this flex now, no more wobbly ledges.",
+  "tail_trick": "backflip",
+  "prop": "espresso",
   "wants": [
     {
       "item": "A thick branch for that backflip drop",
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-08T16:00:14",
-      "line": "Locked onto the fruit stump with just my tail while they scroll past. The espresso was stale, so I saved it for when the branch finally feels real under my grip.",
-      "trick": "tail_grab",
-      "area": "hangout"
-    },
     {
       "t": "2026-11-08T16:30:27",
       "line": "Lily pads are too slick for a real drop. The espresso is cold and that toothpick feels useless on wet fur. Need a thick branch before anyone notices my true form in the grid.",
@@ -144,6 +138,12 @@
       "line": "Toothpick still sharp but this ledge wobbles too much; need solid ground to flex properly.",
       "trick": "tail_grab",
       "area": "hangout"
+    },
+    {
+      "t": "2026-11-08T23:00:39",
+      "line": "Took off the sunglasses for a second to check my fur sheen, then popped the toothpick back in. The neon cord felt thin, so I switched tactics to prove them wrong.",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-08T22:30:32",
-  "area": "hangout"
+  "last_thought_at": "2026-11-08T23:00:39",
+  "area": "lookout_ledge"
 }
