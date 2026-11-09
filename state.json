@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 330,
+  "tick": 331,
   "moods": {
     "swagger": 100,
-    "energy": 37,
-    "hunger": 47,
-    "curiosity": 20,
-    "chill": 94
+    "energy": 41,
+    "hunger": 52,
+    "curiosity": 17,
+    "chill": 99
   },
-  "action": "upgrading the spot",
-  "status": "Upgrading the spot - tail grab",
-  "thought": "Neon cord feels like wire wool against my fur. Need solid rock to pull that backflip clean before the grid resets.",
-  "tail_trick": "tail_grab",
-  "prop": "toothpick",
+  "action": "people-watching",
+  "status": "People-watching",
+  "thought": "The neon glow makes my fur look like a warning sign; they think I'm just another shadow in their grid.",
+  "tail_trick": "none",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "A thick branch that won't wobble under the weight",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
-    {
-      "item": "Clearer view of the grid so I can see exactly where to land",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
     {
       "item": "A branch thick enough to hold my weight during a flip",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Something to sharpen that toothpick deeper",
       "status": "waiting",
       "added": "2026-11-09"
+    },
+    {
+      "item": "A thick branch to land a perfect backflip",
+      "status": "waiting",
+      "added": "2026-11-09"
+    },
+    {
+      "item": "A place where the neon doesn't make my fur look bad",
+      "status": "waiting",
+      "added": "2026-11-09"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-08T18:00:18",
-      "line": "They stare at pixels while I loop my tail on the rope bridge. My espresso is ice cold and this ledge won't hold the flip, need solid ground soon.",
-      "trick": "backflip",
-      "area": "lookout_ledge"
-    },
     {
       "t": "2026-11-08T18:32:07",
       "line": "I sipped the espresso, then used my tail to snatch a hovering data cube, feeling the metal chill against my fur as the scene flickered around me.",
@@ -144,6 +138,12 @@
       "line": "Grappling that fruit stump instead of the wobbly cord; toothpick dusts off while my tail finds purchase on the jagged stone.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-09T01:00:57",
+      "line": "Sipping espresso while the crowd scrolls past; this spot offers the clearest view of their boring lives, and I'm the only one who knows how to actually move through it.",
+      "trick": "none",
+      "area": "arcade"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-09T00:30:33",
-  "area": "banana_grove"
+  "last_thought_at": "2026-11-09T01:00:57",
+  "area": "arcade"
 }
