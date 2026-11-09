@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 352,
+  "tick": 353,
   "moods": {
     "swagger": 100,
-    "energy": 42,
-    "hunger": 36,
-    "curiosity": 53,
-    "chill": 98
+    "energy": 52,
+    "hunger": 40,
+    "curiosity": 59,
+    "chill": 100
   },
-  "action": "practicing a trick",
-  "status": "Practicing a trick",
-  "thought": "The pond water makes my fur slick, but I'm locking that tail tight around the waterfall rock for one last perfect loop.",
-  "tail_trick": "none",
-  "prop": "toothpick",
+  "action": "hanging out",
+  "status": "Hanging out - tail grab",
+  "thought": "Just hanging, tail curled around the fruit stump, waiting for a branch that actually lets me show off.",
+  "tail_trick": "tail_grab",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "thick branch for a clean backflip",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
-    {
-      "item": "bright light to make fur gleam more",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
     {
       "item": "brighter sun to make fur shine",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "dry rock that doesn't slip",
       "status": "waiting",
       "added": "2026-11-09"
+    },
+    {
+      "item": "A thick beam for a backflip",
+      "status": "waiting",
+      "added": "2026-11-09"
+    },
+    {
+      "item": "A neon sign to spotlight my tail",
+      "status": "waiting",
+      "added": "2026-11-09"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-09T06:01:08",
-      "line": "Sliced through the air with my toothpick while balancing on the crate; fur feels electric and the espresso's still doing its work, but I need that solid branch to land like...",
-      "trick": "tail_grab",
-      "area": "hangout"
-    },
     {
       "t": "2026-11-09T06:31:35",
       "line": "The arcade cabinet glows underfoot but it's too slick for a clean landing. Toothpick sharpens the edge again while espresso fuels the restlessness.",
@@ -144,6 +138,12 @@
       "line": "Lily pads are out; grabbed the wet rock with my tail tip and spun in the mist while everyone else dries off on dry land.",
       "trick": "none",
       "area": "waterfall_pond"
+    },
+    {
+      "t": "2026-11-09T12:02:10",
+      "line": "I perched on the rug, tail_grabbed the fruit stump, sipped espresso, and scoped the ceiling for a sturdy beam to swing from.",
+      "trick": "tail_grab",
+      "area": "hangout"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-09T11:30:59",
-  "area": "waterfall_pond"
+  "last_thought_at": "2026-11-09T12:02:10",
+  "area": "hangout"
 }
