@@ -1,17 +1,17 @@
 {
   "name": "HOOK",
-  "tick": 345,
+  "tick": 346,
   "moods": {
     "swagger": 100,
-    "energy": 40,
-    "hunger": 54,
-    "curiosity": 38,
+    "energy": 37,
+    "hunger": 59,
+    "curiosity": 35,
     "chill": 100
   },
   "action": "people-watching",
-  "status": "People-watching",
-  "thought": "Need that thick branch for a real flip before they see my fur gleaming.",
-  "tail_trick": "none",
+  "status": "People-watching - pogo",
+  "thought": "Sunlight is too weak on these rocks to make fur shine, but the espresso is burning bright enough anyway.",
+  "tail_trick": "pogo",
   "prop": "toothpick",
   "wants": [
     {
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-09T02:30:10",
-      "line": "Crowd's staring at their glowing rectangles while I dangle on the thick branch. Toothpick lost its edge, sliced through a fresh banana instead of using it properly.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-09T03:00:12",
       "line": "Espresso grounds hit the tongue like grit while staring at the glowing boxes below. Tail pogo rhythm feels stale against the empty rock, need a solid branch soon to land a real...",
@@ -144,6 +138,12 @@
       "line": "Lily pads too slick for a clean takeoff, but the espresso heat is perfect and I'm sharpening that toothpick again.",
       "trick": "none",
       "area": "waterfall_pond"
+    },
+    {
+      "t": "2026-11-09T08:30:43",
+      "line": "Floating stones are useless for a real landing, so I sharpen the toothpick and prepare to grab that thick branch nearby before the sun fades.",
+      "trick": "pogo",
+      "area": "sky_rocks"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-09T08:00:44",
-  "area": "waterfall_pond"
+  "last_thought_at": "2026-11-09T08:30:43",
+  "area": "sky_rocks"
 }
