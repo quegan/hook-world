@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 322,
+  "tick": 323,
   "moods": {
     "swagger": 100,
-    "energy": 54,
-    "hunger": 56,
-    "curiosity": 57,
-    "chill": 88
+    "energy": 55,
+    "hunger": 61,
+    "curiosity": 58,
+    "chill": 93
   },
   "action": "hanging out",
-  "status": "Hanging out",
-  "thought": "The crowd's staring at their glowing rectangles while I sit on this ledge. My fur feels a little static from being here too long.",
-  "tail_trick": "none",
+  "status": "Hanging out - tail grab",
+  "thought": "They're still staring at pixels. My tail knows better than to hold onto lily pads that wobble.",
+  "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "fresh espresso shot for the drop",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
-    {
-      "item": "dry land for clean moves",
-      "status": "waiting",
-      "added": "2026-11-08"
-    },
     {
       "item": "A crystal ledge that doesn't crack under my weight",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "Fresh espresso to keep the fur sharp",
       "status": "waiting",
       "added": "2026-11-08"
+    },
+    {
+      "item": "a thicker branch for the flip",
+      "status": "waiting",
+      "added": "2026-11-08"
+    },
+    {
+      "item": "a brighter spotlight on this fruit stump",
+      "status": "waiting",
+      "added": "2026-11-08"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-08T14:01:18",
-      "line": "Cruising the lookout ledge watching them scroll past my shadow. The espresso in my hand is getting cold, time to find that sturdy perch before they notice I'm the actual flex.",
-      "trick": "backflip",
-      "area": "lookout_ledge"
-    },
     {
       "t": "2026-11-08T14:30:30",
       "line": "Took the hang branch for a real swing instead of staring at ghosts. Toothpick snapped as my tail locked in, but the mud still feels sticky under my fur.",
@@ -144,6 +138,12 @@
       "line": "Sitting on the arcade edge, sipping that cold espresso while they scroll past. The toothpick is doing nothing useful against the hum of these machines.",
       "trick": "none",
       "area": "arcade"
+    },
+    {
+      "t": "2026-11-08T20:00:20",
+      "line": "Grappling the banana bunch with my curl while they scroll. That toothpick is sharp enough to cut through their boring attention span.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-08T19:30:19",
-  "area": "arcade"
+  "last_thought_at": "2026-11-08T20:00:20",
+  "area": "banana_grove"
 }
