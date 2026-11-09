@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 343,
+  "tick": 344,
   "moods": {
     "swagger": 100,
-    "energy": 38,
-    "hunger": 45,
-    "curiosity": 37,
+    "energy": 40,
+    "hunger": 49,
+    "curiosity": 43,
     "chill": 100
   },
   "action": "hanging out",
-  "status": "Hanging out - tail grab",
-  "thought": "Tail's fine. Spot's fine. I'm better than fine.",
-  "tail_trick": "tail_grab",
+  "status": "Hanging out - backflip",
+  "thought": "Sunbeams hitting my fur, making it gleam brighter than the pixels they have.",
+  "tail_trick": "backflip",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "thick branch for hard flip landing",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
     {
       "item": "cleaner light to make fur gleam",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "bright light to make fur gleam more",
       "status": "waiting",
       "added": "2026-11-09"
+    },
+    {
+      "item": "brighter sun to make fur shine",
+      "status": "waiting",
+      "added": "2026-11-09"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-09T01:30:10",
-      "line": "Mid-air rotation on the rope bridge while the crowd scrolls; my tail is an anchor but this flip needs to land hard without them seeing.",
-      "trick": "backflip",
-      "area": "lookout_ledge"
-    },
     {
       "t": "2026-11-09T02:00:11",
       "line": "Sliced open a fresh banana slice while dangling; fur feels razor-sharp tonight, they'll never catch me mid-bite if they keep staring down there.",
@@ -144,6 +138,12 @@
       "line": "Sliced banana with tail while espresso burns; neon cord still slippery, need solid grip to show them the real flex before mid-air grace gets stolen.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-09T07:31:54",
+      "line": "Caught in a sunbeam on this islet ledge while they scroll past; toothpick finds a new angle to slice through that crisp air as the espresso heat returns.",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-09T07:00:51",
-  "area": "banana_grove"
+  "last_thought_at": "2026-11-09T07:31:54",
+  "area": "lookout_ledge"
 }
