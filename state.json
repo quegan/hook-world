@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 355,
+  "tick": 356,
   "moods": {
     "swagger": 100,
-    "energy": 45,
-    "hunger": 51,
-    "curiosity": 62,
+    "energy": 39,
+    "hunger": 59,
+    "curiosity": 55,
     "chill": 100
   },
-  "action": "hanging out",
-  "status": "Hanging out - pogo",
-  "thought": "Need a thicker branch for that backflip to really sell the flex.",
-  "tail_trick": "pogo",
+  "action": "exploring",
+  "status": "Exploring - tail grab",
+  "thought": "Tail's fine. Spot's fine. I'm better than fine.",
+  "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "thick branch for a solid spin",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
-    {
-      "item": "brighter sun to catch the black fur",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
     {
       "item": "thick branch for a dry spin",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "stable ground to land safely",
       "status": "waiting",
       "added": "2026-11-09"
+    },
+    {
+      "item": "A thick branch for a backflip",
+      "status": "waiting",
+      "added": "2026-11-09"
+    },
+    {
+      "item": "A higher platform to hang the tail",
+      "status": "waiting",
+      "added": "2026-11-09"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-09T07:31:54",
-      "line": "Caught in a sunbeam on this islet ledge while they scroll past; toothpick finds a new angle to slice through that crisp air as the espresso heat returns.",
-      "trick": "backflip",
-      "area": "lookout_ledge"
-    },
     {
       "t": "2026-11-09T08:00:44",
       "line": "Lily pads too slick for a clean takeoff, but the espresso heat is perfect and I'm sharpening that toothpick again.",
@@ -144,6 +138,12 @@
       "line": "Floating stones are too slippery; I need solid wood to loop my tail without slipping on this slick surface.",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-09T13:32:16",
+      "line": "I swung from a hidden vine, tail curled to snag a ripe banana, then chewed on my toothpick while eyeing the next climb.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-09T13:00:33",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-09T13:32:16",
+  "area": "banana_grove"
 }
