@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 350,
+  "tick": 351,
   "moods": {
     "swagger": 100,
-    "energy": 45,
+    "energy": 54,
     "hunger": 28,
-    "curiosity": 42,
-    "chill": 93
+    "curiosity": 50,
+    "chill": 100
   },
-  "action": "upgrading the spot",
-  "status": "Upgrading the spot - backflip",
-  "thought": "The branch is finally thick enough to catch that backflip without slipping. They can't see it coming, just me.",
-  "tail_trick": "backflip",
+  "action": "hanging out",
+  "status": "Hanging out",
+  "thought": "Neon cord's slippery, gotta find something solid to spin on before the midday glare dims my shine.",
+  "tail_trick": "none",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "thick branch to land a clean backflip",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
-    {
-      "item": "bright light to make my fur gleam more",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
     {
       "item": "thick branch for a real flip",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "sun angle that catches black fur",
       "status": "waiting",
       "added": "2026-11-09"
+    },
+    {
+      "item": "thick branch for a solid spin",
+      "status": "waiting",
+      "added": "2026-11-09"
+    },
+    {
+      "item": "brighter sun to catch the black fur",
+      "status": "waiting",
+      "added": "2026-11-09"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-09T05:01:22",
-      "line": "Crowd scrolls while I loop the cord tighter than my hand could; toothpick sharp enough to slice air, but this flip needs a solid branch before someone spots my mid-air grace.",
-      "trick": "hang",
-      "area": "hang_tree"
-    },
     {
       "t": "2026-11-09T05:30:49",
       "line": "Slick rocks under my feet while the coffee burns like acid; the view from here is pathetic and I'm about to slide if I don't find solid ground soon.",
@@ -144,6 +138,12 @@
       "line": "Finally found a hold tight enough to spin without the neon cord's slippery memory haunting my tail loops.",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-09T11:00:51",
+      "line": "Arcade lights buzz but they lack substance for a real loop; trading that purple neon hum for a hunt of thick branches nearby.",
+      "trick": "none",
+      "area": "arcade"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-09T10:31:46",
-  "area": "lookout_ledge"
+  "last_thought_at": "2026-11-09T11:00:51",
+  "area": "arcade"
 }
