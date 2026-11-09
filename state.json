@@ -1,39 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 363,
+  "tick": 365,
   "moods": {
     "swagger": 100,
-    "energy": 40,
-    "hunger": 50,
-    "curiosity": 47,
-    "chill": 93
+    "energy": 46,
+    "hunger": 58,
+    "curiosity": 36,
+    "chill": 100
   },
-  "action": "showing off",
-  "status": "Showing off - backflip",
-  "thought": "The neon cord vibrates when I loop; time to find something solid before I look like a fool again.",
-  "tail_trick": "backflip",
+  "action": "exploring",
+  "status": "Exploring",
+  "thought": "The waterfall's mist catches the light; I spot a slick stone perfect for a tail swing.",
+  "tail_trick": "none",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A higher perch to hang from",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
-    {
-      "item": "Thick branch for the flip",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
-    {
-      "item": "Solid wood perch",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
-    {
-      "item": "A neon-lit pole to loop my tail",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
     {
       "item": "A glowing perch to dominate the arcade",
       "status": "waiting",
@@ -63,6 +43,26 @@
       "item": "A stable pole that doesn't flicker",
       "status": "waiting",
       "added": "2026-11-09"
+    },
+    {
+      "item": "A sturdy lantern pole for a smooth tail swing",
+      "status": "waiting",
+      "added": "2026-11-09"
+    },
+    {
+      "item": "A shaded nook to sip espresso without glare",
+      "status": "waiting",
+      "added": "2026-11-09"
+    },
+    {
+      "item": "A granite ledge to anchor my tail",
+      "status": "waiting",
+      "added": "2026-11-09"
+    },
+    {
+      "item": "A hidden alcove for a private espresso break",
+      "status": "waiting",
+      "added": "2026-11-09"
     }
   ],
   "items": [
@@ -73,18 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-09T11:30:59",
-      "line": "Lily pads are out; grabbed the wet rock with my tail tip and spun in the mist while everyone else dries off on dry land.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
-    {
-      "t": "2026-11-09T12:02:10",
-      "line": "I perched on the rug, tail_grabbed the fruit stump, sipped espresso, and scoped the ceiling for a sturdy beam to swing from.",
-      "trick": "tail_grab",
-      "area": "hangout"
-    },
     {
       "t": "2026-11-09T12:32:12",
       "line": "Installed a new perch on the Hang Tree while keeping my tail in a perfect hang; the view's sharper, and the platform feels like a throne for a king of vines.",
@@ -144,6 +132,18 @@
       "line": "This grid keeps shaking my tail loose; need a heavy branch soon so the whole pixel village can't fake my landing.",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-09T17:38:05",
+      "line": "I perched on the low branch, watched the tourists shuffle, used my tail to snag a glowing lantern, and took a quick espresso shot while they stared.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-09T18:02:30",
+      "line": "I slipped past the pond, found a smooth basalt slab jutting out, and imagined looping my tail around it for a quick spin before the next espresso.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-09T17:01:22",
-  "area": "lookout_ledge"
+  "last_thought_at": "2026-11-09T18:02:30",
+  "area": "waterfall_pond"
 }
