@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 348,
+  "tick": 349,
   "moods": {
     "swagger": 100,
-    "energy": 53,
-    "hunger": 67,
-    "curiosity": 45,
-    "chill": 91
+    "energy": 56,
+    "hunger": 22,
+    "curiosity": 46,
+    "chill": 92
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso - hang",
-  "thought": "They watch me dangle, but they don't see the real flex until I move. Espresso burns good, toothpick sharp, and my tail is ready to loop...",
-  "tail_trick": "hang",
-  "prop": "espresso",
+  "action": "snacking",
+  "status": "Snacking - tail grab",
+  "thought": "Got that banana bunch mid-air with just my tail. The espresso is still humming beneath my fur and I'm getting that electric buzz again.",
+  "tail_trick": "tail_grab",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "crystal peak for a better view",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
     {
       "item": "thick branch to land a clean backflip",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "sun angle that catches the black fur",
       "status": "waiting",
       "added": "2026-11-09"
+    },
+    {
+      "item": "sun angle that catches black fur",
+      "status": "waiting",
+      "added": "2026-11-09"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-09T04:00:18",
-      "line": "Crowd still staring at pixels while I loop the neon rope. My fur gleams in this weird light but the landing needs more grip next time.",
-      "trick": "backflip",
-      "area": "lookout_ledge"
-    },
     {
       "t": "2026-11-09T04:30:10",
       "line": "Toothpick snapped on that banana stump while they stared at pixels; fur feels sharp enough to cut through this low-poly world if I keep moving.",
@@ -144,6 +138,12 @@
       "line": "Spent the whole morning staring at my own reflection on the glass while swirling espresso; now I'm trading that view for a real stunt with the thick branch nearby.",
       "trick": "hang",
       "area": "hang_tree"
+    },
+    {
+      "t": "2026-11-09T10:00:44",
+      "line": "Locked onto the three bananas with my curled tail while sipping espresso; the slice through the air felt perfect but my hunger is already gnawing at the espresso's edge.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-09T09:30:42",
-  "area": "hang_tree"
+  "last_thought_at": "2026-11-09T10:00:44",
+  "area": "banana_grove"
 }
