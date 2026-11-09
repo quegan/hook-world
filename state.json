@@ -1,17 +1,17 @@
 {
   "name": "HOOK",
-  "tick": 344,
+  "tick": 345,
   "moods": {
     "swagger": 100,
     "energy": 40,
-    "hunger": 49,
-    "curiosity": 43,
+    "hunger": 54,
+    "curiosity": 38,
     "chill": 100
   },
-  "action": "hanging out",
-  "status": "Hanging out - backflip",
-  "thought": "Sunbeams hitting my fur, making it gleam brighter than the pixels they have.",
-  "tail_trick": "backflip",
+  "action": "people-watching",
+  "status": "People-watching",
+  "thought": "Need that thick branch for a real flip before they see my fur gleaming.",
+  "tail_trick": "none",
   "prop": "toothpick",
   "wants": [
     {
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-09T02:00:11",
-      "line": "Sliced open a fresh banana slice while dangling; fur feels razor-sharp tonight, they'll never catch me mid-bite if they keep staring down there.",
-      "trick": "tail_grab",
-      "area": "hangout"
-    },
     {
       "t": "2026-11-09T02:30:10",
       "line": "Crowd's staring at their glowing rectangles while I dangle on the thick branch. Toothpick lost its edge, sliced through a fresh banana instead of using it properly.",
@@ -144,6 +138,12 @@
       "line": "Caught in a sunbeam on this islet ledge while they scroll past; toothpick finds a new angle to slice through that crisp air as the espresso heat returns.",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-09T08:00:44",
+      "line": "Lily pads too slick for a clean takeoff, but the espresso heat is perfect and I'm sharpening that toothpick again.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-09T07:31:54",
-  "area": "lookout_ledge"
+  "last_thought_at": "2026-11-09T08:00:44",
+  "area": "waterfall_pond"
 }
