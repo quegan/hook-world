@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 347,
+  "tick": 348,
   "moods": {
     "swagger": 100,
-    "energy": 40,
-    "hunger": 64,
-    "curiosity": 40,
-    "chill": 100
+    "energy": 53,
+    "hunger": 67,
+    "curiosity": 45,
+    "chill": 91
   },
-  "action": "hanging out",
-  "status": "Hanging out - tail grab",
-  "thought": "Neon cord's fine but it's not a flex, I'm swinging from that tree branch instead.",
-  "tail_trick": "tail_grab",
+  "action": "sipping espresso",
+  "status": "Sipping espresso - hang",
+  "thought": "They watch me dangle, but they don't see the real flex until I move. Espresso burns good, toothpick sharp, and my tail is ready to loop...",
+  "tail_trick": "hang",
   "prop": "espresso",
   "wants": [
-    {
-      "item": "cleaner light to make fur gleam",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
-    {
-      "item": "thick branch to land a hard flip",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
     {
       "item": "crystal peak for a better view",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "brighter sun to make fur shine",
       "status": "waiting",
       "added": "2026-11-09"
+    },
+    {
+      "item": "branch thick enough to lock into a spin",
+      "status": "waiting",
+      "added": "2026-11-09"
+    },
+    {
+      "item": "sun angle that catches the black fur",
+      "status": "waiting",
+      "added": "2026-11-09"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-09T03:30:14",
-      "line": "Just caught that banana stump with my tail while they stare at pixels; fur feels sharper now and the espresso still burns good.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-09T04:00:18",
       "line": "Crowd still staring at pixels while I loop the neon rope. My fur gleams in this weird light but the landing needs more grip next time.",
@@ -144,6 +138,12 @@
       "line": "Dropped the toothpick for espresso while looping my tail around a sturdy branch to show them what real strength looks like.",
       "trick": "tail_grab",
       "area": "hangout"
+    },
+    {
+      "t": "2026-11-09T09:30:42",
+      "line": "Spent the whole morning staring at my own reflection on the glass while swirling espresso; now I'm trading that view for a real stunt with the thick branch nearby.",
+      "trick": "hang",
+      "area": "hang_tree"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-09T09:00:42",
-  "area": "hangout"
+  "last_thought_at": "2026-11-09T09:30:42",
+  "area": "hang_tree"
 }
