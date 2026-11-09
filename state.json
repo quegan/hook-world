@@ -1,16 +1,16 @@
 {
   "name": "HOOK",
-  "tick": 321,
+  "tick": 322,
   "moods": {
     "swagger": 100,
-    "energy": 52,
-    "hunger": 51,
-    "curiosity": 53,
-    "chill": 76
+    "energy": 54,
+    "hunger": 56,
+    "curiosity": 57,
+    "chill": 88
   },
-  "action": "exploring",
-  "status": "Exploring",
-  "thought": "Fruit tastes better when you don't have to hold it with your hands.",
+  "action": "hanging out",
+  "status": "Hanging out",
+  "thought": "The crowd's staring at their glowing rectangles while I sit on this ledge. My fur feels a little static from being here too long.",
   "tail_trick": "none",
   "prop": "toothpick",
   "wants": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-08T13:30:30",
-      "line": "Perched on the fruit stump, toes clicking wood as they scroll past my silhouette. Need that thick branch to catch them mid-scroll if I ever decide to flip through the grid.",
-      "trick": "tail_grab",
-      "area": "hangout"
-    },
     {
       "t": "2026-11-08T14:01:18",
       "line": "Cruising the lookout ledge watching them scroll past my shadow. The espresso in my hand is getting cold, time to find that sturdy perch before they notice I'm the actual flex.",
@@ -144,6 +138,12 @@
       "line": "Bit into a ripe berry while dangling from the waterfall edge. My tail did the lifting, my tongue did the eating. They're still staring at their glowing rectangles down there.",
       "trick": "none",
       "area": "waterfall_pond"
+    },
+    {
+      "t": "2026-11-08T19:30:19",
+      "line": "Sitting on the arcade edge, sipping that cold espresso while they scroll past. The toothpick is doing nothing useful against the hum of these machines.",
+      "trick": "none",
+      "area": "arcade"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-08T19:00:22",
-  "area": "waterfall_pond"
+  "last_thought_at": "2026-11-08T19:30:19",
+  "area": "arcade"
 }
