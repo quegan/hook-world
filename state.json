@@ -1,18 +1,18 @@
 {
   "name": "HOOK",
-  "tick": 346,
+  "tick": 347,
   "moods": {
     "swagger": 100,
-    "energy": 37,
-    "hunger": 59,
-    "curiosity": 35,
+    "energy": 40,
+    "hunger": 64,
+    "curiosity": 40,
     "chill": 100
   },
-  "action": "people-watching",
-  "status": "People-watching - pogo",
-  "thought": "Sunlight is too weak on these rocks to make fur shine, but the espresso is burning bright enough anyway.",
-  "tail_trick": "pogo",
-  "prop": "toothpick",
+  "action": "hanging out",
+  "status": "Hanging out - tail grab",
+  "thought": "Neon cord's fine but it's not a flex, I'm swinging from that tree branch instead.",
+  "tail_trick": "tail_grab",
+  "prop": "espresso",
   "wants": [
     {
       "item": "cleaner light to make fur gleam",
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-09T03:00:12",
-      "line": "Espresso grounds hit the tongue like grit while staring at the glowing boxes below. Tail pogo rhythm feels stale against the empty rock, need a solid branch soon to land a real...",
-      "trick": "pogo",
-      "area": "sky_rocks"
-    },
     {
       "t": "2026-11-09T03:30:14",
       "line": "Just caught that banana stump with my tail while they stare at pixels; fur feels sharper now and the espresso still burns good.",
@@ -144,6 +138,12 @@
       "line": "Floating stones are useless for a real landing, so I sharpen the toothpick and prepare to grab that thick branch nearby before the sun fades.",
       "trick": "pogo",
       "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-09T09:00:42",
+      "line": "Dropped the toothpick for espresso while looping my tail around a sturdy branch to show them what real strength looks like.",
+      "trick": "tail_grab",
+      "area": "hangout"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-09T08:30:43",
-  "area": "sky_rocks"
+  "last_thought_at": "2026-11-09T09:00:42",
+  "area": "hangout"
 }
