@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 406,
+  "tick": 407,
   "moods": {
     "swagger": 100,
-    "energy": 99,
-    "hunger": 41,
-    "curiosity": 27,
+    "energy": 96,
+    "hunger": 48,
+    "curiosity": 18,
     "chill": 100
   },
-  "action": "hanging out",
-  "status": "Hanging out",
-  "thought": "Tail's fine. Spot's fine. I'm better than fine.",
-  "tail_trick": "none",
+  "action": "exploring",
+  "status": "Exploring - backflip",
+  "thought": "Spotted a hidden alcove, nailed a backflip, tail snagged the crystal edge.",
+  "tail_trick": "backflip",
   "prop": "espresso",
   "wants": [
-    {
-      "item": "A wider ledge for a tail‑wrap pose.",
-      "status": "waiting",
-      "added": "2026-11-10"
-    },
-    {
-      "item": "A taller pole to swing from.",
-      "status": "waiting",
-      "added": "2026-11-10"
-    },
     {
       "item": "A higher pole for a longer backflip",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A glass platform to showcase a backflip",
       "status": "waiting",
       "added": "2026-11-10"
+    },
+    {
+      "item": "A crystal pillar to swing my tail from",
+      "status": "waiting",
+      "added": "2026-11-10"
+    },
+    {
+      "item": "A wider ledge for a tail‑wrap showcase",
+      "status": "waiting",
+      "added": "2026-11-10"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-10T09:30:13",
-      "line": "I launched off the pond's edge, the spray cushioning the landing as my tail flicked the water into a brief arc, then snagged a drifting leaf with the tip.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-10T10:00:24",
       "line": "Added a low‑poly deck under the hammock, tail winding the fasteners while espresso steamed; the view now feels like a private lounge.",
@@ -144,6 +138,12 @@
       "line": "Hammock Cove: new spot, same flawless tail. Obviously.",
       "trick": "none",
       "area": "hammock"
+    },
+    {
+      "t": "2026-11-10T15:30:19",
+      "line": "I slipped into a tucked-away alcove on the Lookout Ledge, launched a clean backflip onto a narrow stone, and let my tail hook the jutting crystal to lock my perch.",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [
@@ -163,21 +163,21 @@
       "reply": "Just chilling, nothing worth your attention."
     }
   ],
-  "last_thought_at": "2026-11-10T15:05:29",
-  "area": "hammock",
+  "last_thought_at": "2026-11-10T15:30:19",
+  "area": "lookout_ledge",
   "needs": {
-    "snack": 12.0,
-    "rest": 22.6,
-    "showoff": 8.2,
-    "curiosity": 2.4,
-    "company": 11.4,
-    "coffee": 25.0
+    "snack": 15.0,
+    "rest": 24.7,
+    "showoff": 10.9,
+    "curiosity": 0,
+    "company": 12.3,
+    "coffee": 28.6
   },
   "need_threshold": 75,
   "past_line_since": {},
   "dials": {
     "mood": 1,
-    "energy": 0.98
+    "energy": 0.92
   },
   "visitors": [
     {
@@ -275,7 +275,7 @@
         "r": "accepted"
       }
     ],
-    "last_pull": "2026-11-10T15:04:41",
+    "last_pull": "2026-11-10T15:30:12",
     "visitors_24h": 4
   }
 }
