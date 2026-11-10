@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 404,
+  "tick": 405,
   "moods": {
     "swagger": 100,
-    "energy": 94,
-    "hunger": 31,
-    "curiosity": 32,
+    "energy": 91,
+    "hunger": 36,
+    "curiosity": 24,
     "chill": 100
   },
-  "action": "upgrading the spot",
-  "status": "Upgrading the spot",
-  "thought": "Tail's fine. Spot's fine. I'm better than fine.",
+  "action": "exploring",
+  "status": "Exploring",
+  "thought": "The waterfall's spray hits my tail, I scan the ledge for a perch.",
   "tail_trick": "none",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A longer rail for a tail swing across the clearing",
-      "status": "waiting",
-      "added": "2026-11-10"
-    },
-    {
-      "item": "A sturdier pole for a flawless backflip",
-      "status": "waiting",
-      "added": "2026-11-10"
-    },
     {
       "item": "A wider ledge for a tail‑wrap pose.",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A glass platform to showcase my tail tricks",
       "status": "waiting",
       "added": "2026-11-10"
+    },
+    {
+      "item": "A taller pillar to swing my tail from",
+      "status": "waiting",
+      "added": "2026-11-10"
+    },
+    {
+      "item": "A glass platform to showcase a backflip",
+      "status": "waiting",
+      "added": "2026-11-10"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-10T08:30:51",
-      "line": "I looped my tail around a palm frond, yanked a banana, peeled it in one swipe, and chomped while the sun glinted off the blocky leaves.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-10T09:00:46",
       "line": "I perched on the low branch, let a pixel‑orange fall, curled my tail around it, and tossed it up to the canopy for a quick show.",
@@ -144,6 +138,12 @@
       "line": "The Arcade: new spot, same flawless tail. Obviously.",
       "trick": "none",
       "area": "arcade"
+    },
+    {
+      "t": "2026-11-10T14:34:44",
+      "line": "I waded to the pond's edge, let the mist coat my fur, and spotted a slick stone perfect for a future hang.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [
@@ -163,21 +163,21 @@
       "reply": "Just chilling, nothing worth your attention."
     }
   ],
-  "last_thought_at": "2026-11-10T14:01:41",
-  "area": "arcade",
+  "last_thought_at": "2026-11-10T14:34:44",
+  "area": "waterfall_pond",
   "needs": {
-    "snack": 6.0,
-    "rest": 30.4,
-    "showoff": 2.8,
+    "snack": 9.0,
+    "rest": 32.5,
+    "showoff": 5.5,
     "curiosity": 0,
-    "company": 12.6,
-    "coffee": 17.8
+    "company": 13.5,
+    "coffee": 21.4
   },
   "need_threshold": 75,
   "past_line_since": {},
   "dials": {
     "mood": 1,
-    "energy": 0.88
+    "energy": 0.82
   },
   "visitors": [
     {
@@ -275,7 +275,7 @@
         "r": "accepted"
       }
     ],
-    "last_pull": "2026-11-10T14:00:20",
+    "last_pull": "2026-11-10T14:33:07",
     "visitors_24h": 4
   }
 }
