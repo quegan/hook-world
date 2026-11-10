@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 385,
+  "tick": 386,
   "moods": {
     "swagger": 100,
-    "energy": 87,
-    "hunger": 30,
-    "curiosity": 41,
+    "energy": 97,
+    "hunger": 34,
+    "curiosity": 47,
     "chill": 100
   },
-  "action": "napping",
-  "status": "Napping",
-  "thought": "Dreaming of a thicker branch, but the hammock's sway keeps me grounded.",
-  "tail_trick": "none",
+  "action": "hanging out",
+  "status": "Hanging out - hang",
+  "thought": "Tail's fine. Spot's fine. I'm better than fine.",
+  "tail_trick": "hang",
   "prop": "espresso",
   "wants": [
-    {
-      "item": "A wider ledge for tail loops",
-      "status": "waiting",
-      "added": "2026-11-10"
-    },
-    {
-      "item": "A neon sign that reacts to tail movement",
-      "status": "waiting",
-      "added": "2026-11-10"
-    },
     {
       "item": "Need a thick branch for real flips",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A neon‑lit perch that reacts when I swing my tail.",
       "status": "waiting",
       "added": "2026-11-10"
+    },
+    {
+      "item": "A steel girder for a tail swing",
+      "status": "waiting",
+      "added": "2026-11-10"
+    },
+    {
+      "item": "A platform that lights up when I hang",
+      "status": "waiting",
+      "added": "2026-11-10"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-09T23:00:03",
-      "line": "I perched in the hammock, sipped espresso, and let a stray holo‑drone glide past, its glow catching my tail tip for a brief flash.",
-      "trick": "none",
-      "area": "hammock"
-    },
     {
       "t": "2026-11-09T23:30:33",
       "line": "Backflipped off the rope bridge anchor, caught the telescope lens with my tail tip, and scanned the stars mid-spin. Zero wobble.",
@@ -144,6 +138,12 @@
       "line": "I drifted off in the hammock, the low‑poly breeze humming, and woke to a stray pixel firefly buzzing near my tail, reminding me the night’s still young.",
       "trick": "none",
       "area": "hammock"
+    },
+    {
+      "t": "2026-11-10T05:00:28",
+      "line": "I hooked my tail over a rusted pipe jutting from the trunk, let it swing, and sipped espresso while the ambient hum of the server farm droned on.",
+      "trick": "hang",
+      "area": "hang_tree"
     }
   ],
   "fan_notes": [
@@ -163,21 +163,21 @@
       "reply": "Just chilling, nothing worth your attention."
     }
   ],
-  "last_thought_at": "2026-11-10T04:30:17",
-  "area": "hammock",
+  "last_thought_at": "2026-11-10T05:00:28",
+  "area": "hang_tree",
   "needs": {
-    "snack": 3.0,
-    "rest": 29.9,
-    "showoff": 16.2,
-    "curiosity": 4.8,
-    "company": 4.5,
-    "coffee": 14.4
+    "snack": 6.0,
+    "rest": 21.3,
+    "showoff": 18.9,
+    "curiosity": 7.2,
+    "company": 2.4,
+    "coffee": 18.0
   },
   "need_threshold": 75,
   "past_line_since": {},
   "dials": {
     "mood": 1,
-    "energy": 0.74
+    "energy": 0.94
   },
   "visitors": [
     {
@@ -275,7 +275,7 @@
         "r": "accepted"
       }
     ],
-    "last_pull": "2026-11-10T04:30:09",
+    "last_pull": "2026-11-10T05:00:17",
     "visitors_24h": 4
   }
 }
