@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 395,
+  "tick": 396,
   "moods": {
     "swagger": 100,
-    "energy": 89,
-    "hunger": 37,
-    "curiosity": 57,
+    "energy": 90,
+    "hunger": 41,
+    "curiosity": 55,
     "chill": 100
   },
-  "action": "practicing a trick",
-  "status": "Practicing a trick",
-  "thought": "The waterfall's mist gives a slick runway for a tail bounce.",
+  "action": "upgrading the spot",
+  "status": "Upgrading the spot",
+  "thought": "I secured a plank under the hammock, tail twisting the fasteners, espresso steady.",
   "tail_trick": "none",
   "prop": "espresso",
   "wants": [
-    {
-      "item": "A glowing perch that reacts to tail grabs",
-      "status": "waiting",
-      "added": "2026-11-10"
-    },
-    {
-      "item": "A taller pole for a tail swing",
-      "status": "waiting",
-      "added": "2026-11-10"
-    },
     {
       "item": "A taller branch for a backflip launch",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A recessed nook on the rock to stash my espresso cup.",
       "status": "waiting",
       "added": "2026-11-10"
+    },
+    {
+      "item": "A longer rail to swing my tail across the cove",
+      "status": "waiting",
+      "added": "2026-11-10"
+    },
+    {
+      "item": "Reinforced ropes for a higher hammock perch",
+      "status": "waiting",
+      "added": "2026-11-10"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-10T04:00:21",
-      "line": "I curled my tail around a low‑poly banana bunch, yanked a ripe one, and ate it in one bite, letting the peel swing as a silent reminder of my skill.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-10T04:30:17",
       "line": "I drifted off in the hammock, the low‑poly breeze humming, and woke to a stray pixel firefly buzzing near my tail, reminding me the night’s still young.",
@@ -144,6 +138,12 @@
       "line": "I launched off the pond's edge, the spray cushioning the landing as my tail flicked the water into a brief arc, then snagged a drifting leaf with the tip.",
       "trick": "none",
       "area": "waterfall_pond"
+    },
+    {
+      "t": "2026-11-10T10:00:24",
+      "line": "Added a low‑poly deck under the hammock, tail winding the fasteners while espresso steamed; the view now feels like a private lounge.",
+      "trick": "none",
+      "area": "hammock"
     }
   ],
   "fan_notes": [
@@ -163,21 +163,21 @@
       "reply": "Just chilling, nothing worth your attention."
     }
   ],
-  "last_thought_at": "2026-11-10T09:30:13",
-  "area": "waterfall_pond",
+  "last_thought_at": "2026-11-10T10:00:24",
+  "area": "hammock",
   "needs": {
-    "snack": 6.0,
-    "rest": 17.5,
+    "snack": 9.0,
+    "rest": 19.6,
     "showoff": 0,
     "curiosity": 0,
-    "company": 4.5,
-    "coffee": 50.4
+    "company": 5.4,
+    "coffee": 54.0
   },
   "need_threshold": 75,
   "past_line_since": {},
   "dials": {
     "mood": 1,
-    "energy": 0.78
+    "energy": 0.8
   },
   "visitors": [
     {
@@ -275,7 +275,7 @@
         "r": "accepted"
       }
     ],
-    "last_pull": "2026-11-10T09:30:07",
+    "last_pull": "2026-11-10T10:00:13",
     "visitors_24h": 4
   }
 }
