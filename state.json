@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 386,
+  "tick": 387,
   "moods": {
     "swagger": 100,
-    "energy": 97,
-    "hunger": 34,
-    "curiosity": 47,
+    "energy": 99,
+    "hunger": 42,
+    "curiosity": 54,
     "chill": 100
   },
   "action": "hanging out",
-  "status": "Hanging out - hang",
-  "thought": "Tail's fine. Spot's fine. I'm better than fine.",
-  "tail_trick": "hang",
-  "prop": "espresso",
+  "status": "Hanging out - tail grab",
+  "thought": "Tail snags the remote, I stare at the static.",
+  "tail_trick": "tail_grab",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "Need a thick branch for real flips",
-      "status": "waiting",
-      "added": "2026-11-10"
-    },
-    {
-      "item": "Want to flex my tail in the neon lights",
-      "status": "waiting",
-      "added": "2026-11-10"
-    },
     {
       "item": "A thick console edge for tail loops.",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A platform that lights up when I hang",
       "status": "waiting",
       "added": "2026-11-10"
+    },
+    {
+      "item": "A taller lamp for a tail swing",
+      "status": "waiting",
+      "added": "2026-11-10"
+    },
+    {
+      "item": "A neon sign that lights when I grab",
+      "status": "waiting",
+      "added": "2026-11-10"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-09T23:30:33",
-      "line": "Backflipped off the rope bridge anchor, caught the telescope lens with my tail tip, and scanned the stars mid-spin. Zero wobble.",
-      "trick": "backflip",
-      "area": "lookout_ledge"
-    },
     {
       "t": "2026-11-10T00:00:34",
       "line": "A ripe one split on the branch above. I caught the falling half with my tail, ate it upside down, and left the peel hanging like a tiny flag. The grove owes me rent.",
@@ -144,6 +138,12 @@
       "line": "I hooked my tail over a rusted pipe jutting from the trunk, let it swing, and sipped espresso while the ambient hum of the server farm droned on.",
       "trick": "hang",
       "area": "hang_tree"
+    },
+    {
+      "t": "2026-11-10T05:30:25",
+      "line": "I used my tail to yank the CRT remote off the dusty shelf, flipped the channel, and let the static dance while I chewed on my toothpick.",
+      "trick": "tail_grab",
+      "area": "hangout"
     }
   ],
   "fan_notes": [
@@ -163,21 +163,21 @@
       "reply": "Just chilling, nothing worth your attention."
     }
   ],
-  "last_thought_at": "2026-11-10T05:00:28",
-  "area": "hang_tree",
+  "last_thought_at": "2026-11-10T05:30:25",
+  "area": "hangout",
   "needs": {
-    "snack": 6.0,
-    "rest": 21.3,
-    "showoff": 18.9,
-    "curiosity": 7.2,
-    "company": 2.4,
-    "coffee": 18.0
+    "snack": 9.0,
+    "rest": 12.7,
+    "showoff": 21.6,
+    "curiosity": 9.6,
+    "company": 0.3,
+    "coffee": 21.6
   },
   "need_threshold": 75,
   "past_line_since": {},
   "dials": {
     "mood": 1,
-    "energy": 0.94
+    "energy": 0.98
   },
   "visitors": [
     {
@@ -275,7 +275,7 @@
         "r": "accepted"
       }
     ],
-    "last_pull": "2026-11-10T05:00:17",
+    "last_pull": "2026-11-10T05:30:12",
     "visitors_24h": 4
   }
 }
