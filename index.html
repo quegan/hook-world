@@ -228,7 +228,7 @@ import {ShaderPass} from 'three/addons/postprocessing/ShaderPass.js';
 import {OutputPass} from 'three/addons/postprocessing/OutputPass.js';
 // ===== HOOK world v5 (light, shadows, post grade, ambient life, a mind with reasons + a free live voice) — built on v4 — Hook lives on his own; visitors are guests (no player control). Reads the same state.json the PC loop already pushes; every new field is optional.
 const REPO='quegan/hook-world', TZ='America/New_York';
-const Q=new URLSearchParams(location.search);
+const Q=new URLSearchParams(location.search);const DEVHOST=['localhost','127.0.0.1'].includes(location.hostname)/* Sarge 2026-11-09: ?state= / ?llmurl= overrides only on localhost */;
 const COARSE=matchMedia('(pointer:coarse)').matches, SMALL=innerWidth<820;
 const V=(x=0,y=0,z=0)=>new THREE.Vector3(x,y,z);
 const clamp=(v,a,b)=>v<a?a:v>b?b:v, lerp=(a,b,t)=>a+(b-a)*t, smooth=(a,b,x)=>{const t=clamp((x-a)/(b-a),0,1);return t*t*(3-2*t)};
@@ -747,7 +747,7 @@ function drawNeeds(){for(const [k] of NEEDS){const v=need[k];$('f-'+k).style.wid
 // ================= state.json (same schema the PC loop already writes; extras optional) =================
 const FALLBACK={name:'HOOK',tick:0,moods:{swagger:70,energy:60,hunger:40,curiosity:55,chill:65},action:'moving in',status:'Just moved in.',thought:'New spot. Branch looks strong enough. We\'ll see.',tail_trick:'hang',prop:'toothpick',wants:[],items:[],diary:[],fan_notes:[],last_thought_at:null};
 let PENDING_AREA=null;
-async function load(){let s;try{s=await (await fetch((Q.get('state')||'state.json')+'?'+Date.now(),{cache:'no-store'})).json()}catch(e){if(ST)return;s=FALLBACK}
+async function load(){let s;try{s=await (await fetch(((DEVHOST&&Q.get('state'))||'state.json')+'?'+Date.now(),{cache:'no-store'})).json()}catch(e){if(ST)return;s=FALLBACK}
  const first=!ST;ST=s;TH=clamp(+s.need_threshold||75,40,95);LAST_THINK=etMs(s.last_thought_at);
  if(first||s.tick!==TICK){TICK=s.tick;seedNeeds(s);if(s.area&&SPOTS[s.area])PENDING_AREA={area:s.area,trick:s.tail_trick,action:s.action};setMono(s.inner||s.thought);buildGifts();if(first){seedFeed();guestsLive();hereCount()}if(!first)toast('Hook just had a new thought',s.inner||s.thought)}
  const esp=s.prop==='espresso';pick.visible=!esp;drawNeeds();if($('sheet').classList.contains('on'))openSheet(CUR_SHEET)}
@@ -1095,7 +1095,7 @@ const LOCALTHOUGHT=[()=>`${Cap(ACTNOUN[DOING?.act]||'this')}. Again. Still elite
  ()=>{const v=visitors()[0];return v?`${v.who} left me ${v.left}. Still on the shelf. Front row.`:'Nobody left anything today. Suspicious.'},()=>'Counted the crabs. Four. One of them is lying.',()=>'If a monkey does a backflip and nobody watches, it still counts.'];
 async function idleThought(){const live=await llmSay('idle',`Think one short private thought about right now.`);const t=live||pick1(LOCALTHOUGHT)();setMono(t);monoEl.classList.toggle('live',!!live);feed('mind',t,live?'':'',{live:!!live})}
 // ---- the free live voice: Pollinations (no key, no account, CORS open). 1 call per 45 s per visitor IP, so every call is budgeted.
-const LLM={on:Q.get('llm')!=='0',url:Q.get('llmurl')||'https://text.pollinations.ai/openai',busy:false,ok:0,fail:0,last:''};
+const LLM={on:Q.get('llm')!=='0',url:(DEVHOST&&Q.get('llmurl'))||'https://text.pollinations.ai/openai',busy:false,ok:0,fail:0,last:''};
 const BAN=/\b(ai|a\.i\.|language model|assistant|chatgpt|openai|crypto|bitcoin|coin|token|nft|drug|drugs|weed|cocaine|stoned|car|cars|engine|sex|sexy|nsfw|porn|nazi|kill|suicide|fuck|shit|bitch|http|www)\b|@|#/i;
 const llmFree=()=>LLM.on&&!LLM.busy&&Date.now()>=(+LS.get('hookLLMNext',0)||0);
 function ctxLine(){const d=dials(),top=NK.slice().sort((a,b)=>need[b]-need[a]).slice(0,2).map(k=>`${NLAB[k]} ${Math.round(need[k])}/100`).join(', ');
