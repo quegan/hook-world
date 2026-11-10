@@ -1,39 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 365,
+  "tick": 367,
   "moods": {
     "swagger": 100,
-    "energy": 46,
-    "hunger": 58,
-    "curiosity": 36,
+    "energy": 50,
+    "hunger": 24,
+    "curiosity": 40,
     "chill": 100
   },
-  "action": "exploring",
-  "status": "Exploring",
-  "thought": "The waterfall's mist catches the light; I spot a slick stone perfect for a tail swing.",
-  "tail_trick": "none",
+  "action": "snacking",
+  "status": "Snacking - tail grab",
+  "thought": "Tail snags the ripest bunch. No hands needed.",
+  "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A glowing perch to dominate the arcade",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
-    {
-      "item": "A neon pole that doesn't flicker when I spin",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
-    {
-      "item": "Thicker wood so the flip looks sharper",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
-    {
-      "item": "A steel pole for a clean tail loop",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
     {
       "item": "A thick oak branch on this islet",
       "status": "waiting",
@@ -63,6 +43,26 @@
       "item": "A hidden alcove for a private espresso break",
       "status": "waiting",
       "added": "2026-11-09"
+    },
+    {
+      "item": "A crystal spire to anchor my tail for a spin",
+      "status": "waiting",
+      "added": "2026-11-09"
+    },
+    {
+      "item": "Floating rocks that don't drift when I land",
+      "status": "waiting",
+      "added": "2026-11-09"
+    },
+    {
+      "item": "A palm frond hammock for tail-naps",
+      "status": "waiting",
+      "added": "2026-11-09"
+    },
+    {
+      "item": "A banana bunch that regrows instantly",
+      "status": "waiting",
+      "added": "2026-11-09"
     }
   ],
   "items": [
@@ -73,18 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-09T12:32:12",
-      "line": "Installed a new perch on the Hang Tree while keeping my tail in a perfect hang; the view's sharper, and the platform feels like a throne for a king of vines.",
-      "trick": "hang",
-      "area": "hang_tree"
-    },
-    {
-      "t": "2026-11-09T13:00:33",
-      "line": "Floating stones are too slippery; I need solid wood to loop my tail without slipping on this slick surface.",
-      "trick": "pogo",
-      "area": "sky_rocks"
-    },
     {
       "t": "2026-11-09T13:32:16",
       "line": "I swung from a hidden vine, tail curled to snag a ripe banana, then chewed on my toothpick while eyeing the next climb.",
@@ -144,6 +132,18 @@
       "line": "I slipped past the pond, found a smooth basalt slab jutting out, and imagined looping my tail around it for a quick spin before the next espresso.",
       "trick": "none",
       "area": "waterfall_pond"
+    },
+    {
+      "t": "2026-11-09T18:37:15",
+      "line": "Bounced up the floating stones on my tail tip, each pogo landing cleaner than the last. Crystal pulse matches my rhythm.",
+      "trick": "pogo",
+      "area": "sky_rocks"
+    },
+    {
+      "t": "2026-11-09T19:33:54",
+      "line": "Grabbed a banana mid-swing with my tail, peeled it one-handed while the other palms glitched in the wind.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,6 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-09T18:02:30",
-  "area": "waterfall_pond"
+  "last_thought_at": "2026-11-09T19:33:54",
+  "area": "banana_grove"
 }
