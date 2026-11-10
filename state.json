@@ -1,18 +1,18 @@
 {
   "name": "HOOK",
-  "tick": 373,
+  "tick": 374,
   "moods": {
     "swagger": 100,
-    "energy": 39,
-    "hunger": 60,
-    "curiosity": 46,
+    "energy": 59,
+    "hunger": 62,
+    "curiosity": 49,
     "chill": 100
   },
-  "action": "hanging out",
-  "status": "Hanging out - hang",
-  "thought": "This branch holds. The night holds. I hold.",
-  "tail_trick": "hang",
-  "prop": "toothpick",
+  "action": "sipping espresso",
+  "status": "Sipping espresso",
+  "thought": "Espresso warms, tail drifts, I watch the pixel sunrise flicker.",
+  "tail_trick": "none",
+  "prop": "espresso",
   "wants": [
     {
       "item": "A steel‑reinforced pole for a tail swing",
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-09T16:32:06",
-      "line": "I slipped the crate open, used my tail to yank a flickering holo‑chip, then pocketed a fresh espresso shot from the hidden dispenser.",
-      "trick": "tail_grab",
-      "area": "hangout"
-    },
     {
       "t": "2026-11-09T17:01:22",
       "line": "This grid keeps shaking my tail loose; need a heavy branch soon so the whole pixel village can't fake my landing.",
@@ -144,6 +138,12 @@
       "line": "Hung from the thick limb by my tail, arms crossed, watching the CRT flicker static below. A moth batted the screen. I didn't move.",
       "trick": "hang",
       "area": "hang_tree"
+    },
+    {
+      "t": "2026-11-09T23:00:03",
+      "line": "I perched in the hammock, sipped espresso, and let a stray holo‑drone glide past, its glow catching my tail tip for a brief flash.",
+      "trick": "none",
+      "area": "hammock"
     }
   ],
   "fan_notes": [
@@ -153,21 +153,21 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-09T22:30:42",
-  "area": "hang_tree",
+  "last_thought_at": "2026-11-09T23:00:03",
+  "area": "hammock",
   "needs": {
-    "snack": 55.0,
-    "rest": 63.1,
-    "showoff": 2.7,
-    "curiosity": 18.0,
-    "company": 33.6,
-    "coffee": 33.0
+    "snack": 58.0,
+    "rest": 60.5,
+    "showoff": 5.4,
+    "curiosity": 20.4,
+    "company": 10.5,
+    "coffee": 0
   },
   "need_threshold": 75,
   "past_line_since": {},
   "dials": {
     "mood": 1,
-    "energy": -0.22
+    "energy": 0.18
   },
   "visitors": [],
   "guests": {
@@ -192,9 +192,37 @@
         "k": "toy",
         "item": "yo-yo",
         "r": "accepted"
+      },
+      {
+        "t": "2026-11-09T23:00:01",
+        "who": "Tester",
+        "k": "hi",
+        "item": "",
+        "r": "accepted"
+      },
+      {
+        "t": "2026-11-09T23:00:01",
+        "who": "Tester",
+        "k": "hi",
+        "item": "",
+        "r": "accepted"
+      },
+      {
+        "t": "2026-11-09T23:00:01",
+        "who": "Tester",
+        "k": "hi",
+        "item": "",
+        "r": "accepted"
+      },
+      {
+        "t": "2026-11-09T23:00:01",
+        "who": "Tester",
+        "k": "hi",
+        "item": "",
+        "r": "accepted"
       }
     ],
-    "last_pull": "2026-11-09T22:30:19",
-    "visitors_24h": 2
+    "last_pull": "2026-11-09T23:00:01",
+    "visitors_24h": 3
   }
 }
