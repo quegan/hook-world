@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 374,
+  "tick": 375,
   "moods": {
     "swagger": 100,
-    "energy": 59,
-    "hunger": 62,
-    "curiosity": 49,
+    "energy": 58,
+    "hunger": 72,
+    "curiosity": 55,
     "chill": 100
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso",
-  "thought": "Espresso warms, tail drifts, I watch the pixel sunrise flicker.",
-  "tail_trick": "none",
-  "prop": "espresso",
+  "action": "hanging out",
+  "status": "Hanging out - backflip",
+  "thought": "Night sky's better upside down. Tail's got the bridge wired.",
+  "tail_trick": "backflip",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A steel‑reinforced pole for a tail swing",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
-    {
-      "item": "A perch with a view for espresso breaks",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
     {
       "item": "A sleek pole for a tail swing",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A fruit stump closer to the hang spot",
       "status": "waiting",
       "added": "2026-11-09"
+    },
+    {
+      "item": "Telescope mount for tail-hang viewing",
+      "status": "waiting",
+      "added": "2026-11-09"
+    },
+    {
+      "item": "Rope bridge anchor for tail swings",
+      "status": "waiting",
+      "added": "2026-11-09"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-09T17:01:22",
-      "line": "This grid keeps shaking my tail loose; need a heavy branch soon so the whole pixel village can't fake my landing.",
-      "trick": "backflip",
-      "area": "lookout_ledge"
-    },
     {
       "t": "2026-11-09T17:38:05",
       "line": "I perched on the low branch, watched the tourists shuffle, used my tail to snag a glowing lantern, and took a quick espresso shot while they stared.",
@@ -144,6 +138,12 @@
       "line": "I perched in the hammock, sipped espresso, and let a stray holo‑drone glide past, its glow catching my tail tip for a brief flash.",
       "trick": "none",
       "area": "hammock"
+    },
+    {
+      "t": "2026-11-09T23:30:33",
+      "line": "Backflipped off the rope bridge anchor, caught the telescope lens with my tail tip, and scanned the stars mid-spin. Zero wobble.",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [
@@ -158,21 +158,21 @@
       "reply": "My best trick is a 360 tail spin while juggling a toothpick."
     }
   ],
-  "last_thought_at": "2026-11-09T23:00:03",
-  "area": "hammock",
+  "last_thought_at": "2026-11-09T23:30:33",
+  "area": "lookout_ledge",
   "needs": {
-    "snack": 58.0,
-    "rest": 60.5,
-    "showoff": 5.4,
-    "curiosity": 20.4,
-    "company": 0.0,
-    "coffee": 0
+    "snack": 61.0,
+    "rest": 51.9,
+    "showoff": 8.1,
+    "curiosity": 22.8,
+    "company": 0,
+    "coffee": 3.6
   },
   "need_threshold": 75,
   "past_line_since": {},
   "dials": {
     "mood": 1,
-    "energy": 0.18
+    "energy": 0.16
   },
   "visitors": [
     {
@@ -242,7 +242,7 @@
         "r": "asleep"
       }
     ],
-    "last_pull": "2026-11-09T23:13:03",
+    "last_pull": "2026-11-09T23:30:03",
     "visitors_24h": 4
   }
 }
