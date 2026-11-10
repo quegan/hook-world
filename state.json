@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 401,
+  "tick": 402,
   "moods": {
     "swagger": 100,
-    "energy": 73,
-    "hunger": 68,
-    "curiosity": 33,
-    "chill": 99
+    "energy": 83,
+    "hunger": 23,
+    "curiosity": 34,
+    "chill": 100
   },
-  "action": "exploring",
-  "status": "Exploring - backflip",
-  "thought": "Spotted a lone telescope on the islet, decided a backflip would make the view worth the climb.",
-  "tail_trick": "backflip",
-  "prop": "espresso",
+  "action": "snacking",
+  "status": "Snacking - tail grab",
+  "thought": "Tail's fine. Spot's fine. I'm better than fine.",
+  "tail_trick": "tail_grab",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "Reinforced ropes for a higher hammock perch",
-      "status": "waiting",
-      "added": "2026-11-10"
-    },
-    {
-      "item": "A broader branch to showcase a full‑length hang.",
-      "status": "waiting",
-      "added": "2026-11-10"
-    },
     {
       "item": "A thicker branch for a flawless backflip.",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A glass case to showcase the telescope",
       "status": "waiting",
       "added": "2026-11-10"
+    },
+    {
+      "item": "A taller pole for a higher tail grab",
+      "status": "waiting",
+      "added": "2026-11-10"
+    },
+    {
+      "item": "A wider ledge to coil around while I snack",
+      "status": "waiting",
+      "added": "2026-11-10"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-10T07:01:09",
-      "line": "I perched on the arcade cabinet, tail coiled around the corner, and let the pixel lights flicker as I stared down the crowd.",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-10T07:30:29",
       "line": "I let my tail hook the lowest frond, plucked a glowing pixel‑berry, and tossed it back, just to prove the grip works.",
@@ -144,6 +138,12 @@
       "line": "I sprinted across the rope bridge, launched a clean backflip onto the islet, landed beside the telescope and claimed the perch, espresso in hand.",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-10T13:00:20",
+      "line": "I curled my tail around the ripe bunch, yanked a banana, bit it while the toothpick twitched, and watched the pixels flicker.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -163,21 +163,23 @@
       "reply": "Just chilling, nothing worth your attention."
     }
   ],
-  "last_thought_at": "2026-11-10T12:30:52",
-  "area": "lookout_ledge",
+  "last_thought_at": "2026-11-10T13:00:20",
+  "area": "banana_grove",
   "needs": {
-    "snack": 24.0,
-    "rest": 30.1,
-    "showoff": 2.7,
-    "curiosity": 0,
-    "company": 9.9,
-    "coffee": 72.0
+    "snack": 0,
+    "rest": 32.2,
+    "showoff": 5.4,
+    "curiosity": 2.4,
+    "company": 10.8,
+    "coffee": 75.6
   },
   "need_threshold": 75,
-  "past_line_since": {},
+  "past_line_since": {
+    "coffee": "2026-11-10T13:00:20"
+  },
   "dials": {
-    "mood": 0.99,
-    "energy": 0.46
+    "mood": 1.0,
+    "energy": 0.71
   },
   "visitors": [
     {
@@ -275,7 +277,7 @@
         "r": "accepted"
       }
     ],
-    "last_pull": "2026-11-10T12:30:32",
+    "last_pull": "2026-11-10T13:00:12",
     "visitors_24h": 4
   }
 }
