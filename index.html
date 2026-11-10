@@ -60,9 +60,6 @@ button{font:inherit;color:inherit}
 #map{left:16px;bottom:16px;width:132px;height:132px;border-radius:50%;padding:0;overflow:hidden}
 #map canvas{width:100%;height:100%;display:block}
 #found{position:absolute;left:0;right:0;bottom:12px;text-align:center;font:600 10px "Space Grotesk";letter-spacing:.1em;color:var(--ink);text-shadow:0 1px 2px #000}
-#help{right:16px;bottom:16px;padding:9px 12px;font-size:12px;color:var(--dim);max-width:270px;line-height:1.5}
-#help b{color:var(--ink)}
-#mode{position:fixed;right:16px;bottom:96px}
 /* toast */
 #toast{position:fixed;left:50%;top:120px;transform:translate(-50%,-20px);opacity:0;transition:.35s;padding:10px 16px;border-radius:12px;background:var(--hot);color:#1a0f14;font-weight:700;pointer-events:none;z-index:30;text-align:center}
 #toast.on{opacity:1;transform:translate(-50%,0)}#toast small{display:block;font-weight:400;font-size:12px}
@@ -88,30 +85,33 @@ button{font:inherit;color:inherit}
 .gifts{display:flex;flex-wrap:wrap;gap:6px}.gifts button{background:rgba(255,255,255,.07);border:1px solid var(--line);border-radius:10px;padding:6px 10px;cursor:pointer;font-size:13px}
 .gifts button.on{background:var(--hot);color:#1a0f14;border-color:var(--hot)}
 .go{display:block;width:100%;margin-top:14px;background:var(--tan);color:#1a0f14;border:0;border-radius:12px;padding:11px;font-weight:700;font-size:15px;cursor:pointer}
-/* touch controls */
-#joy{position:fixed;left:22px;bottom:96px;width:124px;height:124px;border-radius:50%;background:rgba(0,0,0,.28);border:1px solid var(--line);display:none;touch-action:none;z-index:6}
-#joy i{position:absolute;left:40px;top:40px;width:44px;height:44px;border-radius:50%;background:var(--tan);opacity:.9}
-#tbtn{position:fixed;right:14px;bottom:96px;display:none;gap:8px;flex-direction:column;align-items:flex-end;z-index:6}
-#tbtn button{width:58px;height:58px;border-radius:50%;border:1px solid var(--line);background:rgba(20,14,24,.65);font:700 12px "Space Grotesk";touch-action:none}
-#tbtn .row{display:flex;gap:8px}
-#tbtn button.big{width:70px;height:70px;background:var(--hot);color:#1a0f14}
-#needsmini{display:none}
-@media (pointer:coarse){#joy,#tbtn{display:flex}#joy{display:block}#help{display:none}}
+/* guest bar: visitors interact with Hook; nothing here moves him */
+#guest{left:50%;bottom:66px;transform:translateX(-50%);padding:6px;display:flex;gap:4px;border-radius:22px;z-index:7;max-width:96vw;overflow-x:auto;scrollbar-width:none}
+#guest::-webkit-scrollbar{display:none}
+#guest button{flex:none;background:rgba(255,255,255,.07);border:1px solid var(--line);color:var(--ink);border-radius:16px;padding:7px 11px;font:600 13px "Space Grotesk";cursor:pointer;white-space:nowrap;touch-action:manipulation}
+#guest button:hover{background:rgba(255,255,255,.16)}#guest button:active{transform:scale(.95)}
+#guest button i{font-style:normal;margin-right:4px}#guest button span.s{display:none}
+#pick{left:50%;bottom:118px;transform:translateX(-50%);padding:8px;display:none;flex-wrap:wrap;gap:6px;justify-content:center;z-index:8;max-width:min(520px,94vw)}
+#pick.on{display:flex}#pick small{width:100%;text-align:center;color:var(--dim);font-size:11px;letter-spacing:.1em;text-transform:uppercase}
+#pick button{background:rgba(255,255,255,.08);border:1px solid var(--line);color:var(--ink);border-radius:12px;padding:8px 12px;font:600 14px "Space Grotesk";cursor:pointer;touch-action:manipulation}
+#say{position:fixed;left:0;top:0;transform:translate(-50%,-100%);max-width:280px;padding:9px 13px;border-radius:16px;background:#fff;color:#1d1418;font:600 14px/1.3 "Space Grotesk";pointer-events:none;box-shadow:0 8px 24px rgba(0,0,0,.3);opacity:0;transition:opacity .25s;z-index:5;display:flex;gap:8px;align-items:flex-start;will-change:transform}
+#say.on{opacity:1}#say b{font-size:20px;line-height:1}
+#say:after{content:"";position:absolute;left:50%;bottom:-8px;margin-left:-8px;border:8px solid transparent;border-top-color:#fff;border-bottom:0}
 @media (max-width:820px){
  #idc{top:10px;left:10px;width:auto;max-width:56vw;padding:8px 12px}#idc h1{font-size:22px}#hsub{display:none}#brain{font-size:14px;margin-top:4px}
  #headline{margin-top:4px;font-size:12px}
- #needs{top:auto;bottom:62px;left:10px;right:10px;transform:none;padding:8px 10px;flex-direction:column;gap:6px}
+ #needs{top:auto;bottom:118px;left:10px;right:10px;transform:none;padding:8px 10px;flex-direction:column;gap:6px}
  #nb{grid-template-columns:repeat(3,1fr);gap:4px 10px}.nd{font-size:9px}.nd .lab{letter-spacing:.02em;white-space:nowrap;gap:4px}.nd .lab b{overflow:hidden;text-overflow:ellipsis}.nd .st{font-size:8.5px}.nd .tr{height:6px}
  #dials{border-left:0;padding-left:0;border-top:1px solid var(--line);padding-top:4px;justify-content:center;gap:18px}
  .dial{width:auto;display:flex;align-items:center;gap:6px}.dial svg{width:54px;height:32px}.dial b{margin:0}
  #needs.min #nb{display:none}
  #tr{top:10px;right:10px}.chip{padding:7px 10px;font-size:12px}#clock{display:none}
  #menu{top:52px;right:10px}
- #status{bottom:10px;padding:6px 12px 6px 6px}#status span{font-size:12.5px}#status .ic{width:24px;height:24px;font-size:13px}
+ #status{bottom:68px;padding:6px 12px 6px 6px;max-width:94vw}#status span{font-size:12.5px}#status .ic{width:24px;height:24px;font-size:13px}
  #map{left:auto;right:10px;top:54px;bottom:auto;width:84px;height:84px}#found{bottom:6px;font-size:8px}
- #joy{bottom:228px;left:14px;width:110px;height:110px}#joy i{left:33px;top:33px}
- #tbtn{bottom:228px}#tbtn button{width:50px;height:50px}#tbtn button.big{width:60px;height:60px}
- #mode{display:none}#mono{max-width:220px;font-size:12px}#idc{max-width:62vw}
+  #guest{bottom:10px;left:6px;right:6px;transform:none;max-width:none;justify-content:space-between;padding:5px;gap:3px;border-radius:18px}#guest button{flex:1 1 0;min-width:0;padding:6px 2px;font-size:10.5px;display:flex;flex-direction:column;align-items:center;gap:1px;border-radius:12px}#guest button i{margin:0;font-size:18px}#guest button span.l{display:none}#guest button span.s{display:inline}
+ #pick{bottom:70px}
+ #say{max-width:230px;font-size:13px}#mono{max-width:220px;font-size:12px}#idc{max-width:62vw}
 }
 </style>
 <script type="importmap">{"imports":{"three":"https://unpkg.com/three@0.160.0/build/three.module.js","three/addons/":"https://unpkg.com/three@0.160.0/examples/jsm/"}}</script>
@@ -138,24 +138,26 @@ button{font:inherit;color:inherit}
  <button data-s="wish">🎁 Wishlist<small>what he keeps asking for</small></button>
  <button data-s="leave">🍌 Leave him something<small>a gift or a note; he remembers who</small></button>
  <button data-s="talk">💬 Talk<small>he answers on his next think</small></button>
+ <button data-s="you">🙂 You<small>what he remembers about you</small></button>
  <button data-s="on">📅 What's on<small>shows, brain ticks, day &amp; night</small></button>
 </div>
 <div id="status" class="panel"><div class="ic" id="sic">🐒</div><span id="stxt">Hook is waking up the island…</span></div>
 <div id="mono">…</div>
 <div id="labels"></div>
 <div id="map" class="panel"><canvas id="mapc" width="160" height="160"></canvas><div id="found"></div></div>
-<button id="mode" class="chip">▶ Play as Hook</button>
-<div id="help" class="panel"><b>WASD</b> walk · <b>Shift</b> run · <b>Space</b> jump · <b>drag</b> look · <b>scroll</b> zoom<br><b>1</b> hang · <b>2</b> flip · <b>3</b> balance · <b>4</b> grab · <b>E</b> do the spot's thing<br>Hands off for 20 s and Hook goes back to his own plans.</div>
-<div id="joy"><i></i></div>
-<div id="tbtn"><div class="row"><button data-k="t1">HANG</button><button data-k="t2">FLIP</button></div><div class="row"><button data-k="t3">BAL</button><button data-k="t4">GRAB</button></div><div class="row"><button data-k="e">DO</button><button data-k="jump" class="big">JUMP</button></div></div>
+<div id="say"><b id="sayw">💬</b><span id="sayt"></span></div>
+<div id="guest" class="panel" aria-label="Interact with Hook">
+ <button data-g="hi"><i>👋</i><span class="l">Say hi</span><span class="s">Hi</span></button><button data-g="pet"><i>✋</i>Pet</button><button data-g="poke"><i>👉</i>Poke</button><button data-g="snack"><i>🍌</i>Snack</button><button data-g="toy"><i>🪀</i><span class="l">Something new</span><span class="s">New</span></button><button data-g="talk"><i>💬</i>Talk</button><button data-g="gift"><i>🎁</i><span class="l">Leave a gift</span><span class="s">Gift</span></button>
+</div>
+<div id="pick" class="panel"></div>
 <div id="toast"></div>
 <div id="sheet"><div class="box"><div id="tabs">
- <button data-s="diary">Diary</button><button data-s="wish">Wishlist</button><button data-s="leave">Leave something</button><button data-s="talk">Talk</button><button data-s="on">What's on</button><button id="x">✕</button>
+ <button data-s="diary">Diary</button><button data-s="wish">Wishlist</button><button data-s="leave">Leave something</button><button data-s="talk">Talk</button><button data-s="on">What's on</button><button data-s="you">You</button><button id="x">✕</button>
 </div><div id="sbody"></div></div></div>
 <script type="module">
 import * as THREE from 'three';
 import {mergeGeometries} from 'three/addons/utils/BufferGeometryUtils.js';
-// ===== HOOK world v3 — reads the same state.json the PC loop already pushes; every new field is optional.
+// ===== HOOK world v4 — Hook lives on his own; visitors are guests (no player control). Reads the same state.json the PC loop already pushes; every new field is optional.
 const REPO='quegan/hook-world', TZ='America/New_York';
 const Q=new URLSearchParams(location.search);
 const COARSE=matchMedia('(pointer:coarse)').matches, SMALL=innerWidth<820;
@@ -365,7 +367,7 @@ for(let i=0;i<FF;i++){const a=hash(i+3)*6.28,r=hash(i+8)*22;const x=Math.cos(a)*
 ffG.setAttribute('position',new THREE.BufferAttribute(ffP,3));
 const ff=new THREE.Points(ffG,new THREE.PointsMaterial({color:0xfff2a8,size:.09,transparent:true,opacity:0,fog:false}));S.add(ff);
 // fruit on the fruit tree (falls, gets caught by tail)
-const fruitM=[0xffcf3f,0xff6b3d,0x9bd34b].map(c=>new THREE.MeshLambertMaterial({color:c,flatShading:true}));
+const fruitM=[0xffcf3f,0xff6b3d,0x9bd34b].map(c=>new THREE.MeshLambertMaterial({color:c,flatShading:true}));const _hm={};const heldMat=c=>_hm[c]||(_hm[c]=new THREE.MeshLambertMaterial({color:c,flatShading:true}));
 const TREEFRUIT=[];for(let i=0;i<7;i++){const a=i/7*6.283;const f=live(lowRock(.17,0,i),fruitM[i%3],[FRUIT_TREE.x+Math.cos(a)*1.8,GY(FRUIT_TREE.x,FRUIT_TREE.z)+4.2+hash(i)*.8,FRUIT_TREE.z+Math.sin(a)*1.8]);f.userData.home=f.position.clone();TREEFRUIT.push(f)}
 // visitor gifts on the hangout shelf (filled from state.visitors / fan_notes)
 const GIFTS=new THREE.Group();S.add(GIFTS);
@@ -390,10 +392,10 @@ const hs=new THREE.Shape();hs.moveTo(0,-.34);hs.bezierCurveTo(.2,-.28,.4,-.08,.3
 mesh(new THREE.ExtrudeGeometry(hs,{depth:.1,bevelEnabled:true,bevelSize:.03,bevelThickness:.04,bevelSegments:1,curveSegments:3}),mTan,[0,-.03,.27],head).scale.set(.86,.86,1);
 mesh(lowRock(.2,0,5),mTan,[0,-.17,.42],head).scale.set(1.2,.8,1.3);
 mesh(new THREE.ConeGeometry(.045,.06,3),mDark,[0,-.09,.64],head).rotation.x=Math.PI/2+.4;
-const lids=[];for(const s of[-1,1]){const e=new THREE.Group();e.position.set(.13*s,.07,.38);head.add(e);
+const lids=[],BROWS=[];for(const s of[-1,1]){const e=new THREE.Group();e.position.set(.13*s,.07,.38);head.add(e);
  mesh(new THREE.SphereGeometry(.075,7,5),mEye,[0,0,0],e);mesh(new THREE.SphereGeometry(.02,4,3),mWhite,[.025,.03,.065],e);
  const lid=mesh(new THREE.SphereGeometry(.083,7,5,0,Math.PI*2,0,Math.PI/2),mTanD,[0,0,0],e);lid.rotation.x=.5;lids.push(lid);
- mesh(new THREE.BoxGeometry(.15,.03,.04),mDark,[0,.11+(s>0?.05:0),.05],e).rotation.z=s>0?-.3:.1}
+ const br=mesh(new THREE.BoxGeometry(.15,.03,.04),mDark,[0,.11+(s>0?.05:0),.05],e);br.rotation.z=s>0?-.3:.1;BROWS.push({m:br,s,z:br.rotation.z,y:br.position.y})}
 const gl=new THREE.Group();gl.position.set(0,-.01,.5);gl.rotation.x=.12;head.add(gl);
 for(const s of[-1,1]){mesh(new THREE.BoxGeometry(.24,.12,.05),mGlass,[.135*s,0,0],gl);mesh(new THREE.BoxGeometry(.06,.07,.42),mGlass,[.3*s,.02,-.18],gl).rotation.y=-.18*s}
 mesh(new THREE.BoxGeometry(.06,.035,.05),mGlass,[0,.03,0],gl);mesh(new THREE.PlaneGeometry(.06,.022),mWhite,[-.18,.03,.027],gl).rotation.z=.4;
@@ -411,6 +413,7 @@ const handCup=new THREE.Group();armR.h.add(handCup);mesh(new THREE.CylinderGeome
 const tailCup=new THREE.Group();body.add(tailCup);mesh(new THREE.CylinderGeometry(.08,.06,.11,7),mCup,[0,.07,0],tailCup);mesh(new THREE.CylinderGeometry(.14,.14,.02,8),mCup,[0,0,0],tailCup);tailCup.visible=false;
 const jug=fruitM.map((m,i)=>{const f=mesh(lowRock(.11,0,i),m,[0,0,0],body);f.visible=false;return f});
 const held=mesh(lowRock(.15,0,2),fruitM[0],[0,0,0],body);held.visible=false;
+const craft=new THREE.Group();body.add(craft);mesh(new THREE.BoxGeometry(.12,.2,.1),mWood,[0,0,0],craft);mesh(new THREE.SphereGeometry(.07,5,4),mWood,[0,.15,0],craft);craft.visible=false;
 Object.values({H}).forEach(o=>o.traverse(m=>{if(m.isMesh)m.frustumCulled=false}));
 
 // ---- TAIL: one long tapered tube; geometry preallocated and rewritten each frame (no GC churn)
@@ -483,6 +486,23 @@ const ANIM={
   const tap=Math.abs(Math.sin(t*4))*.3;setTailTarget([SPINE,V(0,.5,-.6),V(.3,.4,-1.1),V(.6,.6+tap,-1.3),...curl(.7,.9+tap,-1.3,.18,0,1,6,'zy')])},
  wave(t){T({arx:-.2,arz:-2.6+Math.sin(t*8)*.35,arb:-.3,hyw:0,hx:-.15});const w=Math.sin(t*8)*.25;
   setTailTarget([SPINE,V(0,.65,-.45),V(-.2,1.4,-.7),V(-.5,2.3,-.6),V(-.6+w*.5,3,-.4),...curl(-.6+w,3.3,-.2,.2,Math.PI,1,6,'xy')])},
+ sit(t){T({by:-.42,llx:-1.45,lrx:-1.45,llb:.15,lrb:.15,llz:-.12,lrz:.12,alx:-.2,arx:-.2,alb:-.4,arb:-.4,alz:.35,arz:-.35,hyw:Math.sin(t*.5)*.4,hx:-.05+Math.sin(t*.3)*.05,tx:-.05});
+  const w=Math.sin(t*1.1)*.2;setTailTarget([SPINE,V(0,.3,-.5),V(w*.3,.05,-1),V(w,.05,-1.6),V(w*1.2,.2,-2.1),...curl(w*1.2,.45,-2.2,.2,-Math.PI/2,1,5)])},
+ huff(t){T(crossArms({hyw:.85+Math.sin(t*.8)*.06,hx:-.22,tz:-.05}));const f=Math.sin(t*9)*.18;
+  setTailTarget([SPINE,V(0,.6,-.45),V(.2,1.1,-.8),V(.45+f,1.5,-1.05),V(.7+f*1.4,1.85,-1),V(.85+f*1.6,2.1,-.85)])},
+ happy(t){const b=Math.abs(Math.sin(t*7));T({by:b*.32,alz:.9+b*.4,arz:-.9-b*.4,alx:-.3,arx:-.3,hx:-.2,hyw:Math.sin(t*3)*.15,llb:.2+b*.5,lrb:.2+b*.5});
+  const w=Math.sin(t*9)*.35;setTailTarget([SPINE,V(0,.62,-.42),V(w*.5,1,-.62),V(w,1.7,-.72),V(-w,2.4,-.62),...curl(-w,2.8,-.45,.22,Math.PI,1,6)])},
+ startle(t){const j=Math.sin(Math.min(1,t/.5)*Math.PI);T({by:j*.7,alx:-2.6,arx:-2.6,alz:.6,arz:-.6,alb:-.3,arb:-.3,hx:.15,tx:-.15,lid:.15});
+  setTailTarget([SPINE,V(0,.8,-.4),V(0,1.8,-.5),V(0,2.8,-.45),V(0,3.6,-.35),V(0,4.1,-.25)])},
+ swat(t){const k=Math.sin(Math.min(1,t/.7)*Math.PI);T(crossArms({hyw:-.3,hx:-.1}));
+  setTailTarget([SPINE,V(0,.7,-.5),V(.5*k,1.3,-.7+k*.8),V(.9*k,1.6,-.4+k*1.6),V(1.1*k,1.7,k*2.1),V(.9*k,1.6,k*2.4)])},
+ eat(t){const c=Math.abs(Math.sin(t*8))*.05;T({arx:-1.25,arb:-1.95,arz:.32,alx:-1.15,alb:-1.95,alz:-.32,hx:-.12-c,hyw:0});held.visible=t<2.6;held.position.set(0,1.62-c,.52);
+  const w=Math.sin(t*1.3)*.14;setTailTarget([SPINE,V(0,.62,-.42),V(w*.5,.9,-.62),V(w,1.7,-.72),V(-w,2.6,-.66),...curl(-w,3,-.4,.22,Math.PI,1.1,6)])},
+ inspect(t){T({arx:-1.6,arb:-1.3,arz:.2,alx:-1.6,alb:-1.3,alz:-.2,hx:.15,hyw:Math.sin(t*1.4)*.35});held.visible=true;held.position.set(0,1.45,.7);
+  setTailTarget([SPINE,V(0,.65,-.5),V(0,1.4,-.7),V(.05,2.2,-.6),V(.1,2.8,-.35),...curl(.1,3.05,-.1,.2,Math.PI,1,5)])},
+ juggle(t){ANIM.balance(t)},
+ make(t){const s=Math.sin(t*9)*.12;T({tx:.38,hx:.35,alx:-1.05,arx:-1.05+s,alb:-1.25,arb:-1.25-s,alz:.42,arz:-.42,by:-.05,hyw:Math.sin(t*.4)*.1});craft.visible=true;craft.position.set(0,1.18,.62);craft.rotation.y=t*.4;
+  const w=Math.sin(t*1.3)*.14;setTailTarget([SPINE,V(0,.62,-.42),V(w*.5,.9,-.62),V(w,1.7,-.72),V(-w,2.6,-.66),...curl(-w,3,-.4,.22,Math.PI,1.1,6)])},
  show(t){const k=Math.floor(t/2.6)%3,tt=t%2.6;if(k===0)ANIM.flip(tt);else if(k===1)ANIM.balance(t);else ANIM.wave(t)}};
 
 // ================= time (Hook lives on ET; times in state.json are naive ET) =================
@@ -519,7 +539,7 @@ function dials(){const m=ST?.moods||{};let mood=ST?.dials?.mood??(((+m.swagger||
  // the longer a need stays past the line, the further he sinks; tired drains energy; rattled (coffee) winds him up
  for(const k of NK){const h=hoursPast(k);if(!pastSince[k])continue;const sink=.08+.09*h;
   if(k==='rest')en-=.05+.1*h;else if(k==='coffee'){en+=.05+.08*h;mood-=.03*h}else if(k==='showoff'){en+=.04+.06*h;mood-=sink*.5}else mood-=sink}
- if(DOING&&(DOING.act==='show'||DOING.act==='sip'))mood+=.12;return{mood:clamp(mood,-1,1),energy:clamp(en,-1,1)}}
+ if(DOING&&(DOING.act==='show'||DOING.act==='sip'))mood+=.12;if(typeof VOFF!=='undefined'){mood+=VOFF.mood;en+=VOFF.energy}return{mood:clamp(mood,-1,1),energy:clamp(en,-1,1)}}
 const moodWord=v=>v<-.33?'grumpy':v>.33?'chuffed':'flat',enWord=v=>v<-.33?'flat':v>.33?'buzzing':'ticking over';
 
 // ---- UI: need bars with a visible threshold line + state words, two dials
@@ -547,7 +567,7 @@ async function load(){let s;try{s=await (await fetch((Q.get('state')||'state.jso
 function visitors(){const v=(ST?.visitors||[]).map(x=>({who:x.who||'someone',left:x.left||x.item||'a note',note:x.note||x.text||'',reply:x.reply||'',t:x.t}));
  for(const n of ST?.fan_notes||[])if(!v.some(x=>x.t===n.t))v.push({who:n.who||'a visitor',left:n.left||'a note',note:n.text||'',reply:n.reply||'',t:n.t});
  return v.sort((a,b)=>(etMs(b.t)||0)-(etMs(a.t)||0))}
-function buildGifts(){GIFTS.clear();const s=SPOTS.hangout;visitors().slice(0,8).forEach((g,i)=>{const c=new THREE.Color().setHSL(hash(i+g.who.length)%1,.6,.6);
+function buildGifts(){GIFTS.clear();const s=SPOTS.hangout;const local=(typeof MEM!=='undefined'?MEM.gifts:[]).filter(g=>!visitors().some(v=>v.left===g.item)).map(g=>({who:MEM.name||'you',left:g.item}));[...local,...visitors()].slice(0,8).forEach((g,i)=>{const c=new THREE.Color().setHSL(hash(i+g.who.length)%1,.6,.6);
  const o=new THREE.Mesh(i%3===0?new THREE.BoxGeometry(.3,.3,.3):i%3===1?lowRock(.18,0,i):new THREE.CylinderGeometry(.12,.12,.32,6),new THREE.MeshLambertMaterial({color:c,flatShading:true}));
  o.position.set(s.x-.1+(i%4)*.48,s.y+(i<4?1.2:1.9),s.z-2.4);GIFTS.add(o)})}
 
@@ -568,9 +588,9 @@ const monoEl=$('mono');let MONO='';function setMono(t){if(!t)return;MONO=t;monoE
 function areaLine(area){const d=(ST?.diary||[]).filter(x=>x.area===area);return d.length?d[d.length-1].line:null}
 
 // ================= status bubble, toast =================
-const ACTTXT={grab:'is snagging fruit with his tail',hang:'is hanging by his tail, arms crossed',show:'is putting on a tail show',rest:'is napping in the hammock',sip:'is sipping espresso, second cup balanced on his tail',
+const ACTTXT={make:'is whittling a tiny driftwood monkey (it is him, obviously)',grab:'is snagging fruit with his tail',hang:'is hanging by his tail, arms crossed',show:'is putting on a tail show',rest:'is napping in the hammock',sip:'is sipping espresso, second cup balanced on his tail',
  look:'is scanning the sea through the telescope',read:'is reading what visitors left him',play:'is playing the arcade with his tail',balance:'is balancing on the tip of his tail',wave:'clocked you. Smug little wave',flip:'is doing a tail-loop backflip'};
-const ACTIC={grab:'🍌',hang:'🌳',show:'⭐',rest:'🌙',sip:'☕',look:'🔭',read:'💬',play:'🕹',balance:'🌀',wave:'👋',flip:'🔄',walk:'🐒'};
+const ACTIC={make:'🪵',grab:'🍌',hang:'🌳',show:'⭐',rest:'🌙',sip:'☕',look:'🔭',read:'💬',play:'🕹',balance:'🌀',wave:'👋',flip:'🔄',walk:'🐒'};
 let STAT='';function setStatus(ic,html){if(html===STAT)return;STAT=html;$('sic').textContent=ic;$('stxt').innerHTML=html}
 let toastT=0;function toast(a,b=''){const t=$('toast');t.innerHTML=esc(a)+(b?`<small>${esc(String(b).slice(0,120))}</small>`:'');t.classList.add('on');clearTimeout(toastT);toastT=setTimeout(()=>t.classList.remove('on'),3600)}
 
@@ -578,32 +598,40 @@ let toastT=0;function toast(a,b=''){const t=$('toast');t.innerHTML=esc(a)+(b?`<s
 let CUR_SHEET='diary';
 const issueURL=(title,body)=>`https://github.com/${REPO}/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
 const LS={get:(k,d)=>{try{return JSON.parse(localStorage.getItem(k))??d}catch(e){return d}},set:(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
-const GIFTOPTS=['🍌 a banana','☕ espresso beans','🪵 a thicker branch','💡 a neon pole','📼 a mixtape','🖍 a drawing','🪀 a yo-yo for his tail'];
 function openSheet(k){CUR_SHEET=k;$('sheet').classList.add('on');$('menu').classList.remove('on');document.querySelectorAll('#tabs button[data-s]').forEach(b=>b.classList.toggle('on',b.dataset.s===k));
- const b=$('sbody'),s=ST||FALLBACK,me=LS.get('hookName','');
+ const b=$('sbody'),s=ST||FALLBACK,me=MEM.name||'';
  if(k==='diary'){const d=(s.diary||[]).slice().reverse();b.innerHTML=`<h3>Hook's diary · ${d.length} latest entries</h3><ul class="dl">`+(d.map(x=>`<li><time>${fmtET(etMs(x.t))}</time>${x.area&&SPOTS[x.area]?`<span class="tag">${esc(SPOTS[x.area].name)}</span>`:''}${x.trick&&x.trick!=='none'?`<span class="tag">${esc(x.trick.replace('_',' '))}</span>`:''}<br>${esc(x.line)}</li>`).join('')||'<li>Nothing yet.</li>')+`</ul><p class="muted">Written by his brain on every think (every 30 min). Thought now: “${esc(s.inner||s.thought||'')}”</p>`}
  if(k==='wish'){const w=(s.wants||[]).slice().reverse();b.innerHTML=(s.goal&&s.goal.target?`<h3>Saving for</h3><p><b>${esc(s.goal.item||s.goal.name)}</b> — ${esc(s.goal.currency||'$')}${(+s.goal.saved||0).toFixed(2)} of ${esc(s.goal.currency||'$')}${(+s.goal.target).toFixed(2)}</p><div class="nd"><div class="tr"><div class="fl" style="width:${clamp((+s.goal.saved||0)/(+s.goal.target)*100,0,100)}%;background:var(--ok)"></div></div></div>`:'')+
   `<h3>He keeps asking for · ${w.length}</h3><ul class="dl wl">`+(w.map(x=>`<li class="${x.status==='done'?'done':''}"><i class="dot"></i><span>${esc(x.item)}<br><span class="muted">${esc(x.status||'waiting')} · added ${esc(x.added||'')}${x.from?` · idea from ${esc(x.from)}`:''}</span></span></li>`).join('')||'<li>Nothing. Suspicious.</li>')+`</ul><p class="muted">Nothing gets bought automatically. Michael decides.</p>`}
- if(k==='leave'||k==='talk'){const v=visitors();const mine=LS.get('hookLeft',[]);
+ if(k==='leave'||k==='talk'){const v=visitors();const mine=MEM.gifts;
   b.innerHTML=`<div class="form"><label>Your name (he remembers who left what)</label><input id="fname" maxlength="32" value="${esc(me)}" placeholder="e.g. Dazai">`+
   (k==='leave'?`<label>Leave him</label><div class="gifts" id="gopts">${GIFTOPTS.map((g,i)=>`<button data-g="${esc(g)}" class="${i?'':'on'}">${esc(g)}</button>`).join('')}</div><label>Or something else</label><input id="fother" maxlength="60" placeholder="type a thing">`:'')+
   `<label>${k==='leave'?'Note with it (optional)':'Say something to Hook'}</label><textarea id="fmsg" maxlength="400" placeholder="${k==='leave'?'You the goat':'Which trick is your best?'}"></textarea>`+
-  `<button class="go" id="fgo">${k==='leave'?'Leave it on his shelf':'Send to Hook'} →</button><p class="muted">Opens a GitHub issue (free account). His sorter reads up to 5 a day; he answers on his next think, here and in his diary. No links, no spam.</p></div>`+
+  `<button class="go" id="fgo">${k==='leave'?'Leave it on his shelf':'Send to Hook'} →</button><p class="muted">One click, no account. He reacts right now; it reaches his brain in a batch and he answers properly on a later think, here and in his diary (his sorter reads up to 5 notes a day). No links, no spam.</p></div>`+
   `<h3>He remembers</h3><ul class="dl">${v.slice(0,8).map(x=>`<li><b>${esc(x.who)}</b> left ${esc(x.left)}${x.note?`: “${esc(x.note)}”`:''}${x.reply?`<br><span class="muted">Hook: ${esc(x.reply)}</span>`:''}</li>`).join('')||'<li class="muted">Nobody yet. That is why Company is high.</li>'}</ul>`+
-  (mine.length?`<h3>You sent from this device</h3><ul class="dl">${mine.slice(-5).reverse().map(x=>`<li>${esc(x.left)} <span class="muted">· ${fmtET(x.t)} · waiting for his next think</span></li>`).join('')}</ul>`:'');
+  (mine.length?`<h3>You left him (this device)</h3><ul class="dl">${mine.slice(-5).reverse().map(x=>`<li>${esc(x.item)} <span class="muted">· ${fmtET(x.t)}</span></li>`).join('')}</ul>`:'');
   b.querySelectorAll('#gopts button').forEach(x=>x.onclick=()=>{b.querySelectorAll('#gopts button').forEach(y=>y.classList.remove('on'));x.classList.add('on')});
-  $('fgo').onclick=()=>{const name=$('fname').value.trim()||'anon';LS.set('hookName',name);const msg=$('fmsg').value.trim();
-   if(k==='leave'){const item=($('fother').value.trim()||b.querySelector('#gopts .on')?.dataset.g||'a gift').replace(/^\W+\s*/,'');
-    mine.push({left:item,t:Date.now()});LS.set('hookLeft',mine);open(issueURL(`Gift for Hook: ${item} (from ${name})`,`From: ${name}\nLeft: ${item}\n\n${msg||'Hey Hook,'}`),'_blank','noopener')}
-   else{if(!msg){$('fmsg').focus();return}open(issueURL(`Talk to Hook (from ${name})`,`From: ${name}\nTalk:\n\n${msg}`),'_blank','noopener')}
-   toast('Sent his way','He reads it on his next think');openSheet(k)}}
+  $('fgo').onclick=()=>{const name=$('fname').value.trim().replace(/[^\w .\-]/g,'').slice(0,32);if(name)MEM.name=name;saveMem();const msg=$('fmsg').value.trim();
+   if(k==='leave'){const item=($('fother').value.trim()||b.querySelector('#gopts .on')?.dataset.g||'a gift').replace(/^[^\w]+\s*/u,'').slice(0,60);
+    $('sheet').classList.remove('on');guest('gift',{item,msg})}
+   else{if(!msg){$('fmsg').focus();return}$('sheet').classList.remove('on');guest('talk',{msg})}}}
+ if(k==='you')youSheet(b);
  if(k==='on'){const h=etHour(),mins=Math.round((60-(h%1)*60)%60);const nextThink=LAST_THINK?LAST_THINK+30*6e4:null;const stale=LAST_THINK&&Date.now()-LAST_THINK>75*6e4;const found=LS.get('hookFound',[]);
   b.innerHTML=`<h3>Right now</h3><p>${esc($('stxt').textContent)}<br><span class="muted">${esc($('hstate').textContent)} · ${esc($('hmood').textContent)}</span></p>`+
   `<h3>Schedule (Eastern Time)</h3><ul class="dl"><li><b>Tail show</b> at The Tail Stage, every hour on the hour for 4 minutes · next in ${mins||60} min</li>`+
   `<li><b>Brain think</b> every 30 min · last ${fmtET(LAST_THINK)}${stale?' · <span style="color:#ffb347">overdue: his brain is offline, the island is running on autopilot</span>':nextThink?` · next around ${fmtClock(nextThink)}`:''}</li>`+
   `<li><b>Day and night</b> follow real ET time: sunrise around 6:40 AM, sunset around 4:55 PM (approx.). Lanterns and fireflies come out at night</li>`+
-  (s.whats_on||[]).map(x=>`<li><b>${esc(x.title||x.text)}</b>${x.t?` · ${fmtET(etMs(x.t))}`:''}${x.title&&x.text?` · ${esc(x.text)}`:''}</li>`).join('')+`</ul>`+
-  `<h3>Spots on the island · you found ${found.length}/${Object.keys(SPOTS).length}</h3><ul class="dl">${Object.values(SPOTS).map(x=>found.includes(x.key)?`<li><b>${esc(x.name)}</b> <span class="tag">${esc(x.need)}</span><br><span class="muted">${esc(x.desc)}</span></li>`:`<li class="muted">??? — play as Hook and walk there to discover it</li>`).join('')}</ul>`}}
+  (s.guests&&s.guests.visitors_24h?`<li><b>Guests</b> · ${+s.guests.visitors_24h} dropped by in the last day (as of his last think)</li>`:'')+(s.whats_on||[]).map(x=>`<li><b>${esc(x.title||x.text)}</b>${x.t?` · ${fmtET(etMs(x.t))}`:''}${x.title&&x.text?` · ${esc(x.text)}`:''}</li>`).join('')+`</ul>`+
+  `<h3>Spots on the island · you found ${found.length}/${Object.keys(SPOTS).length}</h3><ul class="dl">${Object.values(SPOTS).map(x=>found.includes(x.key)?`<li><b>${esc(x.name)}</b> <span class="tag">${esc(x.need)}</span><br><span class="muted">${esc(x.desc)}</span></li>`:`<li class="muted">??? — he hasn't shown you this spot yet</li>`).join('')}</ul>`}}
+function youSheet(b){const q=LS.get('hookQueue',[]),sent=LS.get('hookSent',[]),n=MEM.n||{};
+ b.innerHTML=`<h3>What Hook remembers about you</h3><p>${MEM.name?`He calls you <b>${esc(MEM.name)}</b>.`:'He does not know your name yet.'} Visit #${MEM.visits} · first met ${fmtET(MEM.first)} · ${esc(affWord(MEM.aff||0))}.${MEM.fav?` His favourite thing from you: ${esc(MEM.fav)}.`:''}</p>`+
+ `<div class="form"><label>What should he call you?</label><input id="yname" maxlength="32" value="${esc(MEM.name||'')}" placeholder="e.g. Dazai"><button class="go" id="ygo">Save name</button></div>`+
+ `<h3>You and him</h3><p class="muted">${Object.entries(n).map(([k,v])=>`${esc(KCOUNT[k]||k)} ×${v}`).join(' · ')||'Nothing yet. Try saying hi.'}</p>`+
+ `<ul class="dl">${(MEM.log||[]).slice(-6).reverse().map(x=>`<li><time>${fmtET(x.t)}</time> you ${esc(KLAB[x.k]||x.k)} ${esc(x.item||'')} · <span class="muted">${esc(x.r)}</span><br>Hook: ${esc(x.line)}</li>`).join('')}</ul>`+
+ `<h3>Reaching his brain</h3><p class="muted">${q.length} waiting to send · ${sent.length} sent from this device. They go in batches, no login, and his brain takes them in on a later think (every 30 min). His quick reactions here are the island's; his real answers to notes appear under “He remembers”.</p>`+
+ `<button class="go" id="yforget" style="background:rgba(255,255,255,.1);color:var(--ink)">Make him forget me (this device)</button>`;
+ $('ygo').onclick=()=>{MEM.name=$('yname').value.trim().replace(/[^\w .\-]/g,'').slice(0,32);saveMem();toast('Saved',MEM.name?`He'll call you ${MEM.name}`:'');youSheet(b)};
+ $('yforget').onclick=()=>{['hookMem','hookName','hookLeft','hookQueue','hookSent'].forEach(k=>{try{localStorage.removeItem(k)}catch(e){}});toast('Forgotten','Reload and he meets you fresh')}}
 $('actbtn').onclick=e=>{e.stopPropagation();$('menu').classList.toggle('on')};
 document.querySelectorAll('#menu button').forEach(b=>b.onclick=()=>openSheet(b.dataset.s));
 document.querySelectorAll('#tabs button[data-s]').forEach(b=>b.onclick=()=>openSheet(b.dataset.s));
@@ -611,38 +639,45 @@ $('x').onclick=()=>$('sheet').classList.remove('on');$('sheet').onclick=e=>{if(e
 $('sheet').addEventListener('keydown',e=>e.stopPropagation());
 $('needs').onclick=()=>{if(SMALL)$('needs').classList.toggle('min')};
 
-// ================= Hook's body: autonomy (AI) + play-as-Hook controller =================
-let MODE=Q.get('play')?'play':'auto',lastInput=0,DOING=null,nightK=0;
-const C={vy:0,ground:true,yaw:0,phase:0,speed:0,anim:'idle',t:0,extra:null,trick:null,trickT:0,hangBar:null};
-const AI={phase:'decide',spot:null,act:null,timer:0,stuck:0,lastPos:V(),lastSpot:null,showHour:-1,greeted:false};
+// ================= Hook's body: fully autonomous. Nobody drives him; visitors are guests. =================
+let DOING=null,nightK=0,BOOTED=false;
+const C={vy:0,ground:true,yaw:0,phase:0,speed:0,anim:'idle',t:0,extra:null,trick:null,trickT:0,hangBar:null,run:false,targetYaw:null};
+const AI={phase:'decide',spot:null,act:null,timer:0,stuck:0,lastPos:V(),lastSpot:null,showHour:-1,greeted:false,resume:null,idleDur:0,why:''};
 H.position.set(SPOTS.hangout.x,SPOTS.hangout.y,SPOTS.hangout.z+.4);
-function standFor(s,act){const p=V(s.x,0,s.z);let yaw=null,extra=null;
+function standFor(s,act){const p=V(s.x,0,s.z);let yaw=null;
  if((act==='hang')&&s.bar){p.set(s.bar.x,0,s.bar.z+.26);yaw=0}
  else if(act==='rest'&&s.bed){const f=V(Math.sin(s.bedYaw),0,Math.cos(s.bedYaw));p.set(s.bed.x,0,s.bed.z).addScaledVector(f,.1);yaw=s.bedYaw}
  else if(act==='sip'){p.set(s.x+.4,0,s.z+.45);yaw=Math.PI}
  else if(act==='look'&&s.scope){p.set(s.scope.x-.5,0,s.scope.z-.7);yaw=Math.atan2(s.x+15,s.z-13)+Math.PI*.9}
  else if(act==='read'){p.set(s.x-2,0,s.z-.4);yaw=Math.PI}
+ else if(act==='make'){p.set(s.x+1.2,0,s.z-.1);yaw=Math.atan2(1,-1.1)}
  else if(act==='play'){p.set(s.x-.1,0,s.z);yaw=Math.PI/2}
  else if(act==='balance'&&s.rock){p.set(s.rock.x,0,s.rock.z)}
  else if(act==='grab'){yaw=Math.atan2(FRUIT_TREE.x-s.x,FRUIT_TREE.z-s.z)}
  else if(act==='show'){p.set(s.x,0,s.z);yaw=0}
  return{p,yaw}}
 const TRICK2ACT={hang:'hang',backflip:'show',pogo:'balance',tail_grab:'grab'};
+const pick1=a=>a[Math.floor(Math.random()*a.length)];
+const sleepy=()=>{const h=etHour();return h>=23.5||h<6.2};
+const asleep=()=>AI.phase==='do'&&DOING&&DOING.act==='rest';
 function aiDecide(){const h=etHour(),hr=Math.floor(h);let spot=null,act=null,why='';
- if(!AI.greeted&&LS.get('hookName','')){AI.greeted=true;const me=LS.get('hookName',''),mem=visitors().find(v=>v.who.toLowerCase()===me.toLowerCase());
-  startDo({key:'here',name:'here',need:'company'},'wave',4,mem?`Oh. ${me}. You left me ${mem.left}. I remember.`:`${me}. Back again. Can't stay away from the tail.`);return}
- if((h%1)*60<4&&AI.showHour!==hr){AI.showHour=hr;spot=SPOTS.tail_stage;act='show';why='the hourly tail show'}
+ if((h%1)*60<4&&AI.showHour!==hr&&!sleepy()){AI.showHour=hr;spot=SPOTS.tail_stage;act='show';why='the hourly tail show'}
  else if(PENDING_AREA){const p=PENDING_AREA;PENDING_AREA=null;spot=SPOTS[p.area];act=(p.trick&&TRICK2ACT[p.trick])||spot.act;if(act==='hang'&&!spot.bar)act='balance';why='his brain picked it'}
- else{let top=null;for(const k of NK)if(!top||need[k]>need[top])top=k;
-  if(need[top]>=40){const n=NEEDS.find(x=>x[0]===top);const opts=n[4].filter(k=>k!==AI.lastSpot);spot=SPOTS[opts[Math.floor(Math.random()*opts.length)]||n[4][0]];act=spot.act;why=`${n[1].toLowerCase()}: ${lvl(need[top])}`}
-  else{const ks=Object.keys(SPOTS).filter(k=>k!==AI.lastSpot);spot=SPOTS[ks[Math.floor(Math.random()*ks.length)]];act=spot.act;why='just wandering'}}
+ else if(sleepy()&&need.rest>20){spot=SPOTS.hammock;act='rest';why="it's the middle of the night"}
+ else{let top=null;for(const k of NK)if(!top||need[k]>need[top])top=k;const d=dials();
+  if(need[top]>=40){const n=NEEDS.find(x=>x[0]===top);const opts=n[4].filter(k=>k!==AI.lastSpot);spot=SPOTS[pick1(opts.length?opts:n[4])];act=spot.act;why=`${n[1].toLowerCase()}: ${lvl(need[top])}`;
+   if((top==='curiosity'||top==='showoff')&&Math.random()<.3){spot=SPOTS.hangout;act='make';why='the urge to make something'}}
+  else if(Math.random()<(d.energy<-.33?.6:.35)){AI.phase='idle';AI.idleDur=5+Math.random()*6;AI.timer=0;C.anim=Math.random()<.5?'sit':'idle';C.t=0;C.speed=0;
+   setStatus(C.anim==='sit'?'🪨':'🐒',C.anim==='sit'?'Hook sat down. Doing nothing. Professionally.':'Hook is just standing there, looking cool. On purpose.');setIcon(null);return}
+  else{const ks=Object.keys(SPOTS).filter(k=>k!==AI.lastSpot);spot=SPOTS[pick1(ks)];act=spot.act;why='just wandering'}}
  AI.spot=spot;AI.act=act;AI.why=why;AI.phase='walk';AI.stuck=0;AI.lastPos.copy(H.position);AI.timer=0;
  setStatus('🐒',`Hook is heading to <b>${esc(spot.name)}</b> · ${esc(why)}`);setIcon(spot.need)}
-function startDo(spot,act,dur,line){DOING={spot,act,need:spot.need,rate:(act==='wave'?0:3.2)*(spot.need==='company'?.6:1),dur,t:0};AI.phase='do';AI.lastSpot=spot.key;
- setStatus(ACTIC[act]||'🐒',`Hook ${ACTTXT[act]||'is doing his thing'}${spot.name&&spot.key!=='here'?` at <b>${esc(spot.name)}</b>`:''}`);setIcon(spot.need);
+function discover(s){if(!s||!SPOTS[s.key])return;const f=LS.get('hookFound',[]);if(f.includes(s.key))return;f.push(s.key);LS.set('hookFound',f);if(BOOTED&&f.length>1&&!sayEl.classList.contains('on'))toast(`Hook showed you ${s.name} (${f.length}/${Object.keys(SPOTS).length})`,s.desc)}
+function startDo(spot,act,dur,line){DOING={spot,act,need:act==='make'?'curiosity':spot.need,rate:(act==='wave'?0:3.2)*(spot.need==='company'?.6:1),dur,t:0};AI.phase='do';AI.lastSpot=spot.key;discover(spot);
+ setStatus(ACTIC[act]||'🐒',`Hook ${ACTTXT[act]||'is doing his thing'}${spot.name&&spot.key!=='here'?` at <b>${esc(spot.name)}</b>`:''}`);setIcon(act==='rest'?'rest':spot.need);
  setMono(line||areaLine(spot.key)||ST?.inner||ST?.thought);C.t=0}
 const _d=V(),_push=V();
-function steer(target,dt,run){_d.set(target.x-H.position.x,0,target.z-H.position.z);const dist=_d.length();if(dist<.25)return 0;_d.normalize();
+function steer(target,dt){_d.set(target.x-H.position.x,0,target.z-H.position.z);const dist=_d.length();if(dist<.25)return 0;_d.normalize();
  _push.set(0,0,0);for(const c of COLS){const dx=H.position.x-c.x,dz=H.position.z-c.z,dd=Math.hypot(dx,dz),rr=c.r+.55;if(dd<rr+.9&&dd>1e-3){const k=(rr+.9-dd)/(rr+.9);_push.x+=dx/dd*k*1.6;_push.z+=dz/dd*k*1.6;_push.x+=-dz/dd*k*.8;_push.z+=dx/dd*k*.8}}
  _d.add(_push).normalize();return dist}
 function moveHook(dir,speed,dt){const want=Math.atan2(dir.x,dir.z);let dy=want-C.yaw;dy=Math.atan2(Math.sin(dy),Math.cos(dy));C.yaw+=dy*Math.min(1,dt*10);
@@ -651,61 +686,156 @@ function moveHook(dir,speed,dt){const want=Math.atan2(dir.x,dir.z);let dy=want-C
  const blocked=(x,z)=>{for(const c of COLS)if(Math.hypot(x-c.x,z-c.z)<c.r+.35)return true;return false};let fx=nx,fz=nz;
  if(blocked(fx,fz)){if(!blocked(nx,H.position.z))fz=H.position.z;else if(!blocked(H.position.x,nz))fx=H.position.x;else return false}
  H.position.x=fx;H.position.z=fz;C.phase+=C.speed*dt*2.3;return true}
-const SAFE=V();function physics(dt){const gy=groundY(H.position.x,H.position.z);if(C.ground&&gy>SEA-.2)SAFE.copy(H.position);if(gy<SEA-.6&&H.position.y<SEA-.2){H.position.copy(SAFE);C.vy=0;C.ground=true;toast('Splash','Hook does not swim. Back to dry land.');return}if(!C.ground||H.position.y>gy+.02){C.vy-=24*dt;H.position.y+=C.vy*dt;if(H.position.y<=gy){H.position.y=gy;C.vy=0;C.ground=true}else C.ground=false}else{H.position.y=lerp(H.position.y,gy,Math.min(1,dt*14));C.vy=0;C.ground=true}}
-function aiUpdate(dt){if(AI.phase==='decide'){aiDecide();return}
+const SAFE=V();function physics(dt){const gy=groundY(H.position.x,H.position.z);if(C.ground&&gy>SEA-.2)SAFE.copy(H.position);if(gy<SEA-.6&&H.position.y<SEA-.2){H.position.copy(SAFE);C.vy=0;C.ground=true;return}if(!C.ground||H.position.y>gy+.02){C.vy-=24*dt;H.position.y+=C.vy*dt;if(H.position.y<=gy){H.position.y=gy;C.vy=0;C.ground=true}else C.ground=false}else{H.position.y=lerp(H.position.y,gy,Math.min(1,dt*14));C.vy=0;C.ground=true}}
+function turnTo(dt,k=5){if(C.targetYaw==null)return;let dy=C.targetYaw-C.yaw;dy=Math.atan2(Math.sin(dy),Math.cos(dy));C.yaw+=dy*Math.min(1,dt*k)}
+function aiUpdate(dt){if(!AI.greeted&&BOOTED&&AI.phase!=='react'){AI.greeted=true;greetVisitor();return}
+ if(AI.phase==='decide'){aiDecide();return}
+ if(AI.phase==='react'){REACT.t+=dt;C.anim=REACT.act;C.speed=lerp(C.speed,0,Math.min(1,dt*8));turnTo(dt,7);
+  if(REACT.t>REACT.dur){const r=AI.resume;AI.resume=null;REACT=null;EMO=null;
+   if(r&&r.left>3){const st=standFor(r.spot,r.act);if(Math.hypot(st.p.x-H.position.x,st.p.z-H.position.z)<1.5){H.position.x=st.p.x;H.position.z=st.p.z;C.targetYaw=st.yaw;startDo(r.spot,r.act,r.left);return}
+    AI.spot=r.spot;AI.act=r.act;AI.why='back to what he was doing';AI.phase='walk';AI.timer=0;setStatus('🐒',`Hook is going back to <b>${esc(r.spot.name)}</b>`);return}
+   AI.phase='decide';C.anim='idle'}return}
+ if(AI.phase==='idle'){AI.timer+=dt;C.speed=lerp(C.speed,0,Math.min(1,dt*8));if(AI.timer>AI.idleDur){AI.phase='decide';C.anim='idle'}return}
  if(AI.phase==='walk'){const s=AI.spot,st=standFor(s,AI.act);const far=Math.hypot(st.p.x-H.position.x,st.p.z-H.position.z);const dist=steer(st.p,dt);
-  if(dist<.3){H.position.x=st.p.x;H.position.z=st.p.z;if(st.yaw!=null)C.targetYaw=st.yaw;else C.targetYaw=null;startDo(s,AI.act,AI.act==='show'?14:10+Math.random()*6);C.speed=0;return}
-  const ok=moveHook(_d,far>12?5.6:3.1,dt);C.anim='walk';C.run=far>12;AI.timer+=dt;
+  if(dist<.3){H.position.x=st.p.x;H.position.z=st.p.z;C.targetYaw=st.yaw;const night=AI.act==='rest'&&sleepy();startDo(s,AI.act,AI.act==='show'?14:night?45+Math.random()*30:AI.act==='make'?14:10+Math.random()*6);C.speed=0;return}
+  const d=dials(),pace=d.energy>.33?1.15:d.energy<-.33?.8:1;const ok=moveHook(_d,(far>12?5.6:3.1)*pace,dt);C.anim='walk';C.run=far>12;AI.timer+=dt;
   if(AI.timer>1.5){if(H.position.distanceTo(AI.lastPos)<.6){AI.stuck++;if(C.ground){C.vy=8;C.ground=false}if(AI.stuck>3){H.position.x=lerp(H.position.x,st.p.x,.5);H.position.z=lerp(H.position.z,st.p.z,.5);H.position.y=groundY(H.position.x,H.position.z)}}AI.timer=0;AI.lastPos.copy(H.position)}
   if(!ok&&C.ground&&Math.random()<.02){C.vy=7;C.ground=false}return}
- if(AI.phase==='do'){DOING.t+=dt;C.anim=DOING.act;if(C.targetYaw!=null){let dy=C.targetYaw-C.yaw;dy=Math.atan2(Math.sin(dy),Math.cos(dy));C.yaw+=dy*Math.min(1,dt*5)}
+ if(AI.phase==='do'){DOING.t+=dt;C.anim=DOING.act;turnTo(dt);
   if(DOING.t>DOING.dur){DOING=null;AI.phase='decide';C.anim='idle'}}}
-// --- player input
-const keys={};
-addEventListener('keydown',e=>{if(e.target.tagName==='INPUT'||e.target.tagName==='TEXTAREA')return;keys[e.code]=1;
- if(/Arrow|Key[WASD]|Space/.test(e.code)){e.preventDefault();takeControl()}
- if(e.code==='Space')jump();if(e.code==='Digit1')trick('hang');if(e.code==='Digit2')trick('flip');if(e.code==='Digit3')trick('balance');if(e.code==='Digit4')trick('grab');if(e.code==='KeyE')interact();
- if(e.code==='Escape'){$('sheet').classList.remove('on');$('menu').classList.remove('on')}});
-addEventListener('keyup',e=>keys[e.code]=0);
-function takeControl(){lastInput=performance.now();if(MODE!=='play'){MODE='play';DOING=null;AI.phase='decide';C.trick=null;$('mode').textContent='⏸ Let Hook be';setIcon(null);setStatus('🎮','You are driving Hook. He is tolerating it.')}}
-function jump(){takeControl();if(C.trick==='hang'){C.trick=null;C.ground=false;C.vy=4;return}if(C.ground){C.vy=8.6;C.ground=false;C.trick=null}}
-function nearBar(){for(const s of[SPOTS.tail_stage,SPOTS.hang_tree])if(s.bar&&Math.hypot(H.position.x-s.bar.x,H.position.z-s.bar.z)<3)return s;return null}
-function trick(k){takeControl();if(k==='hang'){const s=nearBar();if(s){H.position.set(s.bar.x,groundY(s.bar.x,s.bar.z),s.bar.z+.26);C.hangBar=s;C.trick='hang';C.trickT=0;setStatus('🌳','Hook is hanging by his tail. <b>Space</b> to drop');return}k='balance';toast('No branch here','Hang works at The Hang Tree or the Tail Stage bar. Balancing instead.')}
- C.trick=k;C.trickT=0;setStatus(ACTIC[k]||'🐒',`Hook ${ACTTXT[k]||''}`)}
-function nearestSpot(){let b=null,bd=1e9;for(const s of Object.values(SPOTS)){const d=Math.hypot(H.position.x-s.x,H.position.z-s.z);if(d<s.r+1&&d<bd){bd=d;b=s}}return b}
-function interact(){takeControl();const s=nearestSpot();if(!s){toast('Nothing to do here','Walk into a spot (see the map) and press E');return}
- const st=standFor(s,s.act);H.position.x=st.p.x;H.position.z=st.p.z;H.position.y=groundY(st.p.x,st.p.z);if(st.yaw!=null)C.yaw=st.yaw;
- C.trick='spot';C.trickT=0;DOING={spot:s,act:s.act,need:s.need,rate:3.2,dur:12,t:0};setStatus(ACTIC[s.act]||'🐒',`Hook ${ACTTXT[s.act]} at <b>${esc(s.name)}</b>`);setIcon(s.need);setMono(areaLine(s.key)||ST?.thought)}
-// joystick + touch buttons
-const joy={x:0,y:0,id:null},jel=$('joy'),jk=jel.firstElementChild;
-jel.addEventListener('pointerdown',e=>{joy.id=e.pointerId;jel.setPointerCapture(e.pointerId);jm(e);takeControl()});
-jel.addEventListener('pointermove',e=>{if(e.pointerId===joy.id)jm(e)});
-const jend=()=>{joy.id=null;joy.x=joy.y=0;jk.style.transform=''};jel.addEventListener('pointerup',jend);jel.addEventListener('pointercancel',jend);
-function jm(e){const r=jel.getBoundingClientRect(),h=r.width/2;let x=(e.clientX-r.left-h)/(h*.8),y=(e.clientY-r.top-h)/(h*.8);const l=Math.hypot(x,y);if(l>1){x/=l;y/=l}joy.x=x;joy.y=y;jk.style.transform=`translate(${x*h*.6}px,${y*h*.6}px)`;lastInput=performance.now()}
-document.querySelectorAll('#tbtn button').forEach(b=>b.addEventListener('pointerdown',e=>{e.preventDefault();const k=b.dataset.k;if(k==='jump')jump();else if(k==='e')interact();else trick({t1:'hang',t2:'flip',t3:'balance',t4:'grab'}[k])}));
-$('mode').onclick=()=>{if(MODE==='play'){MODE='auto';AI.phase='decide';C.trick=null;DOING=null;$('mode').textContent='▶ Play as Hook'}else takeControl()};
-function playerUpdate(dt){let f=(keys.KeyW||keys.ArrowUp?1:0)-(keys.KeyS||keys.ArrowDown?1:0)-joy.y,s=(keys.KeyD||keys.ArrowRight?1:0)-(keys.KeyA||keys.ArrowLeft?1:0)+joy.x;
- const mag=Math.min(1,Math.hypot(f,s));
- if(mag>.08){lastInput=performance.now();if(C.trick&&C.trick!=='flip'){C.trick=null;DOING=null;setStatus('🎮','You are driving Hook. He is tolerating it.');setIcon(null)}
-  const fw=V(Math.sin(CAM.yaw+Math.PI),0,Math.cos(CAM.yaw+Math.PI)),rt=V(-fw.z,0,fw.x);const dir=fw.multiplyScalar(f).addScaledVector(rt,s).normalize();
-  const run=keys.ShiftLeft||keys.ShiftRight||mag>.92&&COARSE;if(C.trick!=='flip')moveHook(dir,(run?6:3.3)*Math.max(.35,mag),dt);C.run=run}else C.speed=lerp(C.speed,0,Math.min(1,dt*10));
- if(C.trick){C.trickT+=dt;C.anim=C.trick==='spot'?DOING.act:C.trick;if(C.trick==='spot'&&DOING){DOING.t+=dt;if(DOING.t>DOING.dur){DOING=null;C.trick=null}}
-  if(C.trick==='flip'&&C.trickT>1.9){C.trick=null}if(C.trick==='grab'&&C.trickT>4.2)C.trick=null}
- else C.anim=!C.ground?'air':C.speed>.4?'walk':'idle';
- if(performance.now()-lastInput>20000){MODE='auto';AI.phase='decide';C.trick=null;DOING=null;$('mode').textContent='▶ Play as Hook';toast('Hook went back to his own plans','Press any move key to drive him again')}
- const sp=nearestSpot();if(sp){const f=LS.get('hookFound',[]);if(!f.includes(sp.key)){f.push(sp.key);LS.set('hookFound',f);toast(`Discovered: ${sp.name} (${f.length}/${Object.keys(SPOTS).length})`,sp.desc)}}}
+
+// ================= guests: visitors interact with Hook (Pino-style), he decides how to react =================
+// Hook's needs are 0 = met .. 100 = pressing. Each interaction relieves a need when he accepts it; he can refuse.
+const VOFF={mood:0,energy:0};let EMO=null,REACT=null;   // visitor-driven mood/energy nudges decay back to the brain's dials
+const GIFTOPTS=['🍌 a banana','☕ espresso beans','🪵 a thicker branch','💡 a neon pole','📼 a mixtape','🖍 a drawing','🪀 a yo-yo for his tail','🌺 a flower'];
+const SNACKS=[['banana','🍌',0xffcf3f],['mango','🥭',0xff9a3d],['berries','🫐',0x5a5fd0],['espresso shot','☕',0x6b3f22]];
+const TOYS=[['yo-yo','🪀',0xff4d7e],['balloon','🎈',0xff3d3d],['puzzle cube','🧩',0x3fc0ff],['paper plane','✈️',0xf2ece4],['shiny shell','🐚',0xffd0e0]];
+// memory of this visitor (this device). Migrates the v3 keys hookName / hookLeft.
+const MEM=(()=>{let m=LS.get('hookMem',null);const now=Date.now();
+ if(!m){m={id:(crypto.randomUUID?crypto.randomUUID():String(Math.random()).slice(2)).slice(0,12),name:LS.get('hookName','')||'',first:now,last:0,prevSeen:0,visits:0,n:{},aff:0,fav:'',lastGift:'',log:[],gifts:(LS.get('hookLeft',[])||[]).map(x=>({item:x.left,t:x.t}))}}
+ m.n=m.n||{};m.log=m.log||[];m.gifts=m.gifts||[];m.prevSeen=m.last||0;if(now-(m.last||0)>30*6e4)m.visits=(m.visits||0)+1;m.last=now;LS.set('hookMem',m);return m})();
+const saveMem=()=>{MEM.last=Date.now();LS.set('hookMem',MEM);if(MEM.name)LS.set('hookName',MEM.name)};
+const affWord=a=>a>.5?'one of his favourites':a>.2?'he likes you':a>-.1?'he is still deciding':'he is wary of you';
+const who=()=>MEM.name||'you';const bare=x=>String(x||'').replace(/^(a|an|the|some)\s+/i,'');const Cap=x=>x?x[0].toUpperCase()+x.slice(1):x;
+let sayT=0;const sayEl=$('say');
+function say(text,emo='💬',ms=5200){$('toast').classList.remove('on');$('sayw').textContent=emo;$('sayt').textContent=text;sayEl.classList.add('on');monoEl.style.opacity=0;clearTimeout(sayT);sayT=setTimeout(()=>{sayEl.classList.remove('on');monoEl.style.opacity=1},ms)}
+function faceCam(){return Math.atan2(cam.position.x-H.position.x,cam.position.z-H.position.z)}
+function react(act,dur,{turn=true,keep=true}={}){
+ if(!keep)AI.resume=null;
+ else if(AI.phase==='do'&&DOING)AI.resume={spot:DOING.spot,act:DOING.act,left:DOING.dur-DOING.t};
+ else if(AI.phase==='walk'&&AI.spot)AI.resume={spot:AI.spot,act:AI.act,left:12};
+ if(DOING&&(DOING.act==='hang'||DOING.act==='rest'||DOING.act==='balance')){C.ground=false;C.vy=2}
+ DOING=null;REACT={act,t:0,dur};AI.phase='react';C.targetYaw=turn?faceCam():C.yaw;C.t=0;C.trick=null}
+// thrown-in item flies from the visitor (camera) to Hook
+const FLY=[];const flyG=new THREE.Group();S.add(flyG);
+function throwIn(color,toy){const m=toy?new THREE.Mesh(new THREE.TorusGeometry(.14,.06,5,8),new THREE.MeshLambertMaterial({color,flatShading:true})):new THREE.Mesh(lowRock(.16,0,3),new THREE.MeshLambertMaterial({color,flatShading:true}));
+ const from=cam.position.clone().lerp(H.position,.15);from.y-=.6;const to=H.position.clone();to.y+=1.6;m.position.copy(from);flyG.add(m);FLY.push({m,from,to,t:0})}
+function flyUpdate(dt){for(let i=FLY.length-1;i>=0;i--){const f=FLY[i];f.t+=dt/.7;const k=Math.min(1,f.t);f.m.position.lerpVectors(f.from,f.to,k);f.m.position.y+=Math.sin(k*Math.PI)*1.2;f.m.rotation.x+=dt*8;if(k>=1){flyG.remove(f.m);FLY.splice(i,1)}}}
+// one table decides the reaction. Returns {ok,act,dur,line,emo,d:{need deltas},mood,energy,aff}
+const RECENT=[];let SULK_UNTIL=0;
+function decide(k,o){const d=dials(),m=d.mood,grumpy=m<-.33,chuffed=m>.33,zz=asleep(),A=MEM.aff||0,nm=MEM.name?MEM.name+', ':'';
+ const R=(ok,act,dur,line,emo,dd={},mood=0,energy=0,aff=0,r)=>({ok,act,dur,line,emo,d:dd,mood,energy,aff,r:r||(ok?'accepted':'refused')});
+ if(k==='hi'){if(zz)return R(1,null,0,'zzz… (his tail waves at you in his sleep)','💤',{company:-2},0,0,.01,'asleep');
+  if(grumpy&&A<.2)return R(1,'huff',2.4,pick1(['Yeah. Hi.','Mm. Hey.','Hi. Busy being annoyed.']),'😒',{company:-6},.03,0,.02);
+  return R(1,'wave',2.6,chuffed?pick1([`Ayy ${nm}hi! Look at the tail. Look at it.`,'Oh hey! Good timing, I was being amazing.']):pick1([`Hey ${nm.replace(', ','')||'you'}.`,'Sup. Toothpick says hi too.']),'👋',{company:-10},.06,.03,.02)}
+ if(k==='pet'){if(zz)return R(1,null,0,'*tail curls around your hand* …zzz','💤',{company:-4,rest:-3},.03,0,.03,'asleep');
+  if(need.company<10)return R(0,'huff',2.2,'Personal space. I just had company.','🙅',{},-.03,0,0);
+  if(grumpy&&A<.25)return R(0,'swat',1.6,pick1(['Hands. Off.','Not in the mood. Tail says no.']),'😾',{},-.06,.05,-.02);
+  return R(1,'happy',2.6,grumpy?'…fine. That is nice. Tell no one.':pick1(['…okay that is nice. Tell no one.','Behind the ears. Yeah. Right there.','Careful, the fur is styled.']),'😌',{company:-14,rest:-4},.15,-.04,.04)}
+ if(k==='poke'){if(zz)return R(1,'startle',1.6,A>.4?`${nm}…I was asleep. Fine. I'm up.`:'HEY. I was asleep.','😠',{rest:8,company:-3},-.25,.25,-.05,'woke him');
+  if(grumpy)return R(0,'huff',2.4,pick1(['Not now.','Poke me again and see what happens.','*ignores you*']),'😤',{},-.08,.06,-.03,'ignored');
+  if(chuffed)return R(1,'flip',1.9,pick1(['Ha! Again and you pay rent.','You want a trick? Fine. Backflip.']),'😆',{showoff:-8,company:-5},.05,.1,.01);
+  return R(1,'startle',1.2,pick1(['What.','Yes? Can I help you?','Rude. Slightly funny. Mostly rude.']),'😐',{company:-4},-.02,.08,-.01)}
+ if(k==='snack'){const it=SNACKS.find(s=>s[0]===o.item)||SNACKS[0],coffee=it[0]==='espresso shot',nk=coffee?'coffee':'snack',v=need[nk];
+  if(zz&&v<60)return R(0,null,0,`He's asleep. You left the ${it[0]} by the hammock.`,'💤',{},0,0,0,'asleep');
+  if(v<(coffee?15:18))return R(0,'huff',2.2,coffee?'Already wired. Save it for later.':pick1([`Full. Put the ${it[0]} on the shelf.`,`Couldn't. Not one more ${it[0]}.`]),'🙅',{},0,0,0);
+  const dd=coffee?{coffee:-45,rest:-6}:{snack:it[0]==='mango'?-35:-28};
+  return R(1,coffee?'sip':'eat',coffee?3.2:3,zz?`*wakes up sniffing* …is that a ${it[0]}?`:grumpy?`…fine. Thanks I guess.`:v>60?`FINALLY. ${it[0][0].toUpperCase()+it[0].slice(1)}. You get it.`:pick1([`Ooh, ${it[0]}. Don't mind if I do.`,`A ${it[0]}? You're alright.`]),it[1],dd,grumpy?.08:.14,coffee?.2:.04,.05)}
+ if(k==='toy'){const it=TOYS.find(s=>s[0]===o.item)||TOYS[0];
+  if(need.curiosity<15)return R(0,'huff',2,`A ${it[0]}? Seen one. Next.`,'🥱',{},-.02,0,0);
+  if(grumpy)return R(1,'inspect',3,`*sniffs the ${it[0]}, tosses it on the shelf*`,'🤨',{curiosity:-12},.03,0,.02);
+  return R(1,'juggle',4,pick1([`A ${it[0]}! Watch this. Tail only.`,`New thing! Okay. Okay okay okay.`]),it[1],{curiosity:-28,showoff:-10},.14,.12,.04)}
+ if(k==='talk'){const t=(o.msg||'').toLowerCase();let line;
+  if(/kill|hate|stupid|idiot|ugly|trash|shut up|dumb/.test(t))return R(0,'huff',2.4,'Rude. Not reading the rest.','😾',{},-.2,.05,-.08,'rude');
+  if(zz)return R(1,null,0,'zzz… (he will read it when he wakes up)','💤',{company:-8},0,0,.02,'asleep');
+  if(/trick|flip|tail/.test(t))line='Best trick? All of them. If you push me: the backflip.';
+  else if(/banana|food|hungry|snack|eat/.test(t))line=need.snack>50?'Funny you say food. I am starving, actually.':'Just ate. Thanks for checking.';
+  else if(/coffee|espresso|caf/.test(t))line='Toothpick Café. One machine, one customer. Me.';
+  else if(/how are|you ok|how's|hows|how r u|you good/.test(t)){let w=null;for(const n of NEEDS)if(need[n[0]]>=TH)w=n;line=`${moodWord(m)[0].toUpperCase()+moodWord(m).slice(1)}. ${w?w[6]:'All good. Obviously.'}`}
+  else if(/love|goat|best|cool|cute|legend/.test(t))line=chuffed?'I know. But thank you.':'Correct. Obviously.';
+  else if(/sleep|tired|nap/.test(t))line=need.rest>50?'Now you mention it… yeah. Hammock soon.':'Sleep is for monkeys without a tail like this.';
+  else if(/\?\s*$/.test(t))line='Good question. I will think about it properly on my next think.';
+  else line=grumpy?'Mm. Noted.':chuffed?'Ha. Okay, I like you.':'Heard you.';
+  return R(1,'read',3.2,line,'💬',{company:-12},.08,0,.03)}
+ if(k==='gift'){const g=o.item||'a gift';return R(1,grumpy?'inspect':'happy',3,grumpy?`Put it there. I'll look at it later. (He looks at it right away.)`:`For me? ${Cap(g)}. Going on the shelf. Front row.`,'🎁',{company:-20,curiosity:-8},.16,.06,.08,'on his shelf')}
+ return R(0,null,0,'…','🐒')}
+const KCOUNT={hi:'hellos',pet:'pets',poke:'pokes',snack:'snacks',toy:'new things',talk:'chats',gift:'gifts'};
+const KLAB={hi:'said hi',pet:'pet him',poke:'poked him',snack:'gave him',toy:'gave him',talk:'said',gift:'left him'};
+function guest(k,o={}){const now=Date.now();
+ if(!BOOTED)return;
+ if(now<SULK_UNTIL){say('He is ignoring you for a minute. Too much.','🙄',2600);return{ok:0,r:'sulking'}}
+ RECENT.push(now);while(RECENT.length&&now-RECENT[0]>45e3)RECENT.shift();
+ if(RECENT.length>8){SULK_UNTIL=now+25e3;RECENT.length=0;VOFF.mood-=.15;MEM.aff=clamp((MEM.aff||0)-.05,-1,1);saveMem();react('huff',2.6,{keep:false});EMO='annoyed';say('Okay. That is a lot. Give me a minute.','😵‍💫');setStatus('😤','Hook needs a minute. Too many pokes.');return{ok:0,r:'overwhelmed'}}
+ const r=decide(k,o);
+ for(const [n,v] of Object.entries(r.d))need[n]=clamp(need[n]+v,0,100);
+ VOFF.mood=clamp(VOFF.mood+r.mood,-1.2,1.2);VOFF.energy=clamp(VOFF.energy+r.energy,-1.2,1.2);MEM.aff=clamp((MEM.aff||0)+r.aff,-1,1);
+ if(k==='snack'&&r.ok)throwIn((SNACKS.find(s=>s[0]===o.item)||SNACKS[0])[2]);
+ if(k==='toy')throwIn((TOYS.find(s=>s[0]===o.item)||TOYS[0])[2],true);
+ if(k==='gift'){MEM.gifts.push({item:o.item,t:now});MEM.gifts=MEM.gifts.slice(-12);MEM.lastGift=o.item;buildGifts()}
+ if(r.act){react(r.act,r.dur,{keep:!(k==='poke'&&asleep())});EMO=r.ok?(r.mood>0?'happy':'surprised'):'annoyed';if(r.act==='eat'||r.act==='inspect'||r.act==='juggle')HELD={k,item:o.item}}
+ say(r.line,r.emo);
+ setStatus(r.emo,`You ${KLAB[k]}${o.item?' '+esc(o.item):k==='talk'?' something':''} · Hook ${esc(r.r)}`);
+ MEM.n[k]=(MEM.n[k]||0)+1;if(k==='snack'&&r.ok){MEM.favC=MEM.favC||{};MEM.favC[o.item]=(MEM.favC[o.item]||0)+1;MEM.fav=Object.entries(MEM.favC).sort((a,b)=>b[1]-a[1])[0][0]}
+ MEM.log.push({k,item:o.item||(o.msg?`“${String(o.msg).slice(0,60)}”`:''),t:now,r:r.r,line:r.line});MEM.log=MEM.log.slice(-15);saveMem();
+ enqueue({k,t:new Date(now).toISOString(),r:r.r,...(o.item?{item:String(o.item).slice(0,60)}:{}),...(o.msg?{msg:String(o.msg).replace(/https?:\/\/\S+|www\.\S+/gi,'[link]').slice(0,280)}:{}),mood:moodWord(m0())});
+ drawNeeds();return r}
+const m0=()=>dials().mood;
+let HELD=null;
+function greetVisitor(){const m=MEM,d=dials(),grumpy=d.mood<-.33,nm=m.name;const brain=nm?visitors().find(v=>v.who.toLowerCase()===nm.toLowerCase()):null;let line,emo='👋';
+ if(asleep()){say(m.visits>1?`zzz… ${nm||'you'}…? zzz`:'zzz… (he is asleep. Say hi quietly.)','💤');return}
+ if(sleepy()&&need.rest>20){setStatus('🌙','Hook is off to bed. Be quiet. Or don\'t.');say(m.visits>1?`${nm||'You'}… again? It's late. Night.`:'A visitor? At this hour? Night.','🌙');return}
+ if(m.visits<=1&&!m.log.length)line=pick1(['New face. Hi. Look, don\'t touch the tail.','Oh. A visitor. Cool. Act natural.']);
+ else{const gap=Date.now()-(m.prevSeen||Date.now()),days=Math.floor(gap/864e5);
+  if(brain&&brain.reply&&!m.heard?.includes(brain.t)){line=`${nm}. Got your ${bare(brain.left)}. ${brain.reply}`;m.heard=[...(m.heard||[]),brain.t].slice(-10);emo='🎁'}
+  else if(gap<3*36e5)line=`${nm||'You'}. Back already? Can't stay away from the tail.`;
+  else if(days<3)line=`${nm||'Hey'}! ${m.lastGift?`Still got the ${bare(m.lastGift)}.`:m.fav?`Bring another ${m.fav}?`:'Missed me. Obviously.'}`;
+  else line=`${nm||'You'}… ${days} days. I counted. Not really. Okay, a bit.`;
+  if(grumpy&&(m.aff||0)<.2){line=`Oh. It's ${nm||'you'}.`;emo='😒'}}
+ saveMem();say(line,emo,6000);react(grumpy&&(m.aff||0)<.2?'huff':'wave',3);
+ setStatus('👋',`Hook noticed you${m.visits>1?` · visit #${m.visits}`:''}`)}
+// ---- send to his brain: batched, no login. ntfy.sh topic (free, no account, CORS open); the PC sorter pulls it on its run.
+const INBOX={kind:Q.get('inbox')||'ntfy',url:'https://ntfy.sh/hook-world-guests-q7k2m9'};
+let flushT=0,SENDING=false;
+function enqueue(ev){const q=LS.get('hookQueue',[]);q.push(ev);LS.set('hookQueue',q.slice(-40));clearTimeout(flushT);flushT=setTimeout(flush,ev.k==='talk'||ev.k==='gift'?2500:12000)}
+async function flush(beacon){if(INBOX.kind==='local'||SENDING)return false;let q=LS.get('hookQueue',[]);if(!q.length)return true;
+ let n=Math.min(q.length,20),body;for(;;){body=JSON.stringify({app:'hook-world',v:4,vid:MEM.id,who:(MEM.name||'').slice(0,32),sent:new Date().toISOString(),ev:q.slice(0,n)});if(body.length<3800||n<=1)break;n--}
+ let ok=false;SENDING=true;
+ try{if(beacon&&navigator.sendBeacon)ok=navigator.sendBeacon(INBOX.url,new Blob([body],{type:'text/plain'}));
+  else{const r=await fetch(INBOX.url,{method:'POST',body,keepalive:true});ok=r.ok}}catch(e){ok=false}
+ SENDING=false;if(ok){q=LS.get('hookQueue',[]);const sent=q.splice(0,n);LS.set('hookQueue',q);LS.set('hookSent',[...LS.get('hookSent',[]),...sent.map(x=>({...x,sentAt:Date.now()}))].slice(-30));if(q.length)setTimeout(flush,1500)}
+ else flushT=setTimeout(flush,60000);return ok}
+addEventListener('visibilitychange',()=>{if(document.visibilityState==='hidden')flush(true)});
+addEventListener('keydown',e=>{if(e.code==='Escape'){$('sheet').classList.remove('on');$('menu').classList.remove('on');$('pick').classList.remove('on')}});
+// guest bar
+const PICKS={snack:SNACKS,toy:TOYS};
+function openPick(k){const p=$('pick');if(p.classList.contains('on')&&p.dataset.k===k){p.classList.remove('on');return}p.dataset.k=k;
+ p.innerHTML=`<small>${k==='snack'?'Give him a snack':'Give him something new'}</small>`+PICKS[k].map(([n,e])=>`<button data-i="${esc(n)}">${e} ${esc(n)}</button>`).join('');p.classList.add('on');
+ p.querySelectorAll('button').forEach(b=>b.onclick=()=>{p.classList.remove('on');guest(k,{item:b.dataset.i})})}
+document.querySelectorAll('#guest button').forEach(b=>b.onclick=e=>{e.stopPropagation();const k=b.dataset.g;
+ if(k==='snack'||k==='toy')return openPick(k);$('pick').classList.remove('on');
+ if(k==='talk'||k==='gift')return openSheet(k==='gift'?'leave':'talk');guest(k)});
 
 // ================= camera: third-person orbit, drag / wheel / pinch =================
 const CAM={yaw:Math.PI*1.15,pitch:.32,dist:SMALL?9.5:8.5,focus:V(),drag:0};
 {const v=(Q.get('view')||'').split(',').map(Number);if(v.length===3&&v.every(x=>!isNaN(x))){CAM.yaw=v[0];CAM.pitch=v[1];CAM.dist=v[2]}}
 const ptrs=new Map();let pinch0=0;
-cv.addEventListener('pointerdown',e=>{cv.setPointerCapture(e.pointerId);ptrs.set(e.pointerId,{x:e.clientX,y:e.clientY});$('menu').classList.remove('on');if(ptrs.size===2){const [a,b]=[...ptrs.values()];pinch0=Math.hypot(a.x-b.x,a.y-b.y)}});
+let tap0=null;const ray=new THREE.Raycaster(),_ndc=new THREE.Vector2();
+cv.addEventListener('pointerdown',e=>{cv.setPointerCapture(e.pointerId);ptrs.set(e.pointerId,{x:e.clientX,y:e.clientY});tap0=ptrs.size===1?{x:e.clientX,y:e.clientY,t:performance.now()}:null;$('pick').classList.remove('on');$('menu').classList.remove('on');if(ptrs.size===2){const [a,b]=[...ptrs.values()];pinch0=Math.hypot(a.x-b.x,a.y-b.y)}});
 cv.addEventListener('pointermove',e=>{const p=ptrs.get(e.pointerId);if(!p)return;if(ptrs.size===2){ptrs.set(e.pointerId,{x:e.clientX,y:e.clientY});const [a,b]=[...ptrs.values()];const d=Math.hypot(a.x-b.x,a.y-b.y);if(pinch0){CAM.dist=clamp(CAM.dist*pinch0/d,3.5,26);pinch0=d}return}
  CAM.yaw-=(e.clientX-p.x)*.006;CAM.pitch=clamp(CAM.pitch+(e.clientY-p.y)*.004,-.05,1.25);p.x=e.clientX;p.y=e.clientY;CAM.drag=performance.now()});
-const pend=e=>{ptrs.delete(e.pointerId);pinch0=0};cv.addEventListener('pointerup',pend);cv.addEventListener('pointercancel',pend);
+const pend=e=>{ptrs.delete(e.pointerId);pinch0=0;if(e.type==='pointerup'&&tap0&&Math.hypot(e.clientX-tap0.x,e.clientY-tap0.y)<8&&performance.now()-tap0.t<400){_ndc.set(e.clientX/innerWidth*2-1,-(e.clientY/innerHeight)*2+1);ray.setFromCamera(_ndc,cam);if(ray.intersectObject(H,true).length)guest('poke')}tap0=null};cv.addEventListener('pointerup',pend);cv.addEventListener('pointercancel',pend);
 cv.addEventListener('wheel',e=>{e.preventDefault();CAM.dist=clamp(CAM.dist*(1+Math.sign(e.deltaY)*.1),3.5,26)},{passive:false});
 function camUpdate(dt){const f=H.position.clone();f.y+=1.4+(C.anim==='hang'?1.2:0)+(C.anim==='rest'?-.4:0);CAM.focus.lerp(f,Math.min(1,dt*6));
- if(MODE==='play'&&C.speed>.5&&performance.now()-CAM.drag>1500){let dy=(C.yaw+Math.PI)-CAM.yaw;dy=Math.atan2(Math.sin(dy),Math.cos(dy));CAM.yaw+=dy*Math.min(1,dt*1.6)}
  const cp=Math.cos(CAM.pitch);cam.position.set(CAM.focus.x+Math.sin(CAM.yaw)*cp*CAM.dist,CAM.focus.y+Math.sin(CAM.pitch)*CAM.dist,CAM.focus.z+Math.cos(CAM.yaw)*cp*CAM.dist);
  {const dir=V().subVectors(cam.position,CAM.focus),L=dir.length();dir.divideScalar(L);let best=L;for(let i=1;i<=14;i++){const d=L*i/14,x=CAM.focus.x+dir.x*d,z=CAM.focus.z+dir.z*d,y=CAM.focus.y+dir.y*d;
   let hit=y<groundY(x,z)+.2;if(!hit)for(const c of COLS){if(c.r>=1&&y<4&&Math.hypot(x-c.x,z-c.z)<c.r+.3){hit=true;break}}if(hit){best=Math.max(1.6,d-.4);break}}
@@ -749,19 +879,24 @@ function labels(){const f=LS.get('hookFound',[]);for(const s of Object.values(SP
 const clk=new THREE.Clock();let fpsN=0,fpsT=0,FPS=60,jsMs=0,frameNo=0,lowFor=0;
 const sheetOpen=()=>$('sheet').classList.contains('on');
 function frame(){requestAnimationFrame(frame);const t0=performance.now();const dt=Math.min(clk.getDelta(),.05);const t=clk.elapsedTime;frameNo++;
- if(MODE==='auto')aiUpdate(dt);else playerUpdate(dt);
+ aiUpdate(dt);flyUpdate(dt);VOFF.mood*=Math.exp(-dt/900);VOFF.energy*=Math.exp(-dt/600);
  if(C.anim==='hang'||C.trick==='hang'){C.vy=0;C.ground=true}else physics(dt);
- if(MODE==='auto'&&AI.phase==='do'&&DOING&&(DOING.act==='hang'||DOING.act==='rest'||DOING.act==='balance'&&DOING.spot.rock)){} 
  // animate body
- jug.forEach(f=>f.visible=false);held.visible=false;tailCup.visible=false;handCup.visible=false;
+ jug.forEach(f=>f.visible=false);held.visible=false;craft.visible=false;tailCup.visible=false;handCup.visible=false;
  C.t+=dt;const a=C.anim;let extra=null;
  if(a==='hang'){const s=C.hangBar||DOING?.spot||nearBar()||SPOTS.hang_tree;extra=s.bar?s.bar.y-H.position.y-2.3:2}
  if(a==='rest'){const s=SPOTS.hammock;extra=s.bed.y+.18-H.position.y-1}
  if(a==='grab')extra=V(.7,3.1,1.3);
  (ANIM[a]||ANIM.idle)(a==='walk'?t:(C.trick&&C.trick!=='spot'?C.trickT:C.t),{phase:C.phase,run:C.run,extra});
- if(a==='sip'){handCup.visible=true;pick.visible=false}else pick.visible=ST?.prop!=='espresso';
+ if(a==='sip'){handCup.visible=true;pick.visible=false}else pick.visible=ST?.prop!=='espresso'&&a!=='eat';
+ if(HELD&&(a==='eat'||a==='inspect')){const it=(HELD.k==='toy'?TOYS:SNACKS).find(x=>x[0]===HELD.item);if(it)held.material=heldMat(it[2])}else if(a==='grab')held.material=fruitM[0];
+ if(a==='juggle'&&HELD){const it=TOYS.find(x=>x[0]===HELD.item);if(it)jug.forEach((f,i)=>{if(i===0)f.material=heldMat(it[2])})}else jug[0].material=fruitM[0];
+ // expression: mood sets lids + brows; reactions override (happy / surprised / annoyed)
+ {const dm=dials().mood,g=EMO==='annoyed'?1:EMO==='happy'?-1:EMO==='surprised'?-.4:clamp(-dm,-1,1);
+  if(a!=='rest'&&a!=='startle')tgt.lid=clamp(tgt.lid+g*.28+(EMO==='surprised'?-.3:0),.05,1.02);
+  for(const b of BROWS){b.m.rotation.z=lerp(b.m.rotation.z,b.z+b.s*g*.38,.2);b.m.position.y=lerp(b.m.position.y,b.y+(EMO==='surprised'?.04:0)-Math.max(0,g)*.015,.2)}}
  const k=1-Math.exp(-dt*(a==='walk'?14:9));for(const key in pose){if(key==='bx'&&a==='flip')continue;pose[key]=lerp(pose[key],tgt[key],k)}
- if(Math.sin(t*.7+1)>.985)pose.lid=1.2;applyPose();
+ if(Math.sin(t*.7+1)>.985&&a!=='rest')pose.lid=1.2;applyPose();
  for(let i=0;i<TK;i++)tailPts[i].lerp(tailTarget[i],1-Math.exp(-dt*(a==='walk'?16:10)));buildTail();
  H.rotation.y=C.yaw;
  const gy=groundY(H.position.x,H.position.z);blob.position.set(H.position.x,gy+.03,H.position.z);blob.scale.setScalar(clamp(1-(H.position.y+pose.by-gy)*.12,.4,1));blob.visible=a!=='hang'&&a!=='rest';
@@ -779,16 +914,17 @@ function frame(){requestAnimationFrame(frame);const t0=performance.now();const d
  TREEFRUIT.forEach((f,i)=>{f.position.y=f.userData.home.y+Math.sin(t*1.2+i)*.03});
  tickNeeds(dt);dayNight(dt);camUpdate(dt);
  if(frameNo%15===0)drawNeeds();if(frameNo%6===0)drawMap();
- project(top.clone().add(V(0,.95,0)),monoEl,0,SMALL?205:215);if(frameNo%2===0)labels();
+ if(sayEl.classList.contains('on')){_v.copy(top);_v.y+=.75;_v.project(cam);const m=SMALL?125:160,x=clamp((_v.x+1)/2*innerWidth,m,innerWidth-m),y=_v.z>1?innerHeight*.4:clamp((1-_v.y)/2*innerHeight,SMALL?150:170,innerHeight-(SMALL?330:150));sayEl.style.transform=`translate(${x.toFixed(1)}px,${y.toFixed(1)}px) translate(-50%,-100%)`}else project(top.clone().add(V(0,.95,0)),monoEl,0,SMALL?205:215);if(frameNo%2===0)labels();
  R.render(S,cam);
  jsMs=lerp(jsMs,performance.now()-t0,.05);fpsN++;fpsT+=dt;if(fpsT>=1){FPS=fpsN/fpsT;fpsN=0;fpsT=0;
   if(!Q.get('res')){if(FPS<48){lowFor++;if(lowFor>=2&&SCALE>.34){SCALE=Math.max(.34,SCALE-.08);size();lowFor=0}}else lowFor=0}}}
 // debug / test hooks (used by the headless test; harmless for visitors)
-window.__hook={stats:()=>({fps:+FPS.toFixed(1),jsMsPerFrame:+jsMs.toFixed(2),scale:SCALE,drawCalls:R.info.render.calls,triangles:R.info.render.triangles,mode:MODE,anim:C.anim,status:$('stxt').textContent,needs:{...need},dials:dials()}),
- setHour:h=>{HOUR_OVERRIDE=h;skyAcc=9},go:k=>{MODE='auto';PENDING_AREA={area:k};AI.phase='decide';DOING=null},
- place:(k,act)=>{const s=SPOTS[k];const st=standFor(s,act||s.act);H.position.set(st.p.x,groundY(st.p.x,st.p.z),st.p.z);if(st.yaw!=null)C.yaw=st.yaw;MODE='auto';startDo(s,act||s.act,9999)},
- cam:(y,p,d)=>{CAM.yaw=y;CAM.pitch=p;CAM.dist=d},pos:()=>[H.position.x.toFixed(2),H.position.y.toFixed(2),H.position.z.toFixed(2),C.speed.toFixed(2),C.ground],open:openSheet,spots:SPOTS};
-load();setInterval(load,60000);setInterval(()=>{if(!sheetOpen())drawNeeds()},5000);
+window.__hook={stats:()=>({fps:+FPS.toFixed(1),jsMsPerFrame:+jsMs.toFixed(2),scale:SCALE,drawCalls:R.info.render.calls,triangles:R.info.render.triangles,phase:AI.phase,anim:C.anim,status:$('stxt').textContent,say:sayEl.classList.contains('on')?$('sayt').textContent:'',needs:{...need},dials:dials(),pos:[+H.position.x.toFixed(2),+H.position.z.toFixed(2)],queue:LS.get('hookQueue',[]).length,sent:LS.get('hookSent',[]).length,mem:{visits:MEM.visits,aff:MEM.aff,name:MEM.name}}),
+ setHour:h=>{HOUR_OVERRIDE=h;skyAcc=9},go:k=>{PENDING_AREA={area:k};AI.phase='decide';DOING=null},
+ place:(k,act,dur=9999)=>{const s=SPOTS[k];const st=standFor(s,act||s.act);H.position.set(st.p.x,groundY(st.p.x,st.p.z),st.p.z);if(st.yaw!=null)C.yaw=st.yaw;C.targetYaw=st.yaw;startDo(s,act||s.act,dur)},
+ setNeed:(k,v)=>{need[k]=v},setMood:v=>{VOFF.mood=v-(dials().mood-VOFF.mood)},guest:(k,o)=>{const r=guest(k,o);return r&&{ok:r.ok,r:r.r,act:r.act,line:r.line}},flush:()=>flush(),
+ face:()=>{CAM.yaw=C.yaw;},cam:(y,p,d)=>{CAM.yaw=y;CAM.pitch=p;CAM.dist=d},pos:()=>[H.position.x.toFixed(2),H.position.y.toFixed(2),H.position.z.toFixed(2),C.speed.toFixed(2),C.ground],open:openSheet,spots:SPOTS};
+load().then(()=>{setTimeout(()=>{BOOTED=true},Q.get('nogreet')?0:1500);if(Q.get('nogreet'))AI.greeted=true});setInterval(load,60000);setInterval(()=>{if(!sheetOpen())drawNeeds()},5000);
 if(Q.get('sheet'))setTimeout(()=>openSheet(Q.get('sheet')),800);
 frame();
 
