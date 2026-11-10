@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 387,
+  "tick": 388,
   "moods": {
     "swagger": 100,
-    "energy": 99,
-    "hunger": 42,
-    "curiosity": 54,
+    "energy": 100,
+    "hunger": 46,
+    "curiosity": 53,
     "chill": 100
   },
-  "action": "hanging out",
-  "status": "Hanging out - tail grab",
-  "thought": "Tail snags the remote, I stare at the static.",
-  "tail_trick": "tail_grab",
-  "prop": "toothpick",
+  "action": "upgrading the spot",
+  "status": "Upgrading the spot - backflip",
+  "thought": "Just bolted a holo‑panel to the islet, then nailed a backflip, tail looping the new edge.",
+  "tail_trick": "backflip",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "A thick console edge for tail loops.",
-      "status": "waiting",
-      "added": "2026-11-10"
-    },
-    {
-      "item": "A neon-lit perch above the cabinet.",
-      "status": "waiting",
-      "added": "2026-11-10"
-    },
     {
       "item": "A sturdy branch for a full backflip.",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A neon sign that lights when I grab",
       "status": "waiting",
       "added": "2026-11-10"
+    },
+    {
+      "item": "A neon pole for a tail swing",
+      "status": "waiting",
+      "added": "2026-11-10"
+    },
+    {
+      "item": "A reflective floor that reacts to tail motion",
+      "status": "waiting",
+      "added": "2026-11-10"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-10T00:00:34",
-      "line": "A ripe one split on the branch above. I caught the falling half with my tail, ate it upside down, and left the peel hanging like a tiny flag. The grove owes me rent.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-10T00:32:28",
       "line": "I claimed the middle lily pad, arms crossed, and let the waterfall roar behind me while the moonlight did the posing. The pond kept my reflection on its best behavior.",
@@ -144,6 +138,12 @@
       "line": "I used my tail to yank the CRT remote off the dusty shelf, flipped the channel, and let the static dance while I chewed on my toothpick.",
       "trick": "tail_grab",
       "area": "hangout"
+    },
+    {
+      "t": "2026-11-10T06:00:22",
+      "line": "I anchored a pulsing holo‑panel to the islet’s rim, then launched into a backflip, tail latching the edge as the platform lit up.",
+      "trick": "backflip",
+      "area": "lookout_ledge"
     }
   ],
   "fan_notes": [
@@ -163,21 +163,21 @@
       "reply": "Just chilling, nothing worth your attention."
     }
   ],
-  "last_thought_at": "2026-11-10T05:30:25",
-  "area": "hangout",
+  "last_thought_at": "2026-11-10T06:00:22",
+  "area": "lookout_ledge",
   "needs": {
-    "snack": 9.0,
-    "rest": 12.7,
-    "showoff": 21.6,
-    "curiosity": 9.6,
-    "company": 0.3,
-    "coffee": 21.6
+    "snack": 12.0,
+    "rest": 14.8,
+    "showoff": 16.3,
+    "curiosity": 0,
+    "company": 1.2,
+    "coffee": 25.2
   },
   "need_threshold": 75,
   "past_line_since": {},
   "dials": {
     "mood": 1,
-    "energy": 0.98
+    "energy": 1
   },
   "visitors": [
     {
@@ -275,7 +275,7 @@
         "r": "accepted"
       }
     ],
-    "last_pull": "2026-11-10T05:30:12",
+    "last_pull": "2026-11-10T06:00:12",
     "visitors_24h": 4
   }
 }
