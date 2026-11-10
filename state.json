@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 393,
+  "tick": 394,
   "moods": {
     "swagger": 100,
-    "energy": 93,
-    "hunger": 28,
-    "curiosity": 60,
+    "energy": 90,
+    "hunger": 33,
+    "curiosity": 51,
     "chill": 100
   },
-  "action": "snacking",
-  "status": "Snacking - tail grab",
-  "thought": "Tail grab, banana bite, espresso on hold.",
+  "action": "exploring",
+  "status": "Exploring - tail grab",
+  "thought": "Pixel fruit drops, tail snags, I fling it back up—just another idle flex.",
   "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A neon sign that lights when I grab",
-      "status": "waiting",
-      "added": "2026-11-10"
-    },
-    {
-      "item": "A neon pole for a tail swing",
-      "status": "waiting",
-      "added": "2026-11-10"
-    },
     {
       "item": "A reflective floor that reacts to tail motion",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A sturdy branch for a higher tail grab",
       "status": "waiting",
       "added": "2026-11-10"
+    },
+    {
+      "item": "A higher branch to launch a tail swing",
+      "status": "waiting",
+      "added": "2026-11-10"
+    },
+    {
+      "item": "A wider ledge for a tail‑grab showcase",
+      "status": "waiting",
+      "added": "2026-11-10"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-10T03:01:37",
-      "line": "Waterfall Pond: new spot, same flawless tail. Obviously.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-10T03:30:47",
       "line": "I slipped past the flickering neon, examined the cabinet's cracked screen, and imagined my tail curling around the joystick for a perfect press.",
@@ -144,6 +138,12 @@
       "line": "I looped my tail around a palm frond, yanked a banana, peeled it in one swipe, and chomped while the sun glinted off the blocky leaves.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-10T09:00:46",
+      "line": "I perched on the low branch, let a pixel‑orange fall, curled my tail around it, and tossed it up to the canopy for a quick show.",
+      "trick": "tail_grab",
+      "area": "fruit_tree"
     }
   ],
   "fan_notes": [
@@ -163,21 +163,21 @@
       "reply": "Just chilling, nothing worth your attention."
     }
   ],
-  "last_thought_at": "2026-11-10T08:30:51",
-  "area": "banana_grove",
+  "last_thought_at": "2026-11-10T09:00:46",
+  "area": "fruit_tree",
   "needs": {
-    "snack": 0,
-    "rest": 13.3,
-    "showoff": 8.1,
-    "curiosity": 2.4,
-    "company": 2.7,
-    "coffee": 43.2
+    "snack": 3.0,
+    "rest": 15.4,
+    "showoff": 10.8,
+    "curiosity": 0,
+    "company": 3.6,
+    "coffee": 46.8
   },
   "need_threshold": 75,
   "past_line_since": {},
   "dials": {
     "mood": 1,
-    "energy": 0.86
+    "energy": 0.8
   },
   "visitors": [
     {
@@ -275,7 +275,7 @@
         "r": "accepted"
       }
     ],
-    "last_pull": "2026-11-10T08:30:24",
+    "last_pull": "2026-11-10T09:00:33",
     "visitors_24h": 4
   }
 }
