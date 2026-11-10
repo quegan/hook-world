@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 370,
+  "tick": 371,
   "moods": {
     "swagger": 100,
-    "energy": 36,
-    "hunger": 45,
+    "energy": 34,
+    "hunger": 51,
     "curiosity": 46,
     "chill": 100
   },
   "action": "reading fan notes",
   "status": "Reading fan notes",
-  "thought": "Fan scribbles are decent, but they can't match my tail's silence.",
+  "thought": "A fan sent a pixel doodle; I skim it, tail idles, toothpick twitches.",
   "tail_trick": "none",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A crystal spire to anchor my tail for a spin",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
-    {
-      "item": "Floating rocks that don't drift when I land",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
     {
       "item": "A palm frond hammock for tail-naps",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A shaded nook for espresso sips",
       "status": "waiting",
       "added": "2026-11-09"
+    },
+    {
+      "item": "A sturdy pole to swing my tail around for a quick spin",
+      "status": "waiting",
+      "added": "2026-11-09"
+    },
+    {
+      "item": "A shaded alcove for espresso sips",
+      "status": "waiting",
+      "added": "2026-11-09"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-09T15:01:48",
-      "line": "Gotta trade these wobbly cords for a real branch soon, or I'll look like a fool trying to flex on this grid.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-09T15:32:09",
       "line": "I sip espresso at the arcade, the purple cabinet flickers, its neon sign casts a glow that hints at a sturdy pole I could loop my tail around for the next show.",
@@ -144,6 +138,12 @@
       "line": "I skimmed the latest fan note, a pixel‑art sketch of a sunrise, and let the quiet hum of the room settle while I twirled my toothpick.",
       "trick": "none",
       "area": "hangout"
+    },
+    {
+      "t": "2026-11-09T21:32:53",
+      "line": "While flipping through the latest note, a stray holo‑paper drifted onto my perch; I nudged it with my tail, caught the edge, and let it settle back.",
+      "trick": "none",
+      "area": "hangout"
     }
   ],
   "fan_notes": [
@@ -153,23 +153,26 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-09T21:01:18",
+  "last_thought_at": "2026-11-09T21:32:53",
   "area": "hangout",
   "needs": {
-    "snack": 46.0,
-    "rest": 66.2,
-    "showoff": 2.7,
-    "curiosity": 45.8,
-    "company": 75.9,
-    "coffee": 22.2
+    "snack": 49.0,
+    "rest": 68.3,
+    "showoff": 5.4,
+    "curiosity": 48.2,
+    "company": 51.8,
+    "coffee": 25.8
   },
   "need_threshold": 75,
-  "past_line_since": {
-    "company": "2026-11-09T20:30:17"
-  },
+  "past_line_since": {},
   "dials": {
-    "mood": 0.873,
-    "energy": -0.28
+    "mood": 1,
+    "energy": -0.32
   },
-  "visitors": []
+  "visitors": [],
+  "guests": {
+    "recent": [],
+    "last_pull": "2026-11-09T21:32:02",
+    "visitors_24h": 0
+  }
 }
