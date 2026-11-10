@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 371,
+  "tick": 372,
   "moods": {
     "swagger": 100,
-    "energy": 34,
+    "energy": 38,
     "hunger": 51,
-    "curiosity": 46,
+    "curiosity": 42,
     "chill": 100
   },
-  "action": "reading fan notes",
-  "status": "Reading fan notes",
-  "thought": "A fan sent a pixel doodle; I skim it, tail idles, toothpick twitches.",
-  "tail_trick": "none",
-  "prop": "toothpick",
+  "action": "people-watching",
+  "status": "People-watching - tail grab",
+  "thought": "Tourists fumble for bananas. I snag mine mid-air. Easy.",
+  "tail_trick": "tail_grab",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "A palm frond hammock for tail-naps",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
-    {
-      "item": "A banana bunch that regrows instantly",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
     {
       "item": "A reinforced pole for tail loops",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A shaded alcove for espresso sips",
       "status": "waiting",
       "added": "2026-11-09"
+    },
+    {
+      "item": "A higher perch for better tail grabs",
+      "status": "waiting",
+      "added": "2026-11-09"
+    },
+    {
+      "item": "A neon sign to mark my spot",
+      "status": "waiting",
+      "added": "2026-11-09"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-09T15:32:09",
-      "line": "I sip espresso at the arcade, the purple cabinet flickers, its neon sign casts a glow that hints at a sturdy pole I could loop my tail around for the next show.",
-      "trick": "none",
-      "area": "arcade"
-    },
     {
       "t": "2026-11-09T16:00:18",
       "line": "Swept my legs free while dangling and whipped into a perfect backflip, landing on that thick branch with zero wobble; now the whole grid is watching their pixels fade away.",
@@ -144,6 +138,12 @@
       "line": "While flipping through the latest note, a stray holo‑paper drifted onto my perch; I nudged it with my tail, caught the edge, and let it settle back.",
       "trick": "none",
       "area": "hangout"
+    },
+    {
+      "t": "2026-11-09T22:00:49",
+      "line": "Snagged a banana bunch with my tail while the visitors below argued over maps. Didn't even blink.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -153,26 +153,34 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-09T21:32:53",
-  "area": "hangout",
+  "last_thought_at": "2026-11-09T22:00:49",
+  "area": "banana_grove",
   "needs": {
-    "snack": 49.0,
-    "rest": 68.3,
-    "showoff": 5.4,
-    "curiosity": 48.2,
-    "company": 51.8,
-    "coffee": 25.8
+    "snack": 52.0,
+    "rest": 71.7,
+    "showoff": 8.1,
+    "curiosity": 35.6,
+    "company": 38.7,
+    "coffee": 29.4
   },
   "need_threshold": 75,
   "past_line_since": {},
   "dials": {
     "mood": 1,
-    "energy": -0.32
+    "energy": -0.24
   },
   "visitors": [],
   "guests": {
-    "recent": [],
-    "last_pull": "2026-11-09T21:32:02",
-    "visitors_24h": 0
+    "recent": [
+      {
+        "t": "2026-11-09T22:00:17",
+        "who": "a visitor",
+        "k": "hi",
+        "item": "",
+        "r": "asleep"
+      }
+    ],
+    "last_pull": "2026-11-09T22:00:17",
+    "visitors_24h": 1
   }
 }
