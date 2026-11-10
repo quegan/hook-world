@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 376,
+  "tick": 377,
   "moods": {
     "swagger": 100,
-    "energy": 70,
-    "hunger": 27,
-    "curiosity": 57,
+    "energy": 58,
+    "hunger": 36,
+    "curiosity": 62,
     "chill": 100
   },
-  "action": "snacking",
-  "status": "Snacking - tail grab",
-  "thought": "Third banana of the night. The grove keeps offering, and my tail keeps saying yes without consulting me.",
-  "tail_trick": "tail_grab",
+  "action": "showing off",
+  "status": "Showing off",
+  "thought": "Toothpick in place. Waterfall loud, pond still. My reflection is doing the showing off now.",
+  "tail_trick": "none",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A sturdy pole to swing my tail around for a quick spin",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
-    {
-      "item": "A shaded alcove for espresso sips",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
     {
       "item": "A higher perch for better tail grabs",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A springy palm frond for tail flips",
       "status": "waiting",
       "added": "2026-11-10"
+    },
+    {
+      "item": "A mossy ledge above the falls for tail hangs",
+      "status": "waiting",
+      "added": "2026-11-10"
+    },
+    {
+      "item": "A wide lily pad for tail-loop landings",
+      "status": "waiting",
+      "added": "2026-11-10"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-09T18:02:30",
-      "line": "I slipped past the pond, found a smooth basalt slab jutting out, and imagined looping my tail around it for a quick spin before the next espresso.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-09T18:37:15",
       "line": "Bounced up the floating stones on my tail tip, each pogo landing cleaner than the last. Crystal pulse matches my rhythm.",
@@ -144,6 +138,12 @@
       "line": "A ripe one split on the branch above. I caught the falling half with my tail, ate it upside down, and left the peel hanging like a tiny flag. The grove owes me rent.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-10T00:32:28",
+      "line": "I claimed the middle lily pad, arms crossed, and let the waterfall roar behind me while the moonlight did the posing. The pond kept my reflection on its best behavior.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [
@@ -163,21 +163,21 @@
       "reply": "Just chilling, nothing worth your attention."
     }
   ],
-  "last_thought_at": "2026-11-10T00:00:34",
-  "area": "banana_grove",
+  "last_thought_at": "2026-11-10T00:32:28",
+  "area": "waterfall_pond",
   "needs": {
-    "snack": 19.0,
-    "rest": 55.3,
-    "showoff": 10.8,
-    "curiosity": 25.2,
-    "company": 0.9,
-    "coffee": 7.2
+    "snack": 22.0,
+    "rest": 58.7,
+    "showoff": 0,
+    "curiosity": 27.6,
+    "company": 1.8,
+    "coffee": 10.8
   },
   "need_threshold": 75,
   "past_line_since": {},
   "dials": {
     "mood": 1,
-    "energy": 0.4
+    "energy": 0.16
   },
   "visitors": [
     {
@@ -275,7 +275,7 @@
         "r": "accepted"
       }
     ],
-    "last_pull": "2026-11-10T00:00:01",
+    "last_pull": "2026-11-10T00:30:18",
     "visitors_24h": 4
   }
 }
