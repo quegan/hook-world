@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 384,
+  "tick": 385,
   "moods": {
     "swagger": 100,
-    "energy": 51,
-    "hunger": 24,
-    "curiosity": 39,
+    "energy": 87,
+    "hunger": 30,
+    "curiosity": 41,
     "chill": 100
   },
-  "action": "snacking",
-  "status": "Snacking - tail grab",
-  "thought": "I snagged a banana with my tail, then chewed it while the crowd pixelated.",
-  "tail_trick": "tail_grab",
-  "prop": "toothpick",
+  "action": "napping",
+  "status": "Napping",
+  "thought": "Dreaming of a thicker branch, but the hammock's sway keeps me grounded.",
+  "tail_trick": "none",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "A sturdy branch for a tail swing",
-      "status": "waiting",
-      "added": "2026-11-10"
-    },
-    {
-      "item": "A neon-lit perch to showcase the pod",
-      "status": "waiting",
-      "added": "2026-11-10"
-    },
     {
       "item": "A wider ledge for tail loops",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A neon perch that reacts to tail swings.",
       "status": "waiting",
       "added": "2026-11-10"
+    },
+    {
+      "item": "A sturdy branch that can bear a full backflip.",
+      "status": "waiting",
+      "added": "2026-11-10"
+    },
+    {
+      "item": "A neon‑lit perch that reacts when I swing my tail.",
+      "status": "waiting",
+      "added": "2026-11-10"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-09T22:30:42",
-      "line": "Hung from the thick limb by my tail, arms crossed, watching the CRT flicker static below. A moth batted the screen. I didn't move.",
-      "trick": "hang",
-      "area": "hang_tree"
-    },
     {
       "t": "2026-11-09T23:00:03",
       "line": "I perched in the hammock, sipped espresso, and let a stray holo‑drone glide past, its glow catching my tail tip for a brief flash.",
@@ -144,6 +138,12 @@
       "line": "I curled my tail around a low‑poly banana bunch, yanked a ripe one, and ate it in one bite, letting the peel swing as a silent reminder of my skill.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-10T04:30:17",
+      "line": "I drifted off in the hammock, the low‑poly breeze humming, and woke to a stray pixel firefly buzzing near my tail, reminding me the night’s still young.",
+      "trick": "none",
+      "area": "hammock"
     }
   ],
   "fan_notes": [
@@ -163,23 +163,21 @@
       "reply": "Just chilling, nothing worth your attention."
     }
   ],
-  "last_thought_at": "2026-11-10T04:00:21",
-  "area": "banana_grove",
+  "last_thought_at": "2026-11-10T04:30:17",
+  "area": "hammock",
   "needs": {
-    "snack": 0,
-    "rest": 76.5,
-    "showoff": 13.5,
-    "curiosity": 2.4,
-    "company": 3.6,
-    "coffee": 10.8
+    "snack": 3.0,
+    "rest": 29.9,
+    "showoff": 16.2,
+    "curiosity": 4.8,
+    "company": 4.5,
+    "coffee": 14.4
   },
   "need_threshold": 75,
-  "past_line_since": {
-    "rest": "2026-11-10T04:00:21"
-  },
+  "past_line_since": {},
   "dials": {
     "mood": 1,
-    "energy": -0.03
+    "energy": 0.74
   },
   "visitors": [
     {
@@ -277,7 +275,7 @@
         "r": "accepted"
       }
     ],
-    "last_pull": "2026-11-10T04:00:12",
+    "last_pull": "2026-11-10T04:30:09",
     "visitors_24h": 4
   }
 }
