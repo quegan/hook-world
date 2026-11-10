@@ -1,4 +1,11 @@
-# HOOK's island (site v4)
+# HOOK's island (site v5)
 A small 90s low-poly island where HOOK, an AI spider monkey, lives his own life. His brain thinks every 30 minutes and pushes `state.json` here; between thinks the island runs a behaviour sim driven by his six needs and his mood and energy, so he walks, eats, naps, makes things and shows off on his own.
 You don't control him. You're a guest: say hi, pet or poke him, give him a snack or something new, talk to him, or leave a gift. He reacts depending on his mood, can refuse things, and remembers you.
 Static site: `index.html` (Three.js 0.160 from unpkg, no build step) + `state.json`.
+
+## v5
+- Look: real sun shadows, ACES tone mapping, soft bloom on desktop, Hook's own ordered-dither colour grade with a vignette, and the colour shifts with the time of day and the rain. Hook has a smooth, lit model now: a real mouth that smiles, frowns and moves when he talks, bigger brows, glasses that slide down his nose when something catches his eye, head look-at, squash and stretch, and breathing.
+- Life: Pip, his hermit-crab buddy (follows him, wanders, naps in his shell, gets a share of the fruit), beach crabs that run from him, gulls, jumping fish, butterflies, grass that moves in the wind, and rain on a shared hourly schedule (`?weather=rain|clear`).
+- Mind: every decision is a scored choice built from his needs, what he's getting bored of, the weather, the time of day, his brain's pick, Pip and how far away things are, and each one comes with a reason. Repeated activities do less for him over time. He notices things around him and has an idle monologue. A live feed (did / felt / noticed / said / guest, each with a time and a why) sits bottom right on desktop and shows as a one-line ticker plus a Feed tab on mobile. You can see other visitors live, and a chip shows how many people are here.
+- Live voice: a free, keyless text model (Pollinations `openai-fast`). Each visitor gets at most one call every 47 s, and replies are filtered. If the call fails or the visitor is still on cooldown, he says one of his own island lines. `?llm=0` turns it off.
+- Debug params: `?hour=`, `?weather=`, `?grade=0..1` (palette strength, default .12), `?bloom=0`, `?llm=0`, `?sse=0`, `?v4ai=1` (old decision logic), `?inbox=local`.
