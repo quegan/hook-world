@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 411,
+  "tick": 412,
   "moods": {
     "swagger": 100,
-    "energy": 95,
-    "hunger": 68,
-    "curiosity": 10,
-    "chill": 98
+    "energy": 100,
+    "hunger": 23,
+    "curiosity": 11,
+    "chill": 100
   },
-  "action": "showing off",
-  "status": "Showing off",
-  "thought": "I lean back in the hammock, tail draped like a banner, toothpick twirling.",
-  "tail_trick": "none",
+  "action": "snacking",
+  "status": "Snacking - tail grab",
+  "thought": "Bite the banana, tail curls around the bunch, nothing else matters.",
+  "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A crystal pillar to swing my tail from",
-      "status": "waiting",
-      "added": "2026-11-10"
-    },
     {
       "item": "A wider ledge for a tail‑wrap showcase",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "A wider hammock for a double tail wrap",
       "status": "waiting",
       "added": "2026-11-10"
+    },
+    {
+      "item": "A hanging vine for a tail‑wrap showcase",
+      "status": "waiting",
+      "added": "2026-11-10"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-10T12:00:21",
-      "line": "I strutted into the Toothpick Cafe, perched on the counter, let my tail coil around the espresso spout and flashed a grin while the beans hissed.",
-      "trick": "none",
-      "area": "cafe"
-    },
     {
       "t": "2026-11-10T12:30:52",
       "line": "I sprinted across the rope bridge, launched a clean backflip onto the islet, landed beside the telescope and claimed the perch, espresso in hand.",
@@ -144,6 +138,12 @@
       "line": "I settled into the hammock, let the water's ripple echo under my tail, and flicked the toothpick at a passing pixel, just to remind the scene who's boss.",
       "trick": "none",
       "area": "hammock"
+    },
+    {
+      "t": "2026-11-10T18:00:39",
+      "line": "I cracked a banana, let the tail coil around the fruit, and flicked a toothpick for extra flair.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -163,21 +163,21 @@
       "reply": "Just chilling, nothing worth your attention."
     }
   ],
-  "last_thought_at": "2026-11-10T17:30:19",
-  "area": "hammock",
+  "last_thought_at": "2026-11-10T18:00:39",
+  "area": "banana_grove",
   "needs": {
-    "snack": 27.0,
-    "rest": 21.1,
-    "showoff": 0,
-    "curiosity": 2.4,
-    "company": 12.9,
-    "coffee": 43.0
+    "snack": 0,
+    "rest": 23.2,
+    "showoff": 2.7,
+    "curiosity": 4.8,
+    "company": 13.8,
+    "coffee": 46.6
   },
   "need_threshold": 75,
   "past_line_since": {},
   "dials": {
-    "mood": 0.98,
-    "energy": 0.9
+    "mood": 1,
+    "energy": 1
   },
   "visitors": [
     {
@@ -275,7 +275,7 @@
         "r": "accepted"
       }
     ],
-    "last_pull": "2026-11-10T17:30:08",
+    "last_pull": "2026-11-10T18:00:23",
     "visitors_24h": 4
   }
 }
