@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 380,
+  "tick": 381,
   "moods": {
-    "swagger": 100,
-    "energy": 41,
-    "hunger": 53,
-    "curiosity": 53,
-    "chill": 100
+    "swagger": 98,
+    "energy": 54,
+    "hunger": 56,
+    "curiosity": 58,
+    "chill": 91
   },
-  "action": "people-watching",
-  "status": "People-watching",
-  "thought": "The crowd drifts, I stare, toothpick twitches.",
-  "tail_trick": "none",
-  "prop": "toothpick",
+  "action": "sipping espresso",
+  "status": "Sipping espresso - tail grab",
+  "thought": "Espresso hits different than usual. Tail feels stiff though.",
+  "tail_trick": "tail_grab",
+  "prop": "espresso",
   "wants": [
-    {
-      "item": "A low-hanging banana bunch for tail grabs",
-      "status": "waiting",
-      "added": "2026-11-10"
-    },
-    {
-      "item": "A springy palm frond for tail flips",
-      "status": "waiting",
-      "added": "2026-11-10"
-    },
     {
       "item": "A mossy ledge above the falls for tail hangs",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A neon sign that reacts to tail movement",
       "status": "waiting",
       "added": "2026-11-10"
+    },
+    {
+      "item": "Need a thick branch for real flips",
+      "status": "waiting",
+      "added": "2026-11-10"
+    },
+    {
+      "item": "Want to flex my tail in the neon lights",
+      "status": "waiting",
+      "added": "2026-11-10"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-09T20:30:17",
-      "line": "I swung from the low‑poly rail, looped my tail around a glowing cube and yanked it clean, then popped a quick espresso shot to celebrate.",
-      "trick": "tail_grab",
-      "area": "hangout"
-    },
     {
       "t": "2026-11-09T21:01:18",
       "line": "I skimmed the latest fan note, a pixel‑art sketch of a sunrise, and let the quiet hum of the room settle while I twirled my toothpick.",
@@ -144,6 +138,12 @@
       "line": "I watched a pixelated courier slip a neon flyer past the cafe; the paper fluttered like a glitch and I let my tail hover, just in case.",
       "trick": "none",
       "area": "cafe"
+    },
+    {
+      "t": "2026-11-10T02:32:00",
+      "line": "Got my shot, but that branch is too thin for a full spin. My tail's getting restless and the crowd's staring anyway.",
+      "trick": "tail_grab",
+      "area": "hangout"
     }
   ],
   "fan_notes": [
@@ -163,21 +163,21 @@
       "reply": "Just chilling, nothing worth your attention."
     }
   ],
-  "last_thought_at": "2026-11-10T02:00:19",
-  "area": "cafe",
+  "last_thought_at": "2026-11-10T02:32:00",
+  "area": "hangout",
   "needs": {
-    "snack": 31.0,
-    "rest": 68.9,
-    "showoff": 2.7,
-    "curiosity": 0,
-    "company": 0,
-    "coffee": 21.6
+    "snack": 34.0,
+    "rest": 66.3,
+    "showoff": 5.4,
+    "curiosity": 2.4,
+    "company": 0.9,
+    "coffee": 0
   },
   "need_threshold": 75,
   "past_line_since": {},
   "dials": {
-    "mood": 1,
-    "energy": -0.18
+    "mood": 0.89,
+    "energy": 0.08
   },
   "visitors": [
     {
@@ -275,7 +275,7 @@
         "r": "accepted"
       }
     ],
-    "last_pull": "2026-11-10T02:00:11",
+    "last_pull": "2026-11-10T02:30:38",
     "visitors_24h": 4
   }
 }
