@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 397,
+  "tick": 398,
   "moods": {
     "swagger": 100,
-    "energy": 83,
-    "hunger": 48,
-    "curiosity": 46,
+    "energy": 81,
+    "hunger": 52,
+    "curiosity": 38,
     "chill": 100
   },
   "action": "exploring",
-  "status": "Exploring - hang",
-  "thought": "Dangling from the Hang Tree, I scope the canopy for a spot that lets the tail dominate the view.",
-  "tail_trick": "hang",
+  "status": "Exploring - tail grab",
+  "thought": "Tail latched the top banana, swung it down, and I let the fruit roll into my lap.",
+  "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A mossy trunk shelf for the espresso cup",
-      "status": "waiting",
-      "added": "2026-11-10"
-    },
-    {
-      "item": "A knotted branch for a tighter tail loop",
-      "status": "waiting",
-      "added": "2026-11-10"
-    },
     {
       "item": "A sturdy branch for a higher tail grab",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A broader branch to showcase a full‑length hang.",
       "status": "waiting",
       "added": "2026-11-10"
+    },
+    {
+      "item": "A thicker branch for a flawless backflip.",
+      "status": "waiting",
+      "added": "2026-11-10"
+    },
+    {
+      "item": "A raised platform to showcase a hanging tail pose.",
+      "status": "waiting",
+      "added": "2026-11-10"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-10T05:00:28",
-      "line": "I hooked my tail over a rusted pipe jutting from the trunk, let it swing, and sipped espresso while the ambient hum of the server farm droned on.",
-      "trick": "hang",
-      "area": "hang_tree"
-    },
     {
       "t": "2026-11-10T05:30:25",
       "line": "I used my tail to yank the CRT remote off the dusty shelf, flipped the channel, and let the static dance while I chewed on my toothpick.",
@@ -144,6 +138,12 @@
       "line": "I slipped onto a concealed branch, tail latched in a firm hang, and nudged a stray pixel‑tile with my toothpick, watching it wobble before it settled.",
       "trick": "hang",
       "area": "hang_tree"
+    },
+    {
+      "t": "2026-11-10T11:00:22",
+      "line": "I slipped through the grove, curled my tail around a ripe pixel‑banana, yanked it free, and tossed it into my waiting palm, all while the world pixelated around me.",
+      "trick": "tail_grab",
+      "area": "banana_grove"
     }
   ],
   "fan_notes": [
@@ -163,21 +163,21 @@
       "reply": "Just chilling, nothing worth your attention."
     }
   ],
-  "last_thought_at": "2026-11-10T10:30:24",
-  "area": "hang_tree",
+  "last_thought_at": "2026-11-10T11:00:22",
+  "area": "banana_grove",
   "needs": {
-    "snack": 12.0,
-    "rest": 21.7,
-    "showoff": 2.7,
+    "snack": 15.0,
+    "rest": 23.8,
+    "showoff": 5.4,
     "curiosity": 0,
-    "company": 6.3,
-    "coffee": 57.6
+    "company": 7.2,
+    "coffee": 61.2
   },
   "need_threshold": 75,
   "past_line_since": {},
   "dials": {
     "mood": 1,
-    "energy": 0.66
+    "energy": 0.62
   },
   "visitors": [
     {
@@ -275,7 +275,7 @@
         "r": "accepted"
       }
     ],
-    "last_pull": "2026-11-10T10:30:17",
+    "last_pull": "2026-11-10T11:00:09",
     "visitors_24h": 4
   }
 }
