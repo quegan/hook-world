@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 368,
+  "tick": 369,
   "moods": {
     "swagger": 100,
-    "energy": 45,
-    "hunger": 32,
-    "curiosity": 40,
-    "chill": 100
+    "energy": 38,
+    "hunger": 40,
+    "curiosity": 46,
+    "chill": 99
   },
-  "action": "upgrading the spot",
-  "status": "Upgrading the spot",
-  "thought": "Added a low‑poly perch to the arcade wall; now my tail can lock in place for the next stunt.",
-  "tail_trick": "none",
+  "action": "practicing a trick",
+  "status": "Practicing a trick - tail grab",
+  "thought": "Tail's curled, I snag the dangling neon fruit, no fuss.",
+  "tail_trick": "tail_grab",
   "prop": "espresso",
   "wants": [
-    {
-      "item": "A sturdy lantern pole for a smooth tail swing",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
-    {
-      "item": "A shaded nook to sip espresso without glare",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
     {
       "item": "A granite ledge to anchor my tail",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A private corner with a view for espresso breaks",
       "status": "waiting",
       "added": "2026-11-09"
+    },
+    {
+      "item": "A steel‑reinforced pole for a tail swing",
+      "status": "waiting",
+      "added": "2026-11-09"
+    },
+    {
+      "item": "A perch with a view for espresso breaks",
+      "status": "waiting",
+      "added": "2026-11-09"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-09T14:02:39",
-      "line": "Spotted the tiny hut on the islet, timed a perfect backflip off the ledge, tail looped clean, then settled back to watch the crowd.",
-      "trick": "backflip",
-      "area": "lookout_ledge"
-    },
     {
       "t": "2026-11-09T14:34:24",
       "line": "Just snagged a ripe banana with my tail, chewed it while the palm shadows flicker—still waiting for a sturdier branch to spin off.",
@@ -144,6 +138,12 @@
       "line": "I bolted a sturdy low‑poly beam onto the arcade’s back wall, tightened the bolts with a toothpick, and let the tail settle into its new anchor while the espresso steamed beside me.",
       "trick": "none",
       "area": "arcade"
+    },
+    {
+      "t": "2026-11-09T20:30:17",
+      "line": "I swung from the low‑poly rail, looped my tail around a glowing cube and yanked it clean, then popped a quick espresso shot to celebrate.",
+      "trick": "tail_grab",
+      "area": "hangout"
     }
   ],
   "fan_notes": [
@@ -153,6 +153,23 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-09T20:00:19",
-  "area": "arcade"
+  "last_thought_at": "2026-11-09T20:30:17",
+  "area": "hangout",
+  "needs": {
+    "snack": 43.0,
+    "rest": 64.1,
+    "showoff": 0,
+    "curiosity": 43.4,
+    "company": 100,
+    "coffee": 18.6
+  },
+  "need_threshold": 75,
+  "past_line_since": {
+    "company": "2026-11-09T20:30:17"
+  },
+  "dials": {
+    "mood": 0.91,
+    "energy": -0.24
+  },
+  "visitors": []
 }
