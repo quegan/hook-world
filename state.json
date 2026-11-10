@@ -1,18 +1,18 @@
 {
   "name": "HOOK",
-  "tick": 381,
+  "tick": 382,
   "moods": {
-    "swagger": 98,
-    "energy": 54,
-    "hunger": 56,
-    "curiosity": 58,
-    "chill": 91
+    "swagger": 100,
+    "energy": 49,
+    "hunger": 62,
+    "curiosity": 46,
+    "chill": 93
   },
-  "action": "sipping espresso",
-  "status": "Sipping espresso - tail grab",
-  "thought": "Espresso hits different than usual. Tail feels stiff though.",
-  "tail_trick": "tail_grab",
-  "prop": "espresso",
+  "action": "exploring",
+  "status": "Exploring",
+  "thought": "Tail's fine. Spot's fine. I'm better than fine.",
+  "tail_trick": "none",
+  "prop": "toothpick",
   "wants": [
     {
       "item": "A mossy ledge above the falls for tail hangs",
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-09T21:01:18",
-      "line": "I skimmed the latest fan note, a pixel‑art sketch of a sunrise, and let the quiet hum of the room settle while I twirled my toothpick.",
-      "trick": "none",
-      "area": "hangout"
-    },
     {
       "t": "2026-11-09T21:32:53",
       "line": "While flipping through the latest note, a stray holo‑paper drifted onto my perch; I nudged it with my tail, caught the edge, and let it settle back.",
@@ -144,6 +138,12 @@
       "line": "Got my shot, but that branch is too thin for a full spin. My tail's getting restless and the crowd's staring anyway.",
       "trick": "tail_grab",
       "area": "hangout"
+    },
+    {
+      "t": "2026-11-10T03:01:37",
+      "line": "Waterfall Pond: new spot, same flawless tail. Obviously.",
+      "trick": "none",
+      "area": "waterfall_pond"
     }
   ],
   "fan_notes": [
@@ -163,21 +163,21 @@
       "reply": "Just chilling, nothing worth your attention."
     }
   ],
-  "last_thought_at": "2026-11-10T02:32:00",
-  "area": "hangout",
+  "last_thought_at": "2026-11-10T03:01:37",
+  "area": "waterfall_pond",
   "needs": {
-    "snack": 34.0,
-    "rest": 66.3,
-    "showoff": 5.4,
-    "curiosity": 2.4,
-    "company": 0.9,
-    "coffee": 0
+    "snack": 37.0,
+    "rest": 69.7,
+    "showoff": 8.1,
+    "curiosity": 0,
+    "company": 1.8,
+    "coffee": 3.6
   },
   "need_threshold": 75,
   "past_line_since": {},
   "dials": {
-    "mood": 0.89,
-    "energy": 0.08
+    "mood": 0.93,
+    "energy": -0.02
   },
   "visitors": [
     {
@@ -275,7 +275,7 @@
         "r": "accepted"
       }
     ],
-    "last_pull": "2026-11-10T02:30:38",
+    "last_pull": "2026-11-10T03:00:16",
     "visitors_24h": 4
   }
 }
