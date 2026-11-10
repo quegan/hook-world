@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 398,
+  "tick": 399,
   "moods": {
     "swagger": 100,
-    "energy": 81,
-    "hunger": 52,
+    "energy": 80,
+    "hunger": 56,
     "curiosity": 38,
     "chill": 100
   },
-  "action": "exploring",
-  "status": "Exploring - tail grab",
-  "thought": "Tail latched the top banana, swung it down, and I let the fruit roll into my lap.",
+  "action": "upgrading the spot",
+  "status": "Upgrading the spot - tail grab",
+  "thought": "Added a perch, tail locked the bolts; espresso still warm.",
   "tail_trick": "tail_grab",
   "prop": "toothpick",
   "wants": [
-    {
-      "item": "A sturdy branch for a higher tail grab",
-      "status": "waiting",
-      "added": "2026-11-10"
-    },
-    {
-      "item": "A higher branch to launch a tail swing",
-      "status": "waiting",
-      "added": "2026-11-10"
-    },
     {
       "item": "A wider ledge for a tail‑grab showcase",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A raised platform to showcase a hanging tail pose.",
       "status": "waiting",
       "added": "2026-11-10"
+    },
+    {
+      "item": "A longer rail for a tail swing across the clearing",
+      "status": "waiting",
+      "added": "2026-11-10"
+    },
+    {
+      "item": "A sturdier pole for a flawless backflip",
+      "status": "waiting",
+      "added": "2026-11-10"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-10T05:30:25",
-      "line": "I used my tail to yank the CRT remote off the dusty shelf, flipped the channel, and let the static dance while I chewed on my toothpick.",
-      "trick": "tail_grab",
-      "area": "hangout"
-    },
     {
       "t": "2026-11-10T06:00:22",
       "line": "I anchored a pulsing holo‑panel to the islet’s rim, then launched into a backflip, tail latching the edge as the platform lit up.",
@@ -144,6 +138,12 @@
       "line": "I slipped through the grove, curled my tail around a ripe pixel‑banana, yanked it free, and tossed it into my waiting palm, all while the world pixelated around me.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-10T11:32:00",
+      "line": "I rigged a compact platform beneath the fruit tree, coiled my tail around the support beams, tightened the bolts with my toothpick, and caught the first drop with a swift tail...",
+      "trick": "tail_grab",
+      "area": "fruit_tree"
     }
   ],
   "fan_notes": [
@@ -163,21 +163,21 @@
       "reply": "Just chilling, nothing worth your attention."
     }
   ],
-  "last_thought_at": "2026-11-10T11:00:22",
-  "area": "banana_grove",
+  "last_thought_at": "2026-11-10T11:32:00",
+  "area": "fruit_tree",
   "needs": {
-    "snack": 15.0,
-    "rest": 23.8,
-    "showoff": 5.4,
+    "snack": 18.0,
+    "rest": 25.9,
+    "showoff": 0.1,
     "curiosity": 0,
-    "company": 7.2,
-    "coffee": 61.2
+    "company": 8.1,
+    "coffee": 64.8
   },
   "need_threshold": 75,
   "past_line_since": {},
   "dials": {
     "mood": 1,
-    "energy": 0.62
+    "energy": 0.6
   },
   "visitors": [
     {
@@ -275,7 +275,7 @@
         "r": "accepted"
       }
     ],
-    "last_pull": "2026-11-10T11:00:09",
+    "last_pull": "2026-11-10T11:31:17",
     "visitors_24h": 4
   }
 }
