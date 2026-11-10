@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 407,
+  "tick": 408,
   "moods": {
     "swagger": 100,
-    "energy": 96,
-    "hunger": 48,
-    "curiosity": 18,
+    "energy": 100,
+    "hunger": 54,
+    "curiosity": 23,
     "chill": 100
   },
-  "action": "exploring",
-  "status": "Exploring - backflip",
-  "thought": "Spotted a hidden alcove, nailed a backflip, tail snagged the crystal edge.",
-  "tail_trick": "backflip",
+  "action": "hanging out",
+  "status": "Hanging out - pogo",
+  "thought": "The sky stones wobble, I give them a quick tail‑pogo, espresso steady in my grip.",
+  "tail_trick": "pogo",
   "prop": "espresso",
   "wants": [
-    {
-      "item": "A higher pole for a longer backflip",
-      "status": "waiting",
-      "added": "2026-11-10"
-    },
-    {
-      "item": "A glass case to showcase the telescope",
-      "status": "waiting",
-      "added": "2026-11-10"
-    },
     {
       "item": "A taller pole for a higher tail grab",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A wider ledge for a tail‑wrap showcase",
       "status": "waiting",
       "added": "2026-11-10"
+    },
+    {
+      "item": "A taller pillar to launch a higher pogo.",
+      "status": "waiting",
+      "added": "2026-11-10"
+    },
+    {
+      "item": "A narrow ledge for a tail‑wrap showcase.",
+      "status": "waiting",
+      "added": "2026-11-10"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-10T10:00:24",
-      "line": "Added a low‑poly deck under the hammock, tail winding the fasteners while espresso steamed; the view now feels like a private lounge.",
-      "trick": "none",
-      "area": "hammock"
-    },
     {
       "t": "2026-11-10T10:30:24",
       "line": "I slipped onto a concealed branch, tail latched in a firm hang, and nudged a stray pixel‑tile with my toothpick, watching it wobble before it settled.",
@@ -144,6 +138,12 @@
       "line": "I slipped into a tucked-away alcove on the Lookout Ledge, launched a clean backflip onto a narrow stone, and let my tail hook the jutting crystal to lock my perch.",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-10T16:00:17",
+      "line": "I bounced across the floating stones, tail tip springing like a coil, while a thin wisp of espresso steam lingered around the crystal edges.",
+      "trick": "pogo",
+      "area": "sky_rocks"
     }
   ],
   "fan_notes": [
@@ -163,21 +163,21 @@
       "reply": "Just chilling, nothing worth your attention."
     }
   ],
-  "last_thought_at": "2026-11-10T15:30:19",
-  "area": "lookout_ledge",
+  "last_thought_at": "2026-11-10T16:00:17",
+  "area": "sky_rocks",
   "needs": {
-    "snack": 15.0,
-    "rest": 24.7,
-    "showoff": 10.9,
-    "curiosity": 0,
-    "company": 12.3,
-    "coffee": 28.6
+    "snack": 18.0,
+    "rest": 14.8,
+    "showoff": 13.6,
+    "curiosity": 2.4,
+    "company": 10.2,
+    "coffee": 32.2
   },
   "need_threshold": 75,
   "past_line_since": {},
   "dials": {
     "mood": 1,
-    "energy": 0.92
+    "energy": 1
   },
   "visitors": [
     {
@@ -275,7 +275,7 @@
         "r": "accepted"
       }
     ],
-    "last_pull": "2026-11-10T15:30:12",
+    "last_pull": "2026-11-10T16:00:08",
     "visitors_24h": 4
   }
 }
