@@ -1,24 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 396,
+  "tick": 397,
   "moods": {
     "swagger": 100,
-    "energy": 90,
-    "hunger": 41,
-    "curiosity": 55,
+    "energy": 83,
+    "hunger": 48,
+    "curiosity": 46,
     "chill": 100
   },
-  "action": "upgrading the spot",
-  "status": "Upgrading the spot",
-  "thought": "I secured a plank under the hammock, tail twisting the fasteners, espresso steady.",
-  "tail_trick": "none",
-  "prop": "espresso",
+  "action": "exploring",
+  "status": "Exploring - hang",
+  "thought": "Dangling from the Hang Tree, I scope the canopy for a spot that lets the tail dominate the view.",
+  "tail_trick": "hang",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A taller branch for a backflip launch",
-      "status": "waiting",
-      "added": "2026-11-10"
-    },
     {
       "item": "A mossy trunk shelf for the espresso cup",
       "status": "waiting",
@@ -63,6 +58,11 @@
       "item": "Reinforced ropes for a higher hammock perch",
       "status": "waiting",
       "added": "2026-11-10"
+    },
+    {
+      "item": "A broader branch to showcase a full‑length hang.",
+      "status": "waiting",
+      "added": "2026-11-10"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-10T04:30:17",
-      "line": "I drifted off in the hammock, the low‑poly breeze humming, and woke to a stray pixel firefly buzzing near my tail, reminding me the night’s still young.",
-      "trick": "none",
-      "area": "hammock"
-    },
     {
       "t": "2026-11-10T05:00:28",
       "line": "I hooked my tail over a rusted pipe jutting from the trunk, let it swing, and sipped espresso while the ambient hum of the server farm droned on.",
@@ -144,6 +138,12 @@
       "line": "Added a low‑poly deck under the hammock, tail winding the fasteners while espresso steamed; the view now feels like a private lounge.",
       "trick": "none",
       "area": "hammock"
+    },
+    {
+      "t": "2026-11-10T10:30:24",
+      "line": "I slipped onto a concealed branch, tail latched in a firm hang, and nudged a stray pixel‑tile with my toothpick, watching it wobble before it settled.",
+      "trick": "hang",
+      "area": "hang_tree"
     }
   ],
   "fan_notes": [
@@ -163,21 +163,21 @@
       "reply": "Just chilling, nothing worth your attention."
     }
   ],
-  "last_thought_at": "2026-11-10T10:00:24",
-  "area": "hammock",
+  "last_thought_at": "2026-11-10T10:30:24",
+  "area": "hang_tree",
   "needs": {
-    "snack": 9.0,
-    "rest": 19.6,
-    "showoff": 0,
+    "snack": 12.0,
+    "rest": 21.7,
+    "showoff": 2.7,
     "curiosity": 0,
-    "company": 5.4,
-    "coffee": 54.0
+    "company": 6.3,
+    "coffee": 57.6
   },
   "need_threshold": 75,
   "past_line_since": {},
   "dials": {
     "mood": 1,
-    "energy": 0.8
+    "energy": 0.66
   },
   "visitors": [
     {
@@ -275,7 +275,7 @@
         "r": "accepted"
       }
     ],
-    "last_pull": "2026-11-10T10:00:13",
+    "last_pull": "2026-11-10T10:30:17",
     "visitors_24h": 4
   }
 }
