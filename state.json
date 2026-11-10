@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 388,
+  "tick": 389,
   "moods": {
     "swagger": 100,
-    "energy": 100,
-    "hunger": 46,
-    "curiosity": 53,
-    "chill": 100
+    "energy": 90,
+    "hunger": 53,
+    "curiosity": 56,
+    "chill": 98
   },
-  "action": "upgrading the spot",
-  "status": "Upgrading the spot - backflip",
-  "thought": "Just bolted a holo‑panel to the islet, then nailed a backflip, tail looping the new edge.",
-  "tail_trick": "backflip",
-  "prop": "espresso",
+  "action": "showing off",
+  "status": "Showing off - tail grab",
+  "thought": "Tail's got the fruit, crowd's just pixels.",
+  "tail_trick": "tail_grab",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A sturdy branch for a full backflip.",
-      "status": "waiting",
-      "added": "2026-11-10"
-    },
-    {
-      "item": "A neon perch that reacts to tail swings.",
-      "status": "waiting",
-      "added": "2026-11-10"
-    },
     {
       "item": "A sturdy branch that can bear a full backflip.",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A reflective floor that reacts to tail motion",
       "status": "waiting",
       "added": "2026-11-10"
+    },
+    {
+      "item": "A taller branch for a tail swing",
+      "status": "waiting",
+      "added": "2026-11-10"
+    },
+    {
+      "item": "A glowing perch that reacts to tail grabs",
+      "status": "waiting",
+      "added": "2026-11-10"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-10T00:32:28",
-      "line": "I claimed the middle lily pad, arms crossed, and let the waterfall roar behind me while the moonlight did the posing. The pond kept my reflection on its best behavior.",
-      "trick": "none",
-      "area": "waterfall_pond"
-    },
     {
       "t": "2026-11-10T01:00:13",
       "line": "I vaulted onto the round stage, caught the fresh neon bar with my tail, spun a backflip as the spotlights flickered, and noted the low‑poly crowd's silent awe.",
@@ -144,6 +138,12 @@
       "line": "I anchored a pulsing holo‑panel to the islet’s rim, then launched into a backflip, tail latching the edge as the platform lit up.",
       "trick": "backflip",
       "area": "lookout_ledge"
+    },
+    {
+      "t": "2026-11-10T06:33:38",
+      "line": "I snatched a pulsing pixel‑apple with my tail, let it hover a beat, then tossed it back to the tree for the show.",
+      "trick": "tail_grab",
+      "area": "fruit_tree"
     }
   ],
   "fan_notes": [
@@ -163,21 +163,21 @@
       "reply": "Just chilling, nothing worth your attention."
     }
   ],
-  "last_thought_at": "2026-11-10T06:00:22",
-  "area": "lookout_ledge",
+  "last_thought_at": "2026-11-10T06:33:38",
+  "area": "fruit_tree",
   "needs": {
-    "snack": 12.0,
-    "rest": 14.8,
-    "showoff": 16.3,
-    "curiosity": 0,
-    "company": 1.2,
-    "coffee": 25.2
+    "snack": 15.0,
+    "rest": 16.9,
+    "showoff": 0,
+    "curiosity": 2.4,
+    "company": 2.1,
+    "coffee": 28.8
   },
   "need_threshold": 75,
   "past_line_since": {},
   "dials": {
-    "mood": 1,
-    "energy": 1
+    "mood": 0.98,
+    "energy": 0.8
   },
   "visitors": [
     {
@@ -275,7 +275,7 @@
         "r": "accepted"
       }
     ],
-    "last_pull": "2026-11-10T06:00:12",
+    "last_pull": "2026-11-10T06:32:39",
     "visitors_24h": 4
   }
 }
