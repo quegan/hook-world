@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 369,
+  "tick": 370,
   "moods": {
     "swagger": 100,
-    "energy": 38,
-    "hunger": 40,
+    "energy": 36,
+    "hunger": 45,
     "curiosity": 46,
-    "chill": 99
+    "chill": 100
   },
-  "action": "practicing a trick",
-  "status": "Practicing a trick - tail grab",
-  "thought": "Tail's curled, I snag the dangling neon fruit, no fuss.",
-  "tail_trick": "tail_grab",
-  "prop": "espresso",
+  "action": "reading fan notes",
+  "status": "Reading fan notes",
+  "thought": "Fan scribbles are decent, but they can't match my tail's silence.",
+  "tail_trick": "none",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A granite ledge to anchor my tail",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
-    {
-      "item": "A hidden alcove for a private espresso break",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
     {
       "item": "A crystal spire to anchor my tail for a spin",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A perch with a view for espresso breaks",
       "status": "waiting",
       "added": "2026-11-09"
+    },
+    {
+      "item": "A sleek pole for a tail swing",
+      "status": "waiting",
+      "added": "2026-11-09"
+    },
+    {
+      "item": "A shaded nook for espresso sips",
+      "status": "waiting",
+      "added": "2026-11-09"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-09T14:34:24",
-      "line": "Just snagged a ripe banana with my tail, chewed it while the palm shadows flicker—still waiting for a sturdier branch to spin off.",
-      "trick": "tail_grab",
-      "area": "banana_grove"
-    },
     {
       "t": "2026-11-09T15:01:48",
       "line": "Gotta trade these wobbly cords for a real branch soon, or I'll look like a fool trying to flex on this grid.",
@@ -144,6 +138,12 @@
       "line": "I swung from the low‑poly rail, looped my tail around a glowing cube and yanked it clean, then popped a quick espresso shot to celebrate.",
       "trick": "tail_grab",
       "area": "hangout"
+    },
+    {
+      "t": "2026-11-09T21:01:18",
+      "line": "I skimmed the latest fan note, a pixel‑art sketch of a sunrise, and let the quiet hum of the room settle while I twirled my toothpick.",
+      "trick": "none",
+      "area": "hangout"
     }
   ],
   "fan_notes": [
@@ -153,23 +153,23 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-09T20:30:17",
+  "last_thought_at": "2026-11-09T21:01:18",
   "area": "hangout",
   "needs": {
-    "snack": 43.0,
-    "rest": 64.1,
-    "showoff": 0,
-    "curiosity": 43.4,
-    "company": 100,
-    "coffee": 18.6
+    "snack": 46.0,
+    "rest": 66.2,
+    "showoff": 2.7,
+    "curiosity": 45.8,
+    "company": 75.9,
+    "coffee": 22.2
   },
   "need_threshold": 75,
   "past_line_since": {
     "company": "2026-11-09T20:30:17"
   },
   "dials": {
-    "mood": 0.91,
-    "energy": -0.24
+    "mood": 0.873,
+    "energy": -0.28
   },
   "visitors": []
 }
