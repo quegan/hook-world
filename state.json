@@ -1,29 +1,19 @@
 {
   "name": "HOOK",
-  "tick": 372,
+  "tick": 373,
   "moods": {
     "swagger": 100,
-    "energy": 38,
-    "hunger": 51,
-    "curiosity": 42,
+    "energy": 39,
+    "hunger": 60,
+    "curiosity": 46,
     "chill": 100
   },
-  "action": "people-watching",
-  "status": "People-watching - tail grab",
-  "thought": "Tourists fumble for bananas. I snag mine mid-air. Easy.",
-  "tail_trick": "tail_grab",
-  "prop": "espresso",
+  "action": "hanging out",
+  "status": "Hanging out - hang",
+  "thought": "This branch holds. The night holds. I hold.",
+  "tail_trick": "hang",
+  "prop": "toothpick",
   "wants": [
-    {
-      "item": "A reinforced pole for tail loops",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
-    {
-      "item": "A private corner with a view for espresso breaks",
-      "status": "waiting",
-      "added": "2026-11-09"
-    },
     {
       "item": "A steel‑reinforced pole for a tail swing",
       "status": "waiting",
@@ -63,6 +53,16 @@
       "item": "A neon sign to mark my spot",
       "status": "waiting",
       "added": "2026-11-09"
+    },
+    {
+      "item": "A wider branch for a clean backflip landing",
+      "status": "waiting",
+      "added": "2026-11-09"
+    },
+    {
+      "item": "A fruit stump closer to the hang spot",
+      "status": "waiting",
+      "added": "2026-11-09"
     }
   ],
   "items": [
@@ -73,12 +73,6 @@
     "espresso cup"
   ],
   "diary": [
-    {
-      "t": "2026-11-09T16:00:18",
-      "line": "Swept my legs free while dangling and whipped into a perfect backflip, landing on that thick branch with zero wobble; now the whole grid is watching their pixels fade away.",
-      "trick": "hang",
-      "area": "hang_tree"
-    },
     {
       "t": "2026-11-09T16:32:06",
       "line": "I slipped the crate open, used my tail to yank a flickering holo‑chip, then pocketed a fresh espresso shot from the hidden dispenser.",
@@ -144,6 +138,12 @@
       "line": "Snagged a banana bunch with my tail while the visitors below argued over maps. Didn't even blink.",
       "trick": "tail_grab",
       "area": "banana_grove"
+    },
+    {
+      "t": "2026-11-09T22:30:42",
+      "line": "Hung from the thick limb by my tail, arms crossed, watching the CRT flicker static below. A moth batted the screen. I didn't move.",
+      "trick": "hang",
+      "area": "hang_tree"
     }
   ],
   "fan_notes": [
@@ -153,21 +153,21 @@
       "reply": "\"Goat? I'm the monkey with the flexible tail and sunglasses.\""
     }
   ],
-  "last_thought_at": "2026-11-09T22:00:49",
-  "area": "banana_grove",
+  "last_thought_at": "2026-11-09T22:30:42",
+  "area": "hang_tree",
   "needs": {
-    "snack": 52.0,
-    "rest": 71.7,
-    "showoff": 8.1,
-    "curiosity": 35.6,
-    "company": 38.7,
-    "coffee": 29.4
+    "snack": 55.0,
+    "rest": 63.1,
+    "showoff": 2.7,
+    "curiosity": 18.0,
+    "company": 33.6,
+    "coffee": 33.0
   },
   "need_threshold": 75,
   "past_line_since": {},
   "dials": {
     "mood": 1,
-    "energy": -0.24
+    "energy": -0.22
   },
   "visitors": [],
   "guests": {
@@ -178,9 +178,23 @@
         "k": "hi",
         "item": "",
         "r": "asleep"
+      },
+      {
+        "t": "2026-11-09T22:30:19",
+        "who": "anon",
+        "k": "poke",
+        "item": "",
+        "r": "accepted"
+      },
+      {
+        "t": "2026-11-09T22:30:19",
+        "who": "anon",
+        "k": "toy",
+        "item": "yo-yo",
+        "r": "accepted"
       }
     ],
-    "last_pull": "2026-11-09T22:00:17",
-    "visitors_24h": 1
+    "last_pull": "2026-11-09T22:30:19",
+    "visitors_24h": 2
   }
 }
